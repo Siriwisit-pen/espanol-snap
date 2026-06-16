@@ -6,3 +6,15 @@ dist-ssr
 .env.*
 .DS_Store
 .vite
+
+# Claude Code tool config and memory (contains private paths and API keys)
+.claude/
+
+# Reference/research data used during content development (large files + API key)
+REF/
+
+# Duplicate category file at repo root (not part of the app)
+data/
+
+# Fetch run logs
+scripts/*.log
