@@ -1,0 +1,75 @@
+{
+  "id": "talking-about-food",
+  "order": 11,
+  "level": 5,
+  "title": "Talking about food",
+  "titleEs": "Hablar de comida",
+  "scene": "A Spanish friend asks about your food preferences.",
+  "image": "food-drink/arroz.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Do you like Spanish food?",
+      "es": "¿Te gusta la comida española?",
+      "tiles": ["¿Te", "gusta", "la", "comida", "española?"],
+      "tileMeanings": { "¿Te": "do you", "gusta": "like", "la": "the", "comida": "food", "española?": "Spanish?" },
+      "breakdown": [
+        { "word": "¿Te gusta?", "meaning": "Do you like? (lit. does it please you?)" },
+        { "word": "la comida española", "meaning": "Spanish food" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Yes, I love it. Especially paella.",
+      "es": "Sí, me encanta. Especialmente la paella.",
+      "tiles": ["Sí,", "me", "encanta.", "Especialmente", "la", "paella."],
+      "tileMeanings": { "Sí,": "yes,", "me": "(me)", "encanta.": "I love it.", "Especialmente": "especially", "la": "the", "paella.": "paella." },
+      "breakdown": [
+        { "word": "me encanta", "meaning": "I love it (lit. it enchants me)" },
+        { "word": "especialmente la paella", "meaning": "especially the paella" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "And spicy food?",
+      "es": "¿Y la comida picante?",
+      "tiles": ["¿Y", "la", "comida", "picante?"],
+      "tileMeanings": { "¿Y": "and", "la": "the", "comida": "food", "picante?": "spicy?" },
+      "breakdown": [
+        { "word": "¿Y la comida picante?", "meaning": "And spicy food?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Not much. I prefer mild flavours.",
+      "es": "No mucho. Prefiero los sabores suaves.",
+      "tiles": ["No", "mucho.", "Prefiero", "los", "sabores", "suaves."],
+      "tileMeanings": { "No": "not", "mucho.": "much.", "Prefiero": "I prefer", "los": "the", "sabores": "flavours", "suaves.": "mild / gentle." },
+      "breakdown": [
+        { "word": "No mucho", "meaning": "Not much" },
+        { "word": "Prefiero los sabores suaves", "meaning": "I prefer mild flavours" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "What is your favourite dish?",
+      "es": "¿Cuál es tu plato favorito?",
+      "tiles": ["¿Cuál", "es", "tu", "plato", "favorito?"],
+      "tileMeanings": { "¿Cuál": "what / which", "es": "is", "tu": "your", "plato": "dish / plate", "favorito?": "favourite?" },
+      "breakdown": [
+        { "word": "¿Cuál es tu plato favorito?", "meaning": "What is your favourite dish?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I really like Spanish omelette.",
+      "es": "Me gusta mucho la tortilla española.",
+      "tiles": ["Me", "gusta", "mucho", "la", "tortilla", "española."],
+      "tileMeanings": { "Me": "(me)", "gusta": "I like", "mucho": "a lot", "la": "the", "tortilla": "omelette", "española.": "Spanish." },
+      "breakdown": [
+        { "word": "Me gusta mucho", "meaning": "I really like" },
+        { "word": "la tortilla española", "meaning": "the Spanish omelette (potato omelette)" }
+      ]
+    }
+  ]
+}

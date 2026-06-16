@@ -1,0 +1,99 @@
+{
+  "id": "possessives",
+  "order": 10,
+  "group": "C",
+  "title": "Possessives",
+  "titleEs": "Los posesivos",
+  "icon": "🔑",
+  "intro": "Possessives show who something belongs to — my, your, his, her, our. In Spanish, they agree with the THING owned (not the owner).",
+  "sections": [
+    {
+      "type": "table",
+      "title": "Possessive adjectives",
+      "headers": ["", "Singular thing", "Plural things", "English"],
+      "rows": [
+        ["(yo)", "mi libro / mi casa", "mis libros / mis casas", "my"],
+        ["(tú)", "tu libro / tu casa", "tus libros / tus casas", "your (informal)"],
+        ["(él/ella/Ud.)", "su libro / su casa", "sus libros / sus casas", "his / her / your (formal)"],
+        ["(nosotros)", "nuestro libro / nuestra casa", "nuestros libros / nuestras casas", "our"],
+        ["(vosotros — Spain)", "vuestro libro / vuestra casa", "vuestros / vuestras", "your (Spain, informal pl.)"],
+        ["(ellos/Uds.)", "su libro / su casa", "sus libros / sus casas", "their / your (plural)"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Key rule — agree with the THING, not the owner",
+      "content": "Spanish possessives agree with what is owned, not who owns it:\n• mi libro (my book) — libro is masculine → mi (not *mio)\n• mi casa (my house) — casa is feminine → mi (same word!)\n• But: nuestro libro / nuestra casa — nuestro changes for gender\n\n'mi' and 'tu' don't change for gender. 'nuestro' and 'vuestro' do!"
+    },
+    {
+      "type": "rule",
+      "title": "'su' can mean many things",
+      "content": "'su / sus' covers: his, her, your (formal), their, your (plural)\nContext usually makes it clear:\n• Carlos habla con su madre. (Carlos speaks with his mother.)\n• Usted habla con su jefe. (You speak with your boss.)"
+    },
+    {
+      "type": "examples",
+      "title": "Possessives in sentences",
+      "items": [
+        { "es": "Mi hermano vive en España.", "en": "My brother lives in Spain.", "note": "mi — not mio!" },
+        { "es": "Nuestra casa es grande.", "en": "Our house is big.", "note": "casa (fem.) → nuestra ✓" },
+        { "es": "¿Cuál es tu número de teléfono?", "en": "What's your phone number?", "note": "tu — no accent!" }
+      ]
+    },
+    {
+      "type": "note",
+      "label": "🌍 Spain vs Latin America",
+      "content": "In Spain, 'vuestro/a/os/as' is used for 'your' (plural informal).\nIn Latin America, 'su/sus' is used for ALL plural 'your' (formal and informal).\nBoth forms are understood everywhere."
+    }
+  ],
+  "questions": [
+    {
+      "type": "fill",
+      "prompt": "___ libro es interesante. (my book)",
+      "options": ["Mio", "Mi", "Mis", "Me"],
+      "correct": "Mi",
+      "explanation": "'my' before a singular noun = mi (no gender change!) ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ libros son nuevos. (my books)",
+      "options": ["Mi", "Mis", "Mio", "Mios"],
+      "correct": "Mis",
+      "explanation": "Plural thing owned → mis libros ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ casa es grande. (our house)",
+      "options": ["Nuestro", "Nuestra", "Nuestros", "Nuestras"],
+      "correct": "Nuestra",
+      "explanation": "casa is feminine → nuestra casa ✓ (nuestro/nuestra agrees with the noun!)"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ hermano trabaja aquí. (your informal brother)",
+      "options": ["Su", "Tu", "Mi", "Nuestro"],
+      "correct": "Tu",
+      "explanation": "'your' (informal singular) = tu ✓ (no accent — it's a possessive, not 'tú' = you)"
+    },
+    {
+      "type": "choose",
+      "prompt": "'nuestro' or 'nuestra'? ___ amigo es simpático.",
+      "options": ["nuestro amigo", "nuestra amigo"],
+      "correct": 0,
+      "explanation": "amigo is masculine → nuestro amigo ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Carlos habla con ___ madre. (his mother)",
+      "options": ["mi", "tu", "su", "nuestro"],
+      "correct": "su",
+      "explanation": "'his' = su ✓ (su covers his/her/your formal/their)"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ casas son bonitas. (our houses)",
+      "options": ["Nuestro", "Nuestra", "Nuestros", "Nuestras"],
+      "correct": "Nuestras",
+      "explanation": "casas is feminine plural → nuestras casas ✓"
+    }
+  ]
+}

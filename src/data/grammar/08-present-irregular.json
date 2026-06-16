@@ -1,0 +1,143 @@
+{
+  "id": "present-irregular",
+  "order": 8,
+  "group": "B",
+  "title": "Present Tense — Key Irregulars",
+  "titleEs": "Verbos irregulares comunes",
+  "icon": "⚡",
+  "intro": "Some of the most useful Spanish verbs are irregular — they don't follow the normal patterns. These are the ones you'll use every day, so it's worth memorising them!",
+  "sections": [
+    {
+      "type": "table",
+      "title": "IR — to go",
+      "headers": ["Pronoun", "IR"],
+      "rows": [
+        ["yo", "voy"],
+        ["tú", "vas"],
+        ["él / ella / Ud.", "va"],
+        ["nosotros", "vamos"],
+        ["vosotros (Spain)", "vais"],
+        ["ellos / Uds.", "van"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "TENER — to have",
+      "headers": ["Pronoun", "TENER"],
+      "rows": [
+        ["yo", "tengo"],
+        ["tú", "tienes"],
+        ["él / ella / Ud.", "tiene"],
+        ["nosotros", "tenemos"],
+        ["vosotros (Spain)", "tenéis"],
+        ["ellos / Uds.", "tienen"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "HACER — to do / to make",
+      "headers": ["Pronoun", "HACER"],
+      "rows": [
+        ["yo", "hago"],
+        ["tú", "haces"],
+        ["él / ella / Ud.", "hace"],
+        ["nosotros", "hacemos"],
+        ["vosotros (Spain)", "hacéis"],
+        ["ellos / Uds.", "hacen"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "QUERER (e→ie) — to want",
+      "headers": ["Pronoun", "QUERER", "Note"],
+      "rows": [
+        ["yo", "quiero", "e → ie"],
+        ["tú", "quieres", "e → ie"],
+        ["él / ella / Ud.", "quiere", "e → ie"],
+        ["nosotros", "queremos", "no change"],
+        ["vosotros (Spain)", "queréis", "no change"],
+        ["ellos / Uds.", "quieren", "e → ie"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "PODER (o→ue) — to be able to / can",
+      "headers": ["Pronoun", "PODER", "Note"],
+      "rows": [
+        ["yo", "puedo", "o → ue"],
+        ["tú", "puedes", "o → ue"],
+        ["él / ella / Ud.", "puede", "o → ue"],
+        ["nosotros", "podemos", "no change"],
+        ["vosotros (Spain)", "podéis", "no change"],
+        ["ellos / Uds.", "pueden", "o → ue"]
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "These verbs in real sentences",
+      "items": [
+        { "es": "Voy al mercado.", "en": "I'm going to the market.", "note": "ir → voy" },
+        { "es": "¿Tienes un bolígrafo?", "en": "Do you have a pen?", "note": "tener → tienes" },
+        { "es": "No puedo comer más.", "en": "I can't eat any more.", "note": "poder → puedo" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": "choose",
+      "prompt": "yo + IR = ?",
+      "options": ["vo", "iro", "voy", "iré"],
+      "correct": 2,
+      "explanation": "IR is fully irregular: yo → voy ✓ (not iro!)"
+    },
+    {
+      "type": "choose",
+      "prompt": "yo + TENER = ?",
+      "options": ["teno", "tieno", "tengo", "tiene"],
+      "correct": 2,
+      "explanation": "TENER is irregular in yo form: yo → tengo ✓ (the -go ending is common in irregulars)"
+    },
+    {
+      "type": "choose",
+      "prompt": "yo + HACER = ?",
+      "options": ["haceo", "hago", "hace", "hacemos"],
+      "correct": 1,
+      "explanation": "HACER: yo → hago ✓ (another -go irregular!)"
+    },
+    {
+      "type": "choose",
+      "prompt": "yo + QUERER = ? (e→ie change)",
+      "options": ["quero", "quiero", "queremos", "queres"],
+      "correct": 1,
+      "explanation": "QUERER: e→ie stem change → yo quiero ✓ (not 'quero')"
+    },
+    {
+      "type": "fill",
+      "prompt": "¿___ tú un coche? (tener)",
+      "options": ["Tengo", "Tienes", "Tiene", "Tenemos"],
+      "correct": "Tienes",
+      "explanation": "tú + TENER → tienes ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "¿Adónde ___ ustedes? (ir)",
+      "options": ["van", "vamos", "voy", "vas"],
+      "correct": "van",
+      "explanation": "ustedes + IR → van ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "yo + PODER = ? (o→ue change)",
+      "options": ["podo", "podeo", "puede", "puedo"],
+      "correct": 3,
+      "explanation": "PODER: o→ue stem change → yo puedo ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "¿___ venir mañana? (poder — tú form)",
+      "options": ["Puedo", "Puedes", "Puede", "Podemos"],
+      "correct": "Puedes",
+      "explanation": "tú + PODER → puedes ✓ (e→ue stem change for tú)"
+    }
+  ]
+}

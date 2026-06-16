@@ -1,0 +1,118 @@
+{
+  "id": "numbers",
+  "order": 4,
+  "group": "A",
+  "title": "Numbers 0–100",
+  "titleEs": "Los números",
+  "icon": "🔢",
+  "intro": "Numbers are essential for prices, times, ages, and quantities. The first 15 have unique names; from 16 onwards you build them from parts.",
+  "sections": [
+    {
+      "type": "table",
+      "title": "0 – 15 (learn these by heart)",
+      "headers": ["Number", "Spanish", "Number", "Spanish"],
+      "rows": [
+        ["0", "cero", "8", "ocho"],
+        ["1", "uno / una", "9", "nueve"],
+        ["2", "dos", "10", "diez"],
+        ["3", "tres", "11", "once"],
+        ["4", "cuatro", "12", "doce"],
+        ["5", "cinco", "13", "trece"],
+        ["6", "seis", "14", "catorce"],
+        ["7", "siete", "15", "quince"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "16 – 29 (written as one word)",
+      "headers": ["Number", "Spanish", "Number", "Spanish"],
+      "rows": [
+        ["16", "dieciséis", "23", "veintitrés"],
+        ["17", "diecisiete", "24", "veinticuatro"],
+        ["18", "dieciocho", "25", "veinticinco"],
+        ["19", "diecinueve", "26", "veintiséis"],
+        ["20", "veinte", "27", "veintisiete"],
+        ["21", "veintiuno", "28", "veintiocho"],
+        ["22", "veintidós", "29", "veintinueve"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Tens (30 – 100)",
+      "headers": ["Number", "Spanish", "Example"],
+      "rows": [
+        ["30", "treinta", "treinta y uno (31)"],
+        ["40", "cuarenta", "cuarenta y dos (42)"],
+        ["50", "cincuenta", "cincuenta y cinco (55)"],
+        ["60", "sesenta", "sesenta y tres (63)"],
+        ["70", "setenta", "setenta y cuatro (74)"],
+        ["80", "ochenta", "ochenta y seis (86)"],
+        ["90", "noventa", "noventa y siete (97)"],
+        ["100", "cien / ciento", "cien euros (100), ciento uno (101)"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Quick tips",
+      "content": "• From 31 upwards: treinta y uno, cuarenta y dos (tens + y + units)\n• 'uno' becomes 'un' before a masculine noun: veintiún años\n• 'cien' is used alone (100) but 'ciento' before smaller numbers (101–199)"
+    }
+  ],
+  "questions": [
+    {
+      "type": "choose",
+      "prompt": "How do you say 5 in Spanish?",
+      "options": ["cuatro", "cinco", "seis", "siete"],
+      "correct": 1,
+      "explanation": "5 = cinco ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "How do you say 15 in Spanish?",
+      "options": ["catorce", "dieciséis", "quince", "trece"],
+      "correct": 2,
+      "explanation": "15 = quince ✓ (unique name, not built from parts)"
+    },
+    {
+      "type": "choose",
+      "prompt": "How do you say 21 in Spanish?",
+      "options": ["veinte uno", "veinte y uno", "veintiuno", "veinteuno"],
+      "correct": 2,
+      "explanation": "21 = veintiuno — written as one word, not two! ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "¿Cuánto es 30 + 5?",
+      "options": ["treinta", "treinta y cinco", "cuarenta", "veinticinco"],
+      "correct": 1,
+      "explanation": "30 + 5 = 35 = treinta y cinco ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Son ___ euros. (100 euros — exactly 100)",
+      "options": ["ciento euros", "cien euros", "centos euros", "cientos euros"],
+      "correct": 1,
+      "explanation": "'cien' is used when it's exactly 100. cien euros ✓ (ciento is for 101-199)"
+    },
+    {
+      "type": "choose",
+      "prompt": "How do you say 50 in Spanish?",
+      "options": ["cuarenta", "cincuenta", "sesenta", "setenta"],
+      "correct": 1,
+      "explanation": "50 = cincuenta ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "¿Cuánto es 40 + 20?",
+      "options": ["cincuenta", "sesenta", "setenta", "ochenta"],
+      "correct": 1,
+      "explanation": "40 + 20 = 60 = sesenta ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "How do you say 16 in Spanish?",
+      "options": ["diez y seis", "dieciséis", "dieciseis", "decaséis"],
+      "correct": 1,
+      "explanation": "16 = dieciséis (one word, accent on the e!) ✓"
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "handling-problem",
+  "order": 14,
+  "level": 6,
+  "title": "Handling a problem",
+  "titleEs": "Resolver un problema",
+  "scene": "You received the wrong item and need to sort it out.",
+  "image": "shopping-money/tienda.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Excuse me, there is a problem with my order.",
+      "es": "Perdone, hay un problema con mi pedido.",
+      "tiles": ["Perdone,", "hay", "un", "problema", "con", "mi", "pedido."],
+      "tileMeanings": { "Perdone,": "excuse me (formal),", "hay": "there is", "un": "a", "problema": "problem", "con": "with", "mi": "my", "pedido.": "order." },
+      "breakdown": [
+        { "word": "Perdone", "meaning": "Excuse me (formal)" },
+        { "word": "hay un problema con mi pedido", "meaning": "there is a problem with my order" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I'm very sorry. What is the problem?",
+      "es": "Lo siento mucho. ¿Cuál es el problema?",
+      "tiles": ["Lo", "siento", "mucho.", "¿Cuál", "es", "el", "problema?"],
+      "tileMeanings": { "Lo": "(it)", "siento": "I'm sorry", "mucho.": "very much.", "¿Cuál": "what", "es": "is", "el": "the", "problema?": "problem?" },
+      "breakdown": [
+        { "word": "Lo siento mucho", "meaning": "I'm very sorry" },
+        { "word": "¿Cuál es el problema?", "meaning": "What is the problem?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "I ordered a red shirt but they sent me a blue one.",
+      "es": "Pedí una camisa roja pero me enviaron una azul.",
+      "tiles": ["Pedí", "una", "camisa", "roja", "pero", "me", "enviaron", "una", "azul."],
+      "tileMeanings": { "Pedí": "I ordered", "una": "a", "camisa": "shirt", "roja": "red", "pero": "but", "me": "me", "enviaron": "they sent", "una": "a", "azul.": "blue one." },
+      "breakdown": [
+        { "word": "Pedí una camisa roja", "meaning": "I ordered a red shirt" },
+        { "word": "pero me enviaron una azul", "meaning": "but they sent me a blue one" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I understand. We will send you the correct shirt tomorrow.",
+      "es": "Entiendo. Le enviamos la camisa correcta mañana.",
+      "tiles": ["Entiendo.", "Le", "enviamos", "la", "camisa", "correcta", "mañana."],
+      "tileMeanings": { "Entiendo.": "I understand.", "Le": "(to you formal)", "enviamos": "we will send", "la": "the", "camisa": "shirt", "correcta": "correct", "mañana.": "tomorrow." },
+      "breakdown": [
+        { "word": "Entiendo", "meaning": "I understand" },
+        { "word": "Le enviamos la camisa correcta mañana", "meaning": "We will send you the correct shirt tomorrow" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "And the blue one? Do I return it?",
+      "es": "¿Y la azul? ¿La devuelvo?",
+      "tiles": ["¿Y", "la", "azul?", "¿La", "devuelvo?"],
+      "tileMeanings": { "¿Y": "and", "la": "the", "azul?": "blue one?", "¿La": "it (fem.)", "devuelvo?": "do I return?" },
+      "breakdown": [
+        { "word": "¿Y la azul?", "meaning": "And the blue one?" },
+        { "word": "¿La devuelvo?", "meaning": "Do I return it?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Yes, you can return it at any store.",
+      "es": "Sí, puede devolverla en cualquier tienda.",
+      "tiles": ["Sí,", "puede", "devolverla", "en", "cualquier", "tienda."],
+      "tileMeanings": { "Sí,": "yes,", "puede": "you can", "devolverla": "return it (fem.)", "en": "at", "cualquier": "any", "tienda.": "store." },
+      "breakdown": [
+        { "word": "Sí, puede devolverla", "meaning": "Yes, you can return it" },
+        { "word": "en cualquier tienda", "meaning": "at any store" }
+      ]
+    }
+  ]
+}

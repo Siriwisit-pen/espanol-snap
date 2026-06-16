@@ -1,0 +1,101 @@
+{
+  "id": "nouns-gender",
+  "order": 1,
+  "group": "A",
+  "title": "Nouns & Gender",
+  "titleEs": "El género",
+  "icon": "🏷️",
+  "intro": "Every Spanish noun is either masculine or feminine — there is no neutral 'it'. This gender affects every article and adjective that goes with the noun.",
+  "sections": [
+    {
+      "type": "rule",
+      "title": "The basic pattern",
+      "content": "Most nouns follow this rule:\n• Ends in -O → masculine → el libro (the book)\n• Ends in -A → feminine → la mesa (the table)\n• Ends in -E or consonant → varies → you need to learn the article with the word"
+    },
+    {
+      "type": "table",
+      "title": "Reliable endings",
+      "headers": ["Ending", "Gender", "Example", "English"],
+      "rows": [
+        ["-o", "Masculine ♂", "el libro", "the book"],
+        ["-a", "Feminine ♀", "la silla", "the chair"],
+        ["-dad / -tad", "Feminine ♀", "la ciudad", "the city"],
+        ["-ción / -sión", "Feminine ♀", "la nación", "the nation"],
+        ["-ma (Greek)", "Masculine ♂", "el problema", "the problem"],
+        ["-pa (Greek)", "Masculine ♂", "el mapa", "the map"]
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Examples",
+      "items": [
+        { "es": "El libro es muy interesante.", "en": "The book is very interesting.", "note": "libro → -o → masculine" },
+        { "es": "La ciudad es muy grande.", "en": "The city is very big.", "note": "ciudad → -dad → feminine" },
+        { "es": "El problema es grave.", "en": "The problem is serious.", "note": "problema → -ma (Greek) → masculine!" }
+      ]
+    },
+    {
+      "type": "note",
+      "label": "Famous exceptions — memorise these!",
+      "content": "el día (the day) — ends in -a but masculine!\nla mano (the hand) — ends in -o but feminine!\nTip: always learn a noun with its article: 'el día', not just 'día'."
+    }
+  ],
+  "questions": [
+    {
+      "type": "fill",
+      "prompt": "___ libro es interesante.",
+      "options": ["El", "La", "Los", "Las"],
+      "correct": "El",
+      "explanation": "libro ends in -o → masculine → El libro ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ mesa es pequeña.",
+      "options": ["El", "La", "Los", "Las"],
+      "correct": "La",
+      "explanation": "mesa ends in -a → feminine → La mesa ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'el día' — día ends in -a but the article is 'el'. So día is:",
+      "options": ["Masculine (exception!)", "Feminine"],
+      "correct": 0,
+      "explanation": "día ends in -a but is masculine — a classic exception. el día ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'la mano' — mano ends in -o but the article is 'la'. So mano is:",
+      "options": ["Masculine", "Feminine (exception!)"],
+      "correct": 1,
+      "explanation": "mano ends in -o but is feminine — another famous exception! la mano ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ problema es difícil.",
+      "options": ["El", "La", "Los", "Las"],
+      "correct": "El",
+      "explanation": "Words ending in -ma (from Greek) are masculine: el problema, el mapa, el idioma ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Words ending in -dad (ciudad, verdad, libertad) are always:",
+      "options": ["Masculine", "Feminine", "It depends"],
+      "correct": 1,
+      "explanation": "-dad and -tad endings are always feminine: la ciudad, la verdad, la libertad ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Days of the week — lunes, martes, miércoles... are:",
+      "options": ["Masculine", "Feminine", "It varies"],
+      "correct": 0,
+      "explanation": "All days of the week are masculine: el lunes, el martes, el domingo..."
+    },
+    {
+      "type": "fill",
+      "prompt": "___ nación es poderosa.",
+      "options": ["El", "La", "Un", "Una"],
+      "correct": "La",
+      "explanation": "nación ends in -ción → always feminine → La nación ✓"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "id": "shopping-clothes",
+  "order": 10,
+  "level": 4,
+  "title": "Shopping for clothes",
+  "titleEs": "Comprar ropa",
+  "scene": "You're in a clothing store looking for a shirt.",
+  "image": "clothing/ropa.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Good morning. Can I help you?",
+      "es": "Buenos días. ¿Puedo ayudarle?",
+      "tiles": ["Buenos", "días.", "¿Puedo", "ayudarle?"],
+      "tileMeanings": { "Buenos": "good", "días.": "morning.", "¿Puedo": "can I", "ayudarle?": "help you (formal)?" },
+      "breakdown": [
+        { "word": "Buenos días", "meaning": "Good morning" },
+        { "word": "¿Puedo ayudarle?", "meaning": "Can I help you? (formal)" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Yes, I'm looking for a blue shirt.",
+      "es": "Sí, busco una camisa azul.",
+      "tiles": ["Sí,", "busco", "una", "camisa", "azul."],
+      "tileMeanings": { "Sí,": "yes,", "busco": "I'm looking for", "una": "a", "camisa": "shirt", "azul.": "blue." },
+      "breakdown": [
+        { "word": "busco", "meaning": "I'm looking for" },
+        { "word": "una camisa azul", "meaning": "a blue shirt" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "What size do you need?",
+      "es": "¿Qué talla necesita?",
+      "tiles": ["¿Qué", "talla", "necesita?"],
+      "tileMeanings": { "¿Qué": "what", "talla": "size", "necesita?": "do you need? (formal)" },
+      "breakdown": [
+        { "word": "¿Qué talla?", "meaning": "What size?" },
+        { "word": "necesita", "meaning": "do you need (formal)" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Medium size, please.",
+      "es": "La talla mediana, por favor.",
+      "tiles": ["La", "talla", "mediana,", "por", "favor."],
+      "tileMeanings": { "La": "the", "talla": "size", "mediana,": "medium,", "por": "—", "favor.": "please." },
+      "breakdown": [
+        { "word": "La talla mediana", "meaning": "Medium size" },
+        { "word": "por favor", "meaning": "please" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Which one do you like more?",
+      "es": "¿Cuál le gusta más?",
+      "tiles": ["¿Cuál", "le", "gusta", "más?"],
+      "tileMeanings": { "¿Cuál": "which one", "le": "(to you formal)", "gusta": "do you like", "más?": "more?" },
+      "breakdown": [
+        { "word": "¿Cuál le gusta más?", "meaning": "Which one do you like more?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I like this one. How much does it cost?",
+      "es": "Me gusta esta. ¿Cuánto cuesta?",
+      "tiles": ["Me", "gusta", "esta.", "¿Cuánto", "cuesta?"],
+      "tileMeanings": { "Me": "(to me)", "gusta": "I like", "esta.": "this one.", "¿Cuánto": "how much", "cuesta?": "does it cost?" },
+      "breakdown": [
+        { "word": "Me gusta esta", "meaning": "I like this one" },
+        { "word": "¿Cuánto cuesta?", "meaning": "How much does it cost?" }
+      ]
+    }
+  ]
+}

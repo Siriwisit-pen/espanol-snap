@@ -4,12 +4,15 @@ import Home from './components/Home.jsx'
 import Quiz from './components/Quiz.jsx'
 import Conversations from './components/Conversations.jsx'
 import ConversationQuiz from './components/ConversationQuiz.jsx'
+import Grammar from './components/Grammar.jsx'
+import GrammarLesson from './components/GrammarLesson.jsx'
 
 export default function App() {
   const [view, setView] = useState('home')
   const [pool, setPool] = useState([])
   const [title, setTitle] = useState('')
   const [activeConv, setActiveConv] = useState(null)
+  const [activeTopic, setActiveTopic] = useState(null)
 
   function startMixed() {
     setPool(allWords)
@@ -28,6 +31,11 @@ export default function App() {
     setView('conversationQuiz')
   }
 
+  function startGrammarTopic(topic) {
+    setActiveTopic(topic)
+    setView('grammarLesson')
+  }
+
   return (
     <div className="app">
       {view === 'home' && (
@@ -36,6 +44,7 @@ export default function App() {
           onStartMixed={startMixed}
           onStartCategory={startCategory}
           onConversations={() => setView('conversations')}
+          onGrammar={() => setView('grammar')}
         />
       )}
       {view === 'quiz' && <Quiz pool={pool} title={title} onExit={() => setView('home')} />}
@@ -44,6 +53,12 @@ export default function App() {
       )}
       {view === 'conversationQuiz' && activeConv && (
         <ConversationQuiz conv={activeConv} onBack={() => setView('conversations')} />
+      )}
+      {view === 'grammar' && (
+        <Grammar onStart={startGrammarTopic} onBack={() => setView('home')} />
+      )}
+      {view === 'grammarLesson' && activeTopic && (
+        <GrammarLesson topic={activeTopic} onBack={() => setView('grammar')} />
       )}
     </div>
   )

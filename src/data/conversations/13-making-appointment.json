@@ -1,0 +1,78 @@
+{
+  "id": "making-appointment",
+  "order": 13,
+  "level": 6,
+  "title": "Making an appointment",
+  "titleEs": "Pedir una cita",
+  "scene": "You call a doctor's office to book an appointment.",
+  "image": "body-health/medico.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Good morning. How can I help you?",
+      "es": "Buenos días. ¿En qué le puedo ayudar?",
+      "tiles": ["Buenos", "días.", "¿En", "qué", "le", "puedo", "ayudar?"],
+      "tileMeanings": { "Buenos": "good", "días.": "morning.", "¿En": "in", "qué": "what", "le": "(you formal)", "puedo": "can I", "ayudar?": "help?" },
+      "breakdown": [
+        { "word": "Buenos días", "meaning": "Good morning" },
+        { "word": "¿En qué le puedo ayudar?", "meaning": "How can I help you? (formal)" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I would like to make an appointment with the doctor.",
+      "es": "Quisiera hacer una cita con el médico.",
+      "tiles": ["Quisiera", "hacer", "una", "cita", "con", "el", "médico."],
+      "tileMeanings": { "Quisiera": "I would like", "hacer": "to make", "una": "an", "cita": "appointment", "con": "with", "el": "the", "médico.": "doctor." },
+      "breakdown": [
+        { "word": "Quisiera", "meaning": "I would like (polite form)" },
+        { "word": "hacer una cita con el médico", "meaning": "to make an appointment with the doctor" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "What day works for you?",
+      "es": "¿Para qué día le viene bien?",
+      "tiles": ["¿Para", "qué", "día", "le", "viene", "bien?"],
+      "tileMeanings": { "¿Para": "for", "qué": "what", "día": "day", "le": "(you formal)", "viene": "works / comes", "bien?": "well?" },
+      "breakdown": [
+        { "word": "¿Para qué día?", "meaning": "For what day?" },
+        { "word": "le viene bien", "meaning": "works for you / suits you" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Tuesday morning, if possible.",
+      "es": "El martes por la mañana, si es posible.",
+      "tiles": ["El", "martes", "por", "la", "mañana,", "si", "es", "posible."],
+      "tileMeanings": { "El": "the", "martes": "Tuesday", "por": "in", "la": "the", "mañana,": "morning,", "si": "if", "es": "it is", "posible.": "possible." },
+      "breakdown": [
+        { "word": "El martes", "meaning": "Tuesday" },
+        { "word": "por la mañana", "meaning": "in the morning" },
+        { "word": "si es posible", "meaning": "if possible" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "We have a slot on Tuesday at ten.",
+      "es": "Tenemos un hueco el martes a las diez.",
+      "tiles": ["Tenemos", "un", "hueco", "el", "martes", "a", "las", "diez."],
+      "tileMeanings": { "Tenemos": "we have", "un": "a", "hueco": "slot / gap", "el": "on", "martes": "Tuesday", "a": "at", "las": "the", "diez.": "ten." },
+      "breakdown": [
+        { "word": "Tenemos un hueco", "meaning": "We have a slot / opening" },
+        { "word": "el martes a las diez", "meaning": "on Tuesday at ten o'clock" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Perfect. My name is Ana Martínez.",
+      "es": "Perfecto. Me llamo Ana Martínez.",
+      "tiles": ["Perfecto.", "Me", "llamo", "Ana", "Martínez."],
+      "tileMeanings": { "Perfecto.": "perfect.", "Me": "(I)", "llamo": "am called", "Ana": "Ana", "Martínez.": "Martínez." },
+      "breakdown": [
+        { "word": "Perfecto", "meaning": "Perfect" },
+        { "word": "Me llamo Ana Martínez", "meaning": "My name is Ana Martínez" }
+      ]
+    }
+  ]
+}

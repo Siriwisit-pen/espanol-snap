@@ -1,0 +1,76 @@
+{
+  "id": "talking-about-hobbies",
+  "order": 12,
+  "level": 5,
+  "title": "Hobbies & free time",
+  "titleEs": "Aficiones y tiempo libre",
+  "scene": "You chat with a new friend about what you enjoy doing.",
+  "image": "school-study/libro.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "What do you do in your free time?",
+      "es": "¿Qué haces en tu tiempo libre?",
+      "tiles": ["¿Qué", "haces", "en", "tu", "tiempo", "libre?"],
+      "tileMeanings": { "¿Qué": "what", "haces": "do you do", "en": "in", "tu": "your", "tiempo": "time", "libre?": "free?" },
+      "breakdown": [
+        { "word": "¿Qué haces?", "meaning": "What do you do?" },
+        { "word": "en tu tiempo libre", "meaning": "in your free time" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I like listening to music and reading books.",
+      "es": "Me gusta escuchar música y leer libros.",
+      "tiles": ["Me", "gusta", "escuchar", "música", "y", "leer", "libros."],
+      "tileMeanings": { "Me": "(me)", "gusta": "I like", "escuchar": "to listen to", "música": "music", "y": "and", "leer": "to read", "libros.": "books." },
+      "breakdown": [
+        { "word": "Me gusta escuchar música", "meaning": "I like listening to music" },
+        { "word": "y leer libros", "meaning": "and reading books" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "What type of music do you like?",
+      "es": "¿Qué tipo de música te gusta?",
+      "tiles": ["¿Qué", "tipo", "de", "música", "te", "gusta?"],
+      "tileMeanings": { "¿Qué": "what", "tipo": "type", "de": "of", "música": "music", "te": "do you", "gusta?": "like?" },
+      "breakdown": [
+        { "word": "¿Qué tipo de música?", "meaning": "What type of music?" },
+        { "word": "te gusta", "meaning": "do you like" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I love Latin music.",
+      "es": "Me encanta la música latina.",
+      "tiles": ["Me", "encanta", "la", "música", "latina."],
+      "tileMeanings": { "Me": "(me)", "encanta": "I love", "la": "the", "música": "music", "latina.": "Latin." },
+      "breakdown": [
+        { "word": "Me encanta", "meaning": "I love (lit. it enchants me)" },
+        { "word": "la música latina", "meaning": "Latin music" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "I like rock and jazz.",
+      "es": "A mí me gusta el rock y el jazz.",
+      "tiles": ["A", "mí", "me", "gusta", "el", "rock", "y", "el", "jazz."],
+      "tileMeanings": { "A": "to", "mí": "me", "me": "(me)", "gusta": "I like", "el": "the", "rock": "rock", "y": "and", "el": "the", "jazz.": "jazz." },
+      "breakdown": [
+        { "word": "A mí me gusta", "meaning": "I like (emphatic: 'me, I like')" },
+        { "word": "el rock y el jazz", "meaning": "rock and jazz" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "We have very different tastes!",
+      "es": "¡Tenemos gustos muy diferentes!",
+      "tiles": ["¡Tenemos", "gustos", "muy", "diferentes!"],
+      "tileMeanings": { "¡Tenemos": "we have", "gustos": "tastes", "muy": "very", "diferentes!": "different!" },
+      "breakdown": [
+        { "word": "¡Tenemos gustos muy diferentes!", "meaning": "We have very different tastes!" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "id": "hotel-checkin",
+  "order": 9,
+  "level": 4,
+  "title": "Hotel check-in",
+  "titleEs": "Registrarse en el hotel",
+  "scene": "You arrive at your hotel and check in at reception.",
+  "image": "travel-transport/maleta.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Good afternoon. I have a reservation.",
+      "es": "Buenas tardes. Tengo una reserva.",
+      "tiles": ["Buenas", "tardes.", "Tengo", "una", "reserva."],
+      "tileMeanings": { "Buenas": "good", "tardes.": "afternoon.", "Tengo": "I have", "una": "a", "reserva.": "reservation." },
+      "breakdown": [
+        { "word": "Buenas tardes", "meaning": "Good afternoon" },
+        { "word": "Tengo una reserva", "meaning": "I have a reservation" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "What name is the reservation under?",
+      "es": "¿A qué nombre está la reserva?",
+      "tiles": ["¿A", "qué", "nombre", "está", "la", "reserva?"],
+      "tileMeanings": { "¿A": "under", "qué": "what", "nombre": "name", "está": "is", "la": "the", "reserva?": "reservation?" },
+      "breakdown": [
+        { "word": "¿A qué nombre?", "meaning": "Under what name?" },
+        { "word": "está la reserva", "meaning": "is the reservation" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Under García, Carlos García.",
+      "es": "A nombre de García, Carlos García.",
+      "tiles": ["A", "nombre", "de", "García,", "Carlos", "García."],
+      "tileMeanings": { "A": "under", "nombre": "name", "de": "of", "García,": "García,", "Carlos": "Carlos", "García.": "García." },
+      "breakdown": [
+        { "word": "A nombre de", "meaning": "Under the name of" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Yes, here it is. A double room for three nights.",
+      "es": "Sí, aquí está. Una habitación doble para tres noches.",
+      "tiles": ["Sí,", "aquí", "está.", "Una", "habitación", "doble", "para", "tres", "noches."],
+      "tileMeanings": { "Sí,": "yes,", "aquí": "here", "está.": "it is.", "Una": "a", "habitación": "room", "doble": "double", "para": "for", "tres": "three", "noches.": "nights." },
+      "breakdown": [
+        { "word": "Sí, aquí está", "meaning": "Yes, here it is" },
+        { "word": "una habitación doble", "meaning": "a double room" },
+        { "word": "para tres noches", "meaning": "for three nights" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "What is my room number?",
+      "es": "¿Cuál es el número de mi habitación?",
+      "tiles": ["¿Cuál", "es", "el", "número", "de", "mi", "habitación?"],
+      "tileMeanings": { "¿Cuál": "what / which", "es": "is", "el": "the", "número": "number", "de": "of", "mi": "my", "habitación?": "room?" },
+      "breakdown": [
+        { "word": "¿Cuál es el número?", "meaning": "What is the number?" },
+        { "word": "de mi habitación", "meaning": "of my room" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Room two hundred and five, on the second floor.",
+      "es": "La habitación doscientos cinco, en el segundo piso.",
+      "tiles": ["La", "habitación", "doscientos", "cinco,", "en", "el", "segundo", "piso."],
+      "tileMeanings": { "La": "the", "habitación": "room", "doscientos": "two hundred", "cinco,": "five,", "en": "on", "el": "the", "segundo": "second", "piso.": "floor." },
+      "breakdown": [
+        { "word": "La habitación doscientos cinco", "meaning": "Room 205" },
+        { "word": "en el segundo piso", "meaning": "on the second floor" }
+      ]
+    }
+  ]
+}

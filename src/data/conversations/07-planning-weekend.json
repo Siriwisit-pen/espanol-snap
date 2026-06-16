@@ -1,0 +1,88 @@
+{
+  "id": "planning-weekend",
+  "order": 7,
+  "level": 3,
+  "title": "Planning the weekend",
+  "titleEs": "Planear el fin de semana",
+  "scene": "You run into a friend and make plans to go out.",
+  "image": "emotions-feelings/feliz.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "What are you doing this weekend?",
+      "es": "¿Qué haces este fin de semana?",
+      "tiles": ["¿Qué", "haces", "este", "fin", "de", "semana?"],
+      "tileMeanings": { "¿Qué": "what", "haces": "are you doing", "este": "this", "fin": "end", "de": "of", "semana?": "week?" },
+      "breakdown": [
+        { "word": "¿Qué haces?", "meaning": "What are you doing?" },
+        { "word": "este fin de semana", "meaning": "this weekend" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I have no plans. And you?",
+      "es": "No tengo planes. ¿Y tú?",
+      "tiles": ["No", "tengo", "planes.", "¿Y", "tú?"],
+      "tileMeanings": { "No": "no / not", "tengo": "I have", "planes.": "plans.", "¿Y": "and", "tú?": "you?" },
+      "breakdown": [
+        { "word": "No tengo planes", "meaning": "I have no plans" },
+        { "word": "¿Y tú?", "meaning": "And you?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Do you want to go to the cinema with me?",
+      "es": "¿Quieres ir al cine conmigo?",
+      "tiles": ["¿Quieres", "ir", "al", "cine", "conmigo?"],
+      "tileMeanings": { "¿Quieres": "do you want", "ir": "to go", "al": "to the", "cine": "cinema", "conmigo?": "with me?" },
+      "breakdown": [
+        { "word": "¿Quieres ir?", "meaning": "Do you want to go?" },
+        { "word": "al cine", "meaning": "to the cinema" },
+        { "word": "conmigo", "meaning": "with me" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I love the idea!",
+      "es": "¡Me encanta la idea!",
+      "tiles": ["¡Me", "encanta", "la", "idea!"],
+      "tileMeanings": { "¡Me": "(to me)", "encanta": "it delights", "la": "the", "idea!": "idea!" },
+      "breakdown": [
+        { "word": "¡Me encanta la idea!", "meaning": "I love the idea! (lit. the idea delights me)" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "There is a new Spanish film.",
+      "es": "Hay una nueva película española.",
+      "tiles": ["Hay", "una", "nueva", "película", "española."],
+      "tileMeanings": { "Hay": "there is", "una": "a", "nueva": "new", "película": "film", "española.": "Spanish." },
+      "breakdown": [
+        { "word": "Hay", "meaning": "There is" },
+        { "word": "una nueva película española", "meaning": "a new Spanish film" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "What time shall we meet?",
+      "es": "¿A qué hora quedamos?",
+      "tiles": ["¿A", "qué", "hora", "quedamos?"],
+      "tileMeanings": { "¿A": "at", "qué": "what", "hora": "time", "quedamos?": "shall we meet?" },
+      "breakdown": [
+        { "word": "¿A qué hora?", "meaning": "At what time?" },
+        { "word": "quedamos", "meaning": "shall we meet / we agree" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "At seven in the evening.",
+      "es": "A las siete de la tarde.",
+      "tiles": ["A", "las", "siete", "de", "la", "tarde."],
+      "tileMeanings": { "A": "at", "las": "the (fem. pl.)", "siete": "seven", "de": "of", "la": "the", "tarde.": "afternoon/evening." },
+      "breakdown": [
+        { "word": "A las siete", "meaning": "At seven o'clock" },
+        { "word": "de la tarde", "meaning": "in the evening / PM" }
+      ]
+    }
+  ]
+}

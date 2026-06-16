@@ -1,0 +1,96 @@
+{
+  "id": "object-pronouns",
+  "order": 11,
+  "group": "C",
+  "title": "Object Pronouns",
+  "titleEs": "Los pronombres de objeto",
+  "icon": "↔️",
+  "intro": "Object pronouns replace a noun that receives the action. Instead of saying 'I see the book', you say 'I see it'. They're essential for natural-sounding Spanish.",
+  "sections": [
+    {
+      "type": "table",
+      "title": "Direct object pronouns (replace the WHAT / WHO)",
+      "headers": ["Person", "Pronoun", "Example", "English"],
+      "rows": [
+        ["me (yo)", "me", "¿Me escuchas?", "Can you hear me?"],
+        ["you (tú)", "te", "Te llamo.", "I'll call you."],
+        ["him / it (masc.)", "lo", "Lo veo.", "I see him / it."],
+        ["her / it (fem.)", "la", "La veo.", "I see her / it."],
+        ["us (nosotros)", "nos", "Nos llaman.", "They call us."],
+        ["you all (Spain vosotros)", "os", "Os quiero.", "I love you all."],
+        ["them (masc.)", "los", "Los compro.", "I buy them."],
+        ["them (fem.)", "las", "Las compro.", "I buy them."]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Where does the pronoun go?",
+      "content": "The object pronoun goes BEFORE the conjugated verb:\n• Lo veo. (I see it.) ← 'lo' before 'veo'\n• Te quiero. (I love you.) ← 'te' before 'quiero'\n• Me llama. (She calls me.) ← 'me' before 'llama'\n\nOR attached to the END of an infinitive:\n• Voy a comprarlo. (I'm going to buy it.)\n• Quiero verte. (I want to see you.)"
+    },
+    {
+      "type": "examples",
+      "title": "Common phrases",
+      "items": [
+        { "es": "¿Me puedes ayudar?", "en": "Can you help me?", "note": "me = me (direct object)" },
+        { "es": "Te quiero mucho.", "en": "I love you very much.", "note": "te = you" },
+        { "es": "La compro en el mercado.", "en": "I buy it (fem.) at the market.", "note": "la = it (referring to 'la manzana')" }
+      ]
+    },
+    {
+      "type": "note",
+      "label": "💡 Key insight — lo vs la",
+      "content": "Choose lo or la based on the gender of what you're replacing:\n• El libro → Lo compro. (I buy it. — masculine)\n• La camisa → La compro. (I buy it. — feminine)\nThis is why knowing noun gender matters so much!"
+    }
+  ],
+  "questions": [
+    {
+      "type": "fill",
+      "prompt": "El libro... ___ veo. (I see it — masculine)",
+      "options": ["Lo", "La", "Le", "Los"],
+      "correct": "Lo",
+      "explanation": "libro is masculine → lo veo ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "La camisa... ___ compro. (I buy it — feminine)",
+      "options": ["Lo", "La", "Les", "Los"],
+      "correct": "La",
+      "explanation": "camisa is feminine → la compro ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "¿___ puedes ayudar? (Can you help me?)",
+      "options": ["Le", "Te", "Me", "Se"],
+      "correct": "Me",
+      "explanation": "'me' = me. ¿Me puedes ayudar? ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'Te quiero.' means:",
+      "options": ["I love you.", "You love me.", "He loves you.", "We love them."],
+      "correct": 0,
+      "explanation": "te = you (direct object), quiero = I want/love → Te quiero = I love you ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Las manzanas... ___ como. (I eat them — feminine plural)",
+      "options": ["Lo", "La", "Los", "Las"],
+      "correct": "Las",
+      "explanation": "manzanas is feminine plural → las como ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Where does the object pronoun go?",
+      "options": ["After the verb", "Before the verb (or attached to infinitive)", "At the end of the sentence"],
+      "correct": 1,
+      "explanation": "Object pronouns go BEFORE the conjugated verb: Me llama / Lo veo. Or attached to infinitives: comprarlo ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Voy a comprar___ (el café — masculine).",
+      "options": ["lo", "la", "le", "los"],
+      "correct": "lo",
+      "explanation": "café is masculine → comprarlo ✓ (attached to infinitive)"
+    }
+  ]
+}

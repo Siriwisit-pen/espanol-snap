@@ -1,0 +1,78 @@
+{
+  "id": "daily-routine",
+  "order": 8,
+  "level": 3,
+  "title": "Daily routine",
+  "titleEs": "La rutina diaria",
+  "scene": "A friend asks you about your typical day.",
+  "image": "work-office/horario.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "What time do you wake up?",
+      "es": "¿A qué hora te levantas?",
+      "tiles": ["¿A", "qué", "hora", "te", "levantas?"],
+      "tileMeanings": { "¿A": "at", "qué": "what", "hora": "time / hour", "te": "(yourself)", "levantas?": "do you wake up?" },
+      "breakdown": [
+        { "word": "¿A qué hora?", "meaning": "At what time?" },
+        { "word": "te levantas", "meaning": "do you get up / wake up" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I wake up at seven.",
+      "es": "Me levanto a las siete.",
+      "tiles": ["Me", "levanto", "a", "las", "siete."],
+      "tileMeanings": { "Me": "(myself)", "levanto": "I get up", "a": "at", "las": "the", "siete.": "seven." },
+      "breakdown": [
+        { "word": "Me levanto", "meaning": "I get up / wake up" },
+        { "word": "a las siete", "meaning": "at seven o'clock" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "And what do you do after?",
+      "es": "¿Y qué haces después?",
+      "tiles": ["¿Y", "qué", "haces", "después?"],
+      "tileMeanings": { "¿Y": "and", "qué": "what", "haces": "do you do", "después?": "after / afterwards?" },
+      "breakdown": [
+        { "word": "¿Y qué haces?", "meaning": "And what do you do?" },
+        { "word": "después", "meaning": "after / afterwards" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I have a coffee and eat breakfast.",
+      "es": "Tomo un café y desayuno.",
+      "tiles": ["Tomo", "un", "café", "y", "desayuno."],
+      "tileMeanings": { "Tomo": "I take / I have", "un": "a", "café": "coffee", "y": "and", "desayuno.": "I have breakfast." },
+      "breakdown": [
+        { "word": "Tomo un café", "meaning": "I have a coffee" },
+        { "word": "y desayuno", "meaning": "and I have breakfast" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Do you work at home or in the office?",
+      "es": "¿Trabajas en casa o en la oficina?",
+      "tiles": ["¿Trabajas", "en", "casa", "o", "en", "la", "oficina?"],
+      "tileMeanings": { "¿Trabajas": "do you work", "en": "at / in", "casa": "home", "o": "or", "en": "in", "la": "the", "oficina?": "office?" },
+      "breakdown": [
+        { "word": "¿Trabajas?", "meaning": "Do you work?" },
+        { "word": "en casa", "meaning": "at home" },
+        { "word": "o en la oficina", "meaning": "or in the office" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I work in the office Monday to Friday.",
+      "es": "Trabajo en la oficina de lunes a viernes.",
+      "tiles": ["Trabajo", "en", "la", "oficina", "de", "lunes", "a", "viernes."],
+      "tileMeanings": { "Trabajo": "I work", "en": "in", "la": "the", "oficina": "office", "de": "from", "lunes": "Monday", "a": "to", "viernes.": "Friday." },
+      "breakdown": [
+        { "word": "Trabajo en la oficina", "meaning": "I work in the office" },
+        { "word": "de lunes a viernes", "meaning": "Monday to Friday" }
+      ]
+    }
+  ]
+}

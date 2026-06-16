@@ -1,0 +1,93 @@
+{
+  "id": "negation-questions",
+  "order": 12,
+  "group": "C",
+  "title": "Negation & Questions",
+  "titleEs": "Negación y preguntas",
+  "icon": "❓",
+  "intro": "Asking questions and saying 'no' in Spanish is simpler than in English — no 'do/does' needed! Just add 'no' or change your intonation.",
+  "sections": [
+    {
+      "type": "rule",
+      "title": "Negation — just add 'no' before the verb",
+      "content": "Put 'no' directly before the verb — nothing else changes:\n• Hablo inglés. → No hablo inglés. (I don't speak English.)\n• Tengo coche. → No tengo coche. (I don't have a car.)\n\nSpanish allows — and requires! — double negatives:\n• No tengo nada. (I don't have anything.)\n• No voy nunca. (I never go.)\n• No conozco a nadie. (I don't know anyone.)"
+    },
+    {
+      "type": "table",
+      "title": "Question words",
+      "headers": ["Spanish", "English", "Example"],
+      "rows": [
+        ["¿Qué?", "What?", "¿Qué comes? (What are you eating?)"],
+        ["¿Quién?", "Who?", "¿Quién es? (Who is it?)"],
+        ["¿Dónde?", "Where?", "¿Dónde está? (Where is it?)"],
+        ["¿Cuándo?", "When?", "¿Cuándo llegas? (When do you arrive?)"],
+        ["¿Cómo?", "How? / What's it like?", "¿Cómo estás? (How are you?)"],
+        ["¿Cuánto/a?", "How much?", "¿Cuánto cuesta? (How much does it cost?)"],
+        ["¿Cuántos/as?", "How many?", "¿Cuántos años tienes? (How old are you?)"],
+        ["¿Por qué?", "Why?", "¿Por qué? (Why?)"],
+        ["¿Cuál?", "Which? / What?", "¿Cuál es tu nombre? (What's your name?)"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Asking questions — no 'do/does' needed",
+      "content": "In Spanish you can make a question by:\n1. Changing your intonation (rising tone): ¿Hablas español?\n2. Swapping verb and subject: ¿Hablas tú español?\nThere's no Spanish equivalent of 'do/does' — just use the verb directly!"
+    },
+    {
+      "type": "note",
+      "label": "¡ ¿ — Unique to Spanish!",
+      "content": "Spanish adds an upside-down mark at the START of questions and exclamations:\n• ¿Hablas español? (Do you speak Spanish?)\n• ¡Hola! (Hello!)\nIn typing or writing, always include both marks."
+    }
+  ],
+  "questions": [
+    {
+      "type": "fill",
+      "prompt": "Negate: 'Hablo inglés' → ___ hablo inglés.",
+      "options": ["No", "Non", "Nein", "Pas"],
+      "correct": "No",
+      "explanation": "In Spanish, just put 'no' before the verb. No hablo inglés ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Which question word means 'where'?",
+      "options": ["¿Cuándo?", "¿Cómo?", "¿Dónde?", "¿Qué?"],
+      "correct": 2,
+      "explanation": "¿Dónde? = Where? ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "¿Por qué? means:",
+      "options": ["Where?", "How?", "Why?", "When?"],
+      "correct": 2,
+      "explanation": "¿Por qué? = Why? ✓ (Porque = Because — the answer word)"
+    },
+    {
+      "type": "fill",
+      "prompt": "¿___ cuesta esto? (How much does this cost?)",
+      "options": ["Cuándo", "Cuánto", "Cómo", "Qué"],
+      "correct": "Cuánto",
+      "explanation": "¿Cuánto cuesta? = How much does it cost? ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'No tengo nada.' This uses a double negative. Is this:",
+      "options": ["Grammatically wrong in Spanish", "Correct and natural in Spanish"],
+      "correct": 1,
+      "explanation": "Double negatives are correct in Spanish! 'No tengo nada' = I don't have anything ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "¿Quién es? means:",
+      "options": ["What is it?", "Where is it?", "Who is it?", "When is it?"],
+      "correct": 2,
+      "explanation": "¿Quién? = Who? → ¿Quién es? = Who is it? ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "___ estás? (How are you?)",
+      "options": ["Qué", "Quién", "Cómo", "Cuándo"],
+      "correct": "Cómo",
+      "explanation": "¿Cómo estás? = How are you? ✓ (also used to mean 'what's it like?')"
+    }
+  ]
+}

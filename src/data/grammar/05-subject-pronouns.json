@@ -1,0 +1,92 @@
+{
+  "id": "subject-pronouns",
+  "order": 5,
+  "group": "B",
+  "title": "Subject Pronouns",
+  "titleEs": "Los pronombres personales",
+  "icon": "👤",
+  "intro": "Subject pronouns tell you who is doing the action. Spanish uses them less than English because the verb ending already shows who is speaking.",
+  "sections": [
+    {
+      "type": "table",
+      "title": "The subject pronouns",
+      "headers": ["Person", "Spanish", "English"],
+      "rows": [
+        ["1st singular", "yo", "I"],
+        ["2nd singular (informal)", "tú", "you (friend, family)"],
+        ["2nd singular (formal)", "usted (Ud.)", "you (stranger, boss)"],
+        ["3rd singular", "él / ella", "he / she"],
+        ["1st plural", "nosotros / nosotras", "we"],
+        ["2nd plural (Spain, informal)", "vosotros / vosotras", "you all"],
+        ["2nd plural (Latin America / formal)", "ustedes (Uds.)", "you all"],
+        ["3rd plural", "ellos / ellas", "they"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Spanish often drops the pronoun!",
+      "content": "Because the verb ending already tells you who is doing the action, Spanish speakers often skip the subject pronoun:\n• Hablo español. (I speak Spanish.) — no 'yo' needed!\n• ¿Hablas inglés? (Do you speak English?) — no 'tú' needed!\nYou'll use the pronoun for emphasis or clarity: Yo hablo inglés, ¿y tú?"
+    },
+    {
+      "type": "rule",
+      "title": "tú vs usted — how formal are you?",
+      "content": "• tú — for friends, family, children, and peers your age\n• usted — for strangers, older people, bosses, and formal situations\nIn doubt, use usted — it's never rude!"
+    },
+    {
+      "type": "note",
+      "label": "🌍 Spain vs Latin America",
+      "content": "This is the biggest real difference:\n• In Spain: vosotros / vosotras for 'you all' (informal)\n• In Latin America: ustedes for ALL 'you all' (formal and informal)\nIf you use 'ustedes' everywhere, you'll always be understood."
+    }
+  ],
+  "questions": [
+    {
+      "type": "choose",
+      "prompt": "How do you say 'I' in Spanish?",
+      "options": ["él", "yo", "tú", "nosotros"],
+      "correct": 1,
+      "explanation": "'I' = yo ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Your boss asks you a question. You address them as:",
+      "options": ["tú", "él", "usted", "vosotros"],
+      "correct": 2,
+      "explanation": "Use 'usted' for formal situations — bosses, strangers, older people ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "In Latin America, 'you all' (plural you) is always:",
+      "options": ["vosotros", "ustedes", "ellos", "tú"],
+      "correct": 1,
+      "explanation": "In Latin America, 'ustedes' is used for both formal and informal 'you all' ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "In Spain, the informal 'you all' is:",
+      "options": ["ustedes", "vosotros", "ellos", "tú"],
+      "correct": 1,
+      "explanation": "In Spain, 'vosotros' is the informal plural 'you' — unique to Spain! ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'Hablo español' — the 'yo' (I) is missing. Is this correct Spanish?",
+      "options": ["No — you must always include the pronoun", "Yes — Spanish often drops the subject pronoun"],
+      "correct": 1,
+      "explanation": "Spanish is a 'pro-drop' language — the verb ending -o shows it's 'yo', so the pronoun is optional ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "How do you say 'she' in Spanish?",
+      "options": ["él", "ellos", "ella", "usted"],
+      "correct": 2,
+      "explanation": "'she' = ella ✓ (él = he, ellos = they masc., usted = formal you)"
+    },
+    {
+      "type": "choose",
+      "prompt": "How do you say 'we' in Spanish?",
+      "options": ["ustedes", "ellos", "vosotros", "nosotros"],
+      "correct": 3,
+      "explanation": "'we' = nosotros (masc. or mixed group) / nosotras (all female) ✓"
+    }
+  ]
+}

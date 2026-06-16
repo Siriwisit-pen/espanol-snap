@@ -1,0 +1,122 @@
+{
+  "id": "present-regular",
+  "order": 7,
+  "group": "B",
+  "title": "Present Tense — Regular Verbs",
+  "titleEs": "El presente — verbos regulares",
+  "icon": "✏️",
+  "intro": "Spanish verbs come in three families: -AR, -ER, and -IR. Once you know the ending pattern for each family, you can conjugate thousands of verbs!",
+  "sections": [
+    {
+      "type": "rule",
+      "title": "How conjugation works",
+      "content": "Every Spanish verb has two parts:\n1. The STEM — remove the last two letters: hablar → habl-\n2. The ENDING — add the right ending for who is speaking\n\nThat's it! The ending tells you who is doing the action."
+    },
+    {
+      "type": "table",
+      "title": "-AR verbs: HABLAR (to speak)",
+      "headers": ["Pronoun", "Formula", "Result", "English"],
+      "rows": [
+        ["yo", "habl + o", "hablo", "I speak"],
+        ["tú", "habl + as", "hablas", "you speak"],
+        ["él / ella / Ud.", "habl + a", "habla", "he/she speaks"],
+        ["nosotros", "habl + amos", "hablamos", "we speak"],
+        ["vosotros (Spain)", "habl + áis", "habláis", "you all speak"],
+        ["ellos / Uds.", "habl + an", "hablan", "they speak"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "-ER verbs: COMER (to eat)",
+      "headers": ["Pronoun", "Formula", "Result", "English"],
+      "rows": [
+        ["yo", "com + o", "como", "I eat"],
+        ["tú", "com + es", "comes", "you eat"],
+        ["él / ella / Ud.", "com + e", "come", "he/she eats"],
+        ["nosotros", "com + emos", "comemos", "we eat"],
+        ["vosotros (Spain)", "com + éis", "coméis", "you all eat"],
+        ["ellos / Uds.", "com + en", "comen", "they eat"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "-IR verbs: VIVIR (to live)",
+      "headers": ["Pronoun", "Formula", "Result", "English"],
+      "rows": [
+        ["yo", "viv + o", "vivo", "I live"],
+        ["tú", "viv + es", "vives", "you live"],
+        ["él / ella / Ud.", "viv + e", "vive", "he/she lives"],
+        ["nosotros", "viv + imos", "vivimos", "we live"],
+        ["vosotros (Spain)", "viv + ís", "vivís", "you all live"],
+        ["ellos / Uds.", "viv + en", "viven", "they live"]
+      ]
+    },
+    {
+      "type": "examples",
+      "title": "Common regular verbs",
+      "items": [
+        { "es": "Hablo español todos los días.", "en": "I speak Spanish every day.", "note": "hablar → hablo (yo)" },
+        { "es": "¿Dónde vives tú?", "en": "Where do you live?", "note": "vivir → vives (tú)" },
+        { "es": "Ellos comen a las dos.", "en": "They eat at two o'clock.", "note": "comer → comen (ellos)" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": "choose",
+      "prompt": "yo + HABLAR = ?",
+      "options": ["hablas", "habla", "hablo", "hablamos"],
+      "correct": 2,
+      "explanation": "yo + -AR → stem (habl) + o = hablo ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "tú + COMER = ?",
+      "options": ["como", "comes", "come", "comen"],
+      "correct": 1,
+      "explanation": "tú + -ER → stem (com) + es = comes ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "ella + VIVIR = ?",
+      "options": ["vivo", "vives", "vive", "viven"],
+      "correct": 2,
+      "explanation": "ella + -IR → stem (viv) + e = vive ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "nosotros + HABLAR = ?",
+      "options": ["hablamos", "habláis", "hablan", "hablamos"],
+      "correct": 0,
+      "explanation": "nosotros + -AR → stem (habl) + amos = hablamos ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "ellos + COMER = ?",
+      "options": ["comemos", "coméis", "comen", "come"],
+      "correct": 2,
+      "explanation": "ellos + -ER → stem (com) + en = comen ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "¿___ tú español? (hablar)",
+      "options": ["Hablo", "Hablas", "Habla", "Hablamos"],
+      "correct": "Hablas",
+      "explanation": "tú + hablar → hablas. Remember the -s ending for tú! ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Usted + VIVIR = ? (Usted = él/ella form)",
+      "options": ["vivo", "vives", "vive", "vivimos"],
+      "correct": 2,
+      "explanation": "Usted uses the él/ella form → stem (viv) + e = vive ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Yo ___ en Madrid. (vivir)",
+      "options": ["vives", "vive", "vivo", "vivimos"],
+      "correct": "vivo",
+      "explanation": "yo + -IR → stem (viv) + o = vivo ✓"
+    }
+  ]
+}

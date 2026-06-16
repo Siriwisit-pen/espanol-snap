@@ -1,0 +1,91 @@
+{
+  "id": "plurals",
+  "order": 3,
+  "group": "A",
+  "title": "Plurals",
+  "titleEs": "El plural",
+  "icon": "🔢",
+  "intro": "Making plurals in Spanish is straightforward — just follow three simple rules based on what letter the word ends in.",
+  "sections": [
+    {
+      "type": "table",
+      "title": "The three plural rules",
+      "headers": ["Ends in...", "Add...", "Example", "Plural"],
+      "rows": [
+        ["a vowel (a, e, i, o, u)", "-s", "libro → libr-", "libros"],
+        ["a consonant", "-es", "ciudad → ciudad-", "ciudades"],
+        ["-z", "change z → c, add -es", "lápiz → lápic-", "lápices"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Days of the week — no change!",
+      "content": "Days ending in -s are the same in singular and plural:\n• el lunes → los lunes (Monday / Mondays)\n• el viernes → los viernes (Friday / Fridays)\nOnly the article changes: el → los."
+    },
+    {
+      "type": "rule",
+      "title": "Accent marks may shift",
+      "content": "Sometimes adding -es removes or adds an accent:\n• el joven → los jóvenes (the young person / people)\n• el examen → los exámenes (the exam / exams)\nDon't worry — you'll pick these up naturally with practice."
+    },
+    {
+      "type": "examples",
+      "title": "Plurals in sentences",
+      "items": [
+        { "es": "Los libros están en la mesa.", "en": "The books are on the table.", "note": "libro → libros" },
+        { "es": "Las ciudades son grandes.", "en": "The cities are big.", "note": "ciudad → ciudades" },
+        { "es": "Tengo dos lápices.", "en": "I have two pencils.", "note": "lápiz → lápices (z→c)" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": "choose",
+      "prompt": "What is the plural of 'libro'?",
+      "options": ["libros", "libroes", "libres", "libro"],
+      "correct": 0,
+      "explanation": "libro ends in a vowel (-o) → add -s → libros ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "What is the plural of 'ciudad'?",
+      "options": ["ciudads", "ciudades", "ciudádes", "ciudas"],
+      "correct": 1,
+      "explanation": "ciudad ends in a consonant (-d) → add -es → ciudades ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "What is the plural of 'lápiz'?",
+      "options": ["lápizs", "lápizes", "lápices", "lápiz"],
+      "correct": 2,
+      "explanation": "lápiz ends in -z → change z to c, add -es → lápices ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "What is the plural of 'el lunes' (Monday)?",
+      "options": ["los luneses", "los lunes", "los luness", "los lune"],
+      "correct": 1,
+      "explanation": "Days ending in -s don't change! Only the article changes: el lunes → los lunes ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "What is the plural of 'la flor' (the flower)?",
+      "options": ["las flors", "las flores", "las floras", "las floress"],
+      "correct": 1,
+      "explanation": "flor ends in a consonant (-r) → add -es → flores ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Tengo dos ___ (lápiz).",
+      "options": ["lápizes", "lápices", "lápizs", "lápis"],
+      "correct": "lápices",
+      "explanation": "lápiz → lápices (z changes to c before -es) ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "What is the plural of 'el hotel'?",
+      "options": ["los hotels", "los hoteles", "los hotells", "los hotel"],
+      "correct": 1,
+      "explanation": "hotel ends in consonant (-l) → add -es → hoteles ✓"
+    }
+  ]
+}

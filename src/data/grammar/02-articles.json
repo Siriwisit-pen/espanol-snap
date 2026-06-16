@@ -1,0 +1,94 @@
+{
+  "id": "articles",
+  "order": 2,
+  "group": "A",
+  "title": "Articles",
+  "titleEs": "Los artículos",
+  "icon": "📌",
+  "intro": "Articles go before a noun to say 'the' (definite) or 'a/some' (indefinite). In Spanish they must match the gender and number of the noun.",
+  "sections": [
+    {
+      "type": "table",
+      "title": "Definite articles — 'the'",
+      "headers": ["", "Singular", "Plural"],
+      "rows": [
+        ["Masculine", "el (el libro)", "los (los libros)"],
+        ["Feminine", "la (la mesa)", "las (las mesas)"]
+      ]
+    },
+    {
+      "type": "table",
+      "title": "Indefinite articles — 'a / some'",
+      "headers": ["", "Singular", "Plural"],
+      "rows": [
+        ["Masculine", "un (un libro)", "unos (unos libros)"],
+        ["Feminine", "una (una mesa)", "unas (unas mesas)"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Two handy contractions",
+      "content": "When 'de' (of) or 'a' (to) come before 'el', they merge:\n• de + el = del → Vengo del mercado. (I come from the market.)\n• a + el = al → Voy al banco. (I'm going to the bank.)\nThis ONLY happens with 'el' — never with 'la', 'los', or 'las'."
+    },
+    {
+      "type": "examples",
+      "title": "Articles in sentences",
+      "items": [
+        { "es": "El café está caliente.", "en": "The coffee is hot.", "note": "definite: a specific coffee" },
+        { "es": "Quiero un café, por favor.", "en": "I want a coffee, please.", "note": "indefinite: any coffee" },
+        { "es": "Voy al supermercado.", "en": "I'm going to the supermarket.", "note": "a + el = al" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": "fill",
+      "prompt": "___ libros están en la mesa.",
+      "options": ["El", "La", "Los", "Las"],
+      "correct": "Los",
+      "explanation": "libros is masculine plural → Los ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Necesito ___ silla.",
+      "options": ["un", "una", "unos", "unas"],
+      "correct": "una",
+      "explanation": "silla is feminine singular → una silla ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Voy ___ mercado.",
+      "options": ["al", "a el", "del", "de el"],
+      "correct": "al",
+      "explanation": "a + el = al (contraction). Never write 'a el' separately! ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Las flores son ___ flores del jardín.",
+      "options": ["el", "la", "los", "las"],
+      "correct": "las",
+      "explanation": "flores is feminine plural → las flores ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Tengo ___ hermano y ___ hermana. Which pair is correct?",
+      "options": ["un / una", "el / la", "los / las", "unos / unas"],
+      "correct": 0,
+      "explanation": "We're talking about having 'a' brother and 'a' sister → un hermano / una hermana ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Vengo ___ supermercado.",
+      "options": ["del", "de la", "al", "a la"],
+      "correct": "del",
+      "explanation": "de + el = del (contraction). supermercado is masculine → del ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'de + el' contracts to:",
+      "options": ["del", "de'l", "de el", "dell"],
+      "correct": 0,
+      "explanation": "de + el = del. This is a fixed rule in Spanish! ✓"
+    }
+  ]
+}

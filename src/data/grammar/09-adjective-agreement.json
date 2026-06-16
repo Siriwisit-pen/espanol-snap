@@ -1,0 +1,100 @@
+{
+  "id": "adjective-agreement",
+  "order": 9,
+  "group": "C",
+  "title": "Adjective Agreement",
+  "titleEs": "Concordancia de adjetivos",
+  "icon": "🎨",
+  "intro": "In Spanish, adjectives must match the gender and number of the noun they describe. This is called agreement — and it's one of the most important rules in the language.",
+  "sections": [
+    {
+      "type": "table",
+      "title": "Adjectives ending in -O (4 forms)",
+      "headers": ["", "Masculine", "Feminine"],
+      "rows": [
+        ["Singular", "el libro rojo", "la silla roja"],
+        ["Plural", "los libros rojos", "las sillas rojas"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Adjectives ending in -E or consonant (2 forms — only plural changes)",
+      "content": "These adjectives are the same for masculine and feminine:\n• grande (big): el coche grande / la casa grande\n• inteligente (intelligent): el chico inteligente / la chica inteligente\n• fácil (easy): el libro fácil / la tarea fácil\nFor plural, just add -s (vowel) or -es (consonant):\n• grande → grandes, fácil → fáciles"
+    },
+    {
+      "type": "table",
+      "title": "Quick reference",
+      "headers": ["Adjective type", "Masc. Sg.", "Fem. Sg.", "Masc. Pl.", "Fem. Pl."],
+      "rows": [
+        ["ends in -o", "rojo", "roja", "rojos", "rojas"],
+        ["ends in -e", "grande", "grande", "grandes", "grandes"],
+        ["ends in consonant", "fácil", "fácil", "fáciles", "fáciles"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "Where do adjectives go?",
+      "content": "In Spanish, adjectives usually come AFTER the noun:\n• un coche rojo (a red car)\n• una casa grande (a big house)\nSome short, common adjectives can come before: buen (good), mal (bad), gran (great)"
+    },
+    {
+      "type": "examples",
+      "title": "Agreement in action",
+      "items": [
+        { "es": "El libro rojo está en la mesa.", "en": "The red book is on the table.", "note": "libro (masc. sg.) → rojo" },
+        { "es": "Las sillas rojas son nuevas.", "en": "The red chairs are new.", "note": "sillas (fem. pl.) → rojas" },
+        { "es": "Las flores son bonitas.", "en": "The flowers are pretty.", "note": "flores (fem. pl.) → bonitas" }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "type": "fill",
+      "prompt": "El libro ___ (rojo/roja).",
+      "options": ["rojo", "roja", "rojos", "rojas"],
+      "correct": "rojo",
+      "explanation": "libro is masculine singular → rojo ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "La silla ___ (rojo/roja).",
+      "options": ["rojo", "roja", "rojos", "rojas"],
+      "correct": "roja",
+      "explanation": "silla is feminine singular → roja ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Las sillas son ___ (rojo).",
+      "options": ["rojo", "roja", "rojos", "rojas"],
+      "correct": "rojas",
+      "explanation": "sillas is feminine plural → rojas ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "El libro es ___ (interesante).",
+      "options": ["interesante", "interesanta", "interesanto", "interesantes"],
+      "correct": "interesante",
+      "explanation": "'interesante' ends in -e — same for masculine and feminine! ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Las tareas son ___ (fácil).",
+      "options": ["fácil", "fácils", "fáciles", "fácila"],
+      "correct": "fáciles",
+      "explanation": "fácil ends in consonant, plural → add -es → fáciles ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Los chicos son ___ (alto).",
+      "options": ["alta", "altos", "alto", "altas"],
+      "correct": "altos",
+      "explanation": "chicos is masculine plural → altos ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "Where does the adjective usually go in Spanish?",
+      "options": ["Before the noun (like English)", "After the noun", "Either — no difference"],
+      "correct": 1,
+      "explanation": "Adjectives usually come AFTER the noun in Spanish: un coche rojo (a red car) ✓"
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "id": "ser-estar",
+  "order": 6,
+  "group": "B",
+  "title": "Ser vs Estar",
+  "titleEs": "Ser y estar",
+  "icon": "⚖️",
+  "intro": "Spanish has two verbs meaning 'to be': ser and estar. This is one of the most important things to learn — and easier than it looks!",
+  "sections": [
+    {
+      "type": "table",
+      "title": "Conjugations (present tense)",
+      "headers": ["Pronoun", "SER (permanent)", "ESTAR (temporary)"],
+      "rows": [
+        ["yo", "soy", "estoy"],
+        ["tú", "eres", "estás"],
+        ["él / ella / Ud.", "es", "está"],
+        ["nosotros", "somos", "estamos"],
+        ["vosotros (Spain)", "sois", "estáis"],
+        ["ellos / Uds.", "son", "están"]
+      ]
+    },
+    {
+      "type": "rule",
+      "title": "When to use SER",
+      "content": "Use SER for things that are stable or inherent:\n• Identity: Soy Ana. (I'm Ana.)\n• Origin / nationality: Soy de México. Soy mexicana.\n• Occupation: Es médico. (He's a doctor.)\n• Time / dates: Son las tres. (It's three o'clock.) Hoy es lunes.\n• Material: La mesa es de madera. (The table is made of wood.)\n• Permanent traits: El elefante es grande. (Elephants are big.)"
+    },
+    {
+      "type": "rule",
+      "title": "When to use ESTAR",
+      "content": "Use ESTAR for things that can change:\n• Location: El banco está a la derecha. (The bank is on the right.)\n• Temporary state: Estoy cansado. (I'm tired.)\n• Feelings / mood: Está triste. (She's sad.)\n• Result of a change: La puerta está abierta. (The door is open.)\n• Progressive tense: Estoy comiendo. (I'm eating.)"
+    },
+    {
+      "type": "examples",
+      "title": "Side by side — spot the difference",
+      "items": [
+        { "es": "El café es caliente. ❌  →  El café está caliente. ✓", "en": "The coffee is hot (temporary state → estar)", "note": "Temperature is temporary!" },
+        { "es": "Madrid es en España. ❌  →  Madrid está en España. ✓", "en": "Madrid is in Spain (location → estar)", "note": "Locations always use estar" },
+        { "es": "Soy médico. / Estoy enfermo.", "en": "I'm a doctor (permanent). / I'm sick (temporary).", "note": "ser for job, estar for current state" }
+      ]
+    },
+    {
+      "type": "note",
+      "label": "Memory trick — DOCTOR for SER",
+      "content": "SER = Description (permanent) · Origin · Characteristics · Time · Occupation · Relationships\nESTAR = Position/Location · Action (progressive) · Condition · Emotion"
+    }
+  ],
+  "questions": [
+    {
+      "type": "choose",
+      "prompt": "'I am a teacher.' — Which verb?",
+      "options": ["Soy profesora.", "Estoy profesora."],
+      "correct": 0,
+      "explanation": "Occupation is permanent → SER → Soy profesora ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'I am tired.' — Which verb?",
+      "options": ["Soy cansado.", "Estoy cansado."],
+      "correct": 1,
+      "explanation": "Tiredness is temporary → ESTAR → Estoy cansado ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'She is Spanish.' — Which verb?",
+      "options": ["Es española.", "Está española."],
+      "correct": 0,
+      "explanation": "Nationality is permanent → SER → Es española ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "El banco ___ a la derecha.",
+      "options": ["es", "está", "soy", "estoy"],
+      "correct": "está",
+      "explanation": "Location → ESTAR → El banco está a la derecha ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "Hoy ___ lunes.",
+      "options": ["es", "está", "son", "están"],
+      "correct": "es",
+      "explanation": "Days and dates → SER → Hoy es lunes ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "La puerta ___ abierta.",
+      "options": ["es", "está", "son", "están"],
+      "correct": "está",
+      "explanation": "Result of a change (open/closed can change) → ESTAR → La puerta está abierta ✓"
+    },
+    {
+      "type": "choose",
+      "prompt": "'He is tall.' — Which verb?",
+      "options": ["Es alto.", "Está alto."],
+      "correct": 0,
+      "explanation": "Height is a permanent physical trait → SER → Es alto ✓"
+    },
+    {
+      "type": "fill",
+      "prompt": "¿Dónde ___ el hospital?",
+      "options": ["es", "está", "soy", "estoy"],
+      "correct": "está",
+      "explanation": "Location → ESTAR → ¿Dónde está el hospital? ✓"
+    }
+  ]
+}
