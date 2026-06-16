@@ -1,0 +1,55 @@
+{
+  "id": "saying-goodbye",
+  "order": 4,
+  "level": 1,
+  "title": "Saying goodbye",
+  "titleEs": "Despedirse",
+  "scene": "You finish chatting with a friend and say bye.",
+  "image": "greetings-daily-routine/adios.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Well, I have to go.",
+      "es": "Bueno, me tengo que ir.",
+      "tiles": ["Bueno,", "me", "tengo", "que", "ir."],
+      "tileMeanings": { "Bueno,": "well,", "me": "(I)", "tengo": "have", "que": "to", "ir.": "go." },
+      "breakdown": [
+        { "word": "Bueno", "meaning": "Well" },
+        { "word": "me tengo que ir", "meaning": "I have to go" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "What a shame! See you later.",
+      "es": "¡Qué pena! Hasta luego.",
+      "tiles": ["¡Qué", "pena!", "Hasta", "luego."],
+      "tileMeanings": { "¡Qué": "what a", "pena!": "shame!", "Hasta": "until", "luego.": "later." },
+      "breakdown": [
+        { "word": "¡Qué pena!", "meaning": "What a shame!" },
+        { "word": "Hasta luego", "meaning": "See you later" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "See you soon! Take care!",
+      "es": "¡Hasta pronto! ¡Cuídate!",
+      "tiles": ["¡Hasta", "pronto!", "¡Cuídate!"],
+      "tileMeanings": { "¡Hasta": "until", "pronto!": "soon!", "¡Cuídate!": "take care!" },
+      "breakdown": [
+        { "word": "¡Hasta pronto!", "meaning": "See you soon!" },
+        { "word": "¡Cuídate!", "meaning": "Take care!" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "You too! Goodbye!",
+      "es": "¡Igualmente! ¡Adiós!",
+      "tiles": ["¡Igualmente!", "¡Adiós!"],
+      "tileMeanings": { "¡Igualmente!": "likewise / you too!", "¡Adiós!": "goodbye!" },
+      "breakdown": [
+        { "word": "¡Igualmente!", "meaning": "Likewise / You too!" },
+        { "word": "¡Adiós!", "meaning": "Goodbye!" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "id": "greeting-friend",
+  "order": 1,
+  "level": 1,
+  "title": "Greeting a friend",
+  "titleEs": "Saludar a un amigo",
+  "scene": "You run into a friend on the street.",
+  "image": "greetings-daily-routine/hola.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Hi! How are you?",
+      "es": "¡Hola! ¿Cómo estás?",
+      "tiles": ["¡Hola!", "¿Cómo", "estás?"],
+      "tileMeanings": { "¡Hola!": "hi!", "¿Cómo": "how", "estás?": "are you?" },
+      "breakdown": [
+        { "word": "¡Hola!", "meaning": "Hi!" },
+        { "word": "¿Cómo estás?", "meaning": "How are you?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Very well, thanks! And you?",
+      "es": "¡Muy bien, gracias! ¿Y tú?",
+      "tiles": ["¡Muy", "bien,", "gracias!", "¿Y", "tú?"],
+      "tileMeanings": { "¡Muy": "very", "bien,": "well,", "gracias!": "thanks!", "¿Y": "and", "tú?": "you?" },
+      "breakdown": [
+        { "word": "¡Muy bien", "meaning": "Very well" },
+        { "word": "gracias!", "meaning": "thanks!" },
+        { "word": "¿Y tú?", "meaning": "And you?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Good, thanks.",
+      "es": "Bien, gracias.",
+      "tiles": ["Bien,", "gracias."],
+      "tileMeanings": { "Bien,": "well,", "gracias.": "thanks." },
+      "breakdown": [
+        { "word": "Bien", "meaning": "Good / Well" },
+        { "word": "gracias", "meaning": "thanks" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "How nice to see you!",
+      "es": "¡Qué bueno verte!",
+      "tiles": ["¡Qué", "bueno", "verte!"],
+      "tileMeanings": { "¡Qué": "how", "bueno": "good / nice", "verte!": "to see you!" },
+      "breakdown": [
+        { "word": "¡Qué bueno", "meaning": "How nice" },
+        { "word": "verte!", "meaning": "to see you!" }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 import { loadProgress, loadStreak, stats, isLearned } from '../lib/progress.js'
 
-export default function Home({ categories, onStartMixed, onStartCategory }) {
+export default function Home({ categories, onStartMixed, onStartCategory, onConversations }) {
   const progress = loadProgress()
   const s = stats(progress)
   const streak = loadStreak()
@@ -29,6 +29,10 @@ export default function Home({ categories, onStartMixed, onStartCategory }) {
 
       <button className="big-btn" onClick={onStartMixed}>
         ▶&nbsp; Quick play
+      </button>
+
+      <button className="conv-home-btn" onClick={onConversations}>
+        💬&nbsp; Conversations
       </button>
 
       <h2 className="section">Categories</h2>

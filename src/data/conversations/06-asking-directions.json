@@ -1,0 +1,74 @@
+{
+  "id": "asking-directions",
+  "order": 6,
+  "level": 2,
+  "title": "Asking for directions",
+  "titleEs": "Pedir indicaciones",
+  "scene": "You're lost and need to find the bank.",
+  "image": "city-directions/mapa.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Excuse me, where is the bank?",
+      "es": "Perdón, ¿dónde está el banco?",
+      "tiles": ["Perdón,", "¿dónde", "está", "el", "banco?"],
+      "tileMeanings": { "Perdón,": "excuse me,", "¿dónde": "where", "está": "is", "el": "the", "banco?": "bank?" },
+      "breakdown": [
+        { "word": "Perdón", "meaning": "Excuse me" },
+        { "word": "¿dónde está el banco?", "meaning": "where is the bank?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Go straight and turn right.",
+      "es": "Siga recto y gire a la derecha.",
+      "tiles": ["Siga", "recto", "y", "gire", "a", "la", "derecha."],
+      "tileMeanings": { "Siga": "go (formal)", "recto": "straight", "y": "and", "gire": "turn", "a": "to", "la": "the", "derecha.": "right." },
+      "breakdown": [
+        { "word": "Siga recto", "meaning": "Go straight" },
+        { "word": "y gire a la derecha", "meaning": "and turn right" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Is it far?",
+      "es": "¿Está lejos?",
+      "tiles": ["¿Está", "lejos?"],
+      "tileMeanings": { "¿Está": "is it", "lejos?": "far?" },
+      "breakdown": [
+        { "word": "¿Está lejos?", "meaning": "Is it far?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "No, it's nearby. It's five minutes.",
+      "es": "No, está cerca. Son cinco minutos.",
+      "tiles": ["No,", "está", "cerca.", "Son", "cinco", "minutos."],
+      "tileMeanings": { "No,": "no,", "está": "it's", "cerca.": "nearby.", "Son": "it's / are", "cinco": "five", "minutos.": "minutes." },
+      "breakdown": [
+        { "word": "No, está cerca", "meaning": "No, it's nearby" },
+        { "word": "Son cinco minutos", "meaning": "It's five minutes" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Thank you very much.",
+      "es": "Muchas gracias.",
+      "tiles": ["Muchas", "gracias."],
+      "tileMeanings": { "Muchas": "very", "gracias.": "thanks." },
+      "breakdown": [
+        { "word": "Muchas gracias", "meaning": "Thank you very much" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "You're welcome.",
+      "es": "De nada.",
+      "tiles": ["De", "nada."],
+      "tileMeanings": { "De": "of", "nada.": "nothing (you're welcome)" },
+      "breakdown": [
+        { "word": "De nada", "meaning": "You're welcome" }
+      ]
+    }
+  ]
+}

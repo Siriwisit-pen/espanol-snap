@@ -1,0 +1,64 @@
+{
+  "id": "introducing-yourself",
+  "order": 2,
+  "level": 1,
+  "title": "Introducing yourself",
+  "titleEs": "Presentarse",
+  "scene": "You meet someone new and introduce yourself.",
+  "image": "greetings-daily-routine/muchogusto.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Hi! My name is Ana.",
+      "es": "¡Hola! Me llamo Ana.",
+      "tiles": ["¡Hola!", "Me", "llamo", "Ana."],
+      "tileMeanings": { "¡Hola!": "hi!", "Me": "(I)", "llamo": "am called", "Ana.": "Ana." },
+      "breakdown": [
+        { "word": "¡Hola!", "meaning": "Hi!" },
+        { "word": "Me llamo Ana", "meaning": "My name is Ana" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Nice to meet you! I'm Carlos.",
+      "es": "¡Mucho gusto! Yo soy Carlos.",
+      "tiles": ["¡Mucho", "gusto!", "Yo", "soy", "Carlos."],
+      "tileMeanings": { "¡Mucho": "much", "gusto!": "pleasure!", "Yo": "I", "soy": "am", "Carlos.": "Carlos." },
+      "breakdown": [
+        { "word": "¡Mucho gusto!", "meaning": "Nice to meet you!" },
+        { "word": "Yo soy Carlos", "meaning": "I'm Carlos" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Where are you from?",
+      "es": "¿De dónde eres?",
+      "tiles": ["¿De", "dónde", "eres?"],
+      "tileMeanings": { "¿De": "from", "dónde": "where", "eres?": "are you?" },
+      "breakdown": [
+        { "word": "¿De dónde eres?", "meaning": "Where are you from?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I'm from Spain. And you?",
+      "es": "Soy de España. ¿Y tú?",
+      "tiles": ["Soy", "de", "España.", "¿Y", "tú?"],
+      "tileMeanings": { "Soy": "I am", "de": "from", "España.": "Spain.", "¿Y": "and", "tú?": "you?" },
+      "breakdown": [
+        { "word": "Soy de España", "meaning": "I'm from Spain" },
+        { "word": "¿Y tú?", "meaning": "And you?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "I'm from Mexico.",
+      "es": "Soy de México.",
+      "tiles": ["Soy", "de", "México."],
+      "tileMeanings": { "Soy": "I am", "de": "from", "México.": "Mexico." },
+      "breakdown": [
+        { "word": "Soy de México", "meaning": "I'm from Mexico" }
+      ]
+    }
+  ]
+}

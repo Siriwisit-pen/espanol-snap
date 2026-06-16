@@ -14,7 +14,7 @@ dist-ssr
 REF/
 
 # Duplicate category file at repo root (not part of the app)
-data/
+/data/
 
 # Fetch run logs
 scripts/*.log

@@ -1,0 +1,75 @@
+{
+  "id": "asking-the-price",
+  "order": 5,
+  "level": 2,
+  "title": "Asking the price",
+  "titleEs": "Preguntar el precio",
+  "scene": "You're shopping and want to know how much something costs.",
+  "image": "shopping-money/precio.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Excuse me, how much does this cost?",
+      "es": "Perdón, ¿cuánto cuesta esto?",
+      "tiles": ["Perdón,", "¿cuánto", "cuesta", "esto?"],
+      "tileMeanings": { "Perdón,": "excuse me,", "¿cuánto": "how much", "cuesta": "does it cost", "esto?": "this?" },
+      "breakdown": [
+        { "word": "Perdón", "meaning": "Excuse me" },
+        { "word": "¿cuánto cuesta esto?", "meaning": "how much does this cost?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "It costs fifteen euros.",
+      "es": "Cuesta quince euros.",
+      "tiles": ["Cuesta", "quince", "euros."],
+      "tileMeanings": { "Cuesta": "it costs", "quince": "fifteen", "euros.": "euros." },
+      "breakdown": [
+        { "word": "Cuesta", "meaning": "It costs" },
+        { "word": "quince euros", "meaning": "fifteen euros" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Is there a discount?",
+      "es": "¿Hay algún descuento?",
+      "tiles": ["¿Hay", "algún", "descuento?"],
+      "tileMeanings": { "¿Hay": "is there", "algún": "any", "descuento?": "discount?" },
+      "breakdown": [
+        { "word": "¿Hay algún descuento?", "meaning": "Is there a discount?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "I'm sorry, there is no discount.",
+      "es": "Lo siento, no hay descuento.",
+      "tiles": ["Lo", "siento,", "no", "hay", "descuento."],
+      "tileMeanings": { "Lo": "(it)", "siento,": "I'm sorry,", "no": "no", "hay": "there is", "descuento.": "discount." },
+      "breakdown": [
+        { "word": "Lo siento", "meaning": "I'm sorry" },
+        { "word": "no hay descuento", "meaning": "there is no discount" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "That's fine. I'll take it.",
+      "es": "Está bien. Me lo llevo.",
+      "tiles": ["Está", "bien.", "Me", "lo", "llevo."],
+      "tileMeanings": { "Está": "it's", "bien.": "fine.", "Me": "(I)", "lo": "it", "llevo.": "take." },
+      "breakdown": [
+        { "word": "Está bien", "meaning": "That's fine" },
+        { "word": "Me lo llevo", "meaning": "I'll take it" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Thank you very much.",
+      "es": "Muchas gracias.",
+      "tiles": ["Muchas", "gracias."],
+      "tileMeanings": { "Muchas": "many / very", "gracias.": "thanks." },
+      "breakdown": [
+        { "word": "Muchas gracias", "meaning": "Thank you very much" }
+      ]
+    }
+  ]
+}

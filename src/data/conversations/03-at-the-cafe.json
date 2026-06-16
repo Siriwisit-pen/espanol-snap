@@ -1,0 +1,74 @@
+{
+  "id": "at-the-cafe",
+  "order": 3,
+  "level": 1,
+  "title": "At the café",
+  "titleEs": "En el café",
+  "scene": "You walk into a café and order a coffee.",
+  "image": "restaurant-cafe/taza.webp",
+  "lines": [
+    {
+      "speaker": "A",
+      "en": "Good morning! What would you like?",
+      "es": "¡Buenos días! ¿Qué desea?",
+      "tiles": ["¡Buenos", "días!", "¿Qué", "desea?"],
+      "tileMeanings": { "¡Buenos": "good", "días!": "morning!", "¿Qué": "what", "desea?": "would you like?" },
+      "breakdown": [
+        { "word": "¡Buenos días!", "meaning": "Good morning!" },
+        { "word": "¿Qué desea?", "meaning": "What would you like?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "A coffee with milk, please.",
+      "es": "Un café con leche, por favor.",
+      "tiles": ["Un", "café", "con", "leche,", "por", "favor."],
+      "tileMeanings": { "Un": "a", "café": "coffee", "con": "with", "leche,": "milk,", "por": "—", "favor.": "please" },
+      "breakdown": [
+        { "word": "Un café con leche", "meaning": "A coffee with milk" },
+        { "word": "por favor", "meaning": "please" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "Anything else?",
+      "es": "¿Algo más?",
+      "tiles": ["¿Algo", "más?"],
+      "tileMeanings": { "¿Algo": "anything", "más?": "else?" },
+      "breakdown": [
+        { "word": "¿Algo más?", "meaning": "Anything else?" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "No, thanks. How much is it?",
+      "es": "No, gracias. ¿Cuánto es?",
+      "tiles": ["No,", "gracias.", "¿Cuánto", "es?"],
+      "tileMeanings": { "No,": "no,", "gracias.": "thanks.", "¿Cuánto": "how much", "es?": "is it?" },
+      "breakdown": [
+        { "word": "No, gracias", "meaning": "No, thanks" },
+        { "word": "¿Cuánto es?", "meaning": "How much is it?" }
+      ]
+    },
+    {
+      "speaker": "A",
+      "en": "It's two euros.",
+      "es": "Son dos euros.",
+      "tiles": ["Son", "dos", "euros."],
+      "tileMeanings": { "Son": "it's / are", "dos": "two", "euros.": "euros." },
+      "breakdown": [
+        { "word": "Son dos euros", "meaning": "It's two euros" }
+      ]
+    },
+    {
+      "speaker": "B",
+      "en": "Here you go.",
+      "es": "Aquí tiene.",
+      "tiles": ["Aquí", "tiene."],
+      "tileMeanings": { "Aquí": "here", "tiene.": "you have it" },
+      "breakdown": [
+        { "word": "Aquí tiene", "meaning": "Here you go" }
+      ]
+    }
+  ]
+}
