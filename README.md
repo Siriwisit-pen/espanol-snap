@@ -4,17 +4,15 @@ An offline Spanish vocabulary **picture quiz** — a calm, one-card-at-a-time PW
 
 20 categories, ~470 words, each with a real photo and a tappable hint.
 
-## Get it on your iPhone
+**Live app:** https://siriwisit-pen.github.io/espanol-snap/
 
-The app is already built into the `dist` folder. To put it on your phone:
+## Install on your iPhone
 
-1. **Upload it.** Open [app.netlify.com/drop](https://app.netlify.com/drop) on your PC (no account needed) and drag the whole `dist` folder onto the page. After a few seconds you'll get a link like `https://random-name-123.netlify.app` — that's your app's address.
-2. **Open it on your iPhone.** In **Safari** (must be Safari, not Chrome), go to that link.
-3. **Add to Home Screen.** Tap the Share button (square with an arrow pointing up) at the bottom of Safari, scroll down, and tap **"Add to Home Screen"**, then **"Add"**.
-4. **Open it from your home screen.** It now runs full-screen like a normal app, with its own icon.
-5. The first time you open it, leave it on Wi-Fi for a few seconds so it can download everything (~7 MB of photos). After that, it works **with no internet at all** — even in airplane mode. Your streak and progress are saved on the phone.
-
-If you later add more words or categories and want to update the app, run `npm run build` again, drag the new `dist` folder to [app.netlify.com/drop](https://app.netlify.com/drop), and you'll get a new link — repeat steps 2-3 on your phone with the new link.
+1. On your iPhone, open **https://siriwisit-pen.github.io/espanol-snap/** in **Safari** (must be Safari, not Chrome).
+2. Tap the **Share button** (square with an arrow pointing up) at the bottom of Safari.
+3. Scroll down and tap **"Add to Home Screen"**, then **"Add"**.
+4. Open **Español Snap** from your home screen — it runs full-screen like a normal app.
+5. The first time, stay on Wi-Fi for a few seconds so it downloads and caches everything (~7 MB). After that it works **fully offline**, even in airplane mode. Your progress and streak are saved on the phone.
 
 ## Run it locally (after installing Node.js)
 
