@@ -1,0 +1,272 @@
+{
+  "id": "school-study",
+  "order": 12,
+  "name": "School & Study",
+  "nameEs": "Escuela y estudios",
+  "words": [
+    {
+      "id": "ss-libro",
+      "es": "el libro",
+      "en": "book",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Book — 'leer un libro' = to read a book.",
+      "scenarios": ["school & study"],
+      "imageQuery": "open book",
+      "image": "school-study/libro.webp"
+    },
+    {
+      "id": "ss-cuaderno",
+      "es": "el cuaderno",
+      "en": "notebook",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Notebook — used to write notes in class.",
+      "scenarios": ["school & study"],
+      "imageQuery": "notebook",
+      "image": "school-study/cuaderno.webp"
+    },
+    {
+      "id": "ss-clase",
+      "es": "la clase",
+      "en": "class",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Class — 'tengo clase a las nueve' = I have class at nine.",
+      "scenarios": ["school & study"],
+      "imageQuery": "classroom students",
+      "image": "school-study/clase.webp"
+    },
+    {
+      "id": "ss-profesor",
+      "es": "el profesor",
+      "en": "teacher",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Teacher ('la profesora' for a woman) — also 'el maestro' for younger grades.",
+      "scenarios": ["school & study"],
+      "imageQuery": "teacher classroom",
+      "image": "school-study/profesor.webp"
+    },
+    {
+      "id": "ss-estudiante",
+      "es": "el estudiante",
+      "en": "student",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Student ('la estudiante' for a woman) — same word for both genders, only the article changes.",
+      "scenarios": ["school & study"],
+      "imageQuery": "student studying",
+      "image": "school-study/estudiante.webp"
+    },
+    {
+      "id": "ss-leccion",
+      "es": "la lección",
+      "en": "lesson",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lesson — 'la lección de hoy' = today's lesson.",
+      "scenarios": ["school & study"],
+      "imageQuery": "lesson whiteboard classroom",
+      "image": "school-study/leccion.webp"
+    },
+    {
+      "id": "ss-tarea",
+      "es": "la tarea",
+      "en": "homework",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Homework — 'hacer la tarea' = to do homework.",
+      "scenarios": ["school & study"],
+      "imageQuery": "homework notebook desk",
+      "image": "school-study/tarea.webp"
+    },
+    {
+      "id": "ss-examen",
+      "es": "el examen",
+      "en": "exam",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Exam/test — 'tener un examen' = to have an exam.",
+      "scenarios": ["school & study"],
+      "imageQuery": "exam test paper",
+      "image": "school-study/examen.webp"
+    },
+    {
+      "id": "ss-pregunta",
+      "es": "la pregunta",
+      "en": "question",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Question — 'hacer una pregunta' = to ask a question.",
+      "scenarios": ["school & study"],
+      "imageQuery": "question mark",
+      "image": "school-study/pregunta.webp"
+    },
+    {
+      "id": "ss-respuesta",
+      "es": "la respuesta",
+      "en": "answer",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Answer — 'la respuesta correcta' = the correct answer.",
+      "scenarios": ["school & study"],
+      "imageQuery": "checkmark correct answer",
+      "image": "school-study/respuesta.webp"
+    },
+    {
+      "id": "ss-aprender",
+      "es": "aprender",
+      "en": "to learn",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To learn — 'aprender español' = to learn Spanish.",
+      "scenarios": ["school & study"],
+      "imageQuery": "person learning studying",
+      "image": "school-study/aprender.webp"
+    },
+    {
+      "id": "ss-estudiar",
+      "es": "estudiar",
+      "en": "to study",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To study — 'estudiar para el examen' = to study for the exam.",
+      "scenarios": ["school & study"],
+      "imageQuery": "student studying books",
+      "image": "school-study/estudiar.webp"
+    },
+    {
+      "id": "ss-ensenar",
+      "es": "enseñar",
+      "en": "to teach",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To teach — 'enseñar una lección' = to teach a lesson.",
+      "scenarios": ["school & study"],
+      "imageQuery": "teacher teaching classroom",
+      "image": "school-study/ensenar.webp"
+    },
+    {
+      "id": "ss-leer",
+      "es": "leer",
+      "en": "to read",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To read — 'me gusta leer' = I like to read.",
+      "scenarios": ["school & study"],
+      "imageQuery": "person reading book",
+      "image": "school-study/leer.webp"
+    },
+    {
+      "id": "ss-escribir",
+      "es": "escribir",
+      "en": "to write",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To write — 'escribir una carta' = to write a letter.",
+      "scenarios": ["school & study"],
+      "imageQuery": "person writing notebook",
+      "image": "school-study/escribir.webp"
+    },
+    {
+      "id": "ss-palabra",
+      "es": "la palabra",
+      "en": "word",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Word — 'una palabra nueva' = a new word.",
+      "scenarios": ["school & study"],
+      "imageQuery": "word dictionary definition",
+      "image": "school-study/palabra.webp"
+    },
+    {
+      "id": "ss-idioma",
+      "es": "el idioma",
+      "en": "language",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Language — 'el idioma español' = the Spanish language.",
+      "scenarios": ["school & study", "introductions"],
+      "imageQuery": "language learning flags",
+      "image": "school-study/idioma.webp"
+    },
+    {
+      "id": "ss-universidad",
+      "es": "la universidad",
+      "en": "university",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "University — 'ir a la universidad' = to go to university.",
+      "scenarios": ["school & study"],
+      "imageQuery": "university campus",
+      "image": "school-study/universidad.webp"
+    },
+    {
+      "id": "ss-lapiz",
+      "es": "el lápiz",
+      "en": "pencil",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pencil — plural is 'los lápices'.",
+      "scenarios": ["school & study"],
+      "imageQuery": "pencil",
+      "image": "school-study/lapiz.webp"
+    },
+    {
+      "id": "ss-goma",
+      "es": "la goma",
+      "en": "eraser",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Eraser — also 'el borrador' in some regions.",
+      "scenarios": ["school & study"],
+      "imageQuery": "pencil eraser",
+      "image": "school-study/goma.webp"
+    },
+    {
+      "id": "ss-regla",
+      "es": "la regla",
+      "en": "ruler",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Ruler — used to draw straight lines or measure.",
+      "scenarios": ["school & study"],
+      "imageQuery": "ruler measuring tool",
+      "image": "school-study/regla.webp"
+    },
+    {
+      "id": "ss-aula",
+      "es": "el aula",
+      "en": "classroom",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Classroom — feminine word, but uses 'el' in the singular (like 'el agua').",
+      "scenarios": ["school & study"],
+      "imageQuery": "empty classroom",
+      "image": "school-study/aula.webp"
+    },
+    {
+      "id": "ss-nota",
+      "es": "la nota",
+      "en": "grade",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Grade/mark — 'sacar buenas notas' = to get good grades.",
+      "scenarios": ["school & study"],
+      "imageQuery": "report card grade",
+      "image": "school-study/nota.webp"
+    },
+    {
+      "id": "ss-graduarse",
+      "es": "graduarse",
+      "en": "to graduate",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To graduate — 'graduarse de la universidad' = to graduate from university.",
+      "scenarios": ["school & study"],
+      "imageQuery": "graduation cap ceremony",
+      "image": "school-study/graduarse.webp"
+    }
+  ]
+}

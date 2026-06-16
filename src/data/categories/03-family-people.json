@@ -1,0 +1,250 @@
+{
+  "id": "family-people",
+  "order": 3,
+  "name": "Family & People",
+  "nameEs": "Familia y gente",
+  "words": [
+    {
+      "id": "fp-familia",
+      "es": "la familia",
+      "en": "family",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Family — say 'mi familia' (my family) when introducing yours.",
+      "scenarios": ["introductions", "talking about people"],
+      "imageQuery": "family portrait",
+      "image": "family-people/familia.webp"
+    },
+    {
+      "id": "fp-madre",
+      "es": "la madre",
+      "en": "mother",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mother — informally 'mamá' (mom).",
+      "scenarios": ["family", "introductions"],
+      "imageQuery": "mother and child",
+      "image": "family-people/madre.webp"
+    },
+    {
+      "id": "fp-padre",
+      "es": "el padre",
+      "en": "father",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Father — informally 'papá' (dad).",
+      "scenarios": ["family", "introductions"],
+      "imageQuery": "father and child",
+      "image": "family-people/padre.webp"
+    },
+    {
+      "id": "fp-hermano",
+      "es": "el hermano",
+      "en": "brother",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Brother — 'mi hermano mayor' = my older brother.",
+      "scenarios": ["family", "introductions"],
+      "imageQuery": "brothers siblings",
+      "image": "family-people/hermano.webp"
+    },
+    {
+      "id": "fp-hermana",
+      "es": "la hermana",
+      "en": "sister",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sister — 'mi hermana menor' = my younger sister.",
+      "scenarios": ["family", "introductions"],
+      "imageQuery": "sisters siblings",
+      "image": "family-people/hermana.webp"
+    },
+    {
+      "id": "fp-hijo",
+      "es": "el hijo",
+      "en": "son",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Son — 'tengo dos hijos' can mean 'I have two children' too.",
+      "scenarios": ["family"],
+      "imageQuery": "father and son",
+      "image": "family-people/hijo.webp"
+    },
+    {
+      "id": "fp-hija",
+      "es": "la hija",
+      "en": "daughter",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Daughter — 'mi hija' (my daughter).",
+      "scenarios": ["family"],
+      "imageQuery": "mother and daughter",
+      "image": "family-people/hija.webp"
+    },
+    {
+      "id": "fp-abuelo",
+      "es": "el abuelo",
+      "en": "grandfather",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Grandfather — informally 'abuelito'.",
+      "scenarios": ["family"],
+      "imageQuery": "grandfather elderly man",
+      "image": "family-people/abuelo.webp"
+    },
+    {
+      "id": "fp-abuela",
+      "es": "la abuela",
+      "en": "grandmother",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Grandmother — informally 'abuelita'.",
+      "scenarios": ["family"],
+      "imageQuery": "grandmother elderly woman",
+      "image": "family-people/abuela.webp"
+    },
+    {
+      "id": "fp-esposo",
+      "es": "el esposo",
+      "en": "husband",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Husband — also 'el marido'.",
+      "scenarios": ["family", "introductions"],
+      "imageQuery": "husband portrait man",
+      "image": "family-people/esposo.webp"
+    },
+    {
+      "id": "fp-esposa",
+      "es": "la esposa",
+      "en": "wife",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wife — also 'la mujer' (which also just means 'woman').",
+      "scenarios": ["family", "introductions"],
+      "imageQuery": "wife portrait woman",
+      "image": "family-people/esposa.webp"
+    },
+    {
+      "id": "fp-nino",
+      "es": "el niño",
+      "en": "boy",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Boy/child — 'los niños' = the children.",
+      "scenarios": ["family", "talking about people"],
+      "imageQuery": "young boy child",
+      "image": "family-people/nino.webp"
+    },
+    {
+      "id": "fp-nina",
+      "es": "la niña",
+      "en": "girl",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Girl/child — 'una niña pequeña' = a little girl.",
+      "scenarios": ["family", "talking about people"],
+      "imageQuery": "young girl child",
+      "image": "family-people/nina.webp"
+    },
+    {
+      "id": "fp-bebe",
+      "es": "el bebé",
+      "en": "baby",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Baby — same word for boys and girls (uses 'el').",
+      "scenarios": ["family"],
+      "imageQuery": "baby infant",
+      "image": "family-people/bebe.webp"
+    },
+    {
+      "id": "fp-amigo",
+      "es": "el amigo",
+      "en": "friend",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Friend (male, or 'la amiga' for female) — 'mi mejor amigo' = my best friend.",
+      "scenarios": ["introductions", "talking about people"],
+      "imageQuery": "friends men smiling",
+      "image": "family-people/amigo.webp"
+    },
+    {
+      "id": "fp-amiga",
+      "es": "la amiga",
+      "en": "friend (female)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Friend (female) — 'mi amiga' = my (female) friend.",
+      "scenarios": ["introductions", "talking about people"],
+      "imageQuery": "friends women smiling",
+      "image": "family-people/amiga.webp"
+    },
+    {
+      "id": "fp-hombre",
+      "es": "el hombre",
+      "en": "man",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Man — a general term, 'un hombre' (a man).",
+      "scenarios": ["talking about people", "city & directions"],
+      "imageQuery": "man portrait",
+      "image": "family-people/hombre.webp"
+    },
+    {
+      "id": "fp-mujer",
+      "es": "la mujer",
+      "en": "woman",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Woman — also used to mean 'wife' informally.",
+      "scenarios": ["talking about people", "city & directions"],
+      "imageQuery": "woman portrait",
+      "image": "family-people/mujer.webp"
+    },
+    {
+      "id": "fp-tio",
+      "es": "el tío",
+      "en": "uncle",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Uncle — 'mi tío' (my uncle); 'los tíos' can mean 'aunt and uncle' together.",
+      "scenarios": ["family"],
+      "imageQuery": "man relative portrait",
+      "image": "family-people/tio.webp"
+    },
+    {
+      "id": "fp-tia",
+      "es": "la tía",
+      "en": "aunt",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Aunt — 'mi tía' (my aunt).",
+      "scenarios": ["family"],
+      "imageQuery": "woman relative portrait",
+      "image": "family-people/tia.webp"
+    },
+    {
+      "id": "fp-primo",
+      "es": "el primo",
+      "en": "cousin",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cousin (male, or 'la prima' for female) — 'mi primo' (my cousin).",
+      "scenarios": ["family"],
+      "imageQuery": "young man portrait",
+      "image": "family-people/primo.webp"
+    },
+    {
+      "id": "fp-prima",
+      "es": "la prima",
+      "en": "cousin (female)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cousin (female) — 'mi prima' (my cousin).",
+      "scenarios": ["family"],
+      "imageQuery": "young woman portrait",
+      "image": "family-people/prima.webp"
+    }
+  ]
+}

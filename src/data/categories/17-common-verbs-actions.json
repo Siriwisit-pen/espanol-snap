@@ -1,0 +1,272 @@
+{
+  "id": "common-verbs-actions",
+  "order": 17,
+  "name": "Common Verbs & Actions",
+  "nameEs": "Verbos y acciones comunes",
+  "words": [
+    {
+      "id": "cv-comer",
+      "es": "comer",
+      "en": "to eat",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To eat — '¿quieres comer?' = do you want to eat?",
+      "scenarios": ["common verbs & actions", "daily routine"],
+      "imageQuery": "person eating food",
+      "image": "common-verbs-actions/comer.webp"
+    },
+    {
+      "id": "cv-beber",
+      "es": "beber",
+      "en": "to drink",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To drink — 'beber agua' = to drink water.",
+      "scenarios": ["common verbs & actions", "daily routine"],
+      "imageQuery": "person drinking water",
+      "image": "common-verbs-actions/beber.webp"
+    },
+    {
+      "id": "cv-dormir",
+      "es": "dormir",
+      "en": "to sleep",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To sleep — 'dormir bien' = to sleep well.",
+      "scenarios": ["common verbs & actions", "daily routine"],
+      "imageQuery": "person sleeping bed",
+      "image": "common-verbs-actions/dormir.webp"
+    },
+    {
+      "id": "cv-caminar",
+      "es": "caminar",
+      "en": "to walk",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To walk — 'caminar al trabajo' = to walk to work.",
+      "scenarios": ["common verbs & actions", "daily routine"],
+      "imageQuery": "person walking",
+      "image": "common-verbs-actions/caminar.webp"
+    },
+    {
+      "id": "cv-correr",
+      "es": "correr",
+      "en": "to run",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To run — 'correr rápido' = to run fast.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person running outdoors",
+      "image": "common-verbs-actions/correr.webp"
+    },
+    {
+      "id": "cv-hablar",
+      "es": "hablar",
+      "en": "to speak",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To speak/talk — 'hablar español' = to speak Spanish.",
+      "scenarios": ["common verbs & actions", "introductions"],
+      "imageQuery": "people talking conversation",
+      "image": "common-verbs-actions/hablar.webp"
+    },
+    {
+      "id": "cv-escuchar",
+      "es": "escuchar",
+      "en": "to listen",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To listen — 'escuchar música' = to listen to music.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person listening headphones",
+      "image": "common-verbs-actions/escuchar.webp"
+    },
+    {
+      "id": "cv-ver",
+      "es": "ver",
+      "en": "to watch",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To see/watch — 'ver la tele' = to watch TV.",
+      "scenarios": ["common verbs & actions", "daily routine"],
+      "imageQuery": "person watching tv",
+      "image": "common-verbs-actions/ver.webp"
+    },
+    {
+      "id": "cv-mirar",
+      "es": "mirar",
+      "en": "to look at",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To look (at) — 'mirar por la ventana' = to look out the window.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person looking",
+      "image": "common-verbs-actions/mirar.webp"
+    },
+    {
+      "id": "cv-hacer",
+      "es": "hacer",
+      "en": "to do",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To do/make — 'hacer la tarea' = to do homework.",
+      "scenarios": ["common verbs & actions", "school & study"],
+      "imageQuery": "person making craft hands",
+      "image": "common-verbs-actions/hacer.webp"
+    },
+    {
+      "id": "cv-ir",
+      "es": "ir",
+      "en": "to go",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To go — 'ir a casa' = to go home.",
+      "scenarios": ["common verbs & actions", "travel"],
+      "imageQuery": "person walking away path",
+      "image": "common-verbs-actions/ir.webp"
+    },
+    {
+      "id": "cv-venir",
+      "es": "venir",
+      "en": "to come",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To come — '¿puedes venir?' = can you come?",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person walking toward camera",
+      "image": "common-verbs-actions/venir.webp"
+    },
+    {
+      "id": "cv-dar",
+      "es": "dar",
+      "en": "to give",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To give — 'dar un regalo' = to give a gift.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person giving gift",
+      "image": "common-verbs-actions/dar.webp"
+    },
+    {
+      "id": "cv-tomar",
+      "es": "tomar",
+      "en": "to take",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To take, or 'to drink' — 'tomar un café' = to have a coffee.",
+      "scenarios": ["common verbs & actions", "at a café"],
+      "imageQuery": "person holding coffee cup",
+      "image": "common-verbs-actions/tomar.webp"
+    },
+    {
+      "id": "cv-abrir",
+      "es": "abrir",
+      "en": "to open",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To open — 'abrir la puerta' = to open the door.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "opening door",
+      "image": "common-verbs-actions/abrir.webp"
+    },
+    {
+      "id": "cv-cerrar",
+      "es": "cerrar",
+      "en": "to close",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To close — 'cerrar los ojos' = to close your eyes.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "closing door",
+      "image": "common-verbs-actions/cerrar.webp"
+    },
+    {
+      "id": "cv-jugar",
+      "es": "jugar",
+      "en": "to play",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To play — 'jugar fútbol' = to play soccer.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "children playing outside",
+      "image": "common-verbs-actions/jugar.webp"
+    },
+    {
+      "id": "cv-bailar",
+      "es": "bailar",
+      "en": "to dance",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To dance — '¿quieres bailar?' = do you want to dance?",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "people dancing",
+      "image": "common-verbs-actions/bailar.webp"
+    },
+    {
+      "id": "cv-cantar",
+      "es": "cantar",
+      "en": "to sing",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To sing — 'cantar una canción' = to sing a song.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person singing microphone",
+      "image": "common-verbs-actions/cantar.webp"
+    },
+    {
+      "id": "cv-nadar",
+      "es": "nadar",
+      "en": "to swim",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To swim — 'nadar en la piscina' = to swim in the pool.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person swimming pool",
+      "image": "common-verbs-actions/nadar.webp"
+    },
+    {
+      "id": "cv-ayudar",
+      "es": "ayudar",
+      "en": "to help",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To help — '¿me puedes ayudar?' = can you help me?",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "people helping each other",
+      "image": "common-verbs-actions/ayudar.webp"
+    },
+    {
+      "id": "cv-limpiar",
+      "es": "limpiar",
+      "en": "to clean",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To clean — 'limpiar la casa' = to clean the house.",
+      "scenarios": ["common verbs & actions", "at home"],
+      "imageQuery": "person cleaning house",
+      "image": "common-verbs-actions/limpiar.webp"
+    },
+    {
+      "id": "cv-esperar",
+      "es": "esperar",
+      "en": "to wait",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To wait, or 'to hope' — 'espera un momento' = wait a moment.",
+      "scenarios": ["common verbs & actions"],
+      "imageQuery": "person waiting",
+      "image": "common-verbs-actions/esperar.webp"
+    },
+    {
+      "id": "cv-empezar",
+      "es": "empezar",
+      "en": "to start",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To start/begin — 'empezar a trabajar' = to start working.",
+      "scenarios": ["common verbs & actions", "at work"],
+      "imageQuery": "starting line race",
+      "image": "common-verbs-actions/empezar.webp"
+    }
+  ]
+}

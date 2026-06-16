@@ -1,0 +1,272 @@
+{
+  "id": "kitchen-cooking",
+  "order": 7,
+  "name": "Kitchen & Cooking",
+  "nameEs": "Cocina",
+  "words": [
+    {
+      "id": "kc-nevera",
+      "es": "la nevera",
+      "en": "refrigerator",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Refrigerator — also 'el refrigerador' or 'la heladera' (Argentina).",
+      "scenarios": ["at home", "cooking"],
+      "imageQuery": "kitchen refrigerator",
+      "image": "kitchen-cooking/nevera.webp"
+    },
+    {
+      "id": "kc-estufa",
+      "es": "la estufa",
+      "en": "stove",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Stove — where you cook on the burners.",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "kitchen stove burners",
+      "image": "kitchen-cooking/estufa.webp"
+    },
+    {
+      "id": "kc-horno",
+      "es": "el horno",
+      "en": "oven",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Oven — 'al horno' = baked/roasted (cooking style).",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "kitchen oven",
+      "image": "kitchen-cooking/horno.webp"
+    },
+    {
+      "id": "kc-microondas",
+      "es": "el microondas",
+      "en": "microwave",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Microwave — doesn't change in the plural: 'los microondas'.",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "microwave kitchen",
+      "image": "kitchen-cooking/microondas.webp"
+    },
+    {
+      "id": "kc-lavavajillas",
+      "es": "el lavavajillas",
+      "en": "dishwasher",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dishwasher (machine) — from 'lavar' (to wash) + 'vajilla' (dishes).",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "dishwasher kitchen",
+      "image": "kitchen-cooking/lavavajillas.webp"
+    },
+    {
+      "id": "kc-congelador",
+      "es": "el congelador",
+      "en": "freezer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Freezer — often the top or bottom part of the nevera.",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "freezer kitchen",
+      "image": "kitchen-cooking/congelador.webp"
+    },
+    {
+      "id": "kc-olla",
+      "es": "la olla",
+      "en": "pot",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pot — used for soups and stews.",
+      "scenarios": ["cooking"],
+      "imageQuery": "cooking pot stove",
+      "image": "kitchen-cooking/olla.webp"
+    },
+    {
+      "id": "kc-sarten",
+      "es": "la sartén",
+      "en": "frying pan",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Frying pan/skillet — used for frying or sautéing.",
+      "scenarios": ["cooking"],
+      "imageQuery": "frying pan skillet",
+      "image": "kitchen-cooking/sarten.webp"
+    },
+    {
+      "id": "kc-tabla",
+      "es": "la tabla de cortar",
+      "en": "cutting board",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cutting board — used to chop vegetables, meat, etc.",
+      "scenarios": ["cooking"],
+      "imageQuery": "wooden cutting board",
+      "image": "kitchen-cooking/tabla.webp"
+    },
+    {
+      "id": "kc-fregadero",
+      "es": "el fregadero",
+      "en": "sink",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Kitchen sink — where you wash dishes.",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "kitchen sink",
+      "image": "kitchen-cooking/fregadero.webp"
+    },
+    {
+      "id": "kc-grifo",
+      "es": "el grifo",
+      "en": "faucet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Faucet/tap — 'abrir/cerrar el grifo' = to turn the faucet on/off.",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "kitchen faucet tap",
+      "image": "kitchen-cooking/grifo.webp"
+    },
+    {
+      "id": "kc-licuadora",
+      "es": "la licuadora",
+      "en": "blender",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Blender — great for smoothies and sauces.",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "kitchen blender",
+      "image": "kitchen-cooking/licuadora.webp"
+    },
+    {
+      "id": "kc-tostadora",
+      "es": "la tostadora",
+      "en": "toaster",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Toaster — for making 'tostadas' (toast).",
+      "scenarios": ["cooking", "breakfast"],
+      "imageQuery": "kitchen toaster",
+      "image": "kitchen-cooking/tostadora.webp"
+    },
+    {
+      "id": "kc-cafetera",
+      "es": "la cafetera",
+      "en": "coffee maker",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Coffee maker/pot — used to brew 'el café'.",
+      "scenarios": ["cooking", "breakfast"],
+      "imageQuery": "coffee maker machine",
+      "image": "kitchen-cooking/cafetera.webp"
+    },
+    {
+      "id": "kc-cuenco",
+      "es": "el cuenco",
+      "en": "bowl",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bowl — for cereal, soup, or salad.",
+      "scenarios": ["cooking", "breakfast"],
+      "imageQuery": "kitchen bowl",
+      "image": "kitchen-cooking/cuenco.webp"
+    },
+    {
+      "id": "kc-delantal",
+      "es": "el delantal",
+      "en": "apron",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Apron — worn to protect clothes while cooking.",
+      "scenarios": ["cooking"],
+      "imageQuery": "kitchen apron",
+      "image": "kitchen-cooking/delantal.webp"
+    },
+    {
+      "id": "kc-receta",
+      "es": "la receta",
+      "en": "recipe",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Recipe — also means 'prescription' at the doctor's.",
+      "scenarios": ["cooking"],
+      "imageQuery": "recipe cookbook",
+      "image": "kitchen-cooking/receta.webp"
+    },
+    {
+      "id": "kc-basura",
+      "es": "la basura",
+      "en": "trash",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Trash/garbage — 'sacar la basura' = to take out the trash.",
+      "scenarios": ["at home", "cooking"],
+      "imageQuery": "trash can kitchen",
+      "image": "kitchen-cooking/basura.webp"
+    },
+    {
+      "id": "kc-cocinar",
+      "es": "cocinar",
+      "en": "to cook",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To cook — 'me gusta cocinar' = I like to cook.",
+      "scenarios": ["cooking", "at home"],
+      "imageQuery": "person cooking kitchen",
+      "image": "kitchen-cooking/cocinar.webp"
+    },
+    {
+      "id": "kc-hornear",
+      "es": "hornear",
+      "en": "to bake",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To bake — used for bread, cakes, and other oven dishes.",
+      "scenarios": ["cooking"],
+      "imageQuery": "person baking oven",
+      "image": "kitchen-cooking/hornear.webp"
+    },
+    {
+      "id": "kc-freir",
+      "es": "freír",
+      "en": "to fry",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To fry — 'frito' = fried (papas fritas = fries).",
+      "scenarios": ["cooking"],
+      "imageQuery": "frying food pan",
+      "image": "kitchen-cooking/freir.webp"
+    },
+    {
+      "id": "kc-hervir",
+      "es": "hervir",
+      "en": "to boil",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To boil — 'agua hirviendo' = boiling water.",
+      "scenarios": ["cooking"],
+      "imageQuery": "boiling pot water",
+      "image": "kitchen-cooking/hervir.webp"
+    },
+    {
+      "id": "kc-cortar",
+      "es": "cortar",
+      "en": "to cut",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To cut — 'cortar las verduras' = to cut/chop the vegetables.",
+      "scenarios": ["cooking"],
+      "imageQuery": "cutting vegetables knife",
+      "image": "kitchen-cooking/cortar.webp"
+    },
+    {
+      "id": "kc-lavarplatos",
+      "es": "lavar los platos",
+      "en": "to wash the dishes",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To wash the dishes — a common household chore.",
+      "scenarios": ["at home", "cooking"],
+      "imageQuery": "washing dishes sink",
+      "image": "kitchen-cooking/lavarplatos.webp"
+    }
+  ]
+}

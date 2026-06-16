@@ -1,0 +1,272 @@
+{
+  "id": "city-directions",
+  "order": 9,
+  "name": "City & Directions",
+  "nameEs": "Ciudad y direcciones",
+  "words": [
+    {
+      "id": "cd-calle",
+      "es": "la calle",
+      "en": "street",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Street — 'en la calle' = on/in the street.",
+      "scenarios": ["city & directions", "asking for directions"],
+      "imageQuery": "city street",
+      "image": "city-directions/calle.webp"
+    },
+    {
+      "id": "cd-avenida",
+      "es": "la avenida",
+      "en": "avenue",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Avenue — usually a wider street.",
+      "scenarios": ["city & directions", "asking for directions"],
+      "imageQuery": "city avenue",
+      "image": "city-directions/avenida.webp"
+    },
+    {
+      "id": "cd-plaza",
+      "es": "la plaza",
+      "en": "square",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Square/plaza — a common meeting spot in towns.",
+      "scenarios": ["sightseeing", "city & directions"],
+      "imageQuery": "city plaza square",
+      "image": "city-directions/plaza.webp"
+    },
+    {
+      "id": "cd-parque",
+      "es": "el parque",
+      "en": "park",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Park — 'ir al parque' = to go to the park.",
+      "scenarios": ["sightseeing", "city & directions"],
+      "imageQuery": "city park",
+      "image": "city-directions/parque.webp"
+    },
+    {
+      "id": "cd-edificio",
+      "es": "el edificio",
+      "en": "building",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Building — 'un edificio alto' = a tall building.",
+      "scenarios": ["city & directions"],
+      "imageQuery": "city building",
+      "image": "city-directions/edificio.webp"
+    },
+    {
+      "id": "cd-tienda",
+      "es": "la tienda",
+      "en": "store",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Store/shop — a general word for any shop.",
+      "scenarios": ["shopping", "city & directions"],
+      "imageQuery": "small storefront shop",
+      "image": "city-directions/tienda.webp"
+    },
+    {
+      "id": "cd-banco",
+      "es": "el banco",
+      "en": "bank",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bank — also means 'bench' (a seat); context makes it clear.",
+      "scenarios": ["city & directions", "shopping & money"],
+      "imageQuery": "bank building",
+      "image": "city-directions/banco.webp"
+    },
+    {
+      "id": "cd-hospital",
+      "es": "el hospital",
+      "en": "hospital",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hospital — 'ir al hospital' = to go to the hospital.",
+      "scenarios": ["city & directions", "at the doctor"],
+      "imageQuery": "hospital building",
+      "image": "city-directions/hospital.webp"
+    },
+    {
+      "id": "cd-escuela",
+      "es": "la escuela",
+      "en": "school",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "School — 'ir a la escuela' = to go to school.",
+      "scenarios": ["city & directions", "school & study"],
+      "imageQuery": "school building",
+      "image": "city-directions/escuela.webp"
+    },
+    {
+      "id": "cd-iglesia",
+      "es": "la iglesia",
+      "en": "church",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Church — often a landmark for directions in town.",
+      "scenarios": ["sightseeing", "city & directions"],
+      "imageQuery": "church building",
+      "image": "city-directions/iglesia.webp"
+    },
+    {
+      "id": "cd-museo",
+      "es": "el museo",
+      "en": "museum",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Museum — 'visitar el museo' = to visit the museum.",
+      "scenarios": ["sightseeing"],
+      "imageQuery": "museum building",
+      "image": "city-directions/museo.webp"
+    },
+    {
+      "id": "cd-hotel",
+      "es": "el hotel",
+      "en": "hotel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hotel — 'reservar un hotel' = to book a hotel.",
+      "scenarios": ["travel", "city & directions"],
+      "imageQuery": "hotel building",
+      "image": "city-directions/hotel.webp"
+    },
+    {
+      "id": "cd-supermercado",
+      "es": "el supermercado",
+      "en": "supermarket",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Supermarket — 'ir al supermercado' = to go to the supermarket.",
+      "scenarios": ["shopping", "city & directions"],
+      "imageQuery": "supermarket exterior",
+      "image": "city-directions/supermercado.webp"
+    },
+    {
+      "id": "cd-esquina",
+      "es": "la esquina",
+      "en": "corner",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Corner — 'en la esquina' = on the corner.",
+      "scenarios": ["asking for directions", "city & directions"],
+      "imageQuery": "street corner",
+      "image": "city-directions/esquina.webp"
+    },
+    {
+      "id": "cd-semaforo",
+      "es": "el semáforo",
+      "en": "traffic light",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Traffic light — 'el semáforo está en rojo' = the light is red.",
+      "scenarios": ["asking for directions", "city & directions"],
+      "imageQuery": "traffic light street",
+      "image": "city-directions/semaforo.webp"
+    },
+    {
+      "id": "cd-puente",
+      "es": "el puente",
+      "en": "bridge",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bridge — crosses a river or road.",
+      "scenarios": ["city & directions", "sightseeing"],
+      "imageQuery": "city bridge",
+      "image": "city-directions/puente.webp"
+    },
+    {
+      "id": "cd-ayuntamiento",
+      "es": "el ayuntamiento",
+      "en": "city hall",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "City hall — local government offices.",
+      "scenarios": ["city & directions"],
+      "imageQuery": "city hall building",
+      "image": "city-directions/ayuntamiento.webp"
+    },
+    {
+      "id": "cd-letrero",
+      "es": "el letrero",
+      "en": "sign",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sign — a posted sign with information or directions.",
+      "scenarios": ["asking for directions", "city & directions"],
+      "imageQuery": "street sign",
+      "image": "city-directions/letrero.webp"
+    },
+    {
+      "id": "cd-izquierda",
+      "es": "la izquierda",
+      "en": "left",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Left — 'a la izquierda' = to the left.",
+      "scenarios": ["asking for directions"],
+      "imageQuery": "left turn arrow sign",
+      "image": "city-directions/izquierda.webp"
+    },
+    {
+      "id": "cd-derecha",
+      "es": "la derecha",
+      "en": "right",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Right — 'a la derecha' = to the right.",
+      "scenarios": ["asking for directions"],
+      "imageQuery": "right turn arrow sign",
+      "image": "city-directions/derecha.webp"
+    },
+    {
+      "id": "cd-derecho",
+      "es": "derecho",
+      "en": "straight ahead",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Straight ahead — 'todo derecho' = straight on/straight ahead.",
+      "scenarios": ["asking for directions"],
+      "imageQuery": "straight ahead arrow sign",
+      "image": "city-directions/derecho.webp"
+    },
+    {
+      "id": "cd-cerca",
+      "es": "cerca",
+      "en": "near",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Near/close — 'está cerca de aquí' = it's near here.",
+      "scenarios": ["asking for directions"],
+      "imageQuery": "close up portrait nearby",
+      "image": "city-directions/cerca.webp"
+    },
+    {
+      "id": "cd-lejos",
+      "es": "lejos",
+      "en": "far",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Far — 'está lejos' = it's far away.",
+      "scenarios": ["asking for directions"],
+      "imageQuery": "distant mountains landscape",
+      "image": "city-directions/lejos.webp"
+    },
+    {
+      "id": "cd-mapa",
+      "es": "el mapa",
+      "en": "map",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Map — note: 'el mapa' is masculine even though it ends in 'a'.",
+      "scenarios": ["asking for directions", "travel"],
+      "imageQuery": "city map",
+      "image": "city-directions/mapa.webp"
+    }
+  ]
+}
