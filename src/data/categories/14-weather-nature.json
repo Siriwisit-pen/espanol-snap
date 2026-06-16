@@ -1,0 +1,272 @@
+{
+  "id": "weather-nature",
+  "order": 14,
+  "name": "Weather & Nature",
+  "nameEs": "Clima y naturaleza",
+  "words": [
+    {
+      "id": "wn-sol",
+      "es": "el sol",
+      "en": "sun",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sun — 'hace sol' = it's sunny.",
+      "scenarios": ["weather"],
+      "imageQuery": "sun in sky",
+      "image": "weather-nature/sol.webp"
+    },
+    {
+      "id": "wn-lluvia",
+      "es": "la lluvia",
+      "en": "rain",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Rain — 'hay mucha lluvia' = there's a lot of rain.",
+      "scenarios": ["weather"],
+      "imageQuery": "rain falling",
+      "image": "weather-nature/lluvia.webp"
+    },
+    {
+      "id": "wn-nieve",
+      "es": "la nieve",
+      "en": "snow",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Snow — 'nieva' = it's snowing (from 'nevar').",
+      "scenarios": ["weather"],
+      "imageQuery": "snow winter",
+      "image": "weather-nature/nieve.webp"
+    },
+    {
+      "id": "wn-viento",
+      "es": "el viento",
+      "en": "wind",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Wind — 'hace viento' = it's windy.",
+      "scenarios": ["weather"],
+      "imageQuery": "wind blowing trees",
+      "image": "weather-nature/viento.webp"
+    },
+    {
+      "id": "wn-nube",
+      "es": "la nube",
+      "en": "cloud",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cloud — 'el cielo está nublado' = the sky is cloudy.",
+      "scenarios": ["weather"],
+      "imageQuery": "clouds in sky",
+      "image": "weather-nature/nube.webp"
+    },
+    {
+      "id": "wn-tormenta",
+      "es": "la tormenta",
+      "en": "storm",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Storm — 'una tormenta fuerte' = a strong storm.",
+      "scenarios": ["weather"],
+      "imageQuery": "storm lightning",
+      "image": "weather-nature/tormenta.webp"
+    },
+    {
+      "id": "wn-calor",
+      "es": "el calor",
+      "en": "heat",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Heat — 'tengo calor' = I'm hot / I feel hot.",
+      "scenarios": ["weather"],
+      "imageQuery": "hot sun summer",
+      "image": "weather-nature/calor.webp"
+    },
+    {
+      "id": "wn-frio",
+      "es": "el frío",
+      "en": "cold",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cold — 'tengo frío' = I'm cold / I feel cold.",
+      "scenarios": ["weather"],
+      "imageQuery": "cold winter ice",
+      "image": "weather-nature/frio.webp"
+    },
+    {
+      "id": "wn-cielo",
+      "es": "el cielo",
+      "en": "sky",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sky — also means 'heaven' in religious contexts.",
+      "scenarios": ["weather", "nature"],
+      "imageQuery": "blue sky",
+      "image": "weather-nature/cielo.webp"
+    },
+    {
+      "id": "wn-luna",
+      "es": "la luna",
+      "en": "moon",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Moon — 'luna llena' = full moon.",
+      "scenarios": ["nature"],
+      "imageQuery": "moon at night",
+      "image": "weather-nature/luna.webp"
+    },
+    {
+      "id": "wn-estrella",
+      "es": "la estrella",
+      "en": "star",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Star — 'las estrellas' = the stars.",
+      "scenarios": ["nature"],
+      "imageQuery": "stars night sky",
+      "image": "weather-nature/estrella.webp"
+    },
+    {
+      "id": "wn-arbol",
+      "es": "el árbol",
+      "en": "tree",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tree — 'un árbol grande' = a big tree.",
+      "scenarios": ["nature"],
+      "imageQuery": "tree",
+      "image": "weather-nature/arbol.webp"
+    },
+    {
+      "id": "wn-flor",
+      "es": "la flor",
+      "en": "flower",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flower — 'un ramo de flores' = a bouquet of flowers.",
+      "scenarios": ["nature"],
+      "imageQuery": "flower",
+      "image": "weather-nature/flor.webp"
+    },
+    {
+      "id": "wn-montana",
+      "es": "la montaña",
+      "en": "mountain",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mountain — 'subir la montaña' = to climb the mountain.",
+      "scenarios": ["nature", "sightseeing"],
+      "imageQuery": "mountain landscape",
+      "image": "weather-nature/montana.webp"
+    },
+    {
+      "id": "wn-rio",
+      "es": "el río",
+      "en": "river",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "River — 'a orillas del río' = on the riverbank.",
+      "scenarios": ["nature"],
+      "imageQuery": "river",
+      "image": "weather-nature/rio.webp"
+    },
+    {
+      "id": "wn-mar",
+      "es": "el mar",
+      "en": "sea",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sea — 'ir al mar' = to go to the sea.",
+      "scenarios": ["nature", "travel"],
+      "imageQuery": "sea ocean horizon",
+      "image": "weather-nature/mar.webp"
+    },
+    {
+      "id": "wn-playa",
+      "es": "la playa",
+      "en": "beach",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Beach — 'ir a la playa' = to go to the beach.",
+      "scenarios": ["nature", "travel"],
+      "imageQuery": "beach",
+      "image": "weather-nature/playa.webp"
+    },
+    {
+      "id": "wn-bosque",
+      "es": "el bosque",
+      "en": "forest",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Forest — 'caminar por el bosque' = to walk through the forest.",
+      "scenarios": ["nature"],
+      "imageQuery": "forest trees",
+      "image": "weather-nature/bosque.webp"
+    },
+    {
+      "id": "wn-primavera",
+      "es": "la primavera",
+      "en": "spring",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Spring — the season after winter, when flowers bloom.",
+      "scenarios": ["weather", "nature"],
+      "imageQuery": "spring blossoms flowers",
+      "image": "weather-nature/primavera.webp"
+    },
+    {
+      "id": "wn-verano",
+      "es": "el verano",
+      "en": "summer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Summer — the warmest season.",
+      "scenarios": ["weather", "nature"],
+      "imageQuery": "summer beach sunny",
+      "image": "weather-nature/verano.webp"
+    },
+    {
+      "id": "wn-otono",
+      "es": "el otoño",
+      "en": "autumn",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Autumn/fall — when leaves change color and fall.",
+      "scenarios": ["weather", "nature"],
+      "imageQuery": "autumn leaves fall",
+      "image": "weather-nature/otono.webp"
+    },
+    {
+      "id": "wn-invierno",
+      "es": "el invierno",
+      "en": "winter",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Winter — the coldest season.",
+      "scenarios": ["weather", "nature"],
+      "imageQuery": "winter snow landscape",
+      "image": "weather-nature/invierno.webp"
+    },
+    {
+      "id": "wn-temperatura",
+      "es": "la temperatura",
+      "en": "temperature",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Temperature — '¿qué temperatura hace?' = what's the temperature?",
+      "scenarios": ["weather"],
+      "imageQuery": "thermometer temperature outdoor",
+      "image": "weather-nature/temperatura.webp"
+    },
+    {
+      "id": "wn-arcoiris",
+      "es": "el arcoíris",
+      "en": "rainbow",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rainbow — appears after rain on a sunny day.",
+      "scenarios": ["weather", "nature"],
+      "imageQuery": "rainbow sky",
+      "image": "weather-nature/arcoiris.webp"
+    }
+  ]
+}

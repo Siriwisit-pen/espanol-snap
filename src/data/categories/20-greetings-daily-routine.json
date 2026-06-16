@@ -1,0 +1,272 @@
+{
+  "id": "greetings-daily-routine",
+  "order": 20,
+  "name": "Greetings & Daily Routine",
+  "nameEs": "Saludos y rutina diaria",
+  "words": [
+    {
+      "id": "gd-hola",
+      "es": "hola",
+      "en": "hello",
+      "pos": "interjection",
+      "gender": null,
+      "hint": "Hello/hi — the most common greeting.",
+      "scenarios": ["greetings", "introductions"],
+      "imageQuery": "person waving hello",
+      "image": "greetings-daily-routine/hola.webp"
+    },
+    {
+      "id": "gd-adios",
+      "es": "adiós",
+      "en": "goodbye",
+      "pos": "interjection",
+      "gender": null,
+      "hint": "Goodbye — also 'hasta luego' (see you later) or 'chao'.",
+      "scenarios": ["greetings"],
+      "imageQuery": "person waving goodbye",
+      "image": "greetings-daily-routine/adios.webp"
+    },
+    {
+      "id": "gd-buenosdias",
+      "es": "buenos días",
+      "en": "good morning",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "Good morning — used until around noon.",
+      "scenarios": ["greetings", "daily routine"],
+      "imageQuery": "sunrise good morning",
+      "image": "greetings-daily-routine/buenosdias.webp"
+    },
+    {
+      "id": "gd-buenastardes",
+      "es": "buenas tardes",
+      "en": "good afternoon",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "Good afternoon — used from noon until evening.",
+      "scenarios": ["greetings", "daily routine"],
+      "imageQuery": "afternoon greeting",
+      "image": "greetings-daily-routine/buenastardes.webp"
+    },
+    {
+      "id": "gd-buenasnoches",
+      "es": "buenas noches",
+      "en": "good night",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "Good night/good evening — used in the evening or at bedtime.",
+      "scenarios": ["greetings", "daily routine"],
+      "imageQuery": "good night moon bedtime",
+      "image": "greetings-daily-routine/buenasnoches.webp"
+    },
+    {
+      "id": "gd-porfavor",
+      "es": "por favor",
+      "en": "please",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "Please — add this to be polite: 'un café, por favor'.",
+      "scenarios": ["greetings", "at a restaurant"],
+      "imageQuery": "polite request gesture",
+      "image": "greetings-daily-routine/porfavor.webp"
+    },
+    {
+      "id": "gd-gracias",
+      "es": "gracias",
+      "en": "thank you",
+      "pos": "interjection",
+      "gender": null,
+      "hint": "Thank you — 'muchas gracias' = thank you very much.",
+      "scenarios": ["greetings"],
+      "imageQuery": "thank you gesture",
+      "image": "greetings-daily-routine/gracias.webp"
+    },
+    {
+      "id": "gd-denada",
+      "es": "de nada",
+      "en": "you're welcome",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "You're welcome — the reply to 'gracias'.",
+      "scenarios": ["greetings"],
+      "imageQuery": "friendly open hand gesture",
+      "image": "greetings-daily-routine/denada.webp"
+    },
+    {
+      "id": "gd-losiento",
+      "es": "lo siento",
+      "en": "I'm sorry",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "I'm sorry — used to apologize.",
+      "scenarios": ["greetings"],
+      "imageQuery": "apologetic person",
+      "image": "greetings-daily-routine/losiento.webp"
+    },
+    {
+      "id": "gd-perdon",
+      "es": "perdón",
+      "en": "excuse me",
+      "pos": "interjection",
+      "gender": null,
+      "hint": "Excuse me / sorry — also used to get someone's attention.",
+      "scenarios": ["greetings", "asking for directions"],
+      "imageQuery": "person getting attention politely",
+      "image": "greetings-daily-routine/perdon.webp"
+    },
+    {
+      "id": "gd-si",
+      "es": "sí",
+      "en": "yes",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Yes — note the accent mark (sí = yes, si = if).",
+      "scenarios": ["greetings"],
+      "imageQuery": "thumbs up yes",
+      "image": "greetings-daily-routine/si.webp"
+    },
+    {
+      "id": "gd-no",
+      "es": "no",
+      "en": "no",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "No — also used like 'don't' in commands.",
+      "scenarios": ["greetings"],
+      "imageQuery": "thumbs down no",
+      "image": "greetings-daily-routine/no.webp"
+    },
+    {
+      "id": "gd-comoestas",
+      "es": "¿cómo estás?",
+      "en": "how are you?",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "How are you? — a common greeting question.",
+      "scenarios": ["greetings", "introductions"],
+      "imageQuery": "two people greeting talking",
+      "image": "greetings-daily-routine/comoestas.webp"
+    },
+    {
+      "id": "gd-muchogusto",
+      "es": "mucho gusto",
+      "en": "nice to meet you",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "Nice to meet you — said when meeting someone new.",
+      "scenarios": ["greetings", "introductions"],
+      "imageQuery": "handshake introduction",
+      "image": "greetings-daily-routine/muchogusto.webp"
+    },
+    {
+      "id": "gd-despertarse",
+      "es": "despertarse",
+      "en": "to wake up",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To wake up — 'me despierto a las siete' = I wake up at seven.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "person waking up in bed",
+      "image": "greetings-daily-routine/despertarse.webp"
+    },
+    {
+      "id": "gd-levantarse",
+      "es": "levantarse",
+      "en": "to get up",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To get up (out of bed) — 'levantarse temprano' = to get up early.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "person getting out of bed",
+      "image": "greetings-daily-routine/levantarse.webp"
+    },
+    {
+      "id": "gd-ducharse",
+      "es": "ducharse",
+      "en": "to shower",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To shower — 'ducharse por la mañana' = to shower in the morning.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "shower bathroom",
+      "image": "greetings-daily-routine/ducharse.webp"
+    },
+    {
+      "id": "gd-vestirse",
+      "es": "vestirse",
+      "en": "to get dressed",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To get dressed — 'vestirse rápido' = to get dressed quickly.",
+      "scenarios": ["daily routine", "getting dressed"],
+      "imageQuery": "person getting dressed",
+      "image": "greetings-daily-routine/vestirse.webp"
+    },
+    {
+      "id": "gd-desayunar",
+      "es": "desayunar",
+      "en": "to have breakfast",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To have breakfast — 'desayunar a las ocho' = to have breakfast at eight.",
+      "scenarios": ["daily routine", "breakfast"],
+      "imageQuery": "person eating breakfast",
+      "image": "greetings-daily-routine/desayunar.webp"
+    },
+    {
+      "id": "gd-acostarse",
+      "es": "acostarse",
+      "en": "to go to bed",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To go to bed — 'acostarse temprano' = to go to bed early.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "person going to bed",
+      "image": "greetings-daily-routine/acostarse.webp"
+    },
+    {
+      "id": "gd-cepillo",
+      "es": "el cepillo de dientes",
+      "en": "toothbrush",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Toothbrush — used with 'pasta de dientes'.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "toothbrush",
+      "image": "greetings-daily-routine/cepillo.webp"
+    },
+    {
+      "id": "gd-pasta",
+      "es": "la pasta de dientes",
+      "en": "toothpaste",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Toothpaste — also 'dentífrico'.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "toothpaste tube",
+      "image": "greetings-daily-routine/pasta.webp"
+    },
+    {
+      "id": "gd-jabon",
+      "es": "el jabón",
+      "en": "soap",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Soap — 'lavarse las manos con jabón' = to wash your hands with soap.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "bar of soap",
+      "image": "greetings-daily-routine/jabon.webp"
+    },
+    {
+      "id": "gd-champu",
+      "es": "el champú",
+      "en": "shampoo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shampoo — used to wash your hair.",
+      "scenarios": ["daily routine"],
+      "imageQuery": "shampoo bottle",
+      "image": "greetings-daily-routine/champu.webp"
+    }
+  ]
+}

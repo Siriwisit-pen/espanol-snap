@@ -1,0 +1,272 @@
+{
+  "id": "animals",
+  "order": 15,
+  "name": "Animals",
+  "nameEs": "Animales",
+  "words": [
+    {
+      "id": "an-perro",
+      "es": "el perro",
+      "en": "dog",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dog — 'mi perro' = my dog.",
+      "scenarios": ["animals"],
+      "imageQuery": "dog",
+      "image": "animals/perro.webp"
+    },
+    {
+      "id": "an-gato",
+      "es": "el gato",
+      "en": "cat",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cat — 'el gato duerme mucho' = the cat sleeps a lot.",
+      "scenarios": ["animals"],
+      "imageQuery": "cat",
+      "image": "animals/gato.webp"
+    },
+    {
+      "id": "an-pajaro",
+      "es": "el pájaro",
+      "en": "bird",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bird — a general word for birds.",
+      "scenarios": ["animals", "nature"],
+      "imageQuery": "small bird",
+      "image": "animals/pajaro.webp"
+    },
+    {
+      "id": "an-caballo",
+      "es": "el caballo",
+      "en": "horse",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Horse — 'montar a caballo' = to ride a horse.",
+      "scenarios": ["animals"],
+      "imageQuery": "horse",
+      "image": "animals/caballo.webp"
+    },
+    {
+      "id": "an-vaca",
+      "es": "la vaca",
+      "en": "cow",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cow — gives 'la leche' (milk).",
+      "scenarios": ["animals"],
+      "imageQuery": "cow",
+      "image": "animals/vaca.webp"
+    },
+    {
+      "id": "an-cerdo",
+      "es": "el cerdo",
+      "en": "pig",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pig — also 'el cochino' or 'el chancho' in some regions.",
+      "scenarios": ["animals"],
+      "imageQuery": "pig",
+      "image": "animals/cerdo.webp"
+    },
+    {
+      "id": "an-oveja",
+      "es": "la oveja",
+      "en": "sheep",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sheep — gives 'la lana' (wool).",
+      "scenarios": ["animals"],
+      "imageQuery": "sheep",
+      "image": "animals/oveja.webp"
+    },
+    {
+      "id": "an-gallina",
+      "es": "la gallina",
+      "en": "hen",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hen — the female chicken; 'el pollo' is the meat or young chicken.",
+      "scenarios": ["animals"],
+      "imageQuery": "hen chicken",
+      "image": "animals/gallina.webp"
+    },
+    {
+      "id": "an-pez",
+      "es": "el pez",
+      "en": "fish",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fish (live, in water) — the plural is 'los peces'.",
+      "scenarios": ["animals", "nature"],
+      "imageQuery": "fish swimming",
+      "image": "animals/pez.webp"
+    },
+    {
+      "id": "an-raton",
+      "es": "el ratón",
+      "en": "mouse",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mouse — also means a computer 'mouse'.",
+      "scenarios": ["animals"],
+      "imageQuery": "mouse animal",
+      "image": "animals/raton.webp"
+    },
+    {
+      "id": "an-conejo",
+      "es": "el conejo",
+      "en": "rabbit",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rabbit — known for its long ears.",
+      "scenarios": ["animals"],
+      "imageQuery": "rabbit",
+      "image": "animals/conejo.webp"
+    },
+    {
+      "id": "an-leon",
+      "es": "el león",
+      "en": "lion",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lion — called the 'rey de la selva' (king of the jungle).",
+      "scenarios": ["animals"],
+      "imageQuery": "lion",
+      "image": "animals/leon.webp"
+    },
+    {
+      "id": "an-tigre",
+      "es": "el tigre",
+      "en": "tiger",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tiger — has orange and black stripes.",
+      "scenarios": ["animals"],
+      "imageQuery": "tiger",
+      "image": "animals/tigre.webp"
+    },
+    {
+      "id": "an-elefante",
+      "es": "el elefante",
+      "en": "elephant",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Elephant — the largest land animal.",
+      "scenarios": ["animals"],
+      "imageQuery": "elephant",
+      "image": "animals/elefante.webp"
+    },
+    {
+      "id": "an-oso",
+      "es": "el oso",
+      "en": "bear",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bear — 'un oso pardo' = a brown bear.",
+      "scenarios": ["animals"],
+      "imageQuery": "bear",
+      "image": "animals/oso.webp"
+    },
+    {
+      "id": "an-mono",
+      "es": "el mono",
+      "en": "monkey",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Monkey — likes to climb trees.",
+      "scenarios": ["animals"],
+      "imageQuery": "monkey",
+      "image": "animals/mono.webp"
+    },
+    {
+      "id": "an-serpiente",
+      "es": "la serpiente",
+      "en": "snake",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Snake — also called 'la culebra'.",
+      "scenarios": ["animals"],
+      "imageQuery": "snake",
+      "image": "animals/serpiente.webp"
+    },
+    {
+      "id": "an-arana",
+      "es": "la araña",
+      "en": "spider",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Spider — has eight legs.",
+      "scenarios": ["animals"],
+      "imageQuery": "spider",
+      "image": "animals/arana.webp"
+    },
+    {
+      "id": "an-mariposa",
+      "es": "la mariposa",
+      "en": "butterfly",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Butterfly — starts life as 'una oruga' (caterpillar).",
+      "scenarios": ["animals", "nature"],
+      "imageQuery": "butterfly",
+      "image": "animals/mariposa.webp"
+    },
+    {
+      "id": "an-abeja",
+      "es": "la abeja",
+      "en": "bee",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bee — makes 'la miel' (honey).",
+      "scenarios": ["animals", "nature"],
+      "imageQuery": "bee on flower",
+      "image": "animals/abeja.webp"
+    },
+    {
+      "id": "an-lobo",
+      "es": "el lobo",
+      "en": "wolf",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Wolf — known for howling at night.",
+      "scenarios": ["animals"],
+      "imageQuery": "wolf",
+      "image": "animals/lobo.webp"
+    },
+    {
+      "id": "an-rana",
+      "es": "la rana",
+      "en": "frog",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Frog — lives near water and jumps.",
+      "scenarios": ["animals", "nature"],
+      "imageQuery": "frog",
+      "image": "animals/rana.webp"
+    },
+    {
+      "id": "an-tiburon",
+      "es": "el tiburón",
+      "en": "shark",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shark — lives in 'el mar' (the sea).",
+      "scenarios": ["animals", "nature"],
+      "imageQuery": "shark",
+      "image": "animals/tiburon.webp"
+    },
+    {
+      "id": "an-delfin",
+      "es": "el delfín",
+      "en": "dolphin",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dolphin — a friendly, intelligent sea animal.",
+      "scenarios": ["animals", "nature"],
+      "imageQuery": "dolphin",
+      "image": "animals/delfin.webp"
+    }
+  ]
+}

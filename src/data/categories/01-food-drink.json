@@ -1,0 +1,283 @@
+{
+  "id": "food-drink",
+  "order": 1,
+  "name": "Food & Drink",
+  "nameEs": "Comida y bebida",
+  "words": [
+    {
+      "id": "fd-pan",
+      "es": "el pan",
+      "en": "bread",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bread — an everyday staple. Buy it fresh at the bakery (la panadería) or eat it with meals.",
+      "scenarios": ["at the supermarket", "at the bakery", "breakfast"],
+      "imageQuery": "bread loaf",
+      "image": "food-drink/pan.webp"
+    },
+    {
+      "id": "fd-agua",
+      "es": "el agua",
+      "en": "water",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Water — note it's feminine (el agua, but la with adjectives). Order 'un vaso de agua' (a glass of water).",
+      "scenarios": ["at a restaurant", "at the supermarket"],
+      "imageQuery": "glass of water",
+      "image": "food-drink/agua.webp"
+    },
+    {
+      "id": "fd-leche",
+      "es": "la leche",
+      "en": "milk",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Milk — for coffee, cereal, or drinking. Find it in the dairy section of the supermarket.",
+      "scenarios": ["at the supermarket", "breakfast"],
+      "imageQuery": "glass of milk",
+      "image": "food-drink/leche.webp"
+    },
+    {
+      "id": "fd-cafe",
+      "es": "el café",
+      "en": "coffee",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Coffee — the hot drink. Order 'un café' at a café or make one at home in the morning.",
+      "scenarios": ["at a café", "breakfast"],
+      "imageQuery": "cup of coffee",
+      "image": "food-drink/cafe.webp"
+    },
+    {
+      "id": "fd-te",
+      "es": "el té",
+      "en": "tea",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tea — the hot drink. Ask for 'un té' at a café; common with herbs (té de manzanilla).",
+      "scenarios": ["at a café", "breakfast"],
+      "imageQuery": "cup of tea",
+      "image": "food-drink/te.webp"
+    },
+    {
+      "id": "fd-jugo",
+      "es": "el jugo",
+      "en": "juice",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Juice — fruit drink (in Spain often 'el zumo'). Order 'un jugo de naranja' (orange juice).",
+      "scenarios": ["at a café", "breakfast"],
+      "imageQuery": "glass of orange juice",
+      "image": "food-drink/jugo.webp"
+    },
+    {
+      "id": "fd-manzana",
+      "es": "la manzana",
+      "en": "apple",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Apple — the fruit. A common healthy snack; buy it by the kilo at the market.",
+      "scenarios": ["at the supermarket", "at the market"],
+      "imageQuery": "red apple",
+      "image": "food-drink/manzana.webp"
+    },
+    {
+      "id": "fd-platano",
+      "es": "el plátano",
+      "en": "banana",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Banana — the fruit (some countries say 'la banana'). A quick, portable snack.",
+      "scenarios": ["at the supermarket", "at the market"],
+      "imageQuery": "banana fruit",
+      "image": "food-drink/platano.webp"
+    },
+    {
+      "id": "fd-naranja",
+      "es": "la naranja",
+      "en": "orange",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Orange — the fruit. Also the color. Squeeze it for fresh juice (jugo de naranja).",
+      "scenarios": ["at the supermarket", "at the market"],
+      "imageQuery": "orange fruit",
+      "image": "food-drink/naranja.webp"
+    },
+    {
+      "id": "fd-huevo",
+      "es": "el huevo",
+      "en": "egg",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Egg — fried, scrambled, or boiled (huevos revueltos = scrambled eggs). A breakfast classic.",
+      "scenarios": ["at the supermarket", "breakfast", "cooking"],
+      "imageQuery": "eggs",
+      "image": "food-drink/huevo.webp"
+    },
+    {
+      "id": "fd-queso",
+      "es": "el queso",
+      "en": "cheese",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cheese — for sandwiches, pizza, or on its own. Ask for it at the deli counter.",
+      "scenarios": ["at the supermarket", "at a restaurant"],
+      "imageQuery": "cheese",
+      "image": "food-drink/queso.webp"
+    },
+    {
+      "id": "fd-carne",
+      "es": "la carne",
+      "en": "meat",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Meat — beef and red meat generally. Buy it at the butcher's (la carnicería).",
+      "scenarios": ["at the supermarket", "at a restaurant", "cooking"],
+      "imageQuery": "raw meat steak",
+      "image": "food-drink/carne.webp"
+    },
+    {
+      "id": "fd-pollo",
+      "es": "el pollo",
+      "en": "chicken",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chicken — the meat. A common main dish (pollo asado = roast chicken).",
+      "scenarios": ["at a restaurant", "cooking", "at the supermarket"],
+      "imageQuery": "roast chicken",
+      "image": "food-drink/pollo.webp"
+    },
+    {
+      "id": "fd-pescado",
+      "es": "el pescado",
+      "en": "fish",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fish — as food (a live fish is 'el pez'). Common on restaurant menus near the coast.",
+      "scenarios": ["at a restaurant", "cooking"],
+      "imageQuery": "cooked fish fillet plate",
+      "image": "food-drink/pescado.webp"
+    },
+    {
+      "id": "fd-arroz",
+      "es": "el arroz",
+      "en": "rice",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rice — a staple side dish. Famous in paella (arroz con pollo = rice with chicken).",
+      "scenarios": ["cooking", "at a restaurant"],
+      "imageQuery": "bowl of white rice",
+      "image": "food-drink/arroz.webp"
+    },
+    {
+      "id": "fd-sopa",
+      "es": "la sopa",
+      "en": "soup",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Soup — a warm starter. Order it as a first course (de primero, una sopa).",
+      "scenarios": ["at a restaurant", "cooking"],
+      "imageQuery": "bowl of soup",
+      "image": "food-drink/sopa.webp"
+    },
+    {
+      "id": "fd-ensalada",
+      "es": "la ensalada",
+      "en": "salad",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Salad — fresh vegetables. A light, healthy option on most menus.",
+      "scenarios": ["at a restaurant", "cooking"],
+      "imageQuery": "fresh green salad bowl",
+      "image": "food-drink/ensalada.webp"
+    },
+    {
+      "id": "fd-azucar",
+      "es": "el azúcar",
+      "en": "sugar",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sugar — to sweeten coffee or tea. Ask: '¿Tienes azúcar?' (Do you have sugar?).",
+      "scenarios": ["at a café", "cooking"],
+      "imageQuery": "sugar bowl",
+      "image": "food-drink/azucar.webp"
+    },
+    {
+      "id": "fd-sal",
+      "es": "la sal",
+      "en": "salt",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Salt — to season food. At the table: '¿Me pasas la sal?' (Pass me the salt?).",
+      "scenarios": ["at a restaurant", "cooking"],
+      "imageQuery": "salt",
+      "image": "food-drink/sal.webp"
+    },
+    {
+      "id": "fd-aceite",
+      "es": "el aceite",
+      "en": "oil",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Oil — for cooking and salads, especially olive oil (aceite de oliva).",
+      "scenarios": ["cooking", "at the supermarket"],
+      "imageQuery": "olive oil bottle",
+      "image": "food-drink/aceite.webp"
+    },
+    {
+      "id": "fd-mantequilla",
+      "es": "la mantequilla",
+      "en": "butter",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Butter — to spread on bread or cook with. Find it near the milk in the supermarket.",
+      "scenarios": ["breakfast", "cooking", "at the supermarket"],
+      "imageQuery": "butter",
+      "image": "food-drink/mantequilla.webp"
+    },
+    {
+      "id": "fd-vino",
+      "es": "el vino",
+      "en": "wine",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Wine — red (tinto) or white (blanco). Order 'una copa de vino' (a glass of wine).",
+      "scenarios": ["at a restaurant"],
+      "imageQuery": "glass of red wine",
+      "image": "food-drink/vino.webp"
+    },
+    {
+      "id": "fd-cerveza",
+      "es": "la cerveza",
+      "en": "beer",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Beer — order 'una cerveza' at a bar; a small draft is 'una caña' in Spain.",
+      "scenarios": ["at a restaurant", "at a bar"],
+      "imageQuery": "glass of beer",
+      "image": "food-drink/cerveza.webp"
+    },
+    {
+      "id": "fd-helado",
+      "es": "el helado",
+      "en": "ice cream",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ice cream — a cold dessert. Order it by scoops/flavors (de chocolate, de fresa).",
+      "scenarios": ["at a restaurant", "dessert"],
+      "imageQuery": "ice cream cone",
+      "image": "food-drink/helado.webp"
+    },
+    {
+      "id": "fd-chocolate",
+      "es": "el chocolate",
+      "en": "chocolate",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chocolate — a sweet treat, also a hot drink (chocolate caliente).",
+      "scenarios": ["dessert", "at the supermarket"],
+      "imageQuery": "chocolate bar",
+      "image": "food-drink/chocolate.webp"
+    }
+  ]
+}

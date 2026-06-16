@@ -1,0 +1,272 @@
+{
+  "id": "technology-phone",
+  "order": 19,
+  "name": "Technology & Phone",
+  "nameEs": "Tecnología y teléfono",
+  "words": [
+    {
+      "id": "tp-telefono",
+      "es": "el teléfono",
+      "en": "phone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Phone — 'hablar por teléfono' = to talk on the phone.",
+      "scenarios": ["technology", "daily routine"],
+      "imageQuery": "smartphone",
+      "image": "technology-phone/telefono.webp"
+    },
+    {
+      "id": "tp-celular",
+      "es": "el celular",
+      "en": "cell phone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cell phone — also 'el móvil' in Spain.",
+      "scenarios": ["technology", "daily routine"],
+      "imageQuery": "person holding cell phone",
+      "image": "technology-phone/celular.webp"
+    },
+    {
+      "id": "tp-pantalla",
+      "es": "la pantalla",
+      "en": "screen",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Screen — 'la pantalla del teléfono' = the phone screen.",
+      "scenarios": ["technology"],
+      "imageQuery": "phone screen display",
+      "image": "technology-phone/pantalla.webp"
+    },
+    {
+      "id": "tp-aplicacion",
+      "es": "la aplicación",
+      "en": "app",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "App — informally 'la app'.",
+      "scenarios": ["technology"],
+      "imageQuery": "phone apps screen icons",
+      "image": "technology-phone/aplicacion.webp"
+    },
+    {
+      "id": "tp-contrasena",
+      "es": "la contraseña",
+      "en": "password",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Password — 'olvidé mi contraseña' = I forgot my password.",
+      "scenarios": ["technology"],
+      "imageQuery": "password lock screen",
+      "image": "technology-phone/contrasena.webp"
+    },
+    {
+      "id": "tp-internet",
+      "es": "el internet",
+      "en": "internet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Internet — 'conectarse a internet' = to connect to the internet.",
+      "scenarios": ["technology"],
+      "imageQuery": "internet connection wifi",
+      "image": "technology-phone/internet.webp"
+    },
+    {
+      "id": "tp-wifi",
+      "es": "el wifi",
+      "en": "wifi",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Wi-Fi — '¿tienen wifi?' = do you have wifi?",
+      "scenarios": ["technology", "at a café"],
+      "imageQuery": "wifi symbol icon",
+      "image": "technology-phone/wifi.webp"
+    },
+    {
+      "id": "tp-bateria",
+      "es": "la batería",
+      "en": "battery",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Battery — 'la batería está baja' = the battery is low.",
+      "scenarios": ["technology"],
+      "imageQuery": "phone battery charging",
+      "image": "technology-phone/bateria.webp"
+    },
+    {
+      "id": "tp-cargador",
+      "es": "el cargador",
+      "en": "charger",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Charger — 'el cargador del teléfono' = the phone charger.",
+      "scenarios": ["technology"],
+      "imageQuery": "phone charger cable",
+      "image": "technology-phone/cargador.webp"
+    },
+    {
+      "id": "tp-camara",
+      "es": "la cámara",
+      "en": "camera",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Camera — 'tomar una foto con la cámara' = to take a photo with the camera.",
+      "scenarios": ["technology"],
+      "imageQuery": "camera",
+      "image": "technology-phone/camara.webp"
+    },
+    {
+      "id": "tp-foto",
+      "es": "la foto",
+      "en": "photo",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Photo — short for 'fotografía'.",
+      "scenarios": ["technology"],
+      "imageQuery": "printed photo picture",
+      "image": "technology-phone/foto.webp"
+    },
+    {
+      "id": "tp-video",
+      "es": "el video",
+      "en": "video",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Video — 'ver un video' = to watch a video.",
+      "scenarios": ["technology"],
+      "imageQuery": "video play button",
+      "image": "technology-phone/video.webp"
+    },
+    {
+      "id": "tp-mensaje",
+      "es": "el mensaje",
+      "en": "message",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Message — 'enviar un mensaje' = to send a message.",
+      "scenarios": ["technology"],
+      "imageQuery": "text message chat screen",
+      "image": "technology-phone/mensaje.webp"
+    },
+    {
+      "id": "tp-llamar",
+      "es": "llamar",
+      "en": "to call",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To call — 'llamar por teléfono' = to call on the phone.",
+      "scenarios": ["technology"],
+      "imageQuery": "person making phone call",
+      "image": "technology-phone/llamar.webp"
+    },
+    {
+      "id": "tp-enviar",
+      "es": "enviar",
+      "en": "to send",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To send — 'enviar un correo' = to send an email.",
+      "scenarios": ["technology", "at work"],
+      "imageQuery": "sending message icon",
+      "image": "technology-phone/enviar.webp"
+    },
+    {
+      "id": "tp-descargar",
+      "es": "descargar",
+      "en": "to download",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To download — 'descargar una aplicación' = to download an app.",
+      "scenarios": ["technology"],
+      "imageQuery": "download icon arrow",
+      "image": "technology-phone/descargar.webp"
+    },
+    {
+      "id": "tp-redsocial",
+      "es": "la red social",
+      "en": "social media",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Social media — 'las redes sociales' = social media (platforms).",
+      "scenarios": ["technology"],
+      "imageQuery": "social media icons phone",
+      "image": "technology-phone/redsocial.webp"
+    },
+    {
+      "id": "tp-notificacion",
+      "es": "la notificación",
+      "en": "notification",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Notification — 'recibir una notificación' = to receive a notification.",
+      "scenarios": ["technology"],
+      "imageQuery": "phone notification alert",
+      "image": "technology-phone/notificacion.webp"
+    },
+    {
+      "id": "tp-archivo",
+      "es": "el archivo",
+      "en": "file",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "File — 'abrir un archivo' = to open a file.",
+      "scenarios": ["technology", "at work"],
+      "imageQuery": "computer file folder icon",
+      "image": "technology-phone/archivo.webp"
+    },
+    {
+      "id": "tp-tableta",
+      "es": "la tableta",
+      "en": "tablet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Tablet (device) — like an iPad.",
+      "scenarios": ["technology"],
+      "imageQuery": "tablet device",
+      "image": "technology-phone/tableta.webp"
+    },
+    {
+      "id": "tp-auriculares",
+      "es": "los auriculares",
+      "en": "headphones",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Headphones — also 'los audífonos'.",
+      "scenarios": ["technology"],
+      "imageQuery": "headphones",
+      "image": "technology-phone/auriculares.webp"
+    },
+    {
+      "id": "tp-codigoqr",
+      "es": "el código QR",
+      "en": "QR code",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "QR code — scan it with your phone's camera.",
+      "scenarios": ["technology", "shopping"],
+      "imageQuery": "QR code",
+      "image": "technology-phone/codigoqr.webp"
+    },
+    {
+      "id": "tp-encender",
+      "es": "encender",
+      "en": "to turn on",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To turn on — 'encender el teléfono' = to turn on the phone.",
+      "scenarios": ["technology", "daily routine"],
+      "imageQuery": "turning on power button",
+      "image": "technology-phone/encender.webp"
+    },
+    {
+      "id": "tp-apagar",
+      "es": "apagar",
+      "en": "to turn off",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To turn off — 'apagar el teléfono' = to turn off the phone.",
+      "scenarios": ["technology", "daily routine"],
+      "imageQuery": "turning off power button",
+      "image": "technology-phone/apagar.webp"
+    }
+  ]
+}

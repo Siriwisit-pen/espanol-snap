@@ -1,0 +1,272 @@
+{
+  "id": "numbers-time-dates",
+  "order": 13,
+  "name": "Numbers, Time & Dates",
+  "nameEs": "Números, hora y fecha",
+  "words": [
+    {
+      "id": "nt-uno",
+      "es": "uno",
+      "en": "one",
+      "pos": "number",
+      "gender": null,
+      "hint": "One — the number 1.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "number one",
+      "image": "numbers-time-dates/uno.webp"
+    },
+    {
+      "id": "nt-dos",
+      "es": "dos",
+      "en": "two",
+      "pos": "number",
+      "gender": null,
+      "hint": "Two — the number 2.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "number two",
+      "image": "numbers-time-dates/dos.webp"
+    },
+    {
+      "id": "nt-tres",
+      "es": "tres",
+      "en": "three",
+      "pos": "number",
+      "gender": null,
+      "hint": "Three — the number 3.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "number three",
+      "image": "numbers-time-dates/tres.webp"
+    },
+    {
+      "id": "nt-diez",
+      "es": "diez",
+      "en": "ten",
+      "pos": "number",
+      "gender": null,
+      "hint": "Ten — the number 10.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "number ten",
+      "image": "numbers-time-dates/diez.webp"
+    },
+    {
+      "id": "nt-veinte",
+      "es": "veinte",
+      "en": "twenty",
+      "pos": "number",
+      "gender": null,
+      "hint": "Twenty — the number 20.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "number twenty",
+      "image": "numbers-time-dates/veinte.webp"
+    },
+    {
+      "id": "nt-cien",
+      "es": "cien",
+      "en": "one hundred",
+      "pos": "number",
+      "gender": null,
+      "hint": "One hundred — the number 100.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "number one hundred",
+      "image": "numbers-time-dates/cien.webp"
+    },
+    {
+      "id": "nt-numero",
+      "es": "el número",
+      "en": "number",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Number — '¿qué número?' = what number?",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "numbers digits",
+      "image": "numbers-time-dates/numero.webp"
+    },
+    {
+      "id": "nt-hora",
+      "es": "la hora",
+      "en": "hour",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hour, or 'time' — '¿qué hora es?' = what time is it?",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "clock face time",
+      "image": "numbers-time-dates/hora.webp"
+    },
+    {
+      "id": "nt-minuto",
+      "es": "el minuto",
+      "en": "minute",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Minute — 'espera un minuto' = wait a minute.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "stopwatch minute",
+      "image": "numbers-time-dates/minuto.webp"
+    },
+    {
+      "id": "nt-reloj",
+      "es": "el reloj",
+      "en": "clock",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Clock or watch — 'mirar el reloj' = to look at the clock.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "wrist watch",
+      "image": "numbers-time-dates/reloj.webp"
+    },
+    {
+      "id": "nt-hoy",
+      "es": "hoy",
+      "en": "today",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Today — 'hoy es lunes' = today is Monday.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "calendar today highlighted",
+      "image": "numbers-time-dates/hoy.webp"
+    },
+    {
+      "id": "nt-manana",
+      "es": "mañana",
+      "en": "tomorrow",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Tomorrow, or 'morning' — context tells you which meaning is used.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "sunrise morning",
+      "image": "numbers-time-dates/manana.webp"
+    },
+    {
+      "id": "nt-ayer",
+      "es": "ayer",
+      "en": "yesterday",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Yesterday — 'ayer fue domingo' = yesterday was Sunday.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "calendar page",
+      "image": "numbers-time-dates/ayer.webp"
+    },
+    {
+      "id": "nt-semana",
+      "es": "la semana",
+      "en": "week",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Week — 'la próxima semana' = next week.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "weekly calendar",
+      "image": "numbers-time-dates/semana.webp"
+    },
+    {
+      "id": "nt-mes",
+      "es": "el mes",
+      "en": "month",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Month — 'este mes' = this month.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "monthly calendar page",
+      "image": "numbers-time-dates/mes.webp"
+    },
+    {
+      "id": "nt-ano",
+      "es": "el año",
+      "en": "year",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Year — '¿cuántos años tienes?' = how old are you? (literally, how many years).",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "calendar year",
+      "image": "numbers-time-dates/ano.webp"
+    },
+    {
+      "id": "nt-dia",
+      "es": "el día",
+      "en": "day",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Day — 'todo el día' = all day.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "sunny day sky",
+      "image": "numbers-time-dates/dia.webp"
+    },
+    {
+      "id": "nt-lunes",
+      "es": "el lunes",
+      "en": "Monday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Monday — the first day of the work week.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "monday calendar",
+      "image": "numbers-time-dates/lunes.webp"
+    },
+    {
+      "id": "nt-calendario",
+      "es": "el calendario",
+      "en": "calendar",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Calendar — 'marcar en el calendario' = to mark on the calendar.",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "wall calendar",
+      "image": "numbers-time-dates/calendario.webp"
+    },
+    {
+      "id": "nt-temprano",
+      "es": "temprano",
+      "en": "early",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Early — 'llegar temprano' = to arrive early.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "sunrise early morning",
+      "image": "numbers-time-dates/temprano.webp"
+    },
+    {
+      "id": "nt-tarde",
+      "es": "tarde",
+      "en": "late",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Late, or 'afternoon/evening' (as a noun, 'la tarde') — context tells you which.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "afternoon sunset",
+      "image": "numbers-time-dates/tarde.webp"
+    },
+    {
+      "id": "nt-cumpleanos",
+      "es": "el cumpleaños",
+      "en": "birthday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Birthday — '¡feliz cumpleaños!' = happy birthday!",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "birthday cake candles",
+      "image": "numbers-time-dates/cumpleanos.webp"
+    },
+    {
+      "id": "nt-fecha",
+      "es": "la fecha",
+      "en": "date",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Date (calendar) — '¿qué fecha es hoy?' = what's today's date?",
+      "scenarios": ["numbers, time & dates"],
+      "imageQuery": "calendar date circled",
+      "image": "numbers-time-dates/fecha.webp"
+    },
+    {
+      "id": "nt-ahora",
+      "es": "ahora",
+      "en": "now",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Now — 'ahora mismo' = right now.",
+      "scenarios": ["numbers, time & dates", "daily routine"],
+      "imageQuery": "person checking watch",
+      "image": "numbers-time-dates/ahora.webp"
+    }
+  ]
+}

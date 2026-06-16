@@ -1,0 +1,272 @@
+{
+  "id": "colors-shapes",
+  "order": 16,
+  "name": "Colors & Shapes",
+  "nameEs": "Colores y formas",
+  "words": [
+    {
+      "id": "cs-rojo",
+      "es": "rojo",
+      "en": "red",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Red — 'la manzana es roja' = the apple is red (feminine form: roja).",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "red color swatch",
+      "image": "colors-shapes/rojo.webp"
+    },
+    {
+      "id": "cs-azul",
+      "es": "azul",
+      "en": "blue",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Blue — 'el cielo es azul' = the sky is blue.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "blue color swatch",
+      "image": "colors-shapes/azul.webp"
+    },
+    {
+      "id": "cs-verde",
+      "es": "verde",
+      "en": "green",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Green — 'la hierba es verde' = the grass is green.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "green color swatch",
+      "image": "colors-shapes/verde.webp"
+    },
+    {
+      "id": "cs-amarillo",
+      "es": "amarillo",
+      "en": "yellow",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Yellow — 'el sol es amarillo' = the sun is yellow (feminine: amarilla).",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "yellow color swatch",
+      "image": "colors-shapes/amarillo.webp"
+    },
+    {
+      "id": "cs-negro",
+      "es": "negro",
+      "en": "black",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Black — feminine form: 'negra'.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "black color swatch",
+      "image": "colors-shapes/negro.webp"
+    },
+    {
+      "id": "cs-blanco",
+      "es": "blanco",
+      "en": "white",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "White — feminine form: 'blanca'.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "white color swatch",
+      "image": "colors-shapes/blanco.webp"
+    },
+    {
+      "id": "cs-gris",
+      "es": "gris",
+      "en": "gray",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Gray — same form for masculine and feminine.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "gray color swatch",
+      "image": "colors-shapes/gris.webp"
+    },
+    {
+      "id": "cs-naranja",
+      "es": "naranja",
+      "en": "orange",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Orange (color) — the same word as the fruit 'la naranja'!",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "orange color swatch",
+      "image": "colors-shapes/naranja.webp"
+    },
+    {
+      "id": "cs-morado",
+      "es": "morado",
+      "en": "purple",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Purple — also 'púrpura' or 'violeta'.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "purple color swatch",
+      "image": "colors-shapes/morado.webp"
+    },
+    {
+      "id": "cs-rosa",
+      "es": "rosa",
+      "en": "pink",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Pink — the same word as the flower 'rose'.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "pink color swatch",
+      "image": "colors-shapes/rosa.webp"
+    },
+    {
+      "id": "cs-marron",
+      "es": "marrón",
+      "en": "brown",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Brown — also 'café' or 'castaño' in some regions/contexts.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "brown color swatch",
+      "image": "colors-shapes/marron.webp"
+    },
+    {
+      "id": "cs-dorado",
+      "es": "dorado",
+      "en": "gold",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Gold/golden — describes a shiny gold color.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "gold color metallic",
+      "image": "colors-shapes/dorado.webp"
+    },
+    {
+      "id": "cs-circulo",
+      "es": "el círculo",
+      "en": "circle",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Circle — a perfectly round shape.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "circle shape",
+      "image": "colors-shapes/circulo.webp"
+    },
+    {
+      "id": "cs-cuadrado",
+      "es": "el cuadrado",
+      "en": "square",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Square — a shape with four equal sides.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "square shape",
+      "image": "colors-shapes/cuadrado.webp"
+    },
+    {
+      "id": "cs-triangulo",
+      "es": "el triángulo",
+      "en": "triangle",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Triangle — a shape with three sides.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "triangle shape",
+      "image": "colors-shapes/triangulo.webp"
+    },
+    {
+      "id": "cs-rectangulo",
+      "es": "el rectángulo",
+      "en": "rectangle",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rectangle — like a door or a phone screen.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "rectangle shape",
+      "image": "colors-shapes/rectangulo.webp"
+    },
+    {
+      "id": "cs-ovalo",
+      "es": "el óvalo",
+      "en": "oval",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Oval — a stretched circle, like an egg shape.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "oval shape",
+      "image": "colors-shapes/ovalo.webp"
+    },
+    {
+      "id": "cs-linea",
+      "es": "la línea",
+      "en": "line",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Line — 'una línea recta' = a straight line.",
+      "scenarios": ["colors & shapes", "describing things"],
+      "imageQuery": "straight line",
+      "image": "colors-shapes/linea.webp"
+    },
+    {
+      "id": "cs-grande",
+      "es": "grande",
+      "en": "big",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Big/large — same form for masculine and feminine: 'grande'.",
+      "scenarios": ["describing things", "shopping"],
+      "imageQuery": "large big object",
+      "image": "colors-shapes/grande.webp"
+    },
+    {
+      "id": "cs-pequeno",
+      "es": "pequeño",
+      "en": "small",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Small/little — feminine form: 'pequeña'.",
+      "scenarios": ["describing things", "shopping"],
+      "imageQuery": "small tiny object",
+      "image": "colors-shapes/pequeno.webp"
+    },
+    {
+      "id": "cs-redondo",
+      "es": "redondo",
+      "en": "round",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Round — feminine form: 'redonda'.",
+      "scenarios": ["describing things"],
+      "imageQuery": "round object",
+      "image": "colors-shapes/redondo.webp"
+    },
+    {
+      "id": "cs-claro",
+      "es": "claro",
+      "en": "light",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Light (color) — 'azul claro' = light blue.",
+      "scenarios": ["describing things", "colors & shapes"],
+      "imageQuery": "light pastel colors",
+      "image": "colors-shapes/claro.webp"
+    },
+    {
+      "id": "cs-oscuro",
+      "es": "oscuro",
+      "en": "dark",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Dark (color) — 'azul oscuro' = dark blue.",
+      "scenarios": ["describing things", "colors & shapes"],
+      "imageQuery": "dark colors",
+      "image": "colors-shapes/oscuro.webp"
+    },
+    {
+      "id": "cs-largo",
+      "es": "largo",
+      "en": "long",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Long — feminine form: 'larga'. (Note: not 'large'!)",
+      "scenarios": ["describing things"],
+      "imageQuery": "long object rope",
+      "image": "colors-shapes/largo.webp"
+    }
+  ]
+}

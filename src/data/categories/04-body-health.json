@@ -1,0 +1,250 @@
+{
+  "id": "body-health",
+  "order": 4,
+  "name": "Body & Health",
+  "nameEs": "Cuerpo y salud",
+  "words": [
+    {
+      "id": "bh-cabeza",
+      "es": "la cabeza",
+      "en": "head",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Head — 'me duele la cabeza' = I have a headache.",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "human head portrait",
+      "image": "body-health/cabeza.webp"
+    },
+    {
+      "id": "bh-pelo",
+      "es": "el pelo",
+      "en": "hair",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hair — also 'el cabello' (more formal).",
+      "scenarios": ["body parts"],
+      "imageQuery": "hair close up",
+      "image": "body-health/pelo.webp"
+    },
+    {
+      "id": "bh-cara",
+      "es": "la cara",
+      "en": "face",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Face — 'lavarse la cara' = to wash one's face.",
+      "scenarios": ["body parts"],
+      "imageQuery": "face portrait close up",
+      "image": "body-health/cara.webp"
+    },
+    {
+      "id": "bh-ojo",
+      "es": "el ojo",
+      "en": "eye",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Eye — 'tengo los ojos verdes' = I have green eyes.",
+      "scenarios": ["body parts"],
+      "imageQuery": "eye close up",
+      "image": "body-health/ojo.webp"
+    },
+    {
+      "id": "bh-nariz",
+      "es": "la nariz",
+      "en": "nose",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nose — 'me pica la nariz' = my nose itches.",
+      "scenarios": ["body parts"],
+      "imageQuery": "nose close up face",
+      "image": "body-health/nariz.webp"
+    },
+    {
+      "id": "bh-boca",
+      "es": "la boca",
+      "en": "mouth",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mouth — 'abre la boca' = open your mouth (common at the doctor's).",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "mouth smile close up",
+      "image": "body-health/boca.webp"
+    },
+    {
+      "id": "bh-oreja",
+      "es": "la oreja",
+      "en": "ear",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Ear — 'me duele la oreja' = my ear hurts.",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "ear close up",
+      "image": "body-health/oreja.webp"
+    },
+    {
+      "id": "bh-diente",
+      "es": "el diente",
+      "en": "tooth",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tooth — 'lavarse los dientes' = to brush one's teeth.",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "teeth smile",
+      "image": "body-health/diente.webp"
+    },
+    {
+      "id": "bh-cuello",
+      "es": "el cuello",
+      "en": "neck",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Neck — also means the 'collar' or 'neckline' of clothing.",
+      "scenarios": ["body parts"],
+      "imageQuery": "neck close up",
+      "image": "body-health/cuello.webp"
+    },
+    {
+      "id": "bh-brazo",
+      "es": "el brazo",
+      "en": "arm",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Arm — 'levanta el brazo' = raise your arm.",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "arm muscle",
+      "image": "body-health/brazo.webp"
+    },
+    {
+      "id": "bh-mano",
+      "es": "la mano",
+      "en": "hand",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hand — ends in 'o' but is feminine: 'la mano'.",
+      "scenarios": ["body parts", "greetings & daily routine"],
+      "imageQuery": "hand gesture",
+      "image": "body-health/mano.webp"
+    },
+    {
+      "id": "bh-dedo",
+      "es": "el dedo",
+      "en": "finger",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Finger — 'el dedo del pie' = toe (literally 'finger of the foot').",
+      "scenarios": ["body parts"],
+      "imageQuery": "finger pointing hand",
+      "image": "body-health/dedo.webp"
+    },
+    {
+      "id": "bh-pierna",
+      "es": "la pierna",
+      "en": "leg",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Leg — 'me duele la pierna' = my leg hurts.",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "leg human",
+      "image": "body-health/pierna.webp"
+    },
+    {
+      "id": "bh-pie",
+      "es": "el pie",
+      "en": "foot",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Foot — 'a pie' = on foot, walking.",
+      "scenarios": ["body parts"],
+      "imageQuery": "human foot",
+      "image": "body-health/pie.webp"
+    },
+    {
+      "id": "bh-espalda",
+      "es": "la espalda",
+      "en": "back",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Back (body part) — 'me duele la espalda' = my back hurts.",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "human back",
+      "image": "body-health/espalda.webp"
+    },
+    {
+      "id": "bh-estomago",
+      "es": "el estómago",
+      "en": "stomach",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Stomach — 'me duele el estómago' = I have a stomachache.",
+      "scenarios": ["body parts", "at the doctor"],
+      "imageQuery": "stomach abdomen",
+      "image": "body-health/estomago.webp"
+    },
+    {
+      "id": "bh-corazon",
+      "es": "el corazón",
+      "en": "heart",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Heart — used literally (the organ) and for feelings, like in English.",
+      "scenarios": ["body parts", "emotions"],
+      "imageQuery": "heart shape hands",
+      "image": "body-health/corazon.webp"
+    },
+    {
+      "id": "bh-piel",
+      "es": "la piel",
+      "en": "skin",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Skin — also means 'leather' or fruit 'peel' depending on context.",
+      "scenarios": ["body parts"],
+      "imageQuery": "skin texture",
+      "image": "body-health/piel.webp"
+    },
+    {
+      "id": "bh-fiebre",
+      "es": "la fiebre",
+      "en": "fever",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fever — 'tengo fiebre' = I have a fever.",
+      "scenarios": ["at the doctor", "health"],
+      "imageQuery": "thermometer temperature",
+      "image": "body-health/fiebre.webp"
+    },
+    {
+      "id": "bh-medicina",
+      "es": "la medicina",
+      "en": "medicine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Medicine — 'tomar la medicina' = to take the medicine.",
+      "scenarios": ["at the doctor", "at the pharmacy"],
+      "imageQuery": "medicine pills bottle",
+      "image": "body-health/medicina.webp"
+    },
+    {
+      "id": "bh-medico",
+      "es": "el médico",
+      "en": "doctor",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Doctor ('la médica' for a woman) — also 'el doctor/la doctora'.",
+      "scenarios": ["at the doctor"],
+      "imageQuery": "doctor portrait",
+      "image": "body-health/medico.webp"
+    },
+    {
+      "id": "bh-farmacia",
+      "es": "la farmacia",
+      "en": "pharmacy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pharmacy — look for the green cross sign in many Spanish-speaking countries.",
+      "scenarios": ["at the pharmacy", "city & directions"],
+      "imageQuery": "pharmacy store sign",
+      "image": "body-health/farmacia.webp"
+    }
+  ]
+}
