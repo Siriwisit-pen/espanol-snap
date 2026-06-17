@@ -104,7 +104,8 @@ export default function Quiz({ pool, title, onExit }) {
             const disabled = solved || wrongPicks.includes(opt.id)
             return (
               <button key={opt.id} className={cls} disabled={disabled} onClick={() => choose(opt)}>
-                {opt.es}
+                <span className="opt-es">{opt.es}</span>
+                {opt.level && <span className={`opt-lvl level-${opt.level}`}>{opt.level}</span>}
               </button>
             )
           })}

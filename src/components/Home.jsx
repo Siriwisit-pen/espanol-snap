@@ -5,7 +5,7 @@ import { loadGrammarProgress } from '../lib/grammarProgress.js'
 import conversations from '../data/conversations/index.js'
 import grammarTopics from '../data/grammar/index.js'
 
-export default function Home({ categories, onStartMixed, onStartCategory, onConversations, onGrammar }) {
+export default function Home({ categories, onStartMixed, onStartCategory, onConversations, onGrammar, onMyWords }) {
   const progress = useMemo(() => loadProgress(), [])
   const s = useMemo(() => stats(progress), [progress])
   const streak = useMemo(() => loadStreak(), [])
@@ -71,6 +71,15 @@ export default function Home({ categories, onStartMixed, onStartCategory, onConv
             <div className="mode-card-body">
               <span className="mode-card-title">Grammar</span>
               <span className="mode-card-desc">{grammarTopics.length} topics{grammarDone > 0 ? ` · ${grammarDone} done` : ''}</span>
+            </div>
+            <span className="mode-card-arr">›</span>
+          </button>
+
+          <button className="mode-card" onClick={onMyWords}>
+            <div className="mode-icon-circle mic-green">📖</div>
+            <div className="mode-card-body">
+              <span className="mode-card-title">My Words</span>
+              <span className="mode-card-desc">{s.studied > 0 ? `${s.studied} seen · ${s.learned} mastered` : 'review words you\'ve studied'}</span>
             </div>
             <span className="mode-card-arr">›</span>
           </button>

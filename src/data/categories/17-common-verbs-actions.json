@@ -11,9 +11,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To eat — '¿quieres comer?' = do you want to eat?",
-      "scenarios": ["common verbs & actions", "daily routine"],
+      "scenarios": [
+        "common verbs & actions",
+        "daily routine"
+      ],
       "imageQuery": "person eating food",
-      "image": "common-verbs-actions/comer.webp"
+      "image": "common-verbs-actions/comer.webp",
+      "level": "A"
     },
     {
       "id": "cv-beber",
@@ -22,9 +26,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To drink — 'beber agua' = to drink water.",
-      "scenarios": ["common verbs & actions", "daily routine"],
+      "scenarios": [
+        "common verbs & actions",
+        "daily routine"
+      ],
       "imageQuery": "person drinking water",
-      "image": "common-verbs-actions/beber.webp"
+      "image": "common-verbs-actions/beber.webp",
+      "level": "A"
     },
     {
       "id": "cv-dormir",
@@ -33,9 +41,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To sleep — 'dormir bien' = to sleep well.",
-      "scenarios": ["common verbs & actions", "daily routine"],
+      "scenarios": [
+        "common verbs & actions",
+        "daily routine"
+      ],
       "imageQuery": "person sleeping bed",
-      "image": "common-verbs-actions/dormir.webp"
+      "image": "common-verbs-actions/dormir.webp",
+      "level": "A"
     },
     {
       "id": "cv-caminar",
@@ -44,9 +56,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To walk — 'caminar al trabajo' = to walk to work.",
-      "scenarios": ["common verbs & actions", "daily routine"],
+      "scenarios": [
+        "common verbs & actions",
+        "daily routine"
+      ],
       "imageQuery": "person walking",
-      "image": "common-verbs-actions/caminar.webp"
+      "image": "common-verbs-actions/caminar.webp",
+      "level": "A"
     },
     {
       "id": "cv-correr",
@@ -55,9 +71,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To run — 'correr rápido' = to run fast.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person running outdoors",
-      "image": "common-verbs-actions/correr.webp"
+      "image": "common-verbs-actions/correr.webp",
+      "level": "A"
     },
     {
       "id": "cv-hablar",
@@ -66,9 +85,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To speak/talk — 'hablar español' = to speak Spanish.",
-      "scenarios": ["common verbs & actions", "introductions"],
+      "scenarios": [
+        "common verbs & actions",
+        "introductions"
+      ],
       "imageQuery": "people talking conversation",
-      "image": "common-verbs-actions/hablar.webp"
+      "image": "common-verbs-actions/hablar.webp",
+      "level": "A"
     },
     {
       "id": "cv-escuchar",
@@ -77,9 +100,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To listen — 'escuchar música' = to listen to music.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person listening headphones",
-      "image": "common-verbs-actions/escuchar.webp"
+      "image": "common-verbs-actions/escuchar.webp",
+      "level": "A"
     },
     {
       "id": "cv-ver",
@@ -88,9 +114,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To see/watch — 'ver la tele' = to watch TV.",
-      "scenarios": ["common verbs & actions", "daily routine"],
+      "scenarios": [
+        "common verbs & actions",
+        "daily routine"
+      ],
       "imageQuery": "person watching tv",
-      "image": "common-verbs-actions/ver.webp"
+      "image": "common-verbs-actions/ver.webp",
+      "level": "A"
     },
     {
       "id": "cv-mirar",
@@ -99,9 +129,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To look (at) — 'mirar por la ventana' = to look out the window.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person looking",
-      "image": "common-verbs-actions/mirar.webp"
+      "image": "common-verbs-actions/mirar.webp",
+      "level": "A"
     },
     {
       "id": "cv-hacer",
@@ -110,9 +143,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To do/make — 'hacer la tarea' = to do homework.",
-      "scenarios": ["common verbs & actions", "school & study"],
+      "scenarios": [
+        "common verbs & actions",
+        "school & study"
+      ],
       "imageQuery": "person making craft hands",
-      "image": "common-verbs-actions/hacer.webp"
+      "image": "common-verbs-actions/hacer.webp",
+      "level": "A"
     },
     {
       "id": "cv-ir",
@@ -121,9 +158,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To go — 'ir a casa' = to go home.",
-      "scenarios": ["common verbs & actions", "travel"],
+      "scenarios": [
+        "common verbs & actions",
+        "travel"
+      ],
       "imageQuery": "person walking away path",
-      "image": "common-verbs-actions/ir.webp"
+      "image": "common-verbs-actions/ir.webp",
+      "level": "A"
     },
     {
       "id": "cv-venir",
@@ -132,9 +173,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To come — '¿puedes venir?' = can you come?",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person walking toward camera",
-      "image": "common-verbs-actions/venir.webp"
+      "image": "common-verbs-actions/venir.webp",
+      "level": "A"
     },
     {
       "id": "cv-dar",
@@ -143,9 +187,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To give — 'dar un regalo' = to give a gift.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person giving gift",
-      "image": "common-verbs-actions/dar.webp"
+      "image": "common-verbs-actions/dar.webp",
+      "level": "A"
     },
     {
       "id": "cv-tomar",
@@ -154,9 +201,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To take, or 'to drink' — 'tomar un café' = to have a coffee.",
-      "scenarios": ["common verbs & actions", "at a café"],
+      "scenarios": [
+        "common verbs & actions",
+        "at a café"
+      ],
       "imageQuery": "person holding coffee cup",
-      "image": "common-verbs-actions/tomar.webp"
+      "image": "common-verbs-actions/tomar.webp",
+      "level": "A"
     },
     {
       "id": "cv-abrir",
@@ -165,9 +216,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To open — 'abrir la puerta' = to open the door.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "opening door",
-      "image": "common-verbs-actions/abrir.webp"
+      "image": "common-verbs-actions/abrir.webp",
+      "level": "B"
     },
     {
       "id": "cv-cerrar",
@@ -176,9 +230,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To close — 'cerrar los ojos' = to close your eyes.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "closing door",
-      "image": "common-verbs-actions/cerrar.webp"
+      "image": "common-verbs-actions/cerrar.webp",
+      "level": "B"
     },
     {
       "id": "cv-jugar",
@@ -187,9 +244,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To play — 'jugar fútbol' = to play soccer.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "children playing outside",
-      "image": "common-verbs-actions/jugar.webp"
+      "image": "common-verbs-actions/jugar.webp",
+      "level": "B"
     },
     {
       "id": "cv-bailar",
@@ -198,9 +258,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To dance — '¿quieres bailar?' = do you want to dance?",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "people dancing",
-      "image": "common-verbs-actions/bailar.webp"
+      "image": "common-verbs-actions/bailar.webp",
+      "level": "B"
     },
     {
       "id": "cv-cantar",
@@ -209,9 +272,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To sing — 'cantar una canción' = to sing a song.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person singing microphone",
-      "image": "common-verbs-actions/cantar.webp"
+      "image": "common-verbs-actions/cantar.webp",
+      "level": "B"
     },
     {
       "id": "cv-nadar",
@@ -220,9 +286,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To swim — 'nadar en la piscina' = to swim in the pool.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person swimming pool",
-      "image": "common-verbs-actions/nadar.webp"
+      "image": "common-verbs-actions/nadar.webp",
+      "level": "B"
     },
     {
       "id": "cv-ayudar",
@@ -231,9 +300,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To help — '¿me puedes ayudar?' = can you help me?",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "people helping each other",
-      "image": "common-verbs-actions/ayudar.webp"
+      "image": "common-verbs-actions/ayudar.webp",
+      "level": "B"
     },
     {
       "id": "cv-limpiar",
@@ -242,9 +314,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To clean — 'limpiar la casa' = to clean the house.",
-      "scenarios": ["common verbs & actions", "at home"],
+      "scenarios": [
+        "common verbs & actions",
+        "at home"
+      ],
       "imageQuery": "person cleaning house",
-      "image": "common-verbs-actions/limpiar.webp"
+      "image": "common-verbs-actions/limpiar.webp",
+      "level": "B"
     },
     {
       "id": "cv-esperar",
@@ -253,9 +329,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To wait, or 'to hope' — 'espera un momento' = wait a moment.",
-      "scenarios": ["common verbs & actions"],
+      "scenarios": [
+        "common verbs & actions"
+      ],
       "imageQuery": "person waiting",
-      "image": "common-verbs-actions/esperar.webp"
+      "image": "common-verbs-actions/esperar.webp",
+      "level": "B"
     },
     {
       "id": "cv-empezar",
@@ -264,9 +343,638 @@
       "pos": "verb",
       "gender": null,
       "hint": "To start/begin — 'empezar a trabajar' = to start working.",
-      "scenarios": ["common verbs & actions", "at work"],
+      "scenarios": [
+        "common verbs & actions",
+        "at work"
+      ],
       "imageQuery": "starting line race",
-      "image": "common-verbs-actions/empezar.webp"
+      "image": "common-verbs-actions/empezar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-salir",
+      "es": "salir",
+      "en": "to leave",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To leave/go out — 'salir de casa' = to leave home.",
+      "scenarios": [
+        "common verbs & actions",
+        "daily routine"
+      ],
+      "imageQuery": "person leaving walking out door",
+      "image": "common-verbs-actions/salir.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-llegar",
+      "es": "llegar",
+      "en": "to arrive",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To arrive — 'llegar tarde' = to arrive late.",
+      "scenarios": [
+        "common verbs & actions",
+        "travel"
+      ],
+      "imageQuery": "person arriving home",
+      "image": "common-verbs-actions/llegar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-volver",
+      "es": "volver",
+      "en": "to return",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To return/come back — 'volver a casa' = to return home.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person returning home",
+      "image": "common-verbs-actions/volver.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-llevar",
+      "es": "llevar",
+      "en": "to carry",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To carry/take/wear — 'llevar una maleta' = to carry a suitcase.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person carrying bag",
+      "image": "common-verbs-actions/llevar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-traer",
+      "es": "traer",
+      "en": "to bring",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To bring — '¿puedes traer agua?' = can you bring water?",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person bringing items",
+      "image": "common-verbs-actions/traer.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-poner",
+      "es": "poner",
+      "en": "to put",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To put/place — 'poner la mesa' = to set the table.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "putting object on table",
+      "image": "common-verbs-actions/poner.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-sacar",
+      "es": "sacar",
+      "en": "to take out",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To take out/extract — 'sacar dinero' = to take out money.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person pulling out wallet",
+      "image": "common-verbs-actions/sacar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-saber",
+      "es": "saber",
+      "en": "to know",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To know (a fact) — 'sé la respuesta' = I know the answer.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "thinking knowledge",
+      "image": "common-verbs-actions/saber.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-conocer",
+      "es": "conocer",
+      "en": "to know (a person)",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To know/be acquainted with — 'conocer a alguien' = to know someone.",
+      "scenarios": [
+        "common verbs & actions",
+        "introductions"
+      ],
+      "imageQuery": "people meeting introduction",
+      "image": "common-verbs-actions/conocer.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-poder",
+      "es": "poder",
+      "en": "can / to be able to",
+      "pos": "verb",
+      "gender": null,
+      "hint": "Can/to be able to — '¿puedes ayudarme?' = can you help me?",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "strong person showing ability",
+      "image": "common-verbs-actions/poder.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-querer",
+      "es": "querer",
+      "en": "to want",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To want/love — 'quiero un café' = I want a coffee.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person wanting pointing",
+      "image": "common-verbs-actions/querer.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-necesitar",
+      "es": "necesitar",
+      "en": "to need",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To need — 'necesito ayuda' = I need help.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person needing help",
+      "image": "common-verbs-actions/necesitar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-tener",
+      "es": "tener",
+      "en": "to have",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To have — 'tengo hambre' = I'm hungry (lit. I have hunger).",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person holding item",
+      "image": "common-verbs-actions/tener.webp",
+      "level": "A"
+    },
+    {
+      "id": "cv-ser",
+      "es": "ser",
+      "en": "to be (permanent)",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To be (permanent) — 'soy español' = I am Spanish.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person pointing to themselves",
+      "image": "common-verbs-actions/ser.webp",
+      "level": "A"
+    },
+    {
+      "id": "cv-estar",
+      "es": "estar",
+      "en": "to be (temporary)",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To be (temporary/location) — 'estoy en casa' = I'm at home.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person sitting at home",
+      "image": "common-verbs-actions/estar.webp",
+      "level": "A"
+    },
+    {
+      "id": "cv-pedir",
+      "es": "pedir",
+      "en": "to ask for",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To ask for/order — 'pedir la cuenta' = to ask for the bill.",
+      "scenarios": [
+        "common verbs & actions",
+        "at a restaurant"
+      ],
+      "imageQuery": "person ordering at restaurant",
+      "image": "common-verbs-actions/pedir.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-decir",
+      "es": "decir",
+      "en": "to say",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To say/tell — '¿qué dice?' = what does it say?",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person speaking saying",
+      "image": "common-verbs-actions/decir.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-preguntar",
+      "es": "preguntar",
+      "en": "to ask",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To ask a question — 'preguntar al profesor' = to ask the teacher.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person raising hand asking",
+      "image": "common-verbs-actions/preguntar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-contestar",
+      "es": "contestar",
+      "en": "to answer",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To answer/reply — 'contestar al teléfono' = to answer the phone.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person answering phone",
+      "image": "common-verbs-actions/contestar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-pensar",
+      "es": "pensar",
+      "en": "to think",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To think — '¿qué piensas?' = what do you think?",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person thinking",
+      "image": "common-verbs-actions/pensar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-recordar",
+      "es": "recordar",
+      "en": "to remember",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To remember — 'recuerda llamarme' = remember to call me.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person remembering thinking",
+      "image": "common-verbs-actions/recordar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-olvidar",
+      "es": "olvidar",
+      "en": "to forget",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To forget — 'olvidé las llaves' = I forgot the keys.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person forgetting keys",
+      "image": "common-verbs-actions/olvidar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-encontrar",
+      "es": "encontrar",
+      "en": "to find",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To find — 'encontrar las llaves' = to find the keys.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person finding item",
+      "image": "common-verbs-actions/encontrar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-buscar",
+      "es": "buscar",
+      "en": "to search",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To search/look for — 'buscar trabajo' = to look for a job.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person searching looking",
+      "image": "common-verbs-actions/buscar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-perder",
+      "es": "perder",
+      "en": "to lose",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To lose — 'perder el tren' = to miss/lose the train.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person losing dropping item",
+      "image": "common-verbs-actions/perder.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-ganar",
+      "es": "ganar",
+      "en": "to win",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To win/earn — 'ganar el partido' = to win the match.",
+      "scenarios": [
+        "common verbs & actions",
+        "sports"
+      ],
+      "imageQuery": "winner trophy",
+      "image": "common-verbs-actions/ganar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-comprar",
+      "es": "comprar",
+      "en": "to buy",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To buy — 'comprar ropa' = to buy clothes.",
+      "scenarios": [
+        "common verbs & actions",
+        "shopping"
+      ],
+      "imageQuery": "person buying shopping",
+      "image": "common-verbs-actions/comprar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-vender",
+      "es": "vender",
+      "en": "to sell",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To sell — 'vender una casa' = to sell a house.",
+      "scenarios": [
+        "common verbs & actions",
+        "shopping"
+      ],
+      "imageQuery": "for sale sign",
+      "image": "common-verbs-actions/vender.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-pagar",
+      "es": "pagar",
+      "en": "to pay",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To pay — 'pagar la cuenta' = to pay the bill.",
+      "scenarios": [
+        "common verbs & actions",
+        "shopping"
+      ],
+      "imageQuery": "paying with card",
+      "image": "common-verbs-actions/pagar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-llamar",
+      "es": "llamar",
+      "en": "to call",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To call — 'llamar por teléfono' = to call on the phone.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person calling phone",
+      "image": "common-verbs-actions/llamar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-usar",
+      "es": "usar",
+      "en": "to use",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To use — 'usar el teléfono' = to use the phone.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person using phone",
+      "image": "common-verbs-actions/usar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-tocar",
+      "es": "tocar",
+      "en": "to touch",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To touch/play (instrument) — 'tocar la guitarra' = to play guitar.",
+      "scenarios": [
+        "common verbs & actions",
+        "music"
+      ],
+      "imageQuery": "person playing guitar",
+      "image": "common-verbs-actions/tocar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-reir",
+      "es": "reír",
+      "en": "to laugh",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To laugh — '¡me haces reír!' = you make me laugh!",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person laughing happy",
+      "image": "common-verbs-actions/reir.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-llorar",
+      "es": "llorar",
+      "en": "to cry",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To cry — 'llorar de alegría' = to cry with joy.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person crying sad",
+      "image": "common-verbs-actions/llorar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-gritar",
+      "es": "gritar",
+      "en": "to shout",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To shout/yell — '¡no grités!' = don't shout!",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person shouting yelling",
+      "image": "common-verbs-actions/gritar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-abrazar",
+      "es": "abrazar",
+      "en": "to hug",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To hug — 'abrazar a alguien' = to hug someone.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "people hugging",
+      "image": "common-verbs-actions/abrazar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-sonreir",
+      "es": "sonreír",
+      "en": "to smile",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To smile — 'sonreír para la foto' = to smile for the photo.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person smiling",
+      "image": "common-verbs-actions/sonreir.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-sentarse",
+      "es": "sentarse",
+      "en": "to sit down",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To sit down — 'siéntate, por favor' = please sit down.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person sitting down chair",
+      "image": "common-verbs-actions/sentarse.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-subir",
+      "es": "subir",
+      "en": "to go up",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To go up/upload — 'subir las escaleras' = to go up the stairs.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person climbing stairs",
+      "image": "common-verbs-actions/subir.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-bajar",
+      "es": "bajar",
+      "en": "to go down",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To go down/download — 'bajar las escaleras' = to go down the stairs.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person going down stairs",
+      "image": "common-verbs-actions/bajar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-terminar",
+      "es": "terminar",
+      "en": "to finish",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To finish — 'terminar el trabajo' = to finish the job.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "finished done checkmark",
+      "image": "common-verbs-actions/terminar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-continuar",
+      "es": "continuar",
+      "en": "to continue",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To continue — 'continúa leyendo' = continue reading.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "continue arrow forward",
+      "image": "common-verbs-actions/continuar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-intentar",
+      "es": "intentar",
+      "en": "to try",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To try/attempt — 'intentar de nuevo' = to try again.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "person trying hard",
+      "image": "common-verbs-actions/intentar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cv-cambiar",
+      "es": "cambiar",
+      "en": "to change",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To change — 'cambiar de idea' = to change your mind.",
+      "scenarios": [
+        "common verbs & actions"
+      ],
+      "imageQuery": "change transformation",
+      "image": "common-verbs-actions/cambiar.webp",
+      "level": "B"
     }
   ]
 }

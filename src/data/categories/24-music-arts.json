@@ -1,0 +1,939 @@
+{
+  "id": "music-arts",
+  "order": 24,
+  "name": "Music & Arts",
+  "nameEs": "Música y arte",
+  "words": [
+    {
+      "id": "ma-musica",
+      "es": "la música",
+      "en": "music",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Music — 'Me encanta la música' = I love music. The foundation of this entire category.",
+      "scenarios": [
+        "concert",
+        "daily life",
+        "school"
+      ],
+      "imageQuery": "music notes headphones listening",
+      "image": "music-arts/musica.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-cancion",
+      "es": "la canción",
+      "en": "song",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Song — 'Mi canción favorita' = my favourite song. 'Cantar una canción' = to sing a song.",
+      "scenarios": [
+        "concert",
+        "radio",
+        "karaoke"
+      ],
+      "imageQuery": "singing song microphone stage",
+      "image": "music-arts/cancion.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-guitarra",
+      "es": "la guitarra",
+      "en": "guitar",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Guitar — 'Toco la guitarra' = I play the guitar. Acoustic and electric varieties both common.",
+      "scenarios": [
+        "concert",
+        "music lesson",
+        "street musician"
+      ],
+      "imageQuery": "acoustic guitar wooden instrument",
+      "image": "music-arts/guitarra.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-piano",
+      "es": "el piano",
+      "en": "piano",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Piano — 'Aprendí a tocar el piano de niña' = I learned to play piano as a child.",
+      "scenarios": [
+        "music lesson",
+        "concert hall",
+        "school"
+      ],
+      "imageQuery": "grand piano concert hall keys",
+      "image": "music-arts/piano.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-violin",
+      "es": "el violín",
+      "en": "violin",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Violin — a bowed string instrument. 'El primer violín' = the first violin in an orchestra.",
+      "scenarios": [
+        "orchestra",
+        "music lesson",
+        "concert hall"
+      ],
+      "imageQuery": "violin bow string instrument musician",
+      "image": "music-arts/violin.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-bateria",
+      "es": "la batería",
+      "en": "drums / drum kit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Drum kit — 'el baterista' = the drummer. Also means battery/car battery in other contexts.",
+      "scenarios": [
+        "rock band",
+        "music lesson",
+        "concert"
+      ],
+      "imageQuery": "drum kit set musician playing",
+      "image": "music-arts/bateria.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-flauta",
+      "es": "la flauta",
+      "en": "flute",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flute — 'la flauta travesera' = transverse flute. Also 'flauta de pico' = recorder.",
+      "scenarios": [
+        "orchestra",
+        "music lesson",
+        "folk music"
+      ],
+      "imageQuery": "silver flute wind instrument",
+      "image": "music-arts/flauta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-trompeta",
+      "es": "la trompeta",
+      "en": "trumpet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Trumpet — brass instrument with a bright sound. Key in jazz, salsa, and mariachi bands.",
+      "scenarios": [
+        "jazz band",
+        "mariachi",
+        "orchestra"
+      ],
+      "imageQuery": "brass trumpet musician playing",
+      "image": "music-arts/trompeta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-bajo",
+      "es": "el bajo",
+      "en": "bass guitar",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bass guitar — 'el bajista' = the bass player. Provides the low rhythmic foundation in a band.",
+      "scenarios": [
+        "rock band",
+        "concert",
+        "music lesson"
+      ],
+      "imageQuery": "bass guitar electric musician",
+      "image": "music-arts/bajo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-teclado",
+      "es": "el teclado",
+      "en": "keyboard (instrument)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Keyboard — 'un teclado electrónico' = an electronic keyboard. Also means computer keyboard.",
+      "scenarios": [
+        "band",
+        "music lesson",
+        "home studio"
+      ],
+      "imageQuery": "electronic keyboard synthesizer music",
+      "image": "music-arts/teclado.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-microfono",
+      "es": "el micrófono",
+      "en": "microphone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Microphone — 'hablar por el micrófono' = to speak into the microphone. Shortened to 'micro'.",
+      "scenarios": [
+        "concert",
+        "recording studio",
+        "karaoke"
+      ],
+      "imageQuery": "microphone singer stage performance",
+      "image": "music-arts/microfono.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-concierto",
+      "es": "el concierto",
+      "en": "concert",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Concert — 'Voy al concierto esta noche' = I'm going to the concert tonight.",
+      "scenarios": [
+        "music venue",
+        "entertainment",
+        "nightlife"
+      ],
+      "imageQuery": "live concert stage crowd lights",
+      "image": "music-arts/concierto.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-banda",
+      "es": "la banda",
+      "en": "band",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Band — 'una banda de rock' = a rock band. Also used for marching bands and wind ensembles.",
+      "scenarios": [
+        "concert",
+        "school music",
+        "entertainment"
+      ],
+      "imageQuery": "music band performing stage concert",
+      "image": "music-arts/banda.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-orquesta",
+      "es": "la orquesta",
+      "en": "orchestra",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Orchestra — 'la orquesta filarmónica' = the philharmonic orchestra. A large ensemble of instruments.",
+      "scenarios": [
+        "concert hall",
+        "classical music",
+        "cultural event"
+      ],
+      "imageQuery": "symphony orchestra concert hall performance",
+      "image": "music-arts/orquesta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-cantante",
+      "es": "el cantante",
+      "en": "singer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Singer — 'Mi cantante favorito' = my favourite singer. Feminine: la cantante.",
+      "scenarios": [
+        "concert",
+        "band",
+        "karaoke"
+      ],
+      "imageQuery": "singer performing microphone stage",
+      "image": "music-arts/cantante.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-musico",
+      "es": "el músico",
+      "en": "musician",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Musician — 'Es un músico profesional' = He is a professional musician. Feminine: la música.",
+      "scenarios": [
+        "concert",
+        "street performance",
+        "music school"
+      ],
+      "imageQuery": "musician playing instrument street",
+      "image": "music-arts/musico.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-ritmo",
+      "es": "el ritmo",
+      "en": "rhythm",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rhythm — 'Tiene mucho ritmo' = She has great rhythm. The heartbeat of music.",
+      "scenarios": [
+        "music lesson",
+        "dance class",
+        "band rehearsal"
+      ],
+      "imageQuery": "drum rhythm beat music percussion",
+      "image": "music-arts/ritmo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-melodia",
+      "es": "la melodía",
+      "en": "melody",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Melody — 'Esa melodía me parece muy bonita' = That melody seems very beautiful to me.",
+      "scenarios": [
+        "music lesson",
+        "composing",
+        "concert"
+      ],
+      "imageQuery": "music sheet notes melody compose",
+      "image": "music-arts/melodia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-letra",
+      "es": "la letra",
+      "en": "lyrics",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lyrics — 'Me sé la letra de esta canción' = I know the lyrics to this song. Also means letter of the alphabet.",
+      "scenarios": [
+        "karaoke",
+        "song learning",
+        "concert"
+      ],
+      "imageQuery": "song lyrics music sheet writing",
+      "image": "music-arts/letra.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-coro",
+      "es": "el coro",
+      "en": "chorus / choir",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chorus/choir — 'El coro de la canción' = the chorus of the song. 'Cantar en el coro' = to sing in the choir.",
+      "scenarios": [
+        "church",
+        "school",
+        "concert hall"
+      ],
+      "imageQuery": "choir singing group performance",
+      "image": "music-arts/coro.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-opera",
+      "es": "la ópera",
+      "en": "opera",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Opera — classical theatrical performance combining music and singing. 'Ir a la ópera' = to go to the opera.",
+      "scenarios": [
+        "opera house",
+        "classical music",
+        "cultural event"
+      ],
+      "imageQuery": "opera singer stage performance classical",
+      "image": "music-arts/opera.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-jazz",
+      "es": "el jazz",
+      "en": "jazz",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Jazz — music genre with improvisation. Cuba has a rich jazz tradition influenced by Afro-Cuban rhythms.",
+      "scenarios": [
+        "jazz club",
+        "concert",
+        "music genre"
+      ],
+      "imageQuery": "jazz band saxophone trumpet club",
+      "image": "music-arts/jazz.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-rock",
+      "es": "el rock",
+      "en": "rock (music)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rock music — 'El rock en español' has produced legendary artists from Mexico and Argentina.",
+      "scenarios": [
+        "concert",
+        "music genre",
+        "radio"
+      ],
+      "imageQuery": "rock band electric guitar concert",
+      "image": "music-arts/rock.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-salsa",
+      "es": "la salsa",
+      "en": "salsa (music)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Salsa — lively Caribbean music and dance genre. Born in New York with Cuban and Puerto Rican roots.",
+      "scenarios": [
+        "salsa club",
+        "dance class",
+        "Caribbean culture"
+      ],
+      "imageQuery": "salsa dancing couple music tropical",
+      "image": "music-arts/salsa.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-cumbia",
+      "es": "la cumbia",
+      "en": "cumbia",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cumbia — Colombian musical genre that has spread throughout all of Latin America. Very danceable.",
+      "scenarios": [
+        "party",
+        "dance class",
+        "Latin American culture"
+      ],
+      "imageQuery": "cumbia dancing traditional Colombian music",
+      "image": "music-arts/cumbia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-arte",
+      "es": "el arte",
+      "en": "art",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Art — 'el arte latinoamericano' = Latin American art. Note: singular is 'el arte', plural is 'las artes'.",
+      "scenarios": [
+        "museum",
+        "gallery",
+        "school"
+      ],
+      "imageQuery": "art gallery museum paintings colorful",
+      "image": "music-arts/arte.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-pintura",
+      "es": "la pintura",
+      "en": "painting",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Painting — 'una pintura al óleo' = an oil painting. Also means paint (the material).",
+      "scenarios": [
+        "museum",
+        "art studio",
+        "gallery"
+      ],
+      "imageQuery": "oil painting canvas colorful art",
+      "image": "music-arts/pintura.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-escultura",
+      "es": "la escultura",
+      "en": "sculpture",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sculpture — 'una escultura de mármol' = a marble sculpture. Three-dimensional artwork.",
+      "scenarios": [
+        "museum",
+        "public square",
+        "art studio"
+      ],
+      "imageQuery": "marble sculpture museum art",
+      "image": "music-arts/escultura.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-dibujo",
+      "es": "el dibujo",
+      "en": "drawing / sketch",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Drawing — 'un dibujo a lápiz' = a pencil drawing. 'Hacer un dibujo' = to make a drawing.",
+      "scenarios": [
+        "art class",
+        "studio",
+        "school"
+      ],
+      "imageQuery": "pencil sketch drawing art notebook",
+      "image": "music-arts/dibujo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-fotografia",
+      "es": "la fotografía",
+      "en": "photography / photograph",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Photography — 'La fotografía artística' = artistic photography. 'Sacar una fotografía' = to take a photo.",
+      "scenarios": [
+        "gallery",
+        "photo studio",
+        "travel"
+      ],
+      "imageQuery": "photographer camera art photography",
+      "image": "music-arts/fotografia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-galeria",
+      "es": "la galería",
+      "en": "gallery",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Gallery — 'una galería de arte' = an art gallery. 'Visitar una exposición en la galería'.",
+      "scenarios": [
+        "cultural visit",
+        "art district",
+        "tourism"
+      ],
+      "imageQuery": "art gallery white walls paintings",
+      "image": "music-arts/galeria.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-museo",
+      "es": "el museo",
+      "en": "museum",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Museum — 'Vamos al museo' = Let's go to the museum. Latin America has world-class museums.",
+      "scenarios": [
+        "tourism",
+        "school trip",
+        "cultural visit"
+      ],
+      "imageQuery": "museum exterior architecture building",
+      "image": "music-arts/museo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-exposicion",
+      "es": "la exposición",
+      "en": "exhibition",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Exhibition — 'Una exposición temporal' = a temporary exhibition. 'La inauguración de la exposición'.",
+      "scenarios": [
+        "museum",
+        "gallery",
+        "cultural event"
+      ],
+      "imageQuery": "art exhibition opening gallery people",
+      "image": "music-arts/exposicion.webp",
+      "level": "A"
+    },
+    {
+      "id": "ma-cuadro",
+      "es": "el cuadro",
+      "en": "painting / picture (framed)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Framed painting — 'un cuadro en la pared' = a painting on the wall. Specifically a framed work.",
+      "scenarios": [
+        "museum",
+        "home decoration",
+        "gallery"
+      ],
+      "imageQuery": "framed painting wall gallery artwork",
+      "image": "music-arts/cuadro.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-lienzo",
+      "es": "el lienzo",
+      "en": "canvas",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Canvas — 'pintar sobre un lienzo' = to paint on canvas. The stretched fabric used for oil paintings.",
+      "scenarios": [
+        "art studio",
+        "painting class",
+        "art supply store"
+      ],
+      "imageQuery": "blank canvas painting easel studio",
+      "image": "music-arts/lienzo.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-pincel",
+      "es": "el pincel",
+      "en": "paintbrush",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Paintbrush — 'los pinceles del artista' = the artist's paintbrushes. In different sizes and shapes.",
+      "scenarios": [
+        "art studio",
+        "painting class",
+        "art supply store"
+      ],
+      "imageQuery": "paintbrushes artist studio colorful",
+      "image": "music-arts/pincel.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-acuarela",
+      "es": "la acuarela",
+      "en": "watercolour",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Watercolour — 'pintar en acuarela' = to paint in watercolour. Uses water-soluble pigments.",
+      "scenarios": [
+        "art studio",
+        "painting class",
+        "art supply store"
+      ],
+      "imageQuery": "watercolour painting brush water art",
+      "image": "music-arts/acuarela.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-escultor",
+      "es": "el escultor",
+      "en": "sculptor",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sculptor — 'El escultor trabaja con piedra y bronce' = The sculptor works with stone and bronze.",
+      "scenarios": [
+        "art studio",
+        "museum",
+        "cultural event"
+      ],
+      "imageQuery": "sculptor artist clay studio working",
+      "image": "music-arts/escultor.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-mural",
+      "es": "el mural",
+      "en": "mural",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mural — large-scale wall painting. Mexico's muralist tradition with Diego Rivera is world-famous.",
+      "scenarios": [
+        "street art",
+        "museum",
+        "public space"
+      ],
+      "imageQuery": "large wall mural colorful painting city",
+      "image": "music-arts/mural.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-graffiti",
+      "es": "el grafiti",
+      "en": "graffiti",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Graffiti — urban street art. Latin American cities like São Paulo and Buenos Aires have vibrant graffiti scenes.",
+      "scenarios": [
+        "street art",
+        "urban culture",
+        "city wall"
+      ],
+      "imageQuery": "graffiti street art colorful wall urban",
+      "image": "music-arts/graffiti.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-danza",
+      "es": "la danza",
+      "en": "dance",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Dance — 'la danza folclórica' = folk dance. More formal word than 'baile'. Used for artistic dance forms.",
+      "scenarios": [
+        "dance studio",
+        "cultural show",
+        "theatre"
+      ],
+      "imageQuery": "dance performance stage artistic",
+      "image": "music-arts/danza.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-ballet",
+      "es": "el ballet",
+      "en": "ballet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ballet — classical dance form. 'Una bailarina de ballet' = a ballet dancer.",
+      "scenarios": [
+        "dance studio",
+        "theatre",
+        "cultural event"
+      ],
+      "imageQuery": "ballet dancer pointe shoes stage",
+      "image": "music-arts/ballet.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-teatro",
+      "es": "el teatro",
+      "en": "theatre",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Theatre — 'Ir al teatro' = to go to the theatre. Also means the building and the art form.",
+      "scenarios": [
+        "cultural outing",
+        "entertainment",
+        "city"
+      ],
+      "imageQuery": "theatre building stage curtains seats",
+      "image": "music-arts/teatro.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-actuacion",
+      "es": "la actuación",
+      "en": "performance / acting",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Performance — 'una actuación brillante' = a brilliant performance. Refers to acting or performing.",
+      "scenarios": [
+        "theatre",
+        "film",
+        "concert"
+      ],
+      "imageQuery": "acting performance stage theatre actor",
+      "image": "music-arts/actuacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-obra",
+      "es": "la obra",
+      "en": "play / work (of art)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Work of art / play — 'una obra de teatro' = a theatre play. 'una obra de arte' = a work of art.",
+      "scenarios": [
+        "theatre",
+        "museum",
+        "literary discussion"
+      ],
+      "imageQuery": "theatre play performance stage actors",
+      "image": "music-arts/obra.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-director",
+      "es": "el director",
+      "en": "director / conductor",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Director — 'el director de orquesta' = the orchestra conductor. 'el director de cine' = the film director.",
+      "scenarios": [
+        "orchestra",
+        "film set",
+        "theatre"
+      ],
+      "imageQuery": "orchestra conductor baton performance",
+      "image": "music-arts/director.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-escenario",
+      "es": "el escenario",
+      "en": "stage / setting",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Stage — 'subir al escenario' = to go up onto the stage. Also means scenario or setting in other contexts.",
+      "scenarios": [
+        "theatre",
+        "concert",
+        "school performance"
+      ],
+      "imageQuery": "empty theatre stage spotlight curtain",
+      "image": "music-arts/escenario.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-guion",
+      "es": "el guión",
+      "en": "script / screenplay",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Script — 'escribir un guión de cine' = to write a film screenplay. Also means hyphen (-) in grammar.",
+      "scenarios": [
+        "film production",
+        "theatre",
+        "writing"
+      ],
+      "imageQuery": "film script screenplay pages writing",
+      "image": "music-arts/guion.webp",
+      "level": "C"
+    },
+    {
+      "id": "ma-coreografia",
+      "es": "la coreografía",
+      "en": "choreography",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Choreography — the art of designing dance sequences. 'El coreógrafo' designs the choreography.",
+      "scenarios": [
+        "dance studio",
+        "theatre",
+        "music video"
+      ],
+      "imageQuery": "dance choreography rehearsal studio group",
+      "image": "music-arts/coreografia.webp",
+      "level": "C"
+    },
+    {
+      "id": "ma-armonia",
+      "es": "la armonía",
+      "en": "harmony",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Harmony — the combination of simultaneously sounded musical notes. 'Cantar en armonía' = to sing in harmony.",
+      "scenarios": [
+        "music theory",
+        "choir",
+        "band rehearsal"
+      ],
+      "imageQuery": "choir harmony singing group voices",
+      "image": "music-arts/armonia.webp",
+      "level": "C"
+    },
+    {
+      "id": "ma-improvisacion",
+      "es": "la improvisación",
+      "en": "improvisation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Improvisation — creating music or performance spontaneously. Central to jazz and flamenco traditions.",
+      "scenarios": [
+        "jazz club",
+        "music masterclass",
+        "theatre workshop"
+      ],
+      "imageQuery": "jazz improvisation saxophone musician",
+      "image": "music-arts/improvisacion.webp",
+      "level": "C"
+    },
+    {
+      "id": "ma-patrimonio",
+      "es": "el patrimonio",
+      "en": "heritage / patrimony",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Heritage — 'el patrimonio cultural' = cultural heritage. 'Patrimonio de la Humanidad' = UNESCO World Heritage.",
+      "scenarios": [
+        "UNESCO site",
+        "cultural discussion",
+        "museum"
+      ],
+      "imageQuery": "UNESCO world heritage cultural site",
+      "image": "music-arts/patrimonio.webp",
+      "level": "C"
+    },
+    {
+      "id": "ma-compositor",
+      "es": "el compositor",
+      "en": "composer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Composer — 'el compositor escribió la sinfonía' = the composer wrote the symphony.",
+      "scenarios": [
+        "music"
+      ],
+      "imageQuery": "composer writing music",
+      "image": "music-arts/compositor.webp",
+      "level": "C"
+    },
+    {
+      "id": "ma-partitura",
+      "es": "la partitura",
+      "en": "sheet music",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sheet music — 'leer la partitura' = to read the sheet music.",
+      "scenarios": [
+        "music"
+      ],
+      "imageQuery": "sheet music musical score",
+      "image": "music-arts/partitura.webp",
+      "level": "C"
+    },
+    {
+      "id": "ma-arpa",
+      "es": "el arpa",
+      "en": "harp",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Harp — a large stringed instrument (uses el despite ending in -a).",
+      "scenarios": [
+        "music"
+      ],
+      "imageQuery": "harp musical instrument",
+      "image": "music-arts/arpa.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-saxofon",
+      "es": "el saxofón",
+      "en": "saxophone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Saxophone — 'tocar el saxofón' = to play the saxophone.",
+      "scenarios": [
+        "music"
+      ],
+      "imageQuery": "saxophone jazz instrument",
+      "image": "music-arts/saxofon.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-tambor",
+      "es": "el tambor",
+      "en": "drum",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Drum — hand drum; 'la batería' is a full drum kit.",
+      "scenarios": [
+        "music"
+      ],
+      "imageQuery": "drum percussion instrument",
+      "image": "music-arts/tambor.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-nota-musical",
+      "es": "la nota musical",
+      "en": "musical note",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Musical note — do, re, mi, fa, sol, la, si.",
+      "scenarios": [
+        "music"
+      ],
+      "imageQuery": "musical notes sheet",
+      "image": "music-arts/nota-musical.webp",
+      "level": "B"
+    },
+    {
+      "id": "ma-interprete",
+      "es": "el intérprete",
+      "en": "performer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Performer/interpreter — 'un intérprete de flamenco' = a flamenco performer.",
+      "scenarios": [
+        "music",
+        "arts"
+      ],
+      "imageQuery": "performer on stage",
+      "image": "music-arts/interprete.webp",
+      "level": "C"
+    }
+  ]
+}

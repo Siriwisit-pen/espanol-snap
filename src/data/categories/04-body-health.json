@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Head — 'me duele la cabeza' = I have a headache.",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "human head portrait",
-      "image": "body-health/cabeza.webp"
+      "image": "body-health/cabeza.webp",
+      "level": "A"
     },
     {
       "id": "bh-pelo",
@@ -22,9 +26,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Hair — also 'el cabello' (more formal).",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "hair close up",
-      "image": "body-health/pelo.webp"
+      "image": "body-health/pelo.webp",
+      "level": "A"
     },
     {
       "id": "bh-cara",
@@ -33,9 +40,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Face — 'lavarse la cara' = to wash one's face.",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "face portrait close up",
-      "image": "body-health/cara.webp"
+      "image": "body-health/cara.webp",
+      "level": "A"
     },
     {
       "id": "bh-ojo",
@@ -44,9 +54,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Eye — 'tengo los ojos verdes' = I have green eyes.",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "eye close up",
-      "image": "body-health/ojo.webp"
+      "image": "body-health/ojo.webp",
+      "level": "A"
     },
     {
       "id": "bh-nariz",
@@ -55,9 +68,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Nose — 'me pica la nariz' = my nose itches.",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "nose close up face",
-      "image": "body-health/nariz.webp"
+      "image": "body-health/nariz.webp",
+      "level": "A"
     },
     {
       "id": "bh-boca",
@@ -66,9 +82,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Mouth — 'abre la boca' = open your mouth (common at the doctor's).",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "mouth smile close up",
-      "image": "body-health/boca.webp"
+      "image": "body-health/boca.webp",
+      "level": "A"
     },
     {
       "id": "bh-oreja",
@@ -77,9 +97,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Ear — 'me duele la oreja' = my ear hurts.",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "ear close up",
-      "image": "body-health/oreja.webp"
+      "image": "body-health/oreja.webp",
+      "level": "A"
     },
     {
       "id": "bh-diente",
@@ -88,9 +112,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Tooth — 'lavarse los dientes' = to brush one's teeth.",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "teeth smile",
-      "image": "body-health/diente.webp"
+      "image": "body-health/diente.webp",
+      "level": "A"
     },
     {
       "id": "bh-cuello",
@@ -99,9 +127,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Neck — also means the 'collar' or 'neckline' of clothing.",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "neck close up",
-      "image": "body-health/cuello.webp"
+      "image": "body-health/cuello.webp",
+      "level": "A"
     },
     {
       "id": "bh-brazo",
@@ -110,9 +141,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Arm — 'levanta el brazo' = raise your arm.",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "arm muscle",
-      "image": "body-health/brazo.webp"
+      "image": "body-health/brazo.webp",
+      "level": "A"
     },
     {
       "id": "bh-mano",
@@ -121,9 +156,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Hand — ends in 'o' but is feminine: 'la mano'.",
-      "scenarios": ["body parts", "greetings & daily routine"],
+      "scenarios": [
+        "body parts",
+        "greetings & daily routine"
+      ],
       "imageQuery": "hand gesture",
-      "image": "body-health/mano.webp"
+      "image": "body-health/mano.webp",
+      "level": "A"
     },
     {
       "id": "bh-dedo",
@@ -132,9 +171,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Finger — 'el dedo del pie' = toe (literally 'finger of the foot').",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "finger pointing hand",
-      "image": "body-health/dedo.webp"
+      "image": "body-health/dedo.webp",
+      "level": "A"
     },
     {
       "id": "bh-pierna",
@@ -143,9 +185,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Leg — 'me duele la pierna' = my leg hurts.",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "leg human",
-      "image": "body-health/pierna.webp"
+      "image": "body-health/pierna.webp",
+      "level": "A"
     },
     {
       "id": "bh-pie",
@@ -154,9 +200,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Foot — 'a pie' = on foot, walking.",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "human foot",
-      "image": "body-health/pie.webp"
+      "image": "body-health/pie.webp",
+      "level": "A"
     },
     {
       "id": "bh-espalda",
@@ -165,9 +214,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Back (body part) — 'me duele la espalda' = my back hurts.",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "human back",
-      "image": "body-health/espalda.webp"
+      "image": "body-health/espalda.webp",
+      "level": "B"
     },
     {
       "id": "bh-estomago",
@@ -176,9 +229,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Stomach — 'me duele el estómago' = I have a stomachache.",
-      "scenarios": ["body parts", "at the doctor"],
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
       "imageQuery": "stomach abdomen",
-      "image": "body-health/estomago.webp"
+      "image": "body-health/estomago.webp",
+      "level": "B"
     },
     {
       "id": "bh-corazon",
@@ -187,9 +244,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Heart — used literally (the organ) and for feelings, like in English.",
-      "scenarios": ["body parts", "emotions"],
+      "scenarios": [
+        "body parts",
+        "emotions"
+      ],
       "imageQuery": "heart shape hands",
-      "image": "body-health/corazon.webp"
+      "image": "body-health/corazon.webp",
+      "level": "B"
     },
     {
       "id": "bh-piel",
@@ -198,9 +259,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Skin — also means 'leather' or fruit 'peel' depending on context.",
-      "scenarios": ["body parts"],
+      "scenarios": [
+        "body parts"
+      ],
       "imageQuery": "skin texture",
-      "image": "body-health/piel.webp"
+      "image": "body-health/piel.webp",
+      "level": "B"
     },
     {
       "id": "bh-fiebre",
@@ -209,9 +273,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Fever — 'tengo fiebre' = I have a fever.",
-      "scenarios": ["at the doctor", "health"],
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
       "imageQuery": "thermometer temperature",
-      "image": "body-health/fiebre.webp"
+      "image": "body-health/fiebre.webp",
+      "level": "B"
     },
     {
       "id": "bh-medicina",
@@ -220,9 +288,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Medicine — 'tomar la medicina' = to take the medicine.",
-      "scenarios": ["at the doctor", "at the pharmacy"],
+      "scenarios": [
+        "at the doctor",
+        "at the pharmacy"
+      ],
       "imageQuery": "medicine pills bottle",
-      "image": "body-health/medicina.webp"
+      "image": "body-health/medicina.webp",
+      "level": "B"
     },
     {
       "id": "bh-medico",
@@ -231,9 +303,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Doctor ('la médica' for a woman) — also 'el doctor/la doctora'.",
-      "scenarios": ["at the doctor"],
+      "scenarios": [
+        "at the doctor"
+      ],
       "imageQuery": "doctor portrait",
-      "image": "body-health/medico.webp"
+      "image": "body-health/medico.webp",
+      "level": "B"
     },
     {
       "id": "bh-farmacia",
@@ -242,9 +317,698 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Pharmacy — look for the green cross sign in many Spanish-speaking countries.",
-      "scenarios": ["at the pharmacy", "city & directions"],
+      "scenarios": [
+        "at the pharmacy",
+        "city & directions"
+      ],
       "imageQuery": "pharmacy store sign",
-      "image": "body-health/farmacia.webp"
+      "image": "body-health/farmacia.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-hombro",
+      "es": "el hombro",
+      "en": "shoulder",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shoulder — 'me duele el hombro' = my shoulder hurts.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "shoulder human body",
+      "image": "body-health/hombro.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-rodilla",
+      "es": "la rodilla",
+      "en": "knee",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Knee — 'me duele la rodilla' = my knee hurts.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "knee human leg",
+      "image": "body-health/rodilla.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-tobillo",
+      "es": "el tobillo",
+      "en": "ankle",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ankle — 'me torcí el tobillo' = I twisted my ankle.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "ankle foot leg",
+      "image": "body-health/tobillo.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-codo",
+      "es": "el codo",
+      "en": "elbow",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Elbow — 'apoyar el codo' = to rest your elbow.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "elbow arm bend",
+      "image": "body-health/codo.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-muneca",
+      "es": "la muñeca",
+      "en": "wrist",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wrist — also means 'doll' (context makes it clear).",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "wrist hand",
+      "image": "body-health/muneca.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-muslo",
+      "es": "el muslo",
+      "en": "thigh",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Thigh — upper part of the leg.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "thigh leg human",
+      "image": "body-health/muslo.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-pecho",
+      "es": "el pecho",
+      "en": "chest",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chest — 'dolor en el pecho' = chest pain.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "chest human torso",
+      "image": "body-health/pecho.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-barriga",
+      "es": "la barriga",
+      "en": "belly",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Belly/tummy — informal for 'el estómago'; 'dolor de barriga' = tummy ache.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "belly stomach abdomen",
+      "image": "body-health/barriga.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-pulgar",
+      "es": "el pulgar",
+      "en": "thumb",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Thumb — 'dar un pulgar arriba' = to give a thumbs up.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "thumb hand gesture",
+      "image": "body-health/pulgar.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-una",
+      "es": "la uña",
+      "en": "nail",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nail (finger/toe) — 'cortarse las uñas' = to cut your nails.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "fingernail close up",
+      "image": "body-health/una.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-lengua",
+      "es": "la lengua",
+      "en": "tongue",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Tongue — also means 'language': 'mi lengua materna' = my mother tongue.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "tongue mouth open",
+      "image": "body-health/lengua.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-labio",
+      "es": "el labio",
+      "en": "lip",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lip — 'los labios' = lips.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "lips mouth close up",
+      "image": "body-health/labio.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-barbilla",
+      "es": "la barbilla",
+      "en": "chin",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Chin — 'apoyar la barbilla en la mano' = to rest your chin on your hand.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "chin face close up",
+      "image": "body-health/barbilla.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-frente",
+      "es": "la frente",
+      "en": "forehead",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Forehead — 'tocar la frente' = to touch the forehead (to check for fever).",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "forehead face",
+      "image": "body-health/frente.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-ceja",
+      "es": "la ceja",
+      "en": "eyebrow",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Eyebrow — 'las cejas' = eyebrows.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "eyebrow close up face",
+      "image": "body-health/ceja.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-mejilla",
+      "es": "la mejilla",
+      "en": "cheek",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cheek — 'dar un beso en la mejilla' = to give a kiss on the cheek.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "cheek face smiling",
+      "image": "body-health/mejilla.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-hueso",
+      "es": "el hueso",
+      "en": "bone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bone — 'me rompí un hueso' = I broke a bone.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "bone xray skeleton",
+      "image": "body-health/hueso.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-musculo",
+      "es": "el músculo",
+      "en": "muscle",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Muscle — 'estirar los músculos' = to stretch your muscles.",
+      "scenarios": [
+        "body parts",
+        "exercise"
+      ],
+      "imageQuery": "muscle arm flex",
+      "image": "body-health/musculo.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-sangre",
+      "es": "la sangre",
+      "en": "blood",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Blood — 'análisis de sangre' = blood test.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "blood test tube",
+      "image": "body-health/sangre.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-cerebro",
+      "es": "el cerebro",
+      "en": "brain",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Brain — 'el cerebro humano' = the human brain.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "human brain illustration",
+      "image": "body-health/cerebro.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-pulmon",
+      "es": "el pulmón",
+      "en": "lung",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lung — 'los pulmones' = the lungs.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "lung anatomy",
+      "image": "body-health/pulmon.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-enfermedad",
+      "es": "la enfermedad",
+      "en": "illness",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Illness/disease — 'una enfermedad grave' = a serious illness.",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "sick person bed illness",
+      "image": "body-health/enfermedad.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-dolor",
+      "es": "el dolor",
+      "en": "pain",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pain/ache — 'tengo dolor de cabeza' = I have a headache.",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "person in pain",
+      "image": "body-health/dolor.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-herida",
+      "es": "la herida",
+      "en": "wound",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wound/injury — 'una herida leve' = a minor wound.",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "wound bandage hand",
+      "image": "body-health/herida.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-venda",
+      "es": "la venda",
+      "en": "bandage",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bandage — 'poner una venda' = to put on a bandage.",
+      "scenarios": [
+        "at the doctor"
+      ],
+      "imageQuery": "bandage wound",
+      "image": "body-health/venda.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-pastilla",
+      "es": "la pastilla",
+      "en": "pill",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pill/tablet — 'tomar una pastilla' = to take a pill.",
+      "scenarios": [
+        "at the doctor",
+        "at the pharmacy"
+      ],
+      "imageQuery": "pills tablets medicine",
+      "image": "body-health/pastilla.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-inyeccion",
+      "es": "la inyección",
+      "en": "injection",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Injection/shot — 'poner una inyección' = to give an injection.",
+      "scenarios": [
+        "at the doctor"
+      ],
+      "imageQuery": "injection syringe",
+      "image": "body-health/inyeccion.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-hospital",
+      "es": "el hospital",
+      "en": "hospital",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hospital — 'ir al hospital' = to go to the hospital.",
+      "scenarios": [
+        "at the doctor",
+        "city & directions"
+      ],
+      "imageQuery": "hospital building",
+      "image": "body-health/hospital.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-enfermero",
+      "es": "el enfermero",
+      "en": "nurse",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Nurse (male) — 'la enfermera' = female nurse.",
+      "scenarios": [
+        "at the doctor"
+      ],
+      "imageQuery": "male nurse hospital",
+      "image": "body-health/enfermero.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-enfermera",
+      "es": "la enfermera",
+      "en": "nurse (female)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nurse (female) — 'el enfermero' = male nurse.",
+      "scenarios": [
+        "at the doctor"
+      ],
+      "imageQuery": "female nurse hospital",
+      "image": "body-health/enfermera.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-receta",
+      "es": "la receta",
+      "en": "prescription",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Prescription — also means 'recipe' in cooking context.",
+      "scenarios": [
+        "at the doctor",
+        "at the pharmacy"
+      ],
+      "imageQuery": "medical prescription paper",
+      "image": "body-health/receta.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-alergia",
+      "es": "la alergia",
+      "en": "allergy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Allergy — 'soy alérgico a...' = I'm allergic to...",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "allergy pollen sneeze",
+      "image": "body-health/alergia.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-resfriado",
+      "es": "el resfriado",
+      "en": "cold",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Common cold — 'tengo un resfriado' = I have a cold.",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "person cold sick tissue",
+      "image": "body-health/resfriado.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-tos",
+      "es": "la tos",
+      "en": "cough",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cough — 'tengo tos' = I have a cough.",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "person coughing",
+      "image": "body-health/tos.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-gripe",
+      "es": "la gripe",
+      "en": "flu",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flu/influenza — 'tengo la gripe' = I have the flu.",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "sick person flu fever",
+      "image": "body-health/gripe.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-salud",
+      "es": "la salud",
+      "en": "health",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Health — '¡salud!' = cheers! (a toast) or 'bless you' after a sneeze.",
+      "scenarios": [
+        "health"
+      ],
+      "imageQuery": "healthy person wellness",
+      "image": "body-health/salud.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-ejercicio",
+      "es": "el ejercicio",
+      "en": "exercise",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Exercise — 'hacer ejercicio' = to exercise.",
+      "scenarios": [
+        "health",
+        "sports & exercise"
+      ],
+      "imageQuery": "exercise workout gym",
+      "image": "body-health/ejercicio.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-cuerpo",
+      "es": "el cuerpo",
+      "en": "body",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Body — 'el cuerpo humano' = the human body.",
+      "scenarios": [
+        "body parts"
+      ],
+      "imageQuery": "human body silhouette",
+      "image": "body-health/cuerpo.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-vientre",
+      "es": "el vientre",
+      "en": "abdomen",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Abdomen/belly — more formal than 'barriga'; used at the doctor.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "abdomen stomach human",
+      "image": "body-health/vientre.webp",
+      "level": "C"
+    },
+    {
+      "id": "bh-higado",
+      "es": "el hígado",
+      "en": "liver",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Liver — 'problemas de hígado' = liver problems.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "liver anatomy organ",
+      "image": "body-health/higado.webp",
+      "level": "C"
+    },
+    {
+      "id": "bh-rinon",
+      "es": "el riñón",
+      "en": "kidney",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Kidney — 'los riñones' = the kidneys.",
+      "scenarios": [
+        "body parts",
+        "at the doctor"
+      ],
+      "imageQuery": "kidney organ anatomy",
+      "image": "body-health/rinon.webp",
+      "level": "C"
+    },
+    {
+      "id": "bh-embarazo",
+      "es": "el embarazo",
+      "en": "pregnancy",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pregnancy — 'estar embarazada' = to be pregnant. (Note: 'embarazado' = pregnant, not 'embarrassed'!)",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "pregnant woman belly",
+      "image": "body-health/embarazo.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-vitamina",
+      "es": "la vitamina",
+      "en": "vitamin",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Vitamin — 'tomar vitaminas' = to take vitamins.",
+      "scenarios": [
+        "health",
+        "at the pharmacy"
+      ],
+      "imageQuery": "vitamin supplement bottle",
+      "image": "body-health/vitamina.webp",
+      "level": "B"
+    },
+    {
+      "id": "bh-sano",
+      "es": "sano",
+      "en": "healthy",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Healthy — 'una dieta sana' = a healthy diet.",
+      "scenarios": [
+        "health"
+      ],
+      "imageQuery": "healthy food salad",
+      "image": "body-health/sano.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-enfermo",
+      "es": "enfermo",
+      "en": "sick",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Sick/ill — 'estoy enfermo' = I'm sick; 'enferma' for a woman.",
+      "scenarios": [
+        "at the doctor",
+        "health"
+      ],
+      "imageQuery": "sick person bed",
+      "image": "body-health/enfermo.webp",
+      "level": "A"
+    },
+    {
+      "id": "bh-operacion",
+      "es": "la operación",
+      "en": "surgery",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Surgery/operation — 'necesito una operación' = I need surgery.",
+      "scenarios": [
+        "at the doctor"
+      ],
+      "imageQuery": "surgery operation doctor",
+      "image": "body-health/operacion.webp",
+      "level": "C"
+    },
+    {
+      "id": "bh-urgencias",
+      "es": "las urgencias",
+      "en": "emergency room",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Emergency room (ER) — 'ir a urgencias' = to go to the ER.",
+      "scenarios": [
+        "at the doctor"
+      ],
+      "imageQuery": "emergency room hospital",
+      "image": "body-health/urgencias.webp",
+      "level": "B"
     }
   ]
 }

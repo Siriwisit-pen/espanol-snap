@@ -1,0 +1,928 @@
+{
+  "id": "vegetables",
+  "order": 22,
+  "name": "Vegetables",
+  "nameEs": "Las verduras",
+  "words": [
+    {
+      "id": "vg-zanahoria",
+      "es": "la zanahoria",
+      "en": "carrot",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Carrot — orange root vegetable. 'Las zanahorias' are sweet raw or cooked in soups and stews.",
+      "scenarios": [
+        "grocery shopping",
+        "cooking",
+        "at the market"
+      ],
+      "imageQuery": "fresh carrots orange",
+      "image": "vegetables/zanahoria.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-lechuga",
+      "es": "la lechuga",
+      "en": "lettuce",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lettuce — the base of most salads. 'Una ensalada de lechuga' = a lettuce salad.",
+      "scenarios": [
+        "salad bar",
+        "grocery shopping",
+        "cooking"
+      ],
+      "imageQuery": "fresh lettuce green leaves",
+      "image": "vegetables/lechuga.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-tomate",
+      "es": "el tomate",
+      "en": "tomato",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tomato — botanically a fruit but used as a vegetable. 'Salsa de tomate' = tomato sauce.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "fresh red tomatoes",
+      "image": "vegetables/tomate.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-papa",
+      "es": "la papa",
+      "en": "potato",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Potato — called 'papa' in Latin America and 'patata' in Spain. 'Papas fritas' = french fries.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "restaurant"
+      ],
+      "imageQuery": "fresh potatoes pile",
+      "image": "vegetables/papa.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-cebolla",
+      "es": "la cebolla",
+      "en": "onion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Onion — essential flavour base in most Latin American cooking. 'Sofrito' starts with garlic and onion.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "white onion whole and sliced",
+      "image": "vegetables/cebolla.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-ajo",
+      "es": "el ajo",
+      "en": "garlic",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Garlic — 'el ajo' is a flavour powerhouse. 'Un diente de ajo' = one clove of garlic.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "garlic bulb and cloves",
+      "image": "vegetables/ajo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-pimiento",
+      "es": "el pimiento",
+      "en": "bell pepper",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bell pepper — comes in red, yellow, and green. 'El pimiento rojo' = red bell pepper.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "colorful bell peppers red yellow green",
+      "image": "vegetables/pimiento.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-pepino",
+      "es": "el pepino",
+      "en": "cucumber",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cucumber — cool and refreshing. Used in salads and as a snack with salt and lime in Mexico.",
+      "scenarios": [
+        "salad bar",
+        "grocery shopping",
+        "snack time"
+      ],
+      "imageQuery": "fresh cucumber sliced",
+      "image": "vegetables/pepino.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-espinaca",
+      "es": "la espinaca",
+      "en": "spinach",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Spinach — dark leafy green. 'La espinaca' is great in salads, omelettes, or smoothies.",
+      "scenarios": [
+        "grocery shopping",
+        "cooking",
+        "salad bar"
+      ],
+      "imageQuery": "fresh spinach leaves green",
+      "image": "vegetables/espinaca.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-brocoli",
+      "es": "el brócoli",
+      "en": "broccoli",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Broccoli — green tree-like vegetable. 'El brócoli al vapor' = steamed broccoli.",
+      "scenarios": [
+        "grocery shopping",
+        "cooking",
+        "healthy eating"
+      ],
+      "imageQuery": "fresh broccoli florets green",
+      "image": "vegetables/brocoli.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-coliflor",
+      "es": "la coliflor",
+      "en": "cauliflower",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cauliflower — white or purple vegetable related to broccoli. 'Coliflor al horno' = roasted cauliflower.",
+      "scenarios": [
+        "grocery shopping",
+        "cooking",
+        "healthy eating"
+      ],
+      "imageQuery": "white cauliflower head",
+      "image": "vegetables/coliflor.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-repollo",
+      "es": "el repollo",
+      "en": "cabbage",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cabbage — round leafy vegetable. Used in coleslaw, soups, and stuffed dishes.",
+      "scenarios": [
+        "grocery shopping",
+        "cooking",
+        "at the market"
+      ],
+      "imageQuery": "green cabbage head",
+      "image": "vegetables/repollo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-remolacha",
+      "es": "la remolacha",
+      "en": "beetroot / beet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Beetroot — deep red-purple root vegetable. 'Jugo de remolacha' = beet juice, popular for energy.",
+      "scenarios": [
+        "juice bar",
+        "grocery shopping",
+        "cooking"
+      ],
+      "imageQuery": "fresh red beetroot beet",
+      "image": "vegetables/remolacha.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-maiz",
+      "es": "el maíz",
+      "en": "corn / maize",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Corn — staple of Latin American cuisine. 'El maíz' is the base for tortillas, arepas, and tamales.",
+      "scenarios": [
+        "cooking",
+        "street food",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh corn on the cob yellow",
+      "image": "vegetables/maiz.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-calabaza",
+      "es": "la calabaza",
+      "en": "pumpkin / squash",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pumpkin/squash — 'la calabaza' covers pumpkin and squash varieties. Used in soups and stews.",
+      "scenarios": [
+        "cooking",
+        "at the market",
+        "autumn harvest"
+      ],
+      "imageQuery": "orange pumpkin squash",
+      "image": "vegetables/calabaza.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-apio",
+      "es": "el apio",
+      "en": "celery",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Celery — crunchy pale-green stalks. Used in soups, salads, and as a low-calorie snack.",
+      "scenarios": [
+        "grocery shopping",
+        "cooking",
+        "snack time"
+      ],
+      "imageQuery": "fresh celery stalks green",
+      "image": "vegetables/apio.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-puerro",
+      "es": "el puerro",
+      "en": "leek",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Leek — mild onion-family vegetable with white stalk and green leaves. Used in soups.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "soup recipe"
+      ],
+      "imageQuery": "fresh leeks white green",
+      "image": "vegetables/puerro.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-nabo",
+      "es": "el nabo",
+      "en": "turnip",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Turnip — white and purple root vegetable with a mildly spicy flavour. Used in stews.",
+      "scenarios": [
+        "cooking",
+        "at the market",
+        "winter vegetables"
+      ],
+      "imageQuery": "fresh turnip white purple root",
+      "image": "vegetables/nabo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-berenjena",
+      "es": "la berenjena",
+      "en": "eggplant / aubergine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Eggplant — dark purple vegetable. 'Berenjena a la parrilla' = grilled eggplant.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "fresh purple eggplant aubergine",
+      "image": "vegetables/berenjena.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-alcachofa",
+      "es": "la alcachofa",
+      "en": "artichoke",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Artichoke — thistle-like vegetable with layered edible leaves and a tender heart in the centre.",
+      "scenarios": [
+        "cooking",
+        "Mediterranean restaurant",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh artichoke vegetable",
+      "image": "vegetables/alcachofa.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-esparrago",
+      "es": "el espárrago",
+      "en": "asparagus",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Asparagus — long green or white stalks. 'Espárragos a la plancha' = grilled asparagus.",
+      "scenarios": [
+        "cooking",
+        "fine dining",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh green asparagus spears",
+      "image": "vegetables/esparrago.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-habas",
+      "es": "las habas",
+      "en": "broad beans / fava beans",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Broad beans — large flat green beans. 'Las habas' are common in Spanish and Andean cooking.",
+      "scenarios": [
+        "cooking",
+        "at the market",
+        "traditional dishes"
+      ],
+      "imageQuery": "fresh broad beans fava beans green",
+      "image": "vegetables/habas.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-guisantes",
+      "es": "los guisantes",
+      "en": "peas",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Peas — small round green legumes. Called 'arvejas' in Latin America. 'Guisantes con jamón' = peas with ham.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "traditional dishes"
+      ],
+      "imageQuery": "fresh green peas pod",
+      "image": "vegetables/guisantes.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-lenteja",
+      "es": "la lenteja",
+      "en": "lentil",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lentil — small disc-shaped legume. 'Las lentejas' are cooked in hearty soups and stews.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "traditional dishes"
+      ],
+      "imageQuery": "dried lentils brown red",
+      "image": "vegetables/lenteja.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-garbanzo",
+      "es": "el garbanzo",
+      "en": "chickpea",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chickpea — round beige legume. Used in 'cocido', hummus, and many Latin American stews.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "dried chickpeas garbanzo beans",
+      "image": "vegetables/garbanzo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-frijol",
+      "es": "el frijol",
+      "en": "bean",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bean — called 'frijoles' in Mexico and Central America, 'porotos' in South America. Staple protein source.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "traditional dishes"
+      ],
+      "imageQuery": "black beans dried frijoles",
+      "image": "vegetables/frijol.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-choclo",
+      "es": "el choclo",
+      "en": "fresh corn / choclo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Choclo — large-kernel Andean corn. Served boiled with cheese in Peru and Ecuador.",
+      "scenarios": [
+        "Andean street food",
+        "traditional dishes",
+        "at the market"
+      ],
+      "imageQuery": "choclo andean corn large kernels",
+      "image": "vegetables/choclo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-yuca",
+      "es": "la yuca",
+      "en": "cassava / yuca",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cassava — starchy tropical root vegetable. 'Yuca frita' = fried cassava. A staple in the Caribbean.",
+      "scenarios": [
+        "Latin American cooking",
+        "at the market",
+        "street food"
+      ],
+      "imageQuery": "yuca cassava root vegetable",
+      "image": "vegetables/yuca.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-batata",
+      "es": "la batata",
+      "en": "sweet potato",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sweet potato — orange-fleshed starchy root. Called 'camote' in Mexico. 'Batata asada' = baked sweet potato.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "healthy eating"
+      ],
+      "imageQuery": "sweet potato orange batata",
+      "image": "vegetables/batata.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-aguacate",
+      "es": "el aguacate",
+      "en": "avocado",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Avocado — creamy green fruit used as a vegetable. 'El aguacate' is essential for guacamole.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "breakfast"
+      ],
+      "imageQuery": "avocado halved green",
+      "image": "vegetables/aguacate.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-champinon",
+      "es": "el champiñón",
+      "en": "mushroom",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mushroom — 'champiñón' refers to the common button mushroom. 'Setas' are wild mushrooms.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "pizza topping"
+      ],
+      "imageQuery": "fresh mushrooms button white",
+      "image": "vegetables/champinon.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-cilantro",
+      "es": "el cilantro",
+      "en": "cilantro / coriander",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cilantro — aromatic herb essential in Latin American cooking. Used fresh in salsas and soups.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "Mexican cuisine"
+      ],
+      "imageQuery": "fresh cilantro coriander herb",
+      "image": "vegetables/cilantro.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-perejil",
+      "es": "el perejil",
+      "en": "parsley",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Parsley — green herb used as garnish and flavouring. 'Chimichurri' is made with parsley.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "garnish"
+      ],
+      "imageQuery": "fresh parsley herb green",
+      "image": "vegetables/perejil.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-albahaca",
+      "es": "la albahaca",
+      "en": "basil",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Basil — fragrant herb. 'La albahaca' is key in Italian-style dishes popular across Latin America.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "Italian restaurant"
+      ],
+      "imageQuery": "fresh basil leaves green",
+      "image": "vegetables/albahaca.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-oregano",
+      "es": "el orégano",
+      "en": "oregano",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Oregano — dried or fresh herb used in pizza, marinades, and many Latin American dishes.",
+      "scenarios": [
+        "cooking",
+        "pizza making",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh dried oregano herb",
+      "image": "vegetables/oregano.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-tomillo",
+      "es": "el tomillo",
+      "en": "thyme",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Thyme — woody aromatic herb. Used in marinades, soups, and roasted meats.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "herb garden"
+      ],
+      "imageQuery": "fresh thyme herb sprigs",
+      "image": "vegetables/tomillo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-menta",
+      "es": "la menta",
+      "en": "mint",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mint — refreshing herb. Used in drinks like mojitos and in teas. 'Té de menta' = mint tea.",
+      "scenarios": [
+        "herb garden",
+        "cocktail bar",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh mint leaves herb",
+      "image": "vegetables/menta.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-rucula",
+      "es": "la rúcula",
+      "en": "arugula / rocket",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Arugula — peppery salad green. 'Ensalada de rúcula con parmesano' = arugula and parmesan salad.",
+      "scenarios": [
+        "salad bar",
+        "Italian restaurant",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh arugula rocket salad leaves",
+      "image": "vegetables/rucula.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-berro",
+      "es": "el berro",
+      "en": "watercress",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Watercress — peppery aquatic plant used in salads and soups. Rich in iron and vitamins.",
+      "scenarios": [
+        "salad bar",
+        "cooking",
+        "health food store"
+      ],
+      "imageQuery": "fresh watercress green leaves",
+      "image": "vegetables/berro.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-endivia",
+      "es": "la endivia",
+      "en": "endive / chicory",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Endive — slightly bitter leaf vegetable. Used in salads or stuffed as finger food.",
+      "scenarios": [
+        "salad bar",
+        "cooking",
+        "grocery shopping"
+      ],
+      "imageQuery": "endive chicory white leaves",
+      "image": "vegetables/endivia.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-col-rizada",
+      "es": "la col rizada",
+      "en": "kale",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Kale — dark curly leafy green. Very nutritious. Used in salads, smoothies, and soups.",
+      "scenarios": [
+        "health food store",
+        "grocery shopping",
+        "smoothie bar"
+      ],
+      "imageQuery": "fresh kale curly green leaves",
+      "image": "vegetables/col-rizada.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-palmito",
+      "es": "el palmito",
+      "en": "heart of palm",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Heart of palm — tender white cylinder from palm tree core. Used in salads and as a meat substitute.",
+      "scenarios": [
+        "Latin American cooking",
+        "salad bar",
+        "grocery shopping"
+      ],
+      "imageQuery": "heart of palm palmito white",
+      "image": "vegetables/palmito.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-chayote",
+      "es": "el chayote",
+      "en": "chayote / christophine",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chayote — pale green pear-shaped squash. Very popular in Mexican and Central American cooking.",
+      "scenarios": [
+        "Latin American market",
+        "cooking",
+        "at the market"
+      ],
+      "imageQuery": "chayote green squash vegetable",
+      "image": "vegetables/chayote.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-malanga",
+      "es": "la malanga",
+      "en": "taro / malanga",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Malanga — starchy root vegetable with a slightly nutty flavour. Common in Cuba and Puerto Rico.",
+      "scenarios": [
+        "Caribbean cooking",
+        "Latin American market",
+        "at the market"
+      ],
+      "imageQuery": "malanga taro root vegetable",
+      "image": "vegetables/malanga.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-name",
+      "es": "el ñame",
+      "en": "yam",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Yam — large starchy tuber with rough brown skin. A staple in African-influenced Caribbean cooking.",
+      "scenarios": [
+        "Caribbean market",
+        "cooking",
+        "at the market"
+      ],
+      "imageQuery": "yam ñame brown tuber",
+      "image": "vegetables/name.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-platano-verde",
+      "es": "el plátano verde",
+      "en": "green plantain",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Green plantain — unripe plantain used as a starchy vegetable. 'Tostones' are fried green plantains.",
+      "scenarios": [
+        "Caribbean cooking",
+        "Latin American market",
+        "street food"
+      ],
+      "imageQuery": "green plantain unripe cooking",
+      "image": "vegetables/platano-verde.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-zapallo",
+      "es": "el zapallo",
+      "en": "winter squash / zapallo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Zapallo — large orange-fleshed squash used in South American soups like 'locro de zapallo'.",
+      "scenarios": [
+        "South American cooking",
+        "at the market",
+        "traditional dishes"
+      ],
+      "imageQuery": "zapallo winter squash orange",
+      "image": "vegetables/zapallo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-vainita",
+      "es": "la vainita",
+      "en": "green bean",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Green bean — called 'vainita' in Ecuador and Peru, 'ejote' in Mexico. Served steamed or sautéed.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "fresh green beans vainitas",
+      "image": "vegetables/vainita.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-rabanito",
+      "es": "el rabanito",
+      "en": "radish",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Radish — small red and white root with a spicy crunch. Used in salads and as a garnish for tacos.",
+      "scenarios": [
+        "salad bar",
+        "taco stand",
+        "at the market"
+      ],
+      "imageQuery": "fresh radishes red white",
+      "image": "vegetables/rabanito.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-colinabo",
+      "es": "el colinabo",
+      "en": "kohlrabi",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Kohlrabi — green or purple bulb from the cabbage family. Crisp and mild, eaten raw or cooked.",
+      "scenarios": [
+        "grocery shopping",
+        "cooking",
+        "European market"
+      ],
+      "imageQuery": "kohlrabi purple green vegetable",
+      "image": "vegetables/colinabo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-hinojo",
+      "es": "el hinojo",
+      "en": "fennel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fennel — white bulb vegetable with feathery fronds. Has an anise-like flavour. Used in salads and soups.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "Mediterranean cuisine"
+      ],
+      "imageQuery": "fresh fennel bulb white green",
+      "image": "vegetables/hinojo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-pimiento-rojo",
+      "es": "el pimiento rojo",
+      "en": "red bell pepper",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Red bell pepper — the sweetest of bell peppers. Key ingredient in 'pisto' and many salsas.",
+      "scenarios": [
+        "cooking",
+        "grocery shopping",
+        "at the market"
+      ],
+      "imageQuery": "red bell pepper whole shiny",
+      "image": "vegetables/pimiento-rojo.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-chile",
+      "es": "el chile",
+      "en": "chili pepper",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chili pepper — spicy pepper. 'El chile' is essential in Mexican cooking. '¡Pica mucho!' = It's very spicy!",
+      "scenarios": [
+        "Mexican cooking",
+        "at the market",
+        "spice shopping"
+      ],
+      "imageQuery": "red chili pepper hot spicy",
+      "image": "vegetables/chile.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-boniato",
+      "es": "el boniato",
+      "en": "sweet potato",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sweet potato — 'el camote' in most of Latin America.",
+      "scenarios": [
+        "vegetables"
+      ],
+      "imageQuery": "sweet potato baked",
+      "image": "vegetables/boniato.webp",
+      "level": "B"
+    },
+    {
+      "id": "vg-rabano",
+      "es": "el rábano",
+      "en": "radish",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Radish — full-size radish; 'el rabanito' is a small variety.",
+      "scenarios": [
+        "vegetables"
+      ],
+      "imageQuery": "radish red vegetable",
+      "image": "vegetables/rabano.webp",
+      "level": "B"
+    },
+    {
+      "id": "vg-cebolleta",
+      "es": "la cebolleta",
+      "en": "spring onion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Spring onion — mild onion with long green tops.",
+      "scenarios": [
+        "vegetables"
+      ],
+      "imageQuery": "spring onion green",
+      "image": "vegetables/cebolleta.webp",
+      "level": "B"
+    },
+    {
+      "id": "vg-verduras",
+      "es": "las verduras",
+      "en": "vegetables",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Vegetables (generic) — 'comer más verduras' = to eat more vegetables.",
+      "scenarios": [
+        "vegetables",
+        "food"
+      ],
+      "imageQuery": "mixed vegetables plate",
+      "image": "vegetables/verduras.webp",
+      "level": "A"
+    },
+    {
+      "id": "vg-legumbres",
+      "es": "las legumbres",
+      "en": "legumes",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Legumes/pulses — beans, lentils, chickpeas, etc.",
+      "scenarios": [
+        "vegetables",
+        "food"
+      ],
+      "imageQuery": "legumes beans lentils",
+      "image": "vegetables/legumbres.webp",
+      "level": "B"
+    }
+  ]
+}

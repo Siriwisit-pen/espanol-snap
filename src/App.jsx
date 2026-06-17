@@ -6,6 +6,7 @@ import Conversations from './components/Conversations.jsx'
 import ConversationQuiz from './components/ConversationQuiz.jsx'
 import Grammar from './components/Grammar.jsx'
 import GrammarLesson from './components/GrammarLesson.jsx'
+import MyWords from './components/MyWords.jsx'
 
 export default function App() {
   const [view, setView] = useState('home')
@@ -23,6 +24,12 @@ export default function App() {
   function startCategory(cat) {
     setPool(cat.words.map((w) => ({ ...w, categoryId: cat.id, categoryName: cat.name })))
     setTitle(cat.name)
+    setView('quiz')
+  }
+
+  function startMyWordsQuiz(words) {
+    setPool(words)
+    setTitle('My Words')
     setView('quiz')
   }
 
@@ -45,6 +52,7 @@ export default function App() {
           onStartCategory={startCategory}
           onConversations={() => setView('conversations')}
           onGrammar={() => setView('grammar')}
+          onMyWords={() => setView('myWords')}
         />
       )}
       {view === 'quiz' && <Quiz pool={pool} title={title} onExit={() => setView('home')} />}
@@ -59,6 +67,9 @@ export default function App() {
       )}
       {view === 'grammarLesson' && activeTopic && (
         <GrammarLesson topic={activeTopic} onBack={() => setView('grammar')} />
+      )}
+      {view === 'myWords' && (
+        <MyWords onBack={() => setView('home')} onQuiz={startMyWordsQuiz} />
       )}
     </div>
   )

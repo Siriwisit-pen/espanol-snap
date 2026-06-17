@@ -1,0 +1,833 @@
+{
+  "id": "health-medical",
+  "order": 31,
+  "name": "Health & Medical",
+  "nameEs": "Salud y medicina",
+  "words": [
+    {
+      "id": "hm-medico",
+      "es": "el médico",
+      "en": "doctor",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Doctor — 'ir al médico' = to go to the doctor. Feminine: 'la médica'. Also 'el doctor / la doctora'. The person who treats illness.",
+      "scenarios": [
+        "healthcare",
+        "clinic visit"
+      ],
+      "imageQuery": "doctor stethoscope white coat medical",
+      "image": "health-medical/medico.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-enfermero",
+      "es": "el enfermero",
+      "en": "nurse",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Nurse — 'la enfermera le tomó la temperatura' = the nurse took his temperature. Feminine: 'la enfermera'. Essential in hospitals and clinics.",
+      "scenarios": [
+        "hospital",
+        "healthcare"
+      ],
+      "imageQuery": "nurse hospital uniform healthcare worker",
+      "image": "health-medical/enfermero.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-hospital",
+      "es": "el hospital",
+      "en": "hospital",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hospital — 'llevar a alguien al hospital' = to take someone to the hospital. 'hospital público/privado' = public/private hospital.",
+      "scenarios": [
+        "emergency",
+        "healthcare"
+      ],
+      "imageQuery": "hospital building exterior emergency sign",
+      "image": "health-medical/hospital.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-clinica",
+      "es": "la clínica",
+      "en": "clinic",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Clinic — smaller and more specialized than a hospital. 'clínica dental' = dental clinic; 'clínica privada' = private clinic.",
+      "scenarios": [
+        "healthcare",
+        "specialist visit"
+      ],
+      "imageQuery": "medical clinic reception waiting room",
+      "image": "health-medical/clinica.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-farmacia",
+      "es": "la farmacia",
+      "en": "pharmacy / drugstore",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pharmacy — 'comprar medicamentos en la farmacia' = to buy medicine at the pharmacy. Look for the green cross sign ('la cruz verde') in Spain and Latin America.",
+      "scenarios": [
+        "healthcare",
+        "shopping"
+      ],
+      "imageQuery": "pharmacy drugstore green cross medicine",
+      "image": "health-medical/farmacia.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-receta",
+      "es": "la receta",
+      "en": "prescription / recipe",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Prescription — 'necesito una receta médica' = I need a prescription. Same word as 'recipe' — context tells you which it is.",
+      "scenarios": [
+        "pharmacy",
+        "doctor visit"
+      ],
+      "imageQuery": "prescription medical paper doctor form",
+      "image": "health-medical/receta.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-medicamento",
+      "es": "el medicamento",
+      "en": "medication / medicine",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Medication — 'tomar el medicamento dos veces al día' = to take the medication twice a day. Also 'medicina' or 'fármaco' (more technical).",
+      "scenarios": [
+        "pharmacy",
+        "illness treatment"
+      ],
+      "imageQuery": "medication medicine pills bottles",
+      "image": "health-medical/medicamento.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-pastilla",
+      "es": "la pastilla",
+      "en": "pill / tablet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pill — 'tomar una pastilla para el dolor' = to take a pill for the pain. Also 'comprimido' or 'tableta'. 'pastilla de jabón' = bar of soap (unrelated).",
+      "scenarios": [
+        "pharmacy",
+        "illness treatment"
+      ],
+      "imageQuery": "pills tablets medicine prescription",
+      "image": "health-medical/pastilla.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-inyeccion",
+      "es": "la inyección",
+      "en": "injection / shot",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Injection — 'poner una inyección' = to give an injection. 'tengo miedo de las inyecciones' = I'm afraid of injections. Also 'vacuna' for a vaccine shot.",
+      "scenarios": [
+        "medical procedure",
+        "hospital"
+      ],
+      "imageQuery": "injection syringe medical needle",
+      "image": "health-medical/inyeccion.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-vacuna",
+      "es": "la vacuna",
+      "en": "vaccine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Vaccine — 'vacunarse contra la gripe' = to get vaccinated against the flu. 'vacuna obligatoria' = mandatory vaccine. From the Latin 'vacca' (cow — origin of first vaccine).",
+      "scenarios": [
+        "preventive health",
+        "clinic"
+      ],
+      "imageQuery": "vaccine vaccination syringe injection",
+      "image": "health-medical/vacuna.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-cirugia",
+      "es": "la cirugía",
+      "en": "surgery",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Surgery — 'necesita una cirugía de corazón' = he needs heart surgery. 'cirugía de urgencia' = emergency surgery. Also 'operación'.",
+      "scenarios": [
+        "hospital",
+        "medical procedures"
+      ],
+      "imageQuery": "surgery operating room medical team",
+      "image": "health-medical/cirugia.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-operacion",
+      "es": "la operación",
+      "en": "operation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Operation — 'recuperarse de una operación' = to recover from an operation. Synonymous with 'cirugía'. Also means 'operation' in a business/military sense.",
+      "scenarios": [
+        "hospital",
+        "medical procedures"
+      ],
+      "imageQuery": "surgical operation hospital team procedure",
+      "image": "health-medical/operacion.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-diagnostico",
+      "es": "el diagnóstico",
+      "en": "diagnosis",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Diagnosis — 'el médico dio su diagnóstico' = the doctor gave his diagnosis. From Greek 'diagnōsis' = knowledge through. 'diagnóstico precoz' = early diagnosis.",
+      "scenarios": [
+        "doctor visit",
+        "medical consultation"
+      ],
+      "imageQuery": "doctor diagnosis consultation medical chart",
+      "image": "health-medical/diagnostico.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-sintoma",
+      "es": "el síntoma",
+      "en": "symptom",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Symptom — '¿qué síntomas tienes?' = what symptoms do you have? 'síntomas de la gripe' = flu symptoms. Key vocabulary at a doctor's appointment.",
+      "scenarios": [
+        "doctor visit",
+        "illness"
+      ],
+      "imageQuery": "patient describing symptoms doctor visit",
+      "image": "health-medical/sintoma.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-fiebre",
+      "es": "la fiebre",
+      "en": "fever",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fever — 'tengo fiebre' = I have a fever. 'temperatura de 38 grados' = 38-degree temperature. Common symptom of infection. 'bajar la fiebre' = to bring down the fever.",
+      "scenarios": [
+        "illness",
+        "symptoms"
+      ],
+      "imageQuery": "fever thermometer sick child temperature",
+      "image": "health-medical/fiebre.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-tos",
+      "es": "la tos",
+      "en": "cough",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cough — 'tengo mucha tos' = I have a bad cough. 'jarabe para la tos' = cough syrup. Verb: 'toser' = to cough.",
+      "scenarios": [
+        "illness",
+        "cold symptoms"
+      ],
+      "imageQuery": "person coughing sick cold flu",
+      "image": "health-medical/tos.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-resfriado",
+      "es": "el resfriado",
+      "en": "cold (illness)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cold — 'tengo un resfriado' = I have a cold. Also called 'el catarro'. 'estar resfriado' = to have a cold. More mild than 'la gripe'.",
+      "scenarios": [
+        "illness",
+        "mild symptoms"
+      ],
+      "imageQuery": "person with cold runny nose tissues",
+      "image": "health-medical/resfriado.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-gripe",
+      "es": "la gripe",
+      "en": "flu / influenza",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flu — 'tengo gripe y me duele todo' = I have the flu and everything hurts. More severe than 'resfriado'. 'vacuna contra la gripe' = flu vaccine.",
+      "scenarios": [
+        "illness",
+        "winter health"
+      ],
+      "imageQuery": "flu sick person bed fever",
+      "image": "health-medical/gripe.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-alergia",
+      "es": "la alergia",
+      "en": "allergy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Allergy — 'soy alérgico al gluten' = I'm allergic to gluten. 'alergia al polvo/al polen' = dust/pollen allergy. 'tengo una alergia alimentaria' = I have a food allergy.",
+      "scenarios": [
+        "health conditions",
+        "food"
+      ],
+      "imageQuery": "allergy test skin reaction medical",
+      "image": "health-medical/alergia.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-asma",
+      "es": "el asma",
+      "en": "asthma",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Asthma — note: feminine noun but uses 'el' (like 'el agua'). 'el inhalador para el asma' = the asthma inhaler. A chronic breathing condition.",
+      "scenarios": [
+        "chronic health",
+        "respiratory"
+      ],
+      "imageQuery": "asthma inhaler respiratory breathing",
+      "image": "health-medical/asma.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-diabetes",
+      "es": "la diabetes",
+      "en": "diabetes",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Diabetes — 'la diabetes tipo 2' = type 2 diabetes. 'controlar el azúcar en sangre' = to monitor blood sugar. A very common chronic disease.",
+      "scenarios": [
+        "chronic health",
+        "diet"
+      ],
+      "imageQuery": "diabetes blood sugar test glucose meter",
+      "image": "health-medical/diabetes.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-hipertension",
+      "es": "la hipertensión",
+      "en": "hypertension / high blood pressure",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hypertension — 'la hipertensión es la tensión arterial alta' = hypertension is high blood pressure. A silent but serious risk factor for heart disease.",
+      "scenarios": [
+        "chronic health",
+        "cardiovascular"
+      ],
+      "imageQuery": "blood pressure monitor hypertension medical",
+      "image": "health-medical/hipertension.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-infeccion",
+      "es": "la infección",
+      "en": "infection",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Infection — 'la herida tiene una infección' = the wound has an infection. 'infección bacteriana/viral' = bacterial/viral infection. Requires antibiotic or antiviral treatment.",
+      "scenarios": [
+        "illness",
+        "wound care"
+      ],
+      "imageQuery": "infection wound medical treatment antibiotics",
+      "image": "health-medical/infeccion.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-herida",
+      "es": "la herida",
+      "en": "wound / injury",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wound — 'limpiar la herida' = to clean the wound. 'herida leve/grave' = minor/serious injury. 'estar herido' = to be wounded/injured.",
+      "scenarios": [
+        "first aid",
+        "accident"
+      ],
+      "imageQuery": "wound injury bandage first aid",
+      "image": "health-medical/herida.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-quemadura",
+      "es": "la quemadura",
+      "en": "burn",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Burn — 'quemadura de primer grado' = first-degree burn. 'quemarse con el horno' = to burn oneself on the oven. Cool immediately with cold water.",
+      "scenarios": [
+        "first aid",
+        "accident"
+      ],
+      "imageQuery": "burn injury medical treatment wound",
+      "image": "health-medical/quemadura.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-fractura",
+      "es": "la fractura",
+      "en": "fracture / broken bone",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fracture — 'tiene una fractura en el brazo' = she has a fracture in her arm. 'fractura abierta' = open fracture. Requires X-ray and often a cast.",
+      "scenarios": [
+        "injury",
+        "emergency"
+      ],
+      "imageQuery": "broken bone fracture xray cast",
+      "image": "health-medical/fractura.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-vendaje",
+      "es": "el vendaje",
+      "en": "bandage / dressing",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bandage — 'cambiar el vendaje de la herida' = to change the wound dressing. From 'venda' (bandage strip). 'vendaje compresivo' = compression bandage.",
+      "scenarios": [
+        "first aid",
+        "wound care"
+      ],
+      "imageQuery": "medical bandage dressing wound first aid",
+      "image": "health-medical/vendaje.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-yeso",
+      "es": "el yeso",
+      "en": "plaster cast",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Plaster cast — 'llevar el brazo en yeso' = to have the arm in a cast. Also means plaster/gypsum (building material). 'firmar el yeso' = to sign someone's cast.",
+      "scenarios": [
+        "injury recovery",
+        "hospital"
+      ],
+      "imageQuery": "plaster cast arm broken bone recovery",
+      "image": "health-medical/yeso.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-muleta",
+      "es": "la muleta",
+      "en": "crutch",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Crutch — 'andar con muletas' = to walk on crutches. Used after leg injury or surgery. 'muleta' also refers to the red cape in bullfighting.",
+      "scenarios": [
+        "injury recovery",
+        "mobility aid"
+      ],
+      "imageQuery": "crutches walking aid injury recovery",
+      "image": "health-medical/muleta.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-sillaruedas",
+      "es": "la silla de ruedas",
+      "en": "wheelchair",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wheelchair — 'ir en silla de ruedas' = to use a wheelchair. 'silla de ruedas eléctrica' = electric wheelchair. Essential mobility aid.",
+      "scenarios": [
+        "disability",
+        "hospital"
+      ],
+      "imageQuery": "wheelchair mobility aid hospital",
+      "image": "health-medical/sillaruedas.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-ambulancia",
+      "es": "la ambulancia",
+      "en": "ambulance",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Ambulance — 'llamar a una ambulancia' = to call an ambulance. 'los paramédicos llegaron en ambulancia' = the paramedics arrived by ambulance.",
+      "scenarios": [
+        "emergency",
+        "accident"
+      ],
+      "imageQuery": "ambulance emergency vehicle siren",
+      "image": "health-medical/ambulancia.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-urgencias",
+      "es": "las urgencias",
+      "en": "emergency room / A&E",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Emergency room — 'ir a urgencias' = to go to the emergency room. Always plural in Spanish. 'sala de urgencias' = emergency ward. For life-threatening situations.",
+      "scenarios": [
+        "emergency",
+        "hospital"
+      ],
+      "imageQuery": "emergency room hospital sign urgent care",
+      "image": "health-medical/urgencias.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-saladeespera",
+      "es": "la sala de espera",
+      "en": "waiting room",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Waiting room — 'esperar en la sala de espera' = to wait in the waiting room. Universal experience at clinics, hospitals, and doctors' offices.",
+      "scenarios": [
+        "clinic",
+        "hospital"
+      ],
+      "imageQuery": "waiting room chairs clinic hospital",
+      "image": "health-medical/saladeespera.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-consulta",
+      "es": "la consulta",
+      "en": "medical consultation / doctor's office",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Consultation — 'tener una consulta con el médico' = to have a consultation with the doctor. Also refers to the doctor's office/surgery itself.",
+      "scenarios": [
+        "doctor visit",
+        "healthcare"
+      ],
+      "imageQuery": "doctor consultation office patient",
+      "image": "health-medical/consulta.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-historiaclinica",
+      "es": "la historia clínica",
+      "en": "medical history",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Medical history — 'revisar la historia clínica del paciente' = to review the patient's medical history. Also 'expediente médico'. Contains all past treatments and diagnoses.",
+      "scenarios": [
+        "doctor visit",
+        "hospital"
+      ],
+      "imageQuery": "medical records history chart patient file",
+      "image": "health-medical/historiaclinica.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-analisisdesangre",
+      "es": "el análisis de sangre",
+      "en": "blood test",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Blood test — 'hacerse un análisis de sangre' = to have a blood test. 'los resultados del análisis' = the test results. Usually requires fasting beforehand.",
+      "scenarios": [
+        "medical tests",
+        "preventive health"
+      ],
+      "imageQuery": "blood test laboratory tube medical analysis",
+      "image": "health-medical/analisisdesangre.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-rayosx",
+      "es": "los rayos X",
+      "en": "X-ray",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "X-ray — 'hacerse una radiografía / unos rayos X' = to have an X-ray. 'el técnico de rayos X' = the X-ray technician. Detects fractures and lung conditions.",
+      "scenarios": [
+        "medical tests",
+        "hospital"
+      ],
+      "imageQuery": "X-ray chest bone medical scan",
+      "image": "health-medical/rayosx.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-ecografia",
+      "es": "la ecografía",
+      "en": "ultrasound scan",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Ultrasound — 'la ecografía del bebé' = the baby's ultrasound. Uses sound waves to create images of internal organs. 'ecografía abdominal' = abdominal ultrasound.",
+      "scenarios": [
+        "pregnancy",
+        "medical tests"
+      ],
+      "imageQuery": "ultrasound scan pregnancy baby monitor",
+      "image": "health-medical/ecografia.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-biopsia",
+      "es": "la biopsia",
+      "en": "biopsy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Biopsy — 'realizar una biopsia para analizar el tejido' = to perform a biopsy to analyze the tissue. Removes a sample of tissue to test for cancer or disease.",
+      "scenarios": [
+        "cancer screening",
+        "medical tests"
+      ],
+      "imageQuery": "biopsy medical procedure laboratory tissue",
+      "image": "health-medical/biopsia.webp",
+      "level": "C"
+    },
+    {
+      "id": "hm-anestesia",
+      "es": "la anestesia",
+      "en": "anesthesia",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Anesthesia — 'anestesia general/local' = general/local anesthesia. 'el anestesiólogo administra la anestesia' = the anesthesiologist administers the anesthesia.",
+      "scenarios": [
+        "surgery",
+        "medical procedure"
+      ],
+      "imageQuery": "anesthesia surgery mask hospital operating",
+      "image": "health-medical/anestesia.webp",
+      "level": "C"
+    },
+    {
+      "id": "hm-sutura",
+      "es": "la sutura",
+      "en": "suture / stitch",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Suture/stitch — 'necesita puntos / suturas' = she needs stitches. 'retirar las suturas' = to remove the stitches. Closes a wound after injury or surgery.",
+      "scenarios": [
+        "wound care",
+        "surgery"
+      ],
+      "imageQuery": "suture stitches wound medical sewing",
+      "image": "health-medical/sutura.webp",
+      "level": "C"
+    },
+    {
+      "id": "hm-rehabilitacion",
+      "es": "la rehabilitación",
+      "en": "rehabilitation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Rehabilitation — 'la rehabilitación después de la cirugía' = rehabilitation after surgery. Also for addiction recovery ('rehabilitación de drogas').",
+      "scenarios": [
+        "recovery",
+        "post-surgery"
+      ],
+      "imageQuery": "physical rehabilitation therapy patient exercise",
+      "image": "health-medical/rehabilitacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-fisioterapia",
+      "es": "la fisioterapia",
+      "en": "physiotherapy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Physiotherapy — 'ir a fisioterapia para recuperarse' = to go to physiotherapy to recover. Treats injuries and pain through physical exercises and manual therapy.",
+      "scenarios": [
+        "recovery",
+        "sports injury"
+      ],
+      "imageQuery": "physiotherapy physical therapy patient exercise",
+      "image": "health-medical/fisioterapia.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-psicologo",
+      "es": "el psicólogo",
+      "en": "psychologist",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Psychologist — 'ir al psicólogo para hablar de tus problemas' = to go to the psychologist to talk about your problems. Feminine: 'la psicóloga'. Different from 'psiquiatra' (who can prescribe medication).",
+      "scenarios": [
+        "mental health",
+        "therapy"
+      ],
+      "imageQuery": "psychologist therapy session mental health",
+      "image": "health-medical/psicologo.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-nutricionista",
+      "es": "el nutricionista",
+      "en": "nutritionist / dietitian",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Nutritionist — 'el nutricionista hizo un plan de alimentación' = the nutritionist made a meal plan. Advises on diet and nutrition for health.",
+      "scenarios": [
+        "preventive health",
+        "diet"
+      ],
+      "imageQuery": "nutritionist food diet plan consultation",
+      "image": "health-medical/nutricionista.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-oftalmologo",
+      "es": "el oftalmólogo",
+      "en": "ophthalmologist / eye doctor",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ophthalmologist — 'el oftalmólogo revisó mi visión' = the eye doctor checked my vision. Don't confuse with 'optometrista' (optometrist) or 'óptico' (optician).",
+      "scenarios": [
+        "eye health",
+        "specialist"
+      ],
+      "imageQuery": "eye doctor ophthalmologist examination vision test",
+      "image": "health-medical/oftalmologo.webp",
+      "level": "C"
+    },
+    {
+      "id": "hm-dentista",
+      "es": "el dentista",
+      "en": "dentist",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dentist — 'ir al dentista cada seis meses' = to go to the dentist every six months. 'la consulta del dentista' = the dentist's office. Feminine: 'la dentista'.",
+      "scenarios": [
+        "dental health",
+        "specialist"
+      ],
+      "imageQuery": "dentist dental chair examination teeth",
+      "image": "health-medical/dentista.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-cardiologo",
+      "es": "el cardiólogo",
+      "en": "cardiologist",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cardiologist — 'el cardiólogo especialista en enfermedades del corazón' = the cardiologist, specialist in heart diseases. From 'cardio' (heart).",
+      "scenarios": [
+        "heart health",
+        "specialist"
+      ],
+      "imageQuery": "cardiologist heart specialist doctor ECG",
+      "image": "health-medical/cardiologo.webp",
+      "level": "C"
+    },
+    {
+      "id": "hm-pediatra",
+      "es": "el pediatra",
+      "en": "pediatrician",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pediatrician — 'el pediatra atiende a los niños' = the pediatrician treats children. Feminine: 'la pediatra'. From Greek 'paidós' (child).",
+      "scenarios": [
+        "children's health",
+        "specialist"
+      ],
+      "imageQuery": "pediatrician child doctor examination",
+      "image": "health-medical/pediatra.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-ginecologo",
+      "es": "el ginecólogo",
+      "en": "gynecologist",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Gynecologist — 'visita al ginecólogo para revisión anual' = annual visit to the gynecologist. Specialist in women's reproductive health. Feminine: 'la ginecóloga'.",
+      "scenarios": [
+        "women's health",
+        "specialist"
+      ],
+      "imageQuery": "gynecologist doctor women's health specialist",
+      "image": "health-medical/ginecologo.webp",
+      "level": "C"
+    },
+    {
+      "id": "hm-cirujano",
+      "es": "el cirujano",
+      "en": "surgeon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Surgeon — 'el cirujano realizó la operación' = the surgeon performed the operation. 'cirujano plástico' = plastic surgeon. Feminine: 'la cirujana'.",
+      "scenarios": [
+        "surgery",
+        "specialist"
+      ],
+      "imageQuery": "surgeon operating room medical team surgery",
+      "image": "health-medical/cirujano.webp",
+      "level": "C"
+    },
+    {
+      "id": "hm-especialista",
+      "es": "el especialista",
+      "en": "specialist",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Specialist — 'el médico me derivó a un especialista' = the doctor referred me to a specialist. Any doctor with advanced training in one field.",
+      "scenarios": [
+        "healthcare",
+        "referral"
+      ],
+      "imageQuery": "medical specialist doctor consultation",
+      "image": "health-medical/especialista.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-seguromedico",
+      "es": "el seguro médico",
+      "en": "health insurance",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Health insurance — 'tener seguro médico privado' = to have private health insurance. 'la tarjeta del seguro' = insurance card. Essential for accessing healthcare.",
+      "scenarios": [
+        "healthcare system",
+        "finance"
+      ],
+      "imageQuery": "health insurance card medical coverage",
+      "image": "health-medical/seguromedico.webp",
+      "level": "B"
+    },
+    {
+      "id": "hm-citamedica",
+      "es": "la cita médica",
+      "en": "medical appointment",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Medical appointment — 'pedir una cita médica' = to make a medical appointment. 'tengo cita con el médico mañana' = I have a doctor's appointment tomorrow.",
+      "scenarios": [
+        "healthcare",
+        "scheduling"
+      ],
+      "imageQuery": "medical appointment calendar doctor booking",
+      "image": "health-medical/citamedica.webp",
+      "level": "A"
+    },
+    {
+      "id": "hm-donacionsangre",
+      "es": "la donación de sangre",
+      "en": "blood donation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Blood donation — 'donar sangre salva vidas' = donating blood saves lives. 'hacerse donante de sangre' = to become a blood donor. Usually at a 'banco de sangre'.",
+      "scenarios": [
+        "healthcare",
+        "volunteering"
+      ],
+      "imageQuery": "blood donation giving bag medical",
+      "image": "health-medical/donacionsangre.webp",
+      "level": "C"
+    }
+  ]
+}

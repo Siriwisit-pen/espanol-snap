@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Clothes/clothing — a general word, always singular in Spanish ('la ropa', not 'las ropas').",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "folded clothes",
-      "image": "clothing/ropa.webp"
+      "image": "clothing/ropa.webp",
+      "level": "A"
     },
     {
       "id": "cl-camisa",
@@ -22,9 +26,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Shirt — usually with a collar and buttons.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "button shirt",
-      "image": "clothing/camisa.webp"
+      "image": "clothing/camisa.webp",
+      "level": "A"
     },
     {
       "id": "cl-camiseta",
@@ -33,9 +41,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "T-shirt — casual top, no collar or buttons.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "plain t-shirt",
-      "image": "clothing/camiseta.webp"
+      "image": "clothing/camiseta.webp",
+      "level": "A"
     },
     {
       "id": "cl-pantalon",
@@ -44,9 +56,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Pants/trousers — often used in the plural: 'los pantalones'.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "pair of pants trousers",
-      "image": "clothing/pantalon.webp"
+      "image": "clothing/pantalon.webp",
+      "level": "A"
     },
     {
       "id": "cl-vestido",
@@ -55,9 +71,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Dress — 'un vestido nuevo' = a new dress.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "dress on hanger",
-      "image": "clothing/vestido.webp"
+      "image": "clothing/vestido.webp",
+      "level": "A"
     },
     {
       "id": "cl-falda",
@@ -66,9 +86,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Skirt — worn from the waist down.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "skirt clothing",
-      "image": "clothing/falda.webp"
+      "image": "clothing/falda.webp",
+      "level": "A"
     },
     {
       "id": "cl-chaqueta",
@@ -77,9 +101,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Jacket — light outerwear; 'una chaqueta de cuero' = a leather jacket.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "jacket clothing",
-      "image": "clothing/chaqueta.webp"
+      "image": "clothing/chaqueta.webp",
+      "level": "A"
     },
     {
       "id": "cl-abrigo",
@@ -88,9 +116,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Coat — heavier than a chaqueta; worn in cold weather.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "winter coat",
-      "image": "clothing/abrigo.webp"
+      "image": "clothing/abrigo.webp",
+      "level": "A"
     },
     {
       "id": "cl-sueter",
@@ -99,9 +131,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Sweater — also called 'el jersey' or 'la chamarra' in some regions.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "knit sweater",
-      "image": "clothing/sueter.webp"
+      "image": "clothing/sueter.webp",
+      "level": "A"
     },
     {
       "id": "cl-zapatos",
@@ -110,9 +146,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Shoes — 'ponerse los zapatos' = to put on shoes.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "pair of shoes",
-      "image": "clothing/zapatos.webp"
+      "image": "clothing/zapatos.webp",
+      "level": "A"
     },
     {
       "id": "cl-botas",
@@ -121,9 +161,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Boots — good for rain or cold weather.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "pair of boots",
-      "image": "clothing/botas.webp"
+      "image": "clothing/botas.webp",
+      "level": "A"
     },
     {
       "id": "cl-sandalias",
@@ -132,9 +176,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Sandals — open shoes, great for summer.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "pair of sandals",
-      "image": "clothing/sandalias.webp"
+      "image": "clothing/sandalias.webp",
+      "level": "A"
     },
     {
       "id": "cl-calcetines",
@@ -143,9 +191,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Socks — worn under shoes ('un par de calcetines' = a pair of socks).",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "pair of socks",
-      "image": "clothing/calcetines.webp"
+      "image": "clothing/calcetines.webp",
+      "level": "A"
     },
     {
       "id": "cl-gorra",
@@ -154,9 +206,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Cap — a soft hat with a brim, like a baseball cap.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "baseball cap",
-      "image": "clothing/gorra.webp"
+      "image": "clothing/gorra.webp",
+      "level": "A"
     },
     {
       "id": "cl-sombrero",
@@ -165,9 +221,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Hat — a wider-brimmed hat, like a sun hat.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "wide brim hat",
-      "image": "clothing/sombrero.webp"
+      "image": "clothing/sombrero.webp",
+      "level": "A"
     },
     {
       "id": "cl-cinturon",
@@ -176,9 +236,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Belt — worn around the waist to hold up pants.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "leather belt",
-      "image": "clothing/cinturon.webp"
+      "image": "clothing/cinturon.webp",
+      "level": "A"
     },
     {
       "id": "cl-bufanda",
@@ -187,9 +251,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Scarf — worn around the neck in cold weather.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "winter scarf",
-      "image": "clothing/bufanda.webp"
+      "image": "clothing/bufanda.webp",
+      "level": "A"
     },
     {
       "id": "cl-guantes",
@@ -198,9 +266,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Gloves — 'un par de guantes' = a pair of gloves.",
-      "scenarios": ["shopping for clothes", "weather"],
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
       "imageQuery": "pair of gloves",
-      "image": "clothing/guantes.webp"
+      "image": "clothing/guantes.webp",
+      "level": "A"
     },
     {
       "id": "cl-gafas",
@@ -209,9 +281,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Glasses (eyewear) — 'gafas de sol' = sunglasses.",
-      "scenarios": ["shopping for clothes", "getting dressed"],
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
       "imageQuery": "eyeglasses",
-      "image": "clothing/gafas.webp"
+      "image": "clothing/gafas.webp",
+      "level": "A"
     },
     {
       "id": "cl-bolso",
@@ -220,9 +296,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Purse/handbag — also 'la bolsa' in some regions (which can also mean 'bag').",
-      "scenarios": ["shopping for clothes", "shopping"],
+      "scenarios": [
+        "shopping for clothes",
+        "shopping"
+      ],
       "imageQuery": "handbag purse",
-      "image": "clothing/bolso.webp"
+      "image": "clothing/bolso.webp",
+      "level": "A"
     },
     {
       "id": "cl-mochila",
@@ -231,9 +311,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Backpack — carried on your back, common for school or travel.",
-      "scenarios": ["school & study", "travel & transport"],
+      "scenarios": [
+        "school & study",
+        "travel & transport"
+      ],
       "imageQuery": "backpack",
-      "image": "clothing/mochila.webp"
+      "image": "clothing/mochila.webp",
+      "level": "A"
     },
     {
       "id": "cl-pijama",
@@ -242,9 +326,570 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Pajamas — what you wear to sleep ('ponerse el pijama').",
-      "scenarios": ["getting dressed", "greetings & daily routine"],
+      "scenarios": [
+        "getting dressed",
+        "greetings & daily routine"
+      ],
       "imageQuery": "pajamas folded",
-      "image": "clothing/pijama.webp"
+      "image": "clothing/pijama.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-sudadera",
+      "es": "la sudadera",
+      "en": "hoodie",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hoodie/sweatshirt — 'una sudadera con capucha' = a hooded sweatshirt.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "hoodie sweatshirt",
+      "image": "clothing/sudadera.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-shorts",
+      "es": "los shorts",
+      "en": "shorts",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shorts — also 'los pantalones cortos'.",
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
+      "imageQuery": "shorts casual",
+      "image": "clothing/shorts.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-traje",
+      "es": "el traje",
+      "en": "suit",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Suit — 'llevar traje' = to wear a suit; 'el traje de baño' = swimsuit.",
+      "scenarios": [
+        "shopping for clothes",
+        "work & office"
+      ],
+      "imageQuery": "business suit",
+      "image": "clothing/traje.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-corbata",
+      "es": "la corbata",
+      "en": "tie",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Necktie — 'llevar corbata' = to wear a tie.",
+      "scenarios": [
+        "shopping for clothes",
+        "work & office"
+      ],
+      "imageQuery": "necktie business",
+      "image": "clothing/corbata.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-uniforme",
+      "es": "el uniforme",
+      "en": "uniform",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Uniform — school or work uniform.",
+      "scenarios": [
+        "school & study",
+        "work & office"
+      ],
+      "imageQuery": "school uniform",
+      "image": "clothing/uniforme.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-impermeable",
+      "es": "el impermeable",
+      "en": "raincoat",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Raincoat — 'llevar el impermeable' = to wear a raincoat.",
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
+      "imageQuery": "raincoat rain",
+      "image": "clothing/impermeable.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-ropa-interior",
+      "es": "la ropa interior",
+      "en": "underwear",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Underwear — worn under other clothes.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "underwear folded",
+      "image": "clothing/ropa-interior.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-medias",
+      "es": "las medias",
+      "en": "stockings",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Stockings/tights — also called 'las pantis'.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "stockings tights",
+      "image": "clothing/medias.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-vaqueros",
+      "es": "los vaqueros",
+      "en": "jeans",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Jeans — also 'los tejanos' or 'los jeans' in Latin America.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "blue jeans denim",
+      "image": "clothing/vaqueros.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-chaleco",
+      "es": "el chaleco",
+      "en": "vest",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Vest — sleeveless garment worn over a shirt.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "vest waistcoat",
+      "image": "clothing/chaleco.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-bata",
+      "es": "la bata",
+      "en": "robe",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Robe/dressing gown — worn after a shower or bath.",
+      "scenarios": [
+        "getting dressed",
+        "greetings & daily routine"
+      ],
+      "imageQuery": "bathrobe robe",
+      "image": "clothing/bata.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-zapatillas",
+      "es": "las zapatillas",
+      "en": "sneakers",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sneakers/trainers — 'zapatillas de deporte' = sports shoes.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "sneakers trainers",
+      "image": "clothing/zapatillas.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-tacones",
+      "es": "los tacones",
+      "en": "high heels",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "High heels — 'llevar tacones' = to wear heels.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "high heels shoes",
+      "image": "clothing/tacones.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-talla",
+      "es": "la talla",
+      "en": "size",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Clothing size — '¿qué talla eres?' = what size are you?",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "clothing size label",
+      "image": "clothing/talla.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-algodon",
+      "es": "el algodón",
+      "en": "cotton",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cotton — '100% algodón' = 100% cotton.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "cotton fabric material",
+      "image": "clothing/algodon.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-seda",
+      "es": "la seda",
+      "en": "silk",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Silk — 'una blusa de seda' = a silk blouse.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "silk fabric shiny",
+      "image": "clothing/seda.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-lana",
+      "es": "la lana",
+      "en": "wool",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wool — 'un jersey de lana' = a wool sweater.",
+      "scenarios": [
+        "shopping for clothes",
+        "weather"
+      ],
+      "imageQuery": "wool knit fabric",
+      "image": "clothing/lana.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-bolsillo",
+      "es": "el bolsillo",
+      "en": "pocket",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pocket — 'guardar en el bolsillo' = to put in your pocket.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "pocket jeans",
+      "image": "clothing/bolsillo.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-cremallera",
+      "es": "la cremallera",
+      "en": "zipper",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Zipper — 'subir/bajar la cremallera' = to zip up/unzip.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "zipper close up",
+      "image": "clothing/cremallera.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-boton",
+      "es": "el botón",
+      "en": "button",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Button — 'abrochar los botones' = to button up.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "button shirt",
+      "image": "clothing/boton.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-manga",
+      "es": "la manga",
+      "en": "sleeve",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sleeve — 'manga corta/larga' = short/long sleeve.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "shirt sleeve",
+      "image": "clothing/manga.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-moda",
+      "es": "la moda",
+      "en": "fashion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fashion — 'estar de moda' = to be in fashion/trendy.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "fashion clothes runway",
+      "image": "clothing/moda.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-probador",
+      "es": "el probador",
+      "en": "fitting room",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fitting room — '¿puedo usar el probador?' = can I use the fitting room?",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "fitting room store",
+      "image": "clothing/probador.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-descuento",
+      "es": "el descuento",
+      "en": "discount",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Discount — 'tienes un 20% de descuento' = you have a 20% discount.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "discount sale sign",
+      "image": "clothing/descuento.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-cartera",
+      "es": "la cartera",
+      "en": "wallet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wallet — 'la cartera de cuero' = a leather wallet.",
+      "scenarios": [
+        "shopping",
+        "getting dressed"
+      ],
+      "imageQuery": "wallet leather",
+      "image": "clothing/cartera.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-collar",
+      "es": "el collar",
+      "en": "necklace",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Necklace — 'un collar de perlas' = a pearl necklace.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "necklace jewelry",
+      "image": "clothing/collar.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-pulsera",
+      "es": "la pulsera",
+      "en": "bracelet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bracelet — worn on the wrist.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "bracelet wrist jewelry",
+      "image": "clothing/pulsera.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-pendientes",
+      "es": "los pendientes",
+      "en": "earrings",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Earrings — 'ponerse los pendientes' = to put on earrings.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "earrings jewelry",
+      "image": "clothing/pendientes.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-anillo",
+      "es": "el anillo",
+      "en": "ring",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ring — 'el anillo de bodas' = wedding ring.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "ring jewelry finger",
+      "image": "clothing/anillo.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-reloj",
+      "es": "el reloj",
+      "en": "watch",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Watch (wristwatch) — 'llevar un reloj' = to wear a watch.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "wristwatch",
+      "image": "clothing/reloj.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-paraguas",
+      "es": "el paraguas",
+      "en": "umbrella",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Umbrella — doesn't change in plural: 'los paraguas'.",
+      "scenarios": [
+        "weather",
+        "shopping for clothes"
+      ],
+      "imageQuery": "umbrella rain",
+      "image": "clothing/paraguas.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-maleta",
+      "es": "la maleta",
+      "en": "suitcase",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Suitcase — 'hacer la maleta' = to pack your suitcase.",
+      "scenarios": [
+        "travel & transport"
+      ],
+      "imageQuery": "suitcase luggage travel",
+      "image": "clothing/maleta.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-traje-bano",
+      "es": "el traje de baño",
+      "en": "swimsuit",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Swimsuit — 'ponerse el traje de baño' = to put on your swimsuit.",
+      "scenarios": [
+        "weather",
+        "shopping for clothes"
+      ],
+      "imageQuery": "swimsuit swimwear",
+      "image": "clothing/traje-bano.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-tela",
+      "es": "la tela",
+      "en": "fabric",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fabric/cloth — 'una tela suave' = a soft fabric.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "fabric cloth material",
+      "image": "clothing/tela.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-poncho",
+      "es": "el poncho",
+      "en": "poncho",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Poncho — a traditional Latin American garment worn over the shoulders.",
+      "scenarios": [
+        "shopping for clothes",
+        "culture"
+      ],
+      "imageQuery": "poncho traditional",
+      "image": "clothing/poncho.webp",
+      "level": "B"
+    },
+    {
+      "id": "cl-leggings",
+      "es": "los leggings",
+      "en": "leggings",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Leggings — tight stretch pants.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "leggings stretch pants",
+      "image": "clothing/leggings.webp",
+      "level": "A"
+    },
+    {
+      "id": "cl-estampado",
+      "es": "el estampado",
+      "en": "pattern",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pattern/print on fabric — 'una camiseta con estampado' = a patterned t-shirt.",
+      "scenarios": [
+        "shopping for clothes"
+      ],
+      "imageQuery": "fabric pattern print",
+      "image": "clothing/estampado.webp",
+      "level": "C"
+    },
+    {
+      "id": "cl-tirantes",
+      "es": "los tirantes",
+      "en": "suspenders",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Suspenders/braces (to hold up trousers); also refers to shoulder straps.",
+      "scenarios": [
+        "shopping for clothes",
+        "getting dressed"
+      ],
+      "imageQuery": "suspenders braces",
+      "image": "clothing/tirantes.webp",
+      "level": "C"
     }
   ]
 }

@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Phone — 'hablar por teléfono' = to talk on the phone.",
-      "scenarios": ["technology", "daily routine"],
+      "scenarios": [
+        "technology",
+        "daily routine"
+      ],
       "imageQuery": "smartphone",
-      "image": "technology-phone/telefono.webp"
+      "image": "technology-phone/telefono.webp",
+      "level": "B"
     },
     {
       "id": "tp-celular",
@@ -22,9 +26,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Cell phone — also 'el móvil' in Spain.",
-      "scenarios": ["technology", "daily routine"],
+      "scenarios": [
+        "technology",
+        "daily routine"
+      ],
       "imageQuery": "person holding cell phone",
-      "image": "technology-phone/celular.webp"
+      "image": "technology-phone/celular.webp",
+      "level": "B"
     },
     {
       "id": "tp-pantalla",
@@ -33,9 +41,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Screen — 'la pantalla del teléfono' = the phone screen.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "phone screen display",
-      "image": "technology-phone/pantalla.webp"
+      "image": "technology-phone/pantalla.webp",
+      "level": "B"
     },
     {
       "id": "tp-aplicacion",
@@ -44,9 +55,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "App — informally 'la app'.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "phone apps screen icons",
-      "image": "technology-phone/aplicacion.webp"
+      "image": "technology-phone/aplicacion.webp",
+      "level": "B"
     },
     {
       "id": "tp-contrasena",
@@ -55,9 +69,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Password — 'olvidé mi contraseña' = I forgot my password.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "password lock screen",
-      "image": "technology-phone/contrasena.webp"
+      "image": "technology-phone/contrasena.webp",
+      "level": "B"
     },
     {
       "id": "tp-internet",
@@ -66,9 +83,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Internet — 'conectarse a internet' = to connect to the internet.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "internet connection wifi",
-      "image": "technology-phone/internet.webp"
+      "image": "technology-phone/internet.webp",
+      "level": "B"
     },
     {
       "id": "tp-wifi",
@@ -77,9 +97,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Wi-Fi — '¿tienen wifi?' = do you have wifi?",
-      "scenarios": ["technology", "at a café"],
+      "scenarios": [
+        "technology",
+        "at a café"
+      ],
       "imageQuery": "wifi symbol icon",
-      "image": "technology-phone/wifi.webp"
+      "image": "technology-phone/wifi.webp",
+      "level": "B"
     },
     {
       "id": "tp-bateria",
@@ -88,9 +112,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Battery — 'la batería está baja' = the battery is low.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "phone battery charging",
-      "image": "technology-phone/bateria.webp"
+      "image": "technology-phone/bateria.webp",
+      "level": "B"
     },
     {
       "id": "tp-cargador",
@@ -99,9 +126,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Charger — 'el cargador del teléfono' = the phone charger.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "phone charger cable",
-      "image": "technology-phone/cargador.webp"
+      "image": "technology-phone/cargador.webp",
+      "level": "B"
     },
     {
       "id": "tp-camara",
@@ -110,9 +140,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Camera — 'tomar una foto con la cámara' = to take a photo with the camera.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "camera",
-      "image": "technology-phone/camara.webp"
+      "image": "technology-phone/camara.webp",
+      "level": "B"
     },
     {
       "id": "tp-foto",
@@ -121,9 +154,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Photo — short for 'fotografía'.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "printed photo picture",
-      "image": "technology-phone/foto.webp"
+      "image": "technology-phone/foto.webp",
+      "level": "B"
     },
     {
       "id": "tp-video",
@@ -132,9 +168,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Video — 'ver un video' = to watch a video.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "video play button",
-      "image": "technology-phone/video.webp"
+      "image": "technology-phone/video.webp",
+      "level": "C"
     },
     {
       "id": "tp-mensaje",
@@ -143,9 +182,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Message — 'enviar un mensaje' = to send a message.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "text message chat screen",
-      "image": "technology-phone/mensaje.webp"
+      "image": "technology-phone/mensaje.webp",
+      "level": "C"
     },
     {
       "id": "tp-llamar",
@@ -154,9 +196,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To call — 'llamar por teléfono' = to call on the phone.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "person making phone call",
-      "image": "technology-phone/llamar.webp"
+      "image": "technology-phone/llamar.webp",
+      "level": "C"
     },
     {
       "id": "tp-enviar",
@@ -165,9 +210,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To send — 'enviar un correo' = to send an email.",
-      "scenarios": ["technology", "at work"],
+      "scenarios": [
+        "technology",
+        "at work"
+      ],
       "imageQuery": "sending message icon",
-      "image": "technology-phone/enviar.webp"
+      "image": "technology-phone/enviar.webp",
+      "level": "C"
     },
     {
       "id": "tp-descargar",
@@ -176,9 +225,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To download — 'descargar una aplicación' = to download an app.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "download icon arrow",
-      "image": "technology-phone/descargar.webp"
+      "image": "technology-phone/descargar.webp",
+      "level": "C"
     },
     {
       "id": "tp-redsocial",
@@ -187,9 +239,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Social media — 'las redes sociales' = social media (platforms).",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "social media icons phone",
-      "image": "technology-phone/redsocial.webp"
+      "image": "technology-phone/redsocial.webp",
+      "level": "C"
     },
     {
       "id": "tp-notificacion",
@@ -198,9 +253,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Notification — 'recibir una notificación' = to receive a notification.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "phone notification alert",
-      "image": "technology-phone/notificacion.webp"
+      "image": "technology-phone/notificacion.webp",
+      "level": "C"
     },
     {
       "id": "tp-archivo",
@@ -209,9 +267,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "File — 'abrir un archivo' = to open a file.",
-      "scenarios": ["technology", "at work"],
+      "scenarios": [
+        "technology",
+        "at work"
+      ],
       "imageQuery": "computer file folder icon",
-      "image": "technology-phone/archivo.webp"
+      "image": "technology-phone/archivo.webp",
+      "level": "C"
     },
     {
       "id": "tp-tableta",
@@ -220,9 +282,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Tablet (device) — like an iPad.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "tablet device",
-      "image": "technology-phone/tableta.webp"
+      "image": "technology-phone/tableta.webp",
+      "level": "C"
     },
     {
       "id": "tp-auriculares",
@@ -231,9 +296,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Headphones — also 'los audífonos'.",
-      "scenarios": ["technology"],
+      "scenarios": [
+        "technology"
+      ],
       "imageQuery": "headphones",
-      "image": "technology-phone/auriculares.webp"
+      "image": "technology-phone/auriculares.webp",
+      "level": "C"
     },
     {
       "id": "tp-codigoqr",
@@ -242,9 +310,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "QR code — scan it with your phone's camera.",
-      "scenarios": ["technology", "shopping"],
+      "scenarios": [
+        "technology",
+        "shopping"
+      ],
       "imageQuery": "QR code",
-      "image": "technology-phone/codigoqr.webp"
+      "image": "technology-phone/codigoqr.webp",
+      "level": "C"
     },
     {
       "id": "tp-encender",
@@ -253,9 +325,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To turn on — 'encender el teléfono' = to turn on the phone.",
-      "scenarios": ["technology", "daily routine"],
+      "scenarios": [
+        "technology",
+        "daily routine"
+      ],
       "imageQuery": "turning on power button",
-      "image": "technology-phone/encender.webp"
+      "image": "technology-phone/encender.webp",
+      "level": "C"
     },
     {
       "id": "tp-apagar",
@@ -264,9 +340,448 @@
       "pos": "verb",
       "gender": null,
       "hint": "To turn off — 'apagar el teléfono' = to turn off the phone.",
-      "scenarios": ["technology", "daily routine"],
+      "scenarios": [
+        "technology",
+        "daily routine"
+      ],
       "imageQuery": "turning off power button",
-      "image": "technology-phone/apagar.webp"
+      "image": "technology-phone/apagar.webp",
+      "level": "C"
+    },
+    {
+      "id": "tp-movil",
+      "es": "el móvil",
+      "en": "mobile phone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mobile phone — the Spanish (Spain) term; 'el celular' is used in Latin America.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "mobile smartphone",
+      "image": "technology-phone/movil.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-alerta",
+      "es": "la alerta",
+      "en": "alert",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Alert — 'recibir una alerta' = to receive an alert.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "alert warning notification",
+      "image": "technology-phone/alerta.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-configuracion",
+      "es": "la configuración",
+      "en": "settings",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Settings — 'abrir la configuración' = to open settings.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "settings gear icon",
+      "image": "technology-phone/configuracion.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-actualizacion",
+      "es": "la actualización",
+      "en": "update",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Update — 'instalar una actualización' = to install an update.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "software update download",
+      "image": "technology-phone/actualizacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-almacenamiento",
+      "es": "el almacenamiento",
+      "en": "storage",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Storage — 'el almacenamiento está lleno' = storage is full.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "storage memory phone",
+      "image": "technology-phone/almacenamiento.webp",
+      "level": "C"
+    },
+    {
+      "id": "tp-nube",
+      "es": "la nube",
+      "en": "the cloud",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "The cloud (data storage) — 'guardar en la nube' = to save to the cloud.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "cloud storage technology",
+      "image": "technology-phone/nube.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-navegador",
+      "es": "el navegador",
+      "en": "browser",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Browser — 'abrir el navegador' = to open the browser.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "web browser internet",
+      "image": "technology-phone/navegador.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-busqueda",
+      "es": "la búsqueda",
+      "en": "search",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Search — 'hacer una búsqueda' = to do a search.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "search bar internet",
+      "image": "technology-phone/busqueda.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-enlace",
+      "es": "el enlace",
+      "en": "link",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Link (hyperlink) — 'hacer clic en el enlace' = to click on the link.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "link hyperlink internet",
+      "image": "technology-phone/enlace.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-sitio-web",
+      "es": "el sitio web",
+      "en": "website",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Website — 'visitar un sitio web' = to visit a website.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "website internet page",
+      "image": "technology-phone/sitio-web.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-usuario",
+      "es": "el usuario",
+      "en": "username",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Username/user — 'crear un usuario' = to create a username.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "username profile icon",
+      "image": "technology-phone/usuario.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-selfie",
+      "es": "el selfie",
+      "en": "selfie",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Selfie — 'hacerse un selfie' = to take a selfie.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "selfie phone camera",
+      "image": "technology-phone/selfie.webp",
+      "level": "A"
+    },
+    {
+      "id": "tp-filtro",
+      "es": "el filtro",
+      "en": "filter",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Photo filter — 'aplicar un filtro' = to apply a filter.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "photo filter instagram",
+      "image": "technology-phone/filtro.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-seguidor",
+      "es": "el seguidor",
+      "en": "follower",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Follower (social media) — 'ganar seguidores' = to gain followers.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "follower social media",
+      "image": "technology-phone/seguidor.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-me-gusta",
+      "es": "el me gusta",
+      "en": "like",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Like (social media) — 'dar me gusta' = to like a post.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "like heart button social",
+      "image": "technology-phone/me-gusta.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-compartir",
+      "es": "compartir",
+      "en": "to share",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To share — 'compartir una foto' = to share a photo.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "sharing post social media",
+      "image": "technology-phone/compartir.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-publicar",
+      "es": "publicar",
+      "en": "to post",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To post/publish — 'publicar en redes sociales' = to post on social media.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "posting social media",
+      "image": "technology-phone/publicar.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-subir",
+      "es": "subir",
+      "en": "to upload",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To upload — 'subir una foto' = to upload a photo.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "uploading file cloud arrow",
+      "image": "technology-phone/subir.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-instalar",
+      "es": "instalar",
+      "en": "to install",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To install — 'instalar una app' = to install an app.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "installing app phone",
+      "image": "technology-phone/instalar.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-borrar",
+      "es": "borrar",
+      "en": "to delete",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To delete/erase — 'borrar un mensaje' = to delete a message.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "delete trash icon",
+      "image": "technology-phone/borrar.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-guardar",
+      "es": "guardar",
+      "en": "to save",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To save — 'guardar el archivo' = to save the file.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "save file icon",
+      "image": "technology-phone/guardar.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-videojuego",
+      "es": "el videojuego",
+      "en": "video game",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Video game — 'jugar videojuegos' = to play video games.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "video game controller",
+      "image": "technology-phone/videojuego.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-la-red",
+      "es": "la red",
+      "en": "the web",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "The web/network — 'buscar en la red' = to search the web.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "internet network web",
+      "image": "technology-phone/la-red.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-digital",
+      "es": "digital",
+      "en": "digital",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Digital — 'la era digital' = the digital age.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "digital technology screen",
+      "image": "technology-phone/digital.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-alarma",
+      "es": "la alarma",
+      "en": "alarm",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Alarm — 'poner la alarma' = to set the alarm.",
+      "scenarios": [
+        "technology",
+        "daily routine"
+      ],
+      "imageQuery": "alarm clock phone",
+      "image": "technology-phone/alarma.webp",
+      "level": "A"
+    },
+    {
+      "id": "tp-emoji",
+      "es": "el emoji",
+      "en": "emoji",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Emoji — small icons used in messages.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "emoji emoticons",
+      "image": "technology-phone/emoji.webp",
+      "level": "A"
+    },
+    {
+      "id": "tp-hashtag",
+      "es": "el hashtag",
+      "en": "hashtag",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hashtag — '#' symbol used to tag topics online.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "hashtag social media",
+      "image": "technology-phone/hashtag.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-streaming",
+      "es": "el streaming",
+      "en": "streaming",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Streaming — 'ver una peli en streaming' = to watch a film by streaming.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "streaming video service",
+      "image": "technology-phone/streaming.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-podcast",
+      "es": "el podcast",
+      "en": "podcast",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Podcast — 'escuchar un podcast' = to listen to a podcast.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "podcast microphone headphones",
+      "image": "technology-phone/podcast.webp",
+      "level": "B"
+    },
+    {
+      "id": "tp-privacidad",
+      "es": "la privacidad",
+      "en": "privacy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Privacy — 'configuración de privacidad' = privacy settings.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "privacy security lock",
+      "image": "technology-phone/privacidad.webp",
+      "level": "C"
+    },
+    {
+      "id": "tp-inteligencia-artificial",
+      "es": "la inteligencia artificial",
+      "en": "artificial intelligence",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "AI — 'la inteligencia artificial' = artificial intelligence.",
+      "scenarios": [
+        "technology"
+      ],
+      "imageQuery": "artificial intelligence robot",
+      "image": "technology-phone/inteligencia-artificial.webp",
+      "level": "C"
     }
   ]
 }

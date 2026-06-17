@@ -1,0 +1,1035 @@
+{
+  "id": "countries-travel",
+  "order": 26,
+  "name": "Countries & Travel",
+  "nameEs": "Países y viajes",
+  "words": [
+    {
+      "id": "ct-espana",
+      "es": "España",
+      "en": "Spain",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Spain — 'Vivo en España' = I live in Spain. The home of Castellano Spanish.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "language class"
+      ],
+      "imageQuery": "Spain Barcelona architecture landscape",
+      "image": "countries-travel/espana.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-mexico",
+      "es": "México",
+      "en": "Mexico",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mexico — 'Quiero visitar México' = I want to visit Mexico. Home to ancient Aztec and Maya ruins.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "language class"
+      ],
+      "imageQuery": "Mexico City colorful buildings pyramid",
+      "image": "countries-travel/mexico.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-ecuador",
+      "es": "Ecuador",
+      "en": "Ecuador",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ecuador — sits right on the equator (the 'ecuador'). Home to the Galapagos Islands.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "nature tourism"
+      ],
+      "imageQuery": "Ecuador Galapagos islands Quito city",
+      "image": "countries-travel/ecuador.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-colombia",
+      "es": "Colombia",
+      "en": "Colombia",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Colombia — known for coffee, flowers, and the city of Cartagena. 'El café colombiano' is world-famous.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "coffee culture"
+      ],
+      "imageQuery": "Colombia Cartagena colorful streets city",
+      "image": "countries-travel/colombia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-argentina",
+      "es": "Argentina",
+      "en": "Argentina",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Argentina — home of tango, Messi, and Patagonia. 'Buenos Aires' is the capital.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "culture"
+      ],
+      "imageQuery": "Argentina Buenos Aires Patagonia landscape",
+      "image": "countries-travel/argentina.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-peru",
+      "es": "Perú",
+      "en": "Peru",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Peru — home to Machu Picchu and the Inca empire. 'La comida peruana' is among the best in the world.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "history"
+      ],
+      "imageQuery": "Machu Picchu Peru Inca ruins mountains",
+      "image": "countries-travel/peru.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-chile",
+      "es": "Chile",
+      "en": "Chile",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chile — long narrow country along South America's Pacific coast. Known for wine and the Atacama Desert.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "wine tourism"
+      ],
+      "imageQuery": "Chile Andes mountains desert landscape",
+      "image": "countries-travel/chile.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-venezuela",
+      "es": "Venezuela",
+      "en": "Venezuela",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Venezuela — home to Angel Falls (the world's highest waterfall) and the Orinoco river.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "nature"
+      ],
+      "imageQuery": "Venezuela Angel Falls waterfall jungle",
+      "image": "countries-travel/venezuela.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-cuba",
+      "es": "Cuba",
+      "en": "Cuba",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cuba — Caribbean island known for classic cars, salsa music, cigars, and Havana's colourful streets.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Caribbean culture"
+      ],
+      "imageQuery": "Cuba Havana classic car colorful buildings",
+      "image": "countries-travel/cuba.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-costa-rica",
+      "es": "Costa Rica",
+      "en": "Costa Rica",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Costa Rica — known for ecotourism and biodiversity. '¡Pura vida!' is the national phrase meaning great life.",
+      "scenarios": [
+        "geography",
+        "ecotourism",
+        "travel planning"
+      ],
+      "imageQuery": "Costa Rica jungle waterfall nature rainforest",
+      "image": "countries-travel/costa-rica.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-bolivia",
+      "es": "Bolivia",
+      "en": "Bolivia",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bolivia — landlocked country with the stunning Salar de Uyuni salt flats and Lake Titicaca.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "adventure tourism"
+      ],
+      "imageQuery": "Bolivia salt flats Uyuni sky reflection",
+      "image": "countries-travel/bolivia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-paraguay",
+      "es": "Paraguay",
+      "en": "Paraguay",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Paraguay — bilingual country where Spanish and Guaraní are both official languages.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "culture"
+      ],
+      "imageQuery": "Paraguay Asuncion city landscape",
+      "image": "countries-travel/paraguay.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-uruguay",
+      "es": "Uruguay",
+      "en": "Uruguay",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Uruguay — small progressive country between Argentina and Brazil. Known for beef and Montevideo.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "South America"
+      ],
+      "imageQuery": "Uruguay Montevideo city coast sunset",
+      "image": "countries-travel/uruguay.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-guatemala",
+      "es": "Guatemala",
+      "en": "Guatemala",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Guatemala — home to ancient Maya ruins, volcanoes, and the beautiful Lago de Atitlán.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Mayan history"
+      ],
+      "imageQuery": "Guatemala volcano lake Atitlan Mayan ruins",
+      "image": "countries-travel/guatemala.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-panama",
+      "es": "Panamá",
+      "en": "Panama",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Panama — home to the famous Panama Canal connecting the Atlantic and Pacific oceans.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "engineering"
+      ],
+      "imageQuery": "Panama Canal ships locks water",
+      "image": "countries-travel/panama.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-honduras",
+      "es": "Honduras",
+      "en": "Honduras",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Honduras — known for the Copán Mayan ruins and the Bay Islands' coral reefs.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Central America"
+      ],
+      "imageQuery": "Honduras Bay Islands coral reef beach",
+      "image": "countries-travel/honduras.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-el-salvador",
+      "es": "El Salvador",
+      "en": "El Salvador",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "El Salvador — the smallest Central American country, known for volcanic landscapes and surf beaches.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Central America"
+      ],
+      "imageQuery": "El Salvador volcano Pacific beach",
+      "image": "countries-travel/el-salvador.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-nicaragua",
+      "es": "Nicaragua",
+      "en": "Nicaragua",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nicaragua — Central America's largest country. Home to Lake Nicaragua and the colonial city of Granada.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Central America"
+      ],
+      "imageQuery": "Nicaragua colonial Granada city lake",
+      "image": "countries-travel/nicaragua.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-republica-dominicana",
+      "es": "la República Dominicana",
+      "en": "Dominican Republic",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Dominican Republic — Caribbean nation sharing the island of Hispaniola with Haiti. Famous for beaches and merengue.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Caribbean"
+      ],
+      "imageQuery": "Dominican Republic beach turquoise water resort",
+      "image": "countries-travel/republica-dominicana.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-puerto-rico",
+      "es": "Puerto Rico",
+      "en": "Puerto Rico",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Puerto Rico — Caribbean island and US territory. Known for Old San Juan, beaches, and salsa music.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Caribbean"
+      ],
+      "imageQuery": "Old San Juan Puerto Rico colorful street",
+      "image": "countries-travel/puerto-rico.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-estados-unidos",
+      "es": "los Estados Unidos",
+      "en": "United States",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "United States — 'los EE.UU.' for short. The US has the 2nd-largest Spanish-speaking population in the world.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "immigration"
+      ],
+      "imageQuery": "United States New York city skyline",
+      "image": "countries-travel/estados-unidos.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-francia",
+      "es": "Francia",
+      "en": "France",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "France — 'París es la capital de Francia' = Paris is the capital of France. Close neighbour of Spain.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "European culture"
+      ],
+      "imageQuery": "France Paris Eiffel Tower landmark",
+      "image": "countries-travel/francia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-italia",
+      "es": "Italia",
+      "en": "Italy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Italy — 'Italia es famosa por la pasta y la pizza' = Italy is famous for pasta and pizza.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "food culture"
+      ],
+      "imageQuery": "Italy Rome Colosseum Venice canal",
+      "image": "countries-travel/italia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-alemania",
+      "es": "Alemania",
+      "en": "Germany",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Germany — 'Alemania' is in central Europe. Important trading partner with Latin American countries.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "Europe"
+      ],
+      "imageQuery": "Germany Berlin Brandenburg Gate",
+      "image": "countries-travel/alemania.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-brasil",
+      "es": "Brasil",
+      "en": "Brazil",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Brazil — the only Portuguese-speaking country in South America. Known for the Amazon, Carnival, and football.",
+      "scenarios": [
+        "geography",
+        "travel planning",
+        "South America"
+      ],
+      "imageQuery": "Brazil Rio de Janeiro Christ statue carnival",
+      "image": "countries-travel/brasil.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-pasaporte",
+      "es": "el pasaporte",
+      "en": "passport",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Passport — 'Necesitas el pasaporte para viajar' = You need your passport to travel.",
+      "scenarios": [
+        "airport",
+        "border crossing",
+        "travel preparation"
+      ],
+      "imageQuery": "passport travel document blue cover",
+      "image": "countries-travel/pasaporte.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-visa",
+      "es": "la visa",
+      "en": "visa",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Visa — 'Necesito una visa para entrar' = I need a visa to enter. Official travel permission stamp.",
+      "scenarios": [
+        "embassy",
+        "travel preparation",
+        "immigration"
+      ],
+      "imageQuery": "passport visa stamp travel document",
+      "image": "countries-travel/visa.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-aduana",
+      "es": "la aduana",
+      "en": "customs",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Customs — '¿Tiene algo que declarar en la aduana?' = Do you have anything to declare at customs?",
+      "scenarios": [
+        "airport",
+        "border crossing",
+        "international travel"
+      ],
+      "imageQuery": "customs border control airport officer",
+      "image": "countries-travel/aduana.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-aeropuerto",
+      "es": "el aeropuerto",
+      "en": "airport",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Airport — 'El aeropuerto internacional' = the international airport. 'Llegar al aeropuerto' = to arrive at the airport.",
+      "scenarios": [
+        "travel",
+        "flying",
+        "transportation"
+      ],
+      "imageQuery": "airport terminal interior flights passengers",
+      "image": "countries-travel/aeropuerto.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-vuelo",
+      "es": "el vuelo",
+      "en": "flight",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Flight — 'Mi vuelo sale a las tres' = My flight leaves at three. 'El número de vuelo' = the flight number.",
+      "scenarios": [
+        "airport",
+        "travel planning",
+        "booking"
+      ],
+      "imageQuery": "airplane flight sky clouds travel",
+      "image": "countries-travel/vuelo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-maleta",
+      "es": "la maleta",
+      "en": "suitcase",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Suitcase — 'Hacer la maleta' = to pack your suitcase. 'Una maleta de mano' = a carry-on bag.",
+      "scenarios": [
+        "packing",
+        "airport",
+        "hotel check-in"
+      ],
+      "imageQuery": "suitcase luggage travel bag colorful",
+      "image": "countries-travel/maleta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-mochila",
+      "es": "la mochila",
+      "en": "backpack",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Backpack — 'Viajó con solo una mochila' = She travelled with only a backpack. Backpacker travel.",
+      "scenarios": [
+        "travel",
+        "hiking",
+        "school"
+      ],
+      "imageQuery": "backpack travel adventure hiker",
+      "image": "countries-travel/mochila.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-hotel",
+      "es": "el hotel",
+      "en": "hotel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hotel — 'Reservar una habitación en el hotel' = to book a room at the hotel.",
+      "scenarios": [
+        "accommodation",
+        "travel",
+        "business trip"
+      ],
+      "imageQuery": "hotel lobby luxury accommodation entrance",
+      "image": "countries-travel/hotel.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-hostal",
+      "es": "el hostal",
+      "en": "hostel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hostel — budget accommodation often with shared dormitory rooms. Popular with backpackers.",
+      "scenarios": [
+        "budget travel",
+        "backpacker",
+        "accommodation"
+      ],
+      "imageQuery": "hostel dormitory bunk beds backpacker",
+      "image": "countries-travel/hostal.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-reserva",
+      "es": "la reserva",
+      "en": "reservation / booking",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Reservation — 'Tengo una reserva a nombre de García' = I have a reservation under García.",
+      "scenarios": [
+        "hotel",
+        "restaurant",
+        "travel planning"
+      ],
+      "imageQuery": "hotel reservation booking confirmation laptop",
+      "image": "countries-travel/reserva.webp",
+      "level": "A"
+    },
+    {
+      "id": "ct-itinerario",
+      "es": "el itinerario",
+      "en": "itinerary",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Itinerary — 'el itinerario del viaje' = the travel itinerary. A schedule of destinations and activities.",
+      "scenarios": [
+        "travel planning",
+        "tour group",
+        "business trip"
+      ],
+      "imageQuery": "travel itinerary plan map schedule",
+      "image": "countries-travel/itinerario.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-destino",
+      "es": "el destino",
+      "en": "destination",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Destination — '¿Cuál es tu destino?' = What is your destination? Also means fate/destiny.",
+      "scenarios": [
+        "travel planning",
+        "airport",
+        "tour agency"
+      ],
+      "imageQuery": "travel destination map pin wanderlust",
+      "image": "countries-travel/destino.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-turista",
+      "es": "el turista",
+      "en": "tourist",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tourist — 'Hay muchos turistas en Cancún' = There are many tourists in Cancún. Feminine: la turista.",
+      "scenarios": [
+        "tourist site",
+        "city centre",
+        "tour guide"
+      ],
+      "imageQuery": "tourist sightseeing camera map city",
+      "image": "countries-travel/turista.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-guia-turistico",
+      "es": "el guía turístico",
+      "en": "tour guide",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tour guide — 'el guía nos explicó la historia' = the guide explained the history to us.",
+      "scenarios": [
+        "museum tour",
+        "city tour",
+        "tourist site"
+      ],
+      "imageQuery": "tour guide group sightseeing city",
+      "image": "countries-travel/guia-turistico.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-mapa",
+      "es": "el mapa",
+      "en": "map",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Map — 'un mapa de la ciudad' = a map of the city. 'Necesito un mapa para no perderme.'",
+      "scenarios": [
+        "navigation",
+        "travel",
+        "city centre"
+      ],
+      "imageQuery": "city map travel navigation paper",
+      "image": "countries-travel/mapa.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-brujula",
+      "es": "la brújula",
+      "en": "compass",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Compass — 'La brújula siempre apunta al norte' = The compass always points north.",
+      "scenarios": [
+        "hiking",
+        "navigation",
+        "outdoor adventure"
+      ],
+      "imageQuery": "compass navigation outdoor hiking",
+      "image": "countries-travel/brujula.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-frontera",
+      "es": "la frontera",
+      "en": "border",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Border — 'la frontera entre México y Estados Unidos' = the border between Mexico and the US.",
+      "scenarios": [
+        "border crossing",
+        "immigration",
+        "road trip"
+      ],
+      "imageQuery": "border crossing checkpoint frontier",
+      "image": "countries-travel/frontera.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-embajada",
+      "es": "la embajada",
+      "en": "embassy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Embassy — 'la embajada española en Lima' = the Spanish embassy in Lima. Provides consular services.",
+      "scenarios": [
+        "visa application",
+        "international travel",
+        "official business"
+      ],
+      "imageQuery": "embassy building flag diplomatic",
+      "image": "countries-travel/embajada.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-moneda",
+      "es": "la moneda",
+      "en": "currency / coin",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Currency/coin — 'la moneda local' = the local currency. 'La moneda de un euro' = a one-euro coin.",
+      "scenarios": [
+        "currency exchange",
+        "shopping",
+        "travel"
+      ],
+      "imageQuery": "coins currency money international travel",
+      "image": "countries-travel/moneda.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-cambio-de-divisa",
+      "es": "el cambio de divisa",
+      "en": "currency exchange",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Currency exchange — '¿Dónde está la casa de cambio?' = Where is the currency exchange office?",
+      "scenarios": [
+        "airport",
+        "bank",
+        "travel finances"
+      ],
+      "imageQuery": "currency exchange rates board money",
+      "image": "countries-travel/cambio-de-divisa.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-seguro-de-viaje",
+      "es": "el seguro de viaje",
+      "en": "travel insurance",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Travel insurance — 'Es importante tener seguro de viaje' = It's important to have travel insurance.",
+      "scenarios": [
+        "travel preparation",
+        "health emergency",
+        "flight cancellation"
+      ],
+      "imageQuery": "travel insurance document form passport",
+      "image": "countries-travel/seguro-de-viaje.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-jet-lag",
+      "es": "el jet lag",
+      "en": "jet lag",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Jet lag — 'Tengo jet lag después del vuelo transatlántico' = I have jet lag after the transatlantic flight.",
+      "scenarios": [
+        "long-haul travel",
+        "health",
+        "time zones"
+      ],
+      "imageQuery": "jet lag tired traveller airport sleep",
+      "image": "countries-travel/jet-lag.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-escala",
+      "es": "la escala",
+      "en": "layover / stopover",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Layover — 'Tengo una escala de dos horas en Miami' = I have a two-hour stopover in Miami.",
+      "scenarios": [
+        "airport",
+        "long-haul flight",
+        "travel planning"
+      ],
+      "imageQuery": "airport layover stopover gate waiting",
+      "image": "countries-travel/escala.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-equipaje",
+      "es": "el equipaje",
+      "en": "luggage / baggage",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Luggage — 'Recogí mi equipaje en la cinta' = I collected my luggage from the belt.",
+      "scenarios": [
+        "airport",
+        "hotel",
+        "travel"
+      ],
+      "imageQuery": "luggage baggage airport conveyor belt",
+      "image": "countries-travel/equipaje.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-facturacion",
+      "es": "la facturación",
+      "en": "check-in (baggage)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Check-in — 'El mostrador de facturación' = the check-in counter. 'Facturar el equipaje' = to check in bags.",
+      "scenarios": [
+        "airport",
+        "flight",
+        "travel"
+      ],
+      "imageQuery": "airport check-in counter airline desk",
+      "image": "countries-travel/facturacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-embarque",
+      "es": "el embarque",
+      "en": "boarding",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Boarding — 'La puerta de embarque' = the boarding gate. 'Hora de embarque' = boarding time.",
+      "scenarios": [
+        "airport",
+        "flight",
+        "cruise ship"
+      ],
+      "imageQuery": "airplane boarding gate passengers plane",
+      "image": "countries-travel/embarque.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-llegada",
+      "es": "la llegada",
+      "en": "arrival",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Arrival — 'La sala de llegadas' = the arrivals hall. 'La llegada del vuelo' = the flight's arrival.",
+      "scenarios": [
+        "airport",
+        "train station",
+        "travel"
+      ],
+      "imageQuery": "airport arrivals hall waiting people",
+      "image": "countries-travel/llegada.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-salida",
+      "es": "la salida",
+      "en": "departure / exit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Departure/exit — 'La sala de salidas' = the departures hall. 'La salida de emergencia' = emergency exit.",
+      "scenarios": [
+        "airport",
+        "hotel check-out",
+        "train station"
+      ],
+      "imageQuery": "airport departures board flight schedule",
+      "image": "countries-travel/salida.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-souvenirs",
+      "es": "los souvenirs",
+      "en": "souvenirs",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Souvenirs — 'Compré souvenirs para mi familia' = I bought souvenirs for my family.",
+      "scenarios": [
+        "tourist shop",
+        "market",
+        "sightseeing"
+      ],
+      "imageQuery": "souvenir shop tourist gifts market",
+      "image": "countries-travel/souvenirs.webp",
+      "level": "C"
+    },
+    {
+      "id": "ct-excursion",
+      "es": "la excursión",
+      "en": "excursion / day trip",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Excursion — 'Una excursión de un día a las ruinas' = a day trip to the ruins.",
+      "scenarios": [
+        "tour group",
+        "hotel activity",
+        "travel"
+      ],
+      "imageQuery": "group excursion tour bus sightseeing",
+      "image": "countries-travel/excursion.webp",
+      "level": "C"
+    },
+    {
+      "id": "ct-turismo-sostenible",
+      "es": "el turismo sostenible",
+      "en": "sustainable tourism",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sustainable tourism — travel that minimises environmental impact. Very important in biodiversity-rich Latin America.",
+      "scenarios": [
+        "ecotourism",
+        "travel planning",
+        "environmental awareness"
+      ],
+      "imageQuery": "eco tourism sustainable travel nature green",
+      "image": "countries-travel/turismo-sostenible.webp",
+      "level": "C"
+    },
+    {
+      "id": "ct-inmersion-cultural",
+      "es": "la inmersión cultural",
+      "en": "cultural immersion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cultural immersion — fully experiencing another culture's daily life, language, and traditions.",
+      "scenarios": [
+        "language learning",
+        "study abroad",
+        "cultural exchange"
+      ],
+      "imageQuery": "cultural immersion travel local experience authentic",
+      "image": "countries-travel/inmersion-cultural.webp",
+      "level": "C"
+    },
+    {
+      "id": "ct-desplazamiento",
+      "es": "el desplazamiento",
+      "en": "displacement / travel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Displacement/movement — 'el desplazamiento de la población' or in travel: 'medios de desplazamiento' = means of transport.",
+      "scenarios": [
+        "travel logistics",
+        "urban planning",
+        "news media"
+      ],
+      "imageQuery": "transportation movement city commute travel",
+      "image": "countries-travel/desplazamiento.webp",
+      "level": "C"
+    },
+    {
+      "id": "ct-alojamiento",
+      "es": "el alojamiento",
+      "en": "accommodation",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Accommodation — 'buscar alojamiento' = to look for accommodation.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "hotel accommodation",
+      "image": "countries-travel/alojamiento.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-alquiler-coche",
+      "es": "el alquiler de coche",
+      "en": "car rental",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Car rental — 'alquilar un coche' = to rent a car.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "car rental agency",
+      "image": "countries-travel/alquiler-coche.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-agencia-viajes",
+      "es": "la agencia de viajes",
+      "en": "travel agency",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Travel agency — 'reservar a través de una agencia de viajes' = to book through a travel agency.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "travel agency booking",
+      "image": "countries-travel/agencia-viajes.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-crucero-ct",
+      "es": "el crucero",
+      "en": "cruise",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cruise — 'hacer un crucero por el Mediterráneo' = to go on a Mediterranean cruise.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "cruise ship ocean",
+      "image": "countries-travel/crucero-ct.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-hospedaje",
+      "es": "el hospedaje",
+      "en": "lodging",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lodging — where you stay during a trip.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "lodging guesthouse",
+      "image": "countries-travel/hospedaje.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-recorrido",
+      "es": "el recorrido",
+      "en": "tour",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tour/route — 'el recorrido turístico' = the tourist tour.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "sightseeing tour route",
+      "image": "countries-travel/recorrido.webp",
+      "level": "B"
+    },
+    {
+      "id": "ct-viaje-negocios",
+      "es": "el viaje de negocios",
+      "en": "business trip",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Business trip — travelling for work purposes.",
+      "scenarios": [
+        "travel",
+        "work"
+      ],
+      "imageQuery": "business travel airport",
+      "image": "countries-travel/viaje-negocios.webp",
+      "level": "C"
+    }
+  ]
+}

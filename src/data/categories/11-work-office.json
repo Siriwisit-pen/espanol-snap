@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Work/job — '¿en qué trabajo trabajas?' = what's your job?",
-      "scenarios": ["at work", "introductions"],
+      "scenarios": [
+        "at work",
+        "introductions"
+      ],
       "imageQuery": "person working desk",
-      "image": "work-office/trabajo.webp"
+      "image": "work-office/trabajo.webp",
+      "level": "B"
     },
     {
       "id": "wo-oficina",
@@ -22,9 +26,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Office — 'en la oficina' = at the office.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "office space interior",
-      "image": "work-office/oficina.webp"
+      "image": "work-office/oficina.webp",
+      "level": "B"
     },
     {
       "id": "wo-computadora",
@@ -33,9 +40,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Computer — also 'el ordenador' in Spain.",
-      "scenarios": ["at work", "technology"],
+      "scenarios": [
+        "at work",
+        "technology"
+      ],
       "imageQuery": "laptop computer desk",
-      "image": "work-office/computadora.webp"
+      "image": "work-office/computadora.webp",
+      "level": "B"
     },
     {
       "id": "wo-correo",
@@ -44,9 +55,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Email — informally just 'el correo' or 'el mail'.",
-      "scenarios": ["at work", "technology"],
+      "scenarios": [
+        "at work",
+        "technology"
+      ],
       "imageQuery": "email inbox screen",
-      "image": "work-office/correo.webp"
+      "image": "work-office/correo.webp",
+      "level": "B"
     },
     {
       "id": "wo-reunion",
@@ -55,9 +70,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Meeting — 'tener una reunión' = to have a meeting.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "business meeting office",
-      "image": "work-office/reunion.webp"
+      "image": "work-office/reunion.webp",
+      "level": "B"
     },
     {
       "id": "wo-jefe",
@@ -66,9 +84,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Boss ('la jefa' for a woman) — 'mi jefe' = my boss.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "manager boss office",
-      "image": "work-office/jefe.webp"
+      "image": "work-office/jefe.webp",
+      "level": "B"
     },
     {
       "id": "wo-empleado",
@@ -77,9 +98,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Employee ('la empleada' for a woman) — works for a company.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "office employee working",
-      "image": "work-office/empleado.webp"
+      "image": "work-office/empleado.webp",
+      "level": "B"
     },
     {
       "id": "wo-documento",
@@ -88,9 +112,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Document — 'firmar el documento' = to sign the document.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "paperwork document",
-      "image": "work-office/documento.webp"
+      "image": "work-office/documento.webp",
+      "level": "B"
     },
     {
       "id": "wo-escritorio",
@@ -99,9 +126,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Desk — 'en mi escritorio' = at/on my desk.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "office desk",
-      "image": "work-office/escritorio.webp"
+      "image": "work-office/escritorio.webp",
+      "level": "B"
     },
     {
       "id": "wo-impresora",
@@ -110,9 +140,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Printer — 'imprimir un documento' = to print a document.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "office printer",
-      "image": "work-office/impresora.webp"
+      "image": "work-office/impresora.webp",
+      "level": "B"
     },
     {
       "id": "wo-boligrafo",
@@ -121,9 +154,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Pen — informally 'el boli'.",
-      "scenarios": ["at work", "school & study"],
+      "scenarios": [
+        "at work",
+        "school & study"
+      ],
       "imageQuery": "pen writing",
-      "image": "work-office/boligrafo.webp"
+      "image": "work-office/boligrafo.webp",
+      "level": "B"
     },
     {
       "id": "wo-papel",
@@ -132,9 +169,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Paper — 'una hoja de papel' = a sheet of paper.",
-      "scenarios": ["at work", "school & study"],
+      "scenarios": [
+        "at work",
+        "school & study"
+      ],
       "imageQuery": "stack of paper",
-      "image": "work-office/papel.webp"
+      "image": "work-office/papel.webp",
+      "level": "B"
     },
     {
       "id": "wo-carpeta",
@@ -143,9 +184,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Folder — used to organize documents.",
-      "scenarios": ["at work", "school & study"],
+      "scenarios": [
+        "at work",
+        "school & study"
+      ],
       "imageQuery": "file folder documents",
-      "image": "work-office/carpeta.webp"
+      "image": "work-office/carpeta.webp",
+      "level": "B"
     },
     {
       "id": "wo-curriculum",
@@ -154,9 +199,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Resume/CV — 'enviar el currículum' = to send your resume.",
-      "scenarios": ["at work", "job interview"],
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
       "imageQuery": "resume document",
-      "image": "work-office/curriculum.webp"
+      "image": "work-office/curriculum.webp",
+      "level": "B"
     },
     {
       "id": "wo-sueldo",
@@ -165,9 +214,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Salary/wage — also 'el salario'.",
-      "scenarios": ["at work", "job interview"],
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
       "imageQuery": "paycheck money",
-      "image": "work-office/sueldo.webp"
+      "image": "work-office/sueldo.webp",
+      "level": "B"
     },
     {
       "id": "wo-cliente",
@@ -176,9 +229,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Client/customer ('la cliente' for a woman) — 'atender al cliente' = to assist the customer.",
-      "scenarios": ["at work", "shopping"],
+      "scenarios": [
+        "at work",
+        "shopping"
+      ],
       "imageQuery": "business handshake client",
-      "image": "work-office/cliente.webp"
+      "image": "work-office/cliente.webp",
+      "level": "B"
     },
     {
       "id": "wo-proyecto",
@@ -187,9 +244,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Project — 'un proyecto nuevo' = a new project.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "project planning board",
-      "image": "work-office/proyecto.webp"
+      "image": "work-office/proyecto.webp",
+      "level": "B"
     },
     {
       "id": "wo-trabajar",
@@ -198,9 +258,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To work — '¿dónde trabajas?' = where do you work?",
-      "scenarios": ["at work", "introductions"],
+      "scenarios": [
+        "at work",
+        "introductions"
+      ],
       "imageQuery": "person typing working laptop",
-      "image": "work-office/trabajar.webp"
+      "image": "work-office/trabajar.webp",
+      "level": "B"
     },
     {
       "id": "wo-videollamada",
@@ -209,9 +273,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Video call — 'hacer una videollamada' = to make a video call.",
-      "scenarios": ["at work", "technology"],
+      "scenarios": [
+        "at work",
+        "technology"
+      ],
       "imageQuery": "video call laptop",
-      "image": "work-office/videollamada.webp"
+      "image": "work-office/videollamada.webp",
+      "level": "B"
     },
     {
       "id": "wo-horario",
@@ -220,9 +288,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Schedule/timetable — 'mi horario de trabajo' = my work schedule.",
-      "scenarios": ["at work", "numbers, time & dates"],
+      "scenarios": [
+        "at work",
+        "numbers, time & dates"
+      ],
       "imageQuery": "schedule calendar planner",
-      "image": "work-office/horario.webp"
+      "image": "work-office/horario.webp",
+      "level": "B"
     },
     {
       "id": "wo-pausa",
@@ -231,9 +303,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Break — 'tomar una pausa' = to take a break.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "coffee break office",
-      "image": "work-office/pausa.webp"
+      "image": "work-office/pausa.webp",
+      "level": "B"
     },
     {
       "id": "wo-renunciar",
@@ -242,9 +317,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To resign/quit a job — 'renunciar al trabajo'.",
-      "scenarios": ["at work"],
+      "scenarios": [
+        "at work"
+      ],
       "imageQuery": "resignation letter desk",
-      "image": "work-office/renunciar.webp"
+      "image": "work-office/renunciar.webp",
+      "level": "B"
     },
     {
       "id": "wo-pizarra",
@@ -253,9 +331,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Whiteboard/chalkboard — used for presentations or notes.",
-      "scenarios": ["at work", "school & study"],
+      "scenarios": [
+        "at work",
+        "school & study"
+      ],
       "imageQuery": "whiteboard office presentation",
-      "image": "work-office/pizarra.webp"
+      "image": "work-office/pizarra.webp",
+      "level": "B"
     },
     {
       "id": "wo-contrato",
@@ -264,9 +346,669 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Contract — 'firmar un contrato' = to sign a contract.",
-      "scenarios": ["at work", "job interview"],
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
       "imageQuery": "signing contract document",
-      "image": "work-office/contrato.webp"
+      "image": "work-office/contrato.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-entrevista",
+      "es": "la entrevista de trabajo",
+      "en": "job interview",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Job interview — 'prepararse para la entrevista' = to prepare for the interview.",
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
+      "imageQuery": "job interview office",
+      "image": "work-office/entrevista.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-nomina",
+      "es": "la nómina",
+      "en": "payroll",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Payroll/payslip — 'cobrar la nómina' = to receive your paycheck.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "payroll payslip document",
+      "image": "work-office/nomina.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-baja",
+      "es": "la baja laboral",
+      "en": "sick leave",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sick leave — 'estar de baja' = to be on sick leave.",
+      "scenarios": [
+        "at work",
+        "health"
+      ],
+      "imageQuery": "sick leave medical certificate",
+      "image": "work-office/baja.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-vacaciones",
+      "es": "las vacaciones",
+      "en": "vacation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Vacation/holiday — 'ir de vacaciones' = to go on holiday.",
+      "scenarios": [
+        "at work",
+        "travel"
+      ],
+      "imageQuery": "vacation beach holiday",
+      "image": "work-office/vacaciones.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-permiso",
+      "es": "el permiso",
+      "en": "leave / permission",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Leave or permission — 'pedir permiso' = to ask for leave.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "permission request form",
+      "image": "work-office/permiso.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-horasextra",
+      "es": "las horas extra",
+      "en": "overtime",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Overtime — 'hacer horas extra' = to work overtime.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "overtime work late office",
+      "image": "work-office/horasextra.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-turno",
+      "es": "el turno",
+      "en": "shift",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Work shift — 'el turno de noche' = the night shift.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "work shift schedule",
+      "image": "work-office/turno.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-jornadacompleta",
+      "es": "la jornada completa",
+      "en": "full-time",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Full-time — 'trabajar a jornada completa' = to work full-time.",
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
+      "imageQuery": "full time work office",
+      "image": "work-office/jornadacompleta.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-mediajornada",
+      "es": "la media jornada",
+      "en": "part-time",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Part-time — 'trabajar a media jornada' = to work part-time.",
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
+      "imageQuery": "part time work flexible",
+      "image": "work-office/mediajornada.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-teletrabajo",
+      "es": "el teletrabajo",
+      "en": "remote work",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Remote work / teleworking — 'trabajar desde casa' = to work from home.",
+      "scenarios": [
+        "at work",
+        "technology"
+      ],
+      "imageQuery": "remote work home office laptop",
+      "image": "work-office/teletrabajo.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-despacho",
+      "es": "el despacho",
+      "en": "private office",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Private office — 'el jefe tiene su propio despacho' = the boss has his own office.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "private office executive",
+      "image": "work-office/despacho.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-salareuniones",
+      "es": "la sala de reuniones",
+      "en": "meeting room",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Meeting room — 'reservar la sala de reuniones' = to book the meeting room.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "conference meeting room",
+      "image": "work-office/salareuniones.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-proyector",
+      "es": "el proyector",
+      "en": "projector",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Projector — 'usar el proyector para la presentación' = to use the projector for the presentation.",
+      "scenarios": [
+        "at work",
+        "school & study"
+      ],
+      "imageQuery": "office projector presentation",
+      "image": "work-office/proyector.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-teclado",
+      "es": "el teclado",
+      "en": "keyboard",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Keyboard — 'escribir en el teclado' = to type on the keyboard.",
+      "scenarios": [
+        "at work",
+        "technology"
+      ],
+      "imageQuery": "computer keyboard",
+      "image": "work-office/teclado.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-archivador",
+      "es": "el archivador",
+      "en": "filing cabinet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Filing cabinet — 'guardar documentos en el archivador' = to store documents in the filing cabinet.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "filing cabinet office",
+      "image": "work-office/archivador.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-informe",
+      "es": "el informe",
+      "en": "report",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Report — 'redactar un informe' = to write a report.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "business report document",
+      "image": "work-office/informe.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-presentacion",
+      "es": "la presentación",
+      "en": "presentation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Presentation — 'hacer una presentación' = to give a presentation.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "business presentation slides",
+      "image": "work-office/presentacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-plazo",
+      "es": "el plazo",
+      "en": "deadline",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Deadline / time limit — 'cumplir con el plazo' = to meet the deadline.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "deadline calendar urgent",
+      "image": "work-office/plazo.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-sindicato",
+      "es": "el sindicato",
+      "en": "trade union",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Trade union — 'afiliarse a un sindicato' = to join a trade union.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "union workers protest",
+      "image": "work-office/sindicato.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-despido",
+      "es": "el despido",
+      "en": "dismissal",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dismissal / firing — 'recibir un despido' = to be fired.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "fired dismissed office",
+      "image": "work-office/despido.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-jubilacion",
+      "es": "la jubilación",
+      "en": "retirement",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Retirement — 'llegar a la jubilación' = to reach retirement.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "retirement celebration elderly",
+      "image": "work-office/jubilacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-empresa",
+      "es": "la empresa",
+      "en": "company",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Company/firm — 'trabajar en una empresa' = to work for a company.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "company office building",
+      "image": "work-office/empresa.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-negocio",
+      "es": "el negocio",
+      "en": "business",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Business — 'montar un negocio' = to start a business.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "small business shop",
+      "image": "work-office/negocio.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-socio",
+      "es": "el socio",
+      "en": "business partner",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Business partner/associate — 'mi socio de negocios' = my business partner.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "business partners handshake",
+      "image": "work-office/socio.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-companero",
+      "es": "el compañero de trabajo",
+      "en": "coworker",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Coworker — 'mis compañeros de trabajo' = my coworkers.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "coworkers office team",
+      "image": "work-office/companero.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-carrera",
+      "es": "la carrera",
+      "en": "career",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Career — 'hacer carrera en finanzas' = to build a career in finance.",
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
+      "imageQuery": "career path growth",
+      "image": "work-office/carrera.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-cargo",
+      "es": "el cargo",
+      "en": "position",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Job position/role — '¿cuál es tu cargo?' = what is your position?",
+      "scenarios": [
+        "at work",
+        "job interview"
+      ],
+      "imageQuery": "job title position",
+      "image": "work-office/cargo.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-ascenso",
+      "es": "el ascenso",
+      "en": "promotion",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Promotion — 'recibir un ascenso' = to receive a promotion.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "promotion advancement career",
+      "image": "work-office/ascenso.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-formacion",
+      "es": "la formación",
+      "en": "training",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Training/education — 'cursos de formación' = training courses.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "training course workshop",
+      "image": "work-office/formacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-departamento",
+      "es": "el departamento",
+      "en": "department",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Department — 'el departamento de marketing' = the marketing department.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "office department team",
+      "image": "work-office/departamento.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-director",
+      "es": "el director",
+      "en": "director",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Director (male) — 'la directora' = female director.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "director executive manager",
+      "image": "work-office/director.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-conferencia",
+      "es": "la conferencia",
+      "en": "conference",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Conference — 'asistir a una conferencia' = to attend a conference.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "conference presentation hall",
+      "image": "work-office/conferencia.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-agenda",
+      "es": "la agenda",
+      "en": "agenda",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Agenda/planner — 'revisar la agenda' = to check the agenda.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "agenda planner diary",
+      "image": "work-office/agenda.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-presupuesto",
+      "es": "el presupuesto",
+      "en": "budget",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Budget — 'ajustarse al presupuesto' = to stick to the budget.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "budget spreadsheet finance",
+      "image": "work-office/presupuesto.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-autonomo",
+      "es": "el autónomo",
+      "en": "freelancer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Freelancer/self-employed — 'trabajar como autónomo' = to work freelance.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "freelancer home laptop",
+      "image": "work-office/autonomo.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-empleador",
+      "es": "el empleador",
+      "en": "employer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Employer — 'la relación empleado-empleador' = employee-employer relationship.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "employer boss office",
+      "image": "work-office/empleador.webp",
+      "level": "C"
+    },
+    {
+      "id": "wo-contratar",
+      "es": "contratar",
+      "en": "to hire",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To hire/recruit — 'contratar a alguien' = to hire someone.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "hiring recruitment interview",
+      "image": "work-office/contratar.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-firmar",
+      "es": "firmar",
+      "en": "to sign",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To sign — 'firmar el contrato' = to sign the contract.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "signing document pen",
+      "image": "work-office/firmar.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-raton",
+      "es": "el ratón",
+      "en": "computer mouse",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Computer mouse — 'hacer clic con el ratón' = to click with the mouse.",
+      "scenarios": [
+        "at work",
+        "technology"
+      ],
+      "imageQuery": "computer mouse",
+      "image": "work-office/raton.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-grapadora",
+      "es": "la grapadora",
+      "en": "stapler",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Stapler — 'grapar los papeles' = to staple the papers.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "office stapler",
+      "image": "work-office/grapadora.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-auriculares",
+      "es": "los auriculares",
+      "en": "headphones",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Headphones/earphones — 'ponerse los auriculares' = to put on headphones.",
+      "scenarios": [
+        "at work",
+        "technology"
+      ],
+      "imageQuery": "headphones earphones",
+      "image": "work-office/auriculares.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-fotocopiadora",
+      "es": "la fotocopiadora",
+      "en": "photocopier",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Photocopier — 'usar la fotocopiadora' = to use the photocopier.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "photocopier office machine",
+      "image": "work-office/fotocopiadora.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-llamada",
+      "es": "la llamada de teléfono",
+      "en": "phone call",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Phone call — 'hacer una llamada' = to make a phone call.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "phone call business",
+      "image": "work-office/llamada.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-objetivo",
+      "es": "el objetivo",
+      "en": "goal",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Goal/objective — 'cumplir los objetivos' = to meet the goals.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "goal target business",
+      "image": "work-office/objetivo.webp",
+      "level": "B"
+    },
+    {
+      "id": "wo-estrategia",
+      "es": "la estrategia",
+      "en": "strategy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Strategy — 'definir la estrategia' = to define the strategy.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "business strategy planning",
+      "image": "work-office/estrategia.webp",
+      "level": "C"
+    },
+    {
+      "id": "wo-logro",
+      "es": "el logro",
+      "en": "achievement",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Achievement — 'un gran logro' = a great achievement.",
+      "scenarios": [
+        "at work"
+      ],
+      "imageQuery": "achievement award success",
+      "image": "work-office/logro.webp",
+      "level": "C"
     }
   ]
 }

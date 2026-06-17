@@ -11,9 +11,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Sun — 'hace sol' = it's sunny.",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "sun in sky",
-      "image": "weather-nature/sol.webp"
+      "image": "weather-nature/sol.webp",
+      "level": "A"
     },
     {
       "id": "wn-lluvia",
@@ -22,9 +25,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Rain — 'hay mucha lluvia' = there's a lot of rain.",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "rain falling",
-      "image": "weather-nature/lluvia.webp"
+      "image": "weather-nature/lluvia.webp",
+      "level": "A"
     },
     {
       "id": "wn-nieve",
@@ -33,9 +39,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Snow — 'nieva' = it's snowing (from 'nevar').",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "snow winter",
-      "image": "weather-nature/nieve.webp"
+      "image": "weather-nature/nieve.webp",
+      "level": "A"
     },
     {
       "id": "wn-viento",
@@ -44,9 +53,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Wind — 'hace viento' = it's windy.",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "wind blowing trees",
-      "image": "weather-nature/viento.webp"
+      "image": "weather-nature/viento.webp",
+      "level": "A"
     },
     {
       "id": "wn-nube",
@@ -55,9 +67,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Cloud — 'el cielo está nublado' = the sky is cloudy.",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "clouds in sky",
-      "image": "weather-nature/nube.webp"
+      "image": "weather-nature/nube.webp",
+      "level": "A"
     },
     {
       "id": "wn-tormenta",
@@ -66,9 +81,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Storm — 'una tormenta fuerte' = a strong storm.",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "storm lightning",
-      "image": "weather-nature/tormenta.webp"
+      "image": "weather-nature/tormenta.webp",
+      "level": "A"
     },
     {
       "id": "wn-calor",
@@ -77,9 +95,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Heat — 'tengo calor' = I'm hot / I feel hot.",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "hot sun summer",
-      "image": "weather-nature/calor.webp"
+      "image": "weather-nature/calor.webp",
+      "level": "A"
     },
     {
       "id": "wn-frio",
@@ -88,9 +109,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Cold — 'tengo frío' = I'm cold / I feel cold.",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "cold winter ice",
-      "image": "weather-nature/frio.webp"
+      "image": "weather-nature/frio.webp",
+      "level": "A"
     },
     {
       "id": "wn-cielo",
@@ -99,9 +123,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Sky — also means 'heaven' in religious contexts.",
-      "scenarios": ["weather", "nature"],
+      "scenarios": [
+        "weather",
+        "nature"
+      ],
       "imageQuery": "blue sky",
-      "image": "weather-nature/cielo.webp"
+      "image": "weather-nature/cielo.webp",
+      "level": "A"
     },
     {
       "id": "wn-luna",
@@ -110,9 +138,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Moon — 'luna llena' = full moon.",
-      "scenarios": ["nature"],
+      "scenarios": [
+        "nature"
+      ],
       "imageQuery": "moon at night",
-      "image": "weather-nature/luna.webp"
+      "image": "weather-nature/luna.webp",
+      "level": "A"
     },
     {
       "id": "wn-estrella",
@@ -121,9 +152,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Star — 'las estrellas' = the stars.",
-      "scenarios": ["nature"],
+      "scenarios": [
+        "nature"
+      ],
       "imageQuery": "stars night sky",
-      "image": "weather-nature/estrella.webp"
+      "image": "weather-nature/estrella.webp",
+      "level": "A"
     },
     {
       "id": "wn-arbol",
@@ -132,9 +166,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Tree — 'un árbol grande' = a big tree.",
-      "scenarios": ["nature"],
+      "scenarios": [
+        "nature"
+      ],
       "imageQuery": "tree",
-      "image": "weather-nature/arbol.webp"
+      "image": "weather-nature/arbol.webp",
+      "level": "A"
     },
     {
       "id": "wn-flor",
@@ -143,9 +180,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Flower — 'un ramo de flores' = a bouquet of flowers.",
-      "scenarios": ["nature"],
+      "scenarios": [
+        "nature"
+      ],
       "imageQuery": "flower",
-      "image": "weather-nature/flor.webp"
+      "image": "weather-nature/flor.webp",
+      "level": "A"
     },
     {
       "id": "wn-montana",
@@ -154,9 +194,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Mountain — 'subir la montaña' = to climb the mountain.",
-      "scenarios": ["nature", "sightseeing"],
+      "scenarios": [
+        "nature",
+        "sightseeing"
+      ],
       "imageQuery": "mountain landscape",
-      "image": "weather-nature/montana.webp"
+      "image": "weather-nature/montana.webp",
+      "level": "A"
     },
     {
       "id": "wn-rio",
@@ -165,9 +209,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "River — 'a orillas del río' = on the riverbank.",
-      "scenarios": ["nature"],
+      "scenarios": [
+        "nature"
+      ],
       "imageQuery": "river",
-      "image": "weather-nature/rio.webp"
+      "image": "weather-nature/rio.webp",
+      "level": "B"
     },
     {
       "id": "wn-mar",
@@ -176,9 +223,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Sea — 'ir al mar' = to go to the sea.",
-      "scenarios": ["nature", "travel"],
+      "scenarios": [
+        "nature",
+        "travel"
+      ],
       "imageQuery": "sea ocean horizon",
-      "image": "weather-nature/mar.webp"
+      "image": "weather-nature/mar.webp",
+      "level": "B"
     },
     {
       "id": "wn-playa",
@@ -187,9 +238,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Beach — 'ir a la playa' = to go to the beach.",
-      "scenarios": ["nature", "travel"],
+      "scenarios": [
+        "nature",
+        "travel"
+      ],
       "imageQuery": "beach",
-      "image": "weather-nature/playa.webp"
+      "image": "weather-nature/playa.webp",
+      "level": "B"
     },
     {
       "id": "wn-bosque",
@@ -198,9 +253,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Forest — 'caminar por el bosque' = to walk through the forest.",
-      "scenarios": ["nature"],
+      "scenarios": [
+        "nature"
+      ],
       "imageQuery": "forest trees",
-      "image": "weather-nature/bosque.webp"
+      "image": "weather-nature/bosque.webp",
+      "level": "B"
     },
     {
       "id": "wn-primavera",
@@ -209,9 +267,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Spring — the season after winter, when flowers bloom.",
-      "scenarios": ["weather", "nature"],
+      "scenarios": [
+        "weather",
+        "nature"
+      ],
       "imageQuery": "spring blossoms flowers",
-      "image": "weather-nature/primavera.webp"
+      "image": "weather-nature/primavera.webp",
+      "level": "B"
     },
     {
       "id": "wn-verano",
@@ -220,9 +282,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Summer — the warmest season.",
-      "scenarios": ["weather", "nature"],
+      "scenarios": [
+        "weather",
+        "nature"
+      ],
       "imageQuery": "summer beach sunny",
-      "image": "weather-nature/verano.webp"
+      "image": "weather-nature/verano.webp",
+      "level": "B"
     },
     {
       "id": "wn-otono",
@@ -231,9 +297,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Autumn/fall — when leaves change color and fall.",
-      "scenarios": ["weather", "nature"],
+      "scenarios": [
+        "weather",
+        "nature"
+      ],
       "imageQuery": "autumn leaves fall",
-      "image": "weather-nature/otono.webp"
+      "image": "weather-nature/otono.webp",
+      "level": "B"
     },
     {
       "id": "wn-invierno",
@@ -242,9 +312,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Winter — the coldest season.",
-      "scenarios": ["weather", "nature"],
+      "scenarios": [
+        "weather",
+        "nature"
+      ],
       "imageQuery": "winter snow landscape",
-      "image": "weather-nature/invierno.webp"
+      "image": "weather-nature/invierno.webp",
+      "level": "B"
     },
     {
       "id": "wn-temperatura",
@@ -253,9 +327,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Temperature — '¿qué temperatura hace?' = what's the temperature?",
-      "scenarios": ["weather"],
+      "scenarios": [
+        "weather"
+      ],
       "imageQuery": "thermometer temperature outdoor",
-      "image": "weather-nature/temperatura.webp"
+      "image": "weather-nature/temperatura.webp",
+      "level": "B"
     },
     {
       "id": "wn-arcoiris",
@@ -264,9 +341,559 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Rainbow — appears after rain on a sunny day.",
-      "scenarios": ["weather", "nature"],
+      "scenarios": [
+        "weather",
+        "nature"
+      ],
       "imageQuery": "rainbow sky",
-      "image": "weather-nature/arcoiris.webp"
+      "image": "weather-nature/arcoiris.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-lago",
+      "es": "el lago",
+      "en": "lake",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lake — 'nadar en el lago' = to swim in the lake.",
+      "scenarios": [
+        "nature",
+        "travel"
+      ],
+      "imageQuery": "lake water nature",
+      "image": "weather-nature/lago.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-bahia",
+      "es": "la bahía",
+      "en": "bay",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bay — 'una bahía protegida' = a sheltered bay.",
+      "scenarios": [
+        "nature",
+        "travel"
+      ],
+      "imageQuery": "bay coastline water",
+      "image": "weather-nature/bahia.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-desierto",
+      "es": "el desierto",
+      "en": "desert",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Desert — 'el desierto del Sahara' = the Sahara Desert.",
+      "scenarios": [
+        "nature",
+        "geography"
+      ],
+      "imageQuery": "desert sand dunes",
+      "image": "weather-nature/desierto.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-isla",
+      "es": "la isla",
+      "en": "island",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Island — 'las islas Canarias' = the Canary Islands.",
+      "scenarios": [
+        "nature",
+        "travel"
+      ],
+      "imageQuery": "tropical island",
+      "image": "weather-nature/isla.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-selva",
+      "es": "la selva",
+      "en": "jungle",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Jungle/tropical forest — 'la selva amazónica' = the Amazon jungle.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "jungle tropical forest",
+      "image": "weather-nature/selva.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-volcan",
+      "es": "el volcán",
+      "en": "volcano",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Volcano — 'el volcán en erupción' = the erupting volcano.",
+      "scenarios": [
+        "nature",
+        "geography"
+      ],
+      "imageQuery": "volcano eruption",
+      "image": "weather-nature/volcan.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-cascada",
+      "es": "la cascada",
+      "en": "waterfall",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Waterfall — 'una cascada espectacular' = a spectacular waterfall.",
+      "scenarios": [
+        "nature",
+        "travel"
+      ],
+      "imageQuery": "waterfall nature",
+      "image": "weather-nature/cascada.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-oceano",
+      "es": "el océano",
+      "en": "ocean",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ocean — 'el océano Atlántico' = the Atlantic Ocean.",
+      "scenarios": [
+        "nature",
+        "geography"
+      ],
+      "imageQuery": "ocean sea water",
+      "image": "weather-nature/oceano.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-costa",
+      "es": "la costa",
+      "en": "coast",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Coast — 'la costa del Mediterráneo' = the Mediterranean coast.",
+      "scenarios": [
+        "nature",
+        "geography"
+      ],
+      "imageQuery": "coastline sea cliffs",
+      "image": "weather-nature/costa.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-campo",
+      "es": "el campo",
+      "en": "countryside",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Countryside/field — 'vivir en el campo' = to live in the countryside.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "countryside green field",
+      "image": "weather-nature/campo.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-colina",
+      "es": "la colina",
+      "en": "hill",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hill — smaller than a mountain.",
+      "scenarios": [
+        "nature",
+        "geography"
+      ],
+      "imageQuery": "rolling hills countryside",
+      "image": "weather-nature/colina.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-valle",
+      "es": "el valle",
+      "en": "valley",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Valley — low area between mountains or hills.",
+      "scenarios": [
+        "nature",
+        "geography"
+      ],
+      "imageQuery": "valley mountain",
+      "image": "weather-nature/valle.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-hoja",
+      "es": "la hoja",
+      "en": "leaf",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Leaf — 'las hojas caen en otoño' = leaves fall in autumn.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "autumn leaf",
+      "image": "weather-nature/hoja.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-hierba",
+      "es": "la hierba",
+      "en": "grass",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Grass — 'el césped' is also used for lawn.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "green grass field",
+      "image": "weather-nature/hierba.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-piedra",
+      "es": "la piedra",
+      "en": "stone",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Stone/rock — 'una piedra preciosa' = a gemstone.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "rocks stones",
+      "image": "weather-nature/piedra.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-arena",
+      "es": "la arena",
+      "en": "sand",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sand — 'arena de la playa' = beach sand.",
+      "scenarios": [
+        "nature",
+        "beach"
+      ],
+      "imageQuery": "sand beach",
+      "image": "weather-nature/arena.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-fuego",
+      "es": "el fuego",
+      "en": "fire",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fire — 'hacer fuego' = to make a fire.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "fire flames",
+      "image": "weather-nature/fuego.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-hielo",
+      "es": "el hielo",
+      "en": "ice",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ice — 'patinar sobre el hielo' = to ice skate.",
+      "scenarios": [
+        "nature",
+        "weather"
+      ],
+      "imageQuery": "ice frozen",
+      "image": "weather-nature/hielo.webp",
+      "level": "A"
+    },
+    {
+      "id": "wn-trueno",
+      "es": "el trueno",
+      "en": "thunder",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Thunder — 'hay truenos' = there's thunder.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "thunder storm dark",
+      "image": "weather-nature/trueno.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-relampago",
+      "es": "el relámpago",
+      "en": "lightning",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lightning — 'un relámpago en el cielo' = a bolt of lightning.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "lightning bolt storm",
+      "image": "weather-nature/relampago.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-niebla",
+      "es": "la niebla",
+      "en": "fog",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fog — 'hay niebla' = it's foggy.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "fog misty",
+      "image": "weather-nature/niebla.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-granizo",
+      "es": "el granizo",
+      "en": "hail",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hail — 'cae granizo' = it's hailing.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "hail storm",
+      "image": "weather-nature/granizo.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-sequia",
+      "es": "la sequía",
+      "en": "drought",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Drought — a long period without rain.",
+      "scenarios": [
+        "weather",
+        "environment"
+      ],
+      "imageQuery": "drought dry cracked earth",
+      "image": "weather-nature/sequia.webp",
+      "level": "C"
+    },
+    {
+      "id": "wn-inundacion",
+      "es": "la inundación",
+      "en": "flood",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flood — 'una inundación grave' = a severe flood.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "flood flooding water",
+      "image": "weather-nature/inundacion.webp",
+      "level": "C"
+    },
+    {
+      "id": "wn-terremoto",
+      "es": "el terremoto",
+      "en": "earthquake",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Earthquake — 'un terremoto de magnitud 6' = a magnitude-6 earthquake.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "earthquake disaster",
+      "image": "weather-nature/terremoto.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-humedo",
+      "es": "húmedo",
+      "en": "humid",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Humid — 'un clima húmedo' = a humid climate.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "humid weather tropical",
+      "image": "weather-nature/humedo.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-seco",
+      "es": "seco",
+      "en": "dry",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Dry — 'un clima seco' = a dry climate.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "dry arid",
+      "image": "weather-nature/seco.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-despejado",
+      "es": "despejado",
+      "en": "clear",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Clear (sky) — 'el cielo está despejado' = the sky is clear.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "clear sky blue",
+      "image": "weather-nature/despejado.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-nublado",
+      "es": "nublado",
+      "en": "cloudy",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Cloudy — 'hoy está nublado' = it's cloudy today.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "cloudy grey sky",
+      "image": "weather-nature/nublado.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-pronostico",
+      "es": "el pronóstico del tiempo",
+      "en": "weather forecast",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Weather forecast — 'ver el pronóstico' = to check the forecast.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "weather forecast icon",
+      "image": "weather-nature/pronostico.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-ciclon",
+      "es": "el ciclón",
+      "en": "cyclone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cyclone — a large rotating tropical storm.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "cyclone tropical storm",
+      "image": "weather-nature/ciclon.webp",
+      "level": "C"
+    },
+    {
+      "id": "wn-ventisca",
+      "es": "la ventisca",
+      "en": "blizzard",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Blizzard — 'una ventisca de nieve' = a snowstorm/blizzard.",
+      "scenarios": [
+        "weather"
+      ],
+      "imageQuery": "blizzard snowstorm wind",
+      "image": "weather-nature/ventisca.webp",
+      "level": "C"
+    },
+    {
+      "id": "wn-planeta",
+      "es": "el planeta",
+      "en": "planet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Planet — 'el planeta Tierra' = planet Earth.",
+      "scenarios": [
+        "nature",
+        "science"
+      ],
+      "imageQuery": "planet earth space",
+      "image": "weather-nature/planeta.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-naturaleza",
+      "es": "la naturaleza",
+      "en": "nature",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nature — 'la belleza de la naturaleza' = the beauty of nature.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "nature beautiful landscape",
+      "image": "weather-nature/naturaleza.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-medioambiente",
+      "es": "el medio ambiente",
+      "en": "environment",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Environment — 'proteger el medio ambiente' = to protect the environment.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "environment earth green",
+      "image": "weather-nature/medioambiente.webp",
+      "level": "B"
+    },
+    {
+      "id": "wn-contaminacion",
+      "es": "la contaminación",
+      "en": "pollution",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pollution — 'la contaminación del aire' = air pollution.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "pollution smoke factory",
+      "image": "weather-nature/contaminacion.webp",
+      "level": "C"
+    },
+    {
+      "id": "wn-pantano",
+      "es": "el pantano",
+      "en": "swamp",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Swamp/marsh — wet, muddy land.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "swamp marsh wetland",
+      "image": "weather-nature/pantano.webp",
+      "level": "C"
+    },
+    {
+      "id": "wn-pradera",
+      "es": "la pradera",
+      "en": "meadow",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Meadow/prairie — flat grassy land.",
+      "scenarios": [
+        "nature"
+      ],
+      "imageQuery": "meadow grass wildflowers",
+      "image": "weather-nature/pradera.webp",
+      "level": "C"
     }
   ]
 }

@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Car — also 'el carro' (Latin America) or 'el auto'.",
-      "scenarios": ["travel", "directions"],
+      "scenarios": [
+        "travel",
+        "directions"
+      ],
       "imageQuery": "car on road",
-      "image": "travel-transport/coche.webp"
+      "image": "travel-transport/coche.webp",
+      "level": "A"
     },
     {
       "id": "tt-autobus",
@@ -22,9 +26,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Bus — 'tomar el autobús' = to take the bus.",
-      "scenarios": ["public transportation"],
+      "scenarios": [
+        "public transportation"
+      ],
       "imageQuery": "city bus",
-      "image": "travel-transport/autobus.webp"
+      "image": "travel-transport/autobus.webp",
+      "level": "A"
     },
     {
       "id": "tt-tren",
@@ -33,9 +40,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Train — 'el tren sale a las nueve' = the train leaves at nine.",
-      "scenarios": ["public transportation", "at the train station"],
+      "scenarios": [
+        "public transportation",
+        "at the train station"
+      ],
       "imageQuery": "train",
-      "image": "travel-transport/tren.webp"
+      "image": "travel-transport/tren.webp",
+      "level": "A"
     },
     {
       "id": "tt-avion",
@@ -44,9 +55,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Airplane — 'en avión' = by plane.",
-      "scenarios": ["at the airport"],
+      "scenarios": [
+        "at the airport"
+      ],
       "imageQuery": "airplane flying",
-      "image": "travel-transport/avion.webp"
+      "image": "travel-transport/avion.webp",
+      "level": "A"
     },
     {
       "id": "tt-taxi",
@@ -55,9 +69,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Taxi — 'llamar un taxi' = to call a taxi.",
-      "scenarios": ["travel", "public transportation"],
+      "scenarios": [
+        "travel",
+        "public transportation"
+      ],
       "imageQuery": "taxi cab",
-      "image": "travel-transport/taxi.webp"
+      "image": "travel-transport/taxi.webp",
+      "level": "A"
     },
     {
       "id": "tt-bicicleta",
@@ -66,9 +84,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Bicycle — informally 'la bici'.",
-      "scenarios": ["travel"],
+      "scenarios": [
+        "travel"
+      ],
       "imageQuery": "bicycle",
-      "image": "travel-transport/bicicleta.webp"
+      "image": "travel-transport/bicicleta.webp",
+      "level": "A"
     },
     {
       "id": "tt-metro",
@@ -77,9 +98,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Subway/metro — common in big cities like Madrid or Mexico City.",
-      "scenarios": ["public transportation", "city & directions"],
+      "scenarios": [
+        "public transportation",
+        "city & directions"
+      ],
       "imageQuery": "subway metro train",
-      "image": "travel-transport/metro.webp"
+      "image": "travel-transport/metro.webp",
+      "level": "A"
     },
     {
       "id": "tt-barco",
@@ -88,9 +113,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Boat/ship — 'viajar en barco' = to travel by boat.",
-      "scenarios": ["travel"],
+      "scenarios": [
+        "travel"
+      ],
       "imageQuery": "boat on water",
-      "image": "travel-transport/barco.webp"
+      "image": "travel-transport/barco.webp",
+      "level": "A"
     },
     {
       "id": "tt-aeropuerto",
@@ -99,9 +127,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Airport — 'en el aeropuerto' = at the airport.",
-      "scenarios": ["at the airport"],
+      "scenarios": [
+        "at the airport"
+      ],
       "imageQuery": "airport terminal",
-      "image": "travel-transport/aeropuerto.webp"
+      "image": "travel-transport/aeropuerto.webp",
+      "level": "A"
     },
     {
       "id": "tt-estacion",
@@ -110,9 +141,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Station — 'la estación de tren' = the train station.",
-      "scenarios": ["public transportation"],
+      "scenarios": [
+        "public transportation"
+      ],
       "imageQuery": "train station platform",
-      "image": "travel-transport/estacion.webp"
+      "image": "travel-transport/estacion.webp",
+      "level": "A"
     },
     {
       "id": "tt-billete",
@@ -121,9 +155,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Ticket (Spain) — also 'el boleto' in Latin America.",
-      "scenarios": ["at the airport", "public transportation"],
+      "scenarios": [
+        "at the airport",
+        "public transportation"
+      ],
       "imageQuery": "travel ticket",
-      "image": "travel-transport/billete.webp"
+      "image": "travel-transport/billete.webp",
+      "level": "A"
     },
     {
       "id": "tt-pasaporte",
@@ -132,9 +170,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Passport — needed for international travel.",
-      "scenarios": ["at the airport"],
+      "scenarios": [
+        "at the airport"
+      ],
       "imageQuery": "passport document",
-      "image": "travel-transport/pasaporte.webp"
+      "image": "travel-transport/pasaporte.webp",
+      "level": "A"
     },
     {
       "id": "tt-maleta",
@@ -143,9 +184,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Suitcase — 'hacer la maleta' = to pack your suitcase.",
-      "scenarios": ["at the airport", "travel"],
+      "scenarios": [
+        "at the airport",
+        "travel"
+      ],
       "imageQuery": "suitcase luggage",
-      "image": "travel-transport/maleta.webp"
+      "image": "travel-transport/maleta.webp",
+      "level": "A"
     },
     {
       "id": "tt-equipaje",
@@ -154,9 +199,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Luggage/baggage — 'recoger el equipaje' = to pick up your luggage.",
-      "scenarios": ["at the airport"],
+      "scenarios": [
+        "at the airport"
+      ],
       "imageQuery": "luggage bags airport",
-      "image": "travel-transport/equipaje.webp"
+      "image": "travel-transport/equipaje.webp",
+      "level": "A"
     },
     {
       "id": "tt-vuelo",
@@ -165,9 +213,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Flight — 'el vuelo está retrasado' = the flight is delayed.",
-      "scenarios": ["at the airport"],
+      "scenarios": [
+        "at the airport"
+      ],
       "imageQuery": "airplane sky flight",
-      "image": "travel-transport/vuelo.webp"
+      "image": "travel-transport/vuelo.webp",
+      "level": "B"
     },
     {
       "id": "tt-parada",
@@ -176,9 +227,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Stop — 'la parada de autobús' = the bus stop.",
-      "scenarios": ["public transportation"],
+      "scenarios": [
+        "public transportation"
+      ],
       "imageQuery": "bus stop sign",
-      "image": "travel-transport/parada.webp"
+      "image": "travel-transport/parada.webp",
+      "level": "B"
     },
     {
       "id": "tt-conductor",
@@ -187,9 +241,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Driver ('la conductora' for a woman) — also means 'conductor' on a train.",
-      "scenarios": ["travel", "public transportation"],
+      "scenarios": [
+        "travel",
+        "public transportation"
+      ],
       "imageQuery": "bus driver",
-      "image": "travel-transport/conductor.webp"
+      "image": "travel-transport/conductor.webp",
+      "level": "B"
     },
     {
       "id": "tt-asiento",
@@ -198,9 +256,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Seat — 'mi asiento es el doce' = my seat is twelve.",
-      "scenarios": ["at the airport", "public transportation"],
+      "scenarios": [
+        "at the airport",
+        "public transportation"
+      ],
       "imageQuery": "airplane seat",
-      "image": "travel-transport/asiento.webp"
+      "image": "travel-transport/asiento.webp",
+      "level": "B"
     },
     {
       "id": "tt-salida",
@@ -209,9 +271,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Exit/departure — also a flight 'departure'.",
-      "scenarios": ["at the airport", "city & directions"],
+      "scenarios": [
+        "at the airport",
+        "city & directions"
+      ],
       "imageQuery": "airport departure sign",
-      "image": "travel-transport/salida.webp"
+      "image": "travel-transport/salida.webp",
+      "level": "B"
     },
     {
       "id": "tt-llegada",
@@ -220,9 +286,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Arrival — 'la hora de llegada' = the arrival time.",
-      "scenarios": ["at the airport"],
+      "scenarios": [
+        "at the airport"
+      ],
       "imageQuery": "airport arrival sign",
-      "image": "travel-transport/llegada.webp"
+      "image": "travel-transport/llegada.webp",
+      "level": "B"
     },
     {
       "id": "tt-pasajero",
@@ -231,9 +300,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Passenger ('la pasajera' for a woman) — someone riding, not driving.",
-      "scenarios": ["at the airport", "public transportation"],
+      "scenarios": [
+        "at the airport",
+        "public transportation"
+      ],
       "imageQuery": "airplane passenger",
-      "image": "travel-transport/pasajero.webp"
+      "image": "travel-transport/pasajero.webp",
+      "level": "B"
     },
     {
       "id": "tt-aduana",
@@ -242,9 +315,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Customs — 'pasar por la aduana' = to go through customs.",
-      "scenarios": ["at the airport"],
+      "scenarios": [
+        "at the airport"
+      ],
       "imageQuery": "airport customs sign",
-      "image": "travel-transport/aduana.webp"
+      "image": "travel-transport/aduana.webp",
+      "level": "B"
     },
     {
       "id": "tt-conducir",
@@ -253,9 +329,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To drive — 'conducir un coche' = to drive a car.",
-      "scenarios": ["travel"],
+      "scenarios": [
+        "travel"
+      ],
       "imageQuery": "person driving car",
-      "image": "travel-transport/conducir.webp"
+      "image": "travel-transport/conducir.webp",
+      "level": "B"
     },
     {
       "id": "tt-viajar",
@@ -264,9 +343,583 @@
       "pos": "verb",
       "gender": null,
       "hint": "To travel — 'viajar al extranjero' = to travel abroad.",
-      "scenarios": ["travel"],
+      "scenarios": [
+        "travel"
+      ],
       "imageQuery": "traveler with suitcase",
-      "image": "travel-transport/viajar.webp"
+      "image": "travel-transport/viajar.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-moto",
+      "es": "la moto",
+      "en": "motorcycle",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Motorcycle — short for 'la motocicleta'.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "motorcycle motorbike",
+      "image": "travel-transport/moto.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-camion",
+      "es": "el camión",
+      "en": "truck",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Truck/lorry — 'el camionero' = truck driver.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "truck lorry road",
+      "image": "travel-transport/camion.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-helicoptero",
+      "es": "el helicóptero",
+      "en": "helicopter",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Helicopter — 'volar en helicóptero' = to fly in a helicopter.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "helicopter flying",
+      "image": "travel-transport/helicoptero.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-ferry",
+      "es": "el ferry",
+      "en": "ferry",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ferry — used to cross water between ports.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "ferry boat water",
+      "image": "travel-transport/ferry.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-crucero",
+      "es": "el crucero",
+      "en": "cruise ship",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cruise ship — 'ir de crucero' = to go on a cruise.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "cruise ship ocean",
+      "image": "travel-transport/crucero.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-tranvia",
+      "es": "el tranvía",
+      "en": "tram",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tram/streetcar — runs on tracks in the city.",
+      "scenarios": [
+        "public transportation"
+      ],
+      "imageQuery": "tram streetcar city",
+      "image": "travel-transport/tranvia.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-carretera",
+      "es": "la carretera",
+      "en": "road",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Road/highway — 'una carretera secundaria' = a secondary road.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "road highway",
+      "image": "travel-transport/carretera.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-autopista",
+      "es": "la autopista",
+      "en": "motorway",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Motorway/highway — fast multi-lane road.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "highway motorway cars",
+      "image": "travel-transport/autopista.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-gasolinera",
+      "es": "la gasolinera",
+      "en": "gas station",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Gas station/petrol station — 'parar en la gasolinera' = to stop at the gas station.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "gas station petrol",
+      "image": "travel-transport/gasolinera.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-aparcamiento",
+      "es": "el aparcamiento",
+      "en": "parking lot",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Parking lot — 'buscar aparcamiento' = to look for parking.",
+      "scenarios": [
+        "travel",
+        "city & directions"
+      ],
+      "imageQuery": "parking lot cars",
+      "image": "travel-transport/aparcamiento.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-terminal",
+      "es": "la terminal",
+      "en": "terminal",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Terminal — 'la terminal de llegadas' = the arrivals terminal.",
+      "scenarios": [
+        "at the airport"
+      ],
+      "imageQuery": "airport terminal interior",
+      "image": "travel-transport/terminal.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-embarque",
+      "es": "el embarque",
+      "en": "boarding",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Boarding — 'puerta de embarque' = boarding gate.",
+      "scenarios": [
+        "at the airport"
+      ],
+      "imageQuery": "airport boarding gate",
+      "image": "travel-transport/embarque.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-tarjeta-embarque",
+      "es": "la tarjeta de embarque",
+      "en": "boarding pass",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Boarding pass — 'mostrar la tarjeta de embarque' = to show your boarding pass.",
+      "scenarios": [
+        "at the airport"
+      ],
+      "imageQuery": "boarding pass airplane",
+      "image": "travel-transport/tarjeta-embarque.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-horario",
+      "es": "el horario",
+      "en": "schedule",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Schedule/timetable — 'el horario de trenes' = the train timetable.",
+      "scenarios": [
+        "public transportation",
+        "at the airport"
+      ],
+      "imageQuery": "schedule timetable board",
+      "image": "travel-transport/horario.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-retraso",
+      "es": "el retraso",
+      "en": "delay",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Delay — 'el vuelo tiene un retraso' = the flight has a delay.",
+      "scenarios": [
+        "at the airport",
+        "public transportation"
+      ],
+      "imageQuery": "delayed flight sign",
+      "image": "travel-transport/retraso.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-escala",
+      "es": "la escala",
+      "en": "stopover",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Stopover — 'un vuelo con escala' = a connecting flight.",
+      "scenarios": [
+        "at the airport"
+      ],
+      "imageQuery": "connecting flight stopover",
+      "image": "travel-transport/escala.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-reserva",
+      "es": "la reserva",
+      "en": "reservation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Reservation/booking — 'hacer una reserva' = to make a reservation.",
+      "scenarios": [
+        "travel",
+        "at the airport"
+      ],
+      "imageQuery": "reservation booking online",
+      "image": "travel-transport/reserva.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-gasolina",
+      "es": "la gasolina",
+      "en": "gasoline",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Gasoline/petrol — 'llenar de gasolina' = to fill up with gas.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "gasoline fuel pump",
+      "image": "travel-transport/gasolina.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-peaje",
+      "es": "el peaje",
+      "en": "toll",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Toll road/toll — 'pagar el peaje' = to pay the toll.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "toll road booth",
+      "image": "travel-transport/peaje.webp",
+      "level": "C"
+    },
+    {
+      "id": "tt-volante",
+      "es": "el volante",
+      "en": "steering wheel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Steering wheel — 'agarrar el volante' = to grip the steering wheel.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "steering wheel car",
+      "image": "travel-transport/volante.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-rueda",
+      "es": "la rueda",
+      "en": "wheel",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wheel/tire — 'pinchar una rueda' = to get a flat tire.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "car tire wheel",
+      "image": "travel-transport/rueda.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-maletero",
+      "es": "el maletero",
+      "en": "trunk",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Car trunk/boot — 'meter las maletas en el maletero' = to put luggage in the trunk.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "car trunk boot",
+      "image": "travel-transport/maletero.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-carnet",
+      "es": "el carnet de conducir",
+      "en": "driver's license",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Driver's license — 'mostrar el carnet de conducir' = to show your driver's license.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "drivers license card",
+      "image": "travel-transport/carnet.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-accidente",
+      "es": "el accidente",
+      "en": "accident",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Accident — 'tener un accidente' = to have an accident.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "car accident",
+      "image": "travel-transport/accidente.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-seguro",
+      "es": "el seguro",
+      "en": "insurance",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Insurance — 'el seguro del coche' = car insurance.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "insurance policy",
+      "image": "travel-transport/seguro.webp",
+      "level": "C"
+    },
+    {
+      "id": "tt-albergue",
+      "es": "el albergue",
+      "en": "hostel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hostel — budget accommodation; 'el albergue juvenil' = youth hostel.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "hostel dormitory travel",
+      "image": "travel-transport/albergue.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-excursion",
+      "es": "la excursión",
+      "en": "excursion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Excursion/day trip — 'hacer una excursión' = to go on an excursion.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "excursion tour group",
+      "image": "travel-transport/excursion.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-guia",
+      "es": "el/la guía",
+      "en": "guide",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tour guide — 'el guía turístico' = the tourist guide.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "tour guide group",
+      "image": "travel-transport/guia.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-norte",
+      "es": "el norte",
+      "en": "north",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "North — 'al norte de la ciudad' = to the north of the city.",
+      "scenarios": [
+        "travel",
+        "asking for directions"
+      ],
+      "imageQuery": "north compass direction",
+      "image": "travel-transport/norte.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-sur",
+      "es": "el sur",
+      "en": "south",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "South — 'América del Sur' = South America.",
+      "scenarios": [
+        "travel",
+        "asking for directions"
+      ],
+      "imageQuery": "south compass direction",
+      "image": "travel-transport/sur.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-este",
+      "es": "el este",
+      "en": "east",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "East — 'el sol sale por el este' = the sun rises in the east.",
+      "scenarios": [
+        "travel",
+        "asking for directions"
+      ],
+      "imageQuery": "east compass sunrise",
+      "image": "travel-transport/este.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-oeste",
+      "es": "el oeste",
+      "en": "west",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "West — 'el sol se pone por el oeste' = the sun sets in the west.",
+      "scenarios": [
+        "travel",
+        "asking for directions"
+      ],
+      "imageQuery": "west compass sunset",
+      "image": "travel-transport/oeste.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-viaje",
+      "es": "el viaje",
+      "en": "trip",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Trip/journey — '¡buen viaje!' = have a good trip!",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "trip journey luggage",
+      "image": "travel-transport/viaje.webp",
+      "level": "A"
+    },
+    {
+      "id": "tt-destino",
+      "es": "el destino",
+      "en": "destination",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Destination — '¿cuál es tu destino?' = what is your destination?",
+      "scenarios": [
+        "travel",
+        "at the airport"
+      ],
+      "imageQuery": "destination city landmark",
+      "image": "travel-transport/destino.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-frontera",
+      "es": "la frontera",
+      "en": "border",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Border — 'cruzar la frontera' = to cross the border.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "border crossing sign",
+      "image": "travel-transport/frontera.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-visa",
+      "es": "la visa",
+      "en": "visa",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Visa — also 'el visado' (Spain); required to enter some countries.",
+      "scenarios": [
+        "at the airport",
+        "travel"
+      ],
+      "imageQuery": "passport visa stamp",
+      "image": "travel-transport/visa.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-piloto",
+      "es": "el piloto",
+      "en": "pilot",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pilot — 'la piloto' for a female pilot.",
+      "scenarios": [
+        "at the airport"
+      ],
+      "imageQuery": "pilot airplane cockpit",
+      "image": "travel-transport/piloto.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-azafata",
+      "es": "la azafata",
+      "en": "flight attendant",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flight attendant (female) — 'el auxiliar de vuelo' is gender-neutral.",
+      "scenarios": [
+        "at the airport"
+      ],
+      "imageQuery": "flight attendant airplane",
+      "image": "travel-transport/azafata.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-anden",
+      "es": "el andén",
+      "en": "platform",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Platform (at a train station) — 'el tren sale del andén 3' = the train leaves from platform 3.",
+      "scenarios": [
+        "at the train station",
+        "public transportation"
+      ],
+      "imageQuery": "train platform station",
+      "image": "travel-transport/anden.webp",
+      "level": "B"
+    },
+    {
+      "id": "tt-cinturon-seguridad",
+      "es": "el cinturón de seguridad",
+      "en": "seatbelt",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Seatbelt — 'abrocharse el cinturón' = to buckle your seatbelt.",
+      "scenarios": [
+        "travel"
+      ],
+      "imageQuery": "seatbelt car safety",
+      "image": "travel-transport/cinturon-seguridad.webp",
+      "level": "B"
     }
   ]
 }

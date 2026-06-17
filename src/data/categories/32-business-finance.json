@@ -1,0 +1,873 @@
+{
+  "id": "business-finance",
+  "order": 32,
+  "name": "Business & Finance",
+  "nameEs": "Negocios y finanzas",
+  "words": [
+    {
+      "id": "bf-empresa",
+      "es": "la empresa",
+      "en": "company / business",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Company — 'trabajar para una empresa' = to work for a company. 'empresa grande/pequeña' = large/small company. More formal than 'negocio'.",
+      "scenarios": [
+        "work",
+        "business"
+      ],
+      "imageQuery": "company office building business",
+      "image": "business-finance/empresa.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-negocio",
+      "es": "el negocio",
+      "en": "business / deal",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Business — 'montar un negocio' = to start a business. 'hacer negocios' = to do business. More informal than 'empresa'.",
+      "scenarios": [
+        "entrepreneurship",
+        "commerce"
+      ],
+      "imageQuery": "small business shop owner",
+      "image": "business-finance/negocio.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-empleado",
+      "es": "el empleado",
+      "en": "employee",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Employee — 'los empleados de la empresa' = the company's employees. Feminine: 'la empleada'. Opposite of 'el jefe' (the boss).",
+      "scenarios": [
+        "work",
+        "human resources"
+      ],
+      "imageQuery": "employee office worker professional",
+      "image": "business-finance/empleado.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-jefe",
+      "es": "el jefe",
+      "en": "boss / chief",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Boss — 'hablar con el jefe' = to talk to the boss. Feminine: 'la jefa'. Also the general word for 'chief' or 'head'. Very commonly used.",
+      "scenarios": [
+        "work",
+        "office"
+      ],
+      "imageQuery": "boss manager office leadership",
+      "image": "business-finance/jefe.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-gerente",
+      "es": "el gerente",
+      "en": "manager",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Manager — 'el gerente general' = the general manager. Feminine: 'la gerente'. More specific than 'jefe'; implies managing a team or department.",
+      "scenarios": [
+        "management",
+        "business"
+      ],
+      "imageQuery": "manager meeting team business office",
+      "image": "business-finance/gerente.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-director",
+      "es": "el director",
+      "en": "director",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Director — 'director ejecutivo' = executive director / CEO. 'director de marketing' = marketing director. Feminine: 'la directora'.",
+      "scenarios": [
+        "management",
+        "corporate"
+      ],
+      "imageQuery": "corporate director executive boardroom",
+      "image": "business-finance/director.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-reunion",
+      "es": "la reunión",
+      "en": "meeting",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Meeting — 'tener una reunión de trabajo' = to have a work meeting. 'convocar una reunión' = to call a meeting. 'reunión de emergencia' = emergency meeting.",
+      "scenarios": [
+        "work",
+        "office"
+      ],
+      "imageQuery": "business meeting office conference table",
+      "image": "business-finance/reunion.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-contrato",
+      "es": "el contrato",
+      "en": "contract",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Contract — 'firmar un contrato' = to sign a contract. 'contrato de trabajo' = employment contract. 'incumplir un contrato' = to breach a contract.",
+      "scenarios": [
+        "work",
+        "legal",
+        "business"
+      ],
+      "imageQuery": "contract signing business document legal",
+      "image": "business-finance/contrato.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-salario",
+      "es": "el salario",
+      "en": "salary",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Salary — 'negociar el salario' = to negotiate the salary. More formal than 'sueldo'. 'salario mínimo' = minimum wage. Paid monthly in most Spanish-speaking countries.",
+      "scenarios": [
+        "work",
+        "finance"
+      ],
+      "imageQuery": "salary paycheck money pay work",
+      "image": "business-finance/salario.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-sueldo",
+      "es": "el sueldo",
+      "en": "wage / pay",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Wage/pay — '¿cuánto es tu sueldo?' = how much is your salary? More colloquial than 'salario'. 'subida de sueldo' = pay rise.",
+      "scenarios": [
+        "work",
+        "finance"
+      ],
+      "imageQuery": "wage pay envelope money work",
+      "image": "business-finance/sueldo.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-factura",
+      "es": "la factura",
+      "en": "invoice / bill",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Invoice — 'emitir una factura' = to issue an invoice. 'factura electrónica' = e-invoice. Used in B2B transactions. Different from 'la cuenta' (restaurant bill).",
+      "scenarios": [
+        "business",
+        "accounting"
+      ],
+      "imageQuery": "invoice bill business document",
+      "image": "business-finance/factura.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-presupuesto",
+      "es": "el presupuesto",
+      "en": "budget / estimate",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Budget — 'el presupuesto anual de la empresa' = the company's annual budget. Also used for a quote/estimate: 'pedir un presupuesto' = to ask for a quote.",
+      "scenarios": [
+        "finance",
+        "project management"
+      ],
+      "imageQuery": "budget financial plan spreadsheet",
+      "image": "business-finance/presupuesto.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-inversion",
+      "es": "la inversión",
+      "en": "investment",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Investment — 'hacer una inversión' = to make an investment. 'retorno de la inversión' = return on investment (ROI). Key concept in business and personal finance.",
+      "scenarios": [
+        "finance",
+        "business growth"
+      ],
+      "imageQuery": "investment growth money finance chart",
+      "image": "business-finance/inversion.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-prestamo",
+      "es": "el préstamo",
+      "en": "loan",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Loan — 'pedir un préstamo al banco' = to take out a bank loan. 'préstamo personal/hipotecario' = personal/mortgage loan. Pays back with 'intereses' (interest).",
+      "scenarios": [
+        "banking",
+        "finance"
+      ],
+      "imageQuery": "loan bank money borrowing finance",
+      "image": "business-finance/prestamo.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-interes",
+      "es": "el interés",
+      "en": "interest (financial)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Interest — 'tipo de interés' = interest rate. 'pagar intereses' = to pay interest on a loan. Also means 'interest' as in curiosity ('me interesa mucho').",
+      "scenarios": [
+        "banking",
+        "loans"
+      ],
+      "imageQuery": "interest rate money bank finance",
+      "image": "business-finance/interes.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-banco",
+      "es": "el banco",
+      "en": "bank",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bank — 'ir al banco' = to go to the bank. 'banco central' = central bank. Also means 'bench' (park bench). Context makes the meaning clear.",
+      "scenarios": [
+        "banking",
+        "daily life"
+      ],
+      "imageQuery": "bank building financial institution",
+      "image": "business-finance/banco.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-cuentabancaria",
+      "es": "la cuenta bancaria",
+      "en": "bank account",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bank account — 'abrir una cuenta bancaria' = to open a bank account. 'cuenta corriente' = current account; 'cuenta de ahorros' = savings account.",
+      "scenarios": [
+        "banking",
+        "finance"
+      ],
+      "imageQuery": "bank account statement card financial",
+      "image": "business-finance/cuentabancaria.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-tarjetacredito",
+      "es": "la tarjeta de crédito",
+      "en": "credit card",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Credit card — 'pagar con tarjeta de crédito' = to pay by credit card. 'tarjeta de débito' = debit card. 'límite de crédito' = credit limit.",
+      "scenarios": [
+        "banking",
+        "shopping"
+      ],
+      "imageQuery": "credit card payment finance bank card",
+      "image": "business-finance/tarjetacredito.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-hipoteca",
+      "es": "la hipoteca",
+      "en": "mortgage",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mortgage — 'pedir una hipoteca para comprar una casa' = to apply for a mortgage to buy a house. 'cuota hipotecaria mensual' = monthly mortgage payment.",
+      "scenarios": [
+        "banking",
+        "real estate"
+      ],
+      "imageQuery": "mortgage house loan key signing",
+      "image": "business-finance/hipoteca.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-impuesto",
+      "es": "el impuesto",
+      "en": "tax",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tax — 'pagar impuestos' = to pay taxes. 'declaración de impuestos' = tax return. 'impuesto sobre la renta' = income tax.",
+      "scenarios": [
+        "finance",
+        "government"
+      ],
+      "imageQuery": "tax form filing finance government",
+      "image": "business-finance/impuesto.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-iva",
+      "es": "el IVA",
+      "en": "VAT (value-added tax)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "VAT — 'IVA' = Impuesto sobre el Valor Añadido (Spain) / Valor Agregado (Latin America). Shown on all receipts. Standard rate in Spain: 21%.",
+      "scenarios": [
+        "shopping",
+        "business accounting"
+      ],
+      "imageQuery": "VAT tax receipt invoice Spain",
+      "image": "business-finance/iva.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-beneficio",
+      "es": "el beneficio",
+      "en": "profit / benefit",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Profit/benefit — 'obtener un beneficio' = to make a profit. 'los beneficios de la empresa crecieron' = the company's profits grew. Also means 'benefit'.",
+      "scenarios": [
+        "business",
+        "accounting"
+      ],
+      "imageQuery": "profit business growth money chart",
+      "image": "business-finance/beneficio.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-perdida",
+      "es": "la pérdida",
+      "en": "loss",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Loss — 'sufrir pérdidas' = to suffer losses. 'cuenta de pérdidas y ganancias' = profit and loss statement. Opposite of 'beneficio'. Also means 'loss' in general.",
+      "scenarios": [
+        "business",
+        "accounting"
+      ],
+      "imageQuery": "financial loss decrease chart red",
+      "image": "business-finance/perdida.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-balance",
+      "es": "el balance",
+      "en": "balance sheet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Balance sheet — 'el balance de la empresa' = the company's balance sheet. Shows assets, liabilities, and equity. 'balance positivo' = positive balance.",
+      "scenarios": [
+        "accounting",
+        "finance"
+      ],
+      "imageQuery": "balance sheet financial document accounting",
+      "image": "business-finance/balance.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-accion",
+      "es": "la acción",
+      "en": "share / stock",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Share/stock — 'comprar acciones en bolsa' = to buy shares on the stock market. 'precio de la acción' = share price. 'acciones ordinarias' = ordinary shares.",
+      "scenarios": [
+        "stock market",
+        "investment"
+      ],
+      "imageQuery": "stocks shares stock market finance",
+      "image": "business-finance/accion.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-bolsadevalores",
+      "es": "la bolsa de valores",
+      "en": "stock exchange",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Stock exchange — 'cotizar en bolsa' = to be listed on the stock exchange. 'la Bolsa de Madrid' = the Madrid Stock Exchange. Also simply 'la bolsa'.",
+      "scenarios": [
+        "finance",
+        "investment"
+      ],
+      "imageQuery": "stock exchange trading floor market finance",
+      "image": "business-finance/bolsadevalores.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-dividendo",
+      "es": "el dividendo",
+      "en": "dividend",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dividend — 'cobrar dividendos' = to receive dividends. The portion of a company's profits paid to shareholders. 'dividendo anual' = annual dividend.",
+      "scenarios": [
+        "investment",
+        "stock market"
+      ],
+      "imageQuery": "dividend investment shareholder profit",
+      "image": "business-finance/dividendo.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-empresaemergente",
+      "es": "la empresa emergente",
+      "en": "startup",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Startup — often just called 'startup' in Spanish. 'la empresa emergente tecnológica' = the tech startup. 'crear una startup' = to create a startup.",
+      "scenarios": [
+        "entrepreneurship",
+        "technology"
+      ],
+      "imageQuery": "startup company team office modern",
+      "image": "business-finance/empresaemergente.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-fusion",
+      "es": "la fusión",
+      "en": "merger",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Merger — 'la fusión de dos empresas' = the merger of two companies. 'fusión y adquisición' = merger and acquisition (M&A). When two companies combine into one.",
+      "scenarios": [
+        "corporate",
+        "business strategy"
+      ],
+      "imageQuery": "company merger business deal handshake",
+      "image": "business-finance/fusion.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-adquisicion",
+      "es": "la adquisición",
+      "en": "acquisition",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Acquisition — 'la adquisición de una empresa rival' = the acquisition of a rival company. When one company buys another. Part of M&A strategy.",
+      "scenarios": [
+        "corporate",
+        "business strategy"
+      ],
+      "imageQuery": "business acquisition takeover deal corporate",
+      "image": "business-finance/adquisicion.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-mercado",
+      "es": "el mercado",
+      "en": "market",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Market — 'el mercado laboral' = the labor market. 'salir al mercado' = to launch to the market. Also the physical market ('el mercado de abastos').",
+      "scenarios": [
+        "business",
+        "economics"
+      ],
+      "imageQuery": "market commerce business economy",
+      "image": "business-finance/mercado.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-cliente",
+      "es": "el cliente",
+      "en": "client / customer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Client/customer — 'atender a los clientes' = to serve customers. 'el cliente siempre tiene razón' = the customer is always right. Feminine: 'la clienta'.",
+      "scenarios": [
+        "business",
+        "customer service"
+      ],
+      "imageQuery": "customer client business service satisfaction",
+      "image": "business-finance/cliente.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-proveedor",
+      "es": "el proveedor",
+      "en": "supplier / provider",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Supplier — 'negociar con los proveedores' = to negotiate with suppliers. The company or person that provides goods or services to a business.",
+      "scenarios": [
+        "supply chain",
+        "business"
+      ],
+      "imageQuery": "supplier provider business delivery goods",
+      "image": "business-finance/proveedor.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-competencia",
+      "es": "la competencia",
+      "en": "competition",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Competition — 'analizar a la competencia' = to analyze the competition. 'competencia desleal' = unfair competition. Also means 'competence/skill' in other contexts.",
+      "scenarios": [
+        "business",
+        "marketing"
+      ],
+      "imageQuery": "competition business rivals market",
+      "image": "business-finance/competencia.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-estrategia",
+      "es": "la estrategia",
+      "en": "strategy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Strategy — 'definir la estrategia de negocio' = to define the business strategy. 'estrategia de marketing' = marketing strategy. From Greek 'strategos' (general).",
+      "scenarios": [
+        "business planning",
+        "management"
+      ],
+      "imageQuery": "business strategy planning whiteboard",
+      "image": "business-finance/estrategia.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-marketing",
+      "es": "el marketing",
+      "en": "marketing",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Marketing — widely used in Spanish without translation. 'departamento de marketing' = marketing department. 'marketing digital' = digital marketing.",
+      "scenarios": [
+        "business",
+        "advertising"
+      ],
+      "imageQuery": "marketing digital advertising strategy",
+      "image": "business-finance/marketing.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-publicidad",
+      "es": "la publicidad",
+      "en": "advertising / publicity",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Advertising — 'hacer publicidad' = to advertise. 'publicidad en redes sociales' = social media advertising. 'agencia de publicidad' = advertising agency.",
+      "scenarios": [
+        "marketing",
+        "business"
+      ],
+      "imageQuery": "advertising billboard marketing campaign",
+      "image": "business-finance/publicidad.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-marca",
+      "es": "la marca",
+      "en": "brand / brand name",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Brand — 'construir una marca' = to build a brand. 'marca registrada' = registered trademark (™). 'imagen de marca' = brand image.",
+      "scenarios": [
+        "marketing",
+        "business"
+      ],
+      "imageQuery": "brand logo marketing identity",
+      "image": "business-finance/marca.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-producto",
+      "es": "el producto",
+      "en": "product",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Product — 'lanzar un nuevo producto' = to launch a new product. 'producto de calidad' = quality product. 'desarrollo de producto' = product development.",
+      "scenarios": [
+        "business",
+        "sales"
+      ],
+      "imageQuery": "product launch business goods",
+      "image": "business-finance/producto.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-servicio",
+      "es": "el servicio",
+      "en": "service",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Service — 'prestar un servicio' = to provide a service. 'sector de servicios' = service sector. 'servicio al cliente' = customer service.",
+      "scenarios": [
+        "business",
+        "economy"
+      ],
+      "imageQuery": "service industry customer business",
+      "image": "business-finance/servicio.webp",
+      "level": "A"
+    },
+    {
+      "id": "bf-exportacion",
+      "es": "la exportación",
+      "en": "export",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Export — 'las exportaciones de café' = coffee exports. 'país exportador' = exporting country. Opposite of 'importación'. Key to international trade.",
+      "scenarios": [
+        "international trade",
+        "economics"
+      ],
+      "imageQuery": "export cargo ship container international trade",
+      "image": "business-finance/exportacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-importacion",
+      "es": "la importación",
+      "en": "import",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Import — 'las importaciones de petróleo' = oil imports. 'productos de importación' = imported goods. 'derechos de importación' = import duties.",
+      "scenarios": [
+        "international trade",
+        "economics"
+      ],
+      "imageQuery": "import goods customs cargo international",
+      "image": "business-finance/importacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-comercio",
+      "es": "el comercio",
+      "en": "trade / commerce",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Trade/commerce — 'el comercio internacional' = international trade. 'comercio electrónico' = e-commerce. Also means a shop: 'un comercio local' = a local shop.",
+      "scenarios": [
+        "international trade",
+        "economics"
+      ],
+      "imageQuery": "trade commerce international business",
+      "image": "business-finance/comercio.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-licencia",
+      "es": "la licencia",
+      "en": "license / permit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "License — 'licencia de negocio' = business license. 'licencia de software' = software license. 'conceder una licencia' = to grant a license.",
+      "scenarios": [
+        "business",
+        "legal"
+      ],
+      "imageQuery": "license permit business document official",
+      "image": "business-finance/licencia.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-franquicia",
+      "es": "la franquicia",
+      "en": "franchise",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Franchise — 'abrir una franquicia' = to open a franchise. 'el franquiciado paga regalías' = the franchisee pays royalties. A way to expand a business brand.",
+      "scenarios": [
+        "business model",
+        "entrepreneurship"
+      ],
+      "imageQuery": "franchise business chain restaurant store",
+      "image": "business-finance/franquicia.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-patente",
+      "es": "la patente",
+      "en": "patent",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Patent — 'registrar una patente' = to register a patent. Protects inventions from being copied. 'patente de invención' = invention patent. Lasts typically 20 years.",
+      "scenarios": [
+        "intellectual property",
+        "innovation"
+      ],
+      "imageQuery": "patent invention intellectual property document",
+      "image": "business-finance/patente.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-auditoria",
+      "es": "la auditoría",
+      "en": "audit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Audit — 'pasar una auditoría' = to undergo an audit. 'auditoría interna/externa' = internal/external audit. An official review of a company's financial records.",
+      "scenarios": [
+        "accounting",
+        "compliance"
+      ],
+      "imageQuery": "audit accountant financial review documents",
+      "image": "business-finance/auditoria.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-contabilidad",
+      "es": "la contabilidad",
+      "en": "accounting",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Accounting — 'llevar la contabilidad de la empresa' = to manage the company's accounting. 'contabilidad de gestión' = management accounting. The language of business.",
+      "scenarios": [
+        "finance",
+        "business management"
+      ],
+      "imageQuery": "accounting bookkeeping financial records calculator",
+      "image": "business-finance/contabilidad.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-bancarrota",
+      "es": "la bancarrota",
+      "en": "bankruptcy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bankruptcy — 'declararse en bancarrota' = to declare bankruptcy. Also 'quiebra'. 'la empresa entró en bancarrota' = the company went bankrupt. Legal process for insolvent businesses.",
+      "scenarios": [
+        "finance",
+        "legal"
+      ],
+      "imageQuery": "bankruptcy business failure closed shut down",
+      "image": "business-finance/bancarrota.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-rentabilidad",
+      "es": "la rentabilidad",
+      "en": "profitability",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Profitability — 'mejorar la rentabilidad del negocio' = to improve the business's profitability. 'ratio de rentabilidad' = profitability ratio. Key financial metric.",
+      "scenarios": [
+        "finance",
+        "business performance"
+      ],
+      "imageQuery": "profitability financial growth chart business",
+      "image": "business-finance/rentabilidad.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-deuda",
+      "es": "la deuda",
+      "en": "debt",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Debt — 'estar en deuda' = to be in debt.",
+      "scenarios": [
+        "finance"
+      ],
+      "imageQuery": "debt money owed",
+      "image": "business-finance/deuda.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-credito-fin",
+      "es": "el crédito",
+      "en": "credit",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Credit — available credit for borrowing or purchasing.",
+      "scenarios": [
+        "finance"
+      ],
+      "imageQuery": "credit available loan",
+      "image": "business-finance/credito-fin.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-contador",
+      "es": "el contador",
+      "en": "accountant",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Accountant — 'el contador prepara los impuestos' = the accountant prepares taxes.",
+      "scenarios": [
+        "business"
+      ],
+      "imageQuery": "accountant working spreadsheet",
+      "image": "business-finance/contador.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-accionista",
+      "es": "el accionista",
+      "en": "shareholder",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shareholder — person who owns shares in a company.",
+      "scenarios": [
+        "finance",
+        "business"
+      ],
+      "imageQuery": "shareholder stock market",
+      "image": "business-finance/accionista.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-activo",
+      "es": "el activo",
+      "en": "asset",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Asset — something of value owned; opposite of 'el pasivo' (liability).",
+      "scenarios": [
+        "finance",
+        "business"
+      ],
+      "imageQuery": "business assets value",
+      "image": "business-finance/activo.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-negociar",
+      "es": "negociar",
+      "en": "to negotiate",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To negotiate — 'negociar un contrato' = to negotiate a contract.",
+      "scenarios": [
+        "business"
+      ],
+      "imageQuery": "negotiating business deal handshake",
+      "image": "business-finance/negociar.webp",
+      "level": "B"
+    },
+    {
+      "id": "bf-exportar",
+      "es": "exportar",
+      "en": "to export",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To export — 'exportar productos al extranjero' = to export products abroad.",
+      "scenarios": [
+        "business"
+      ],
+      "imageQuery": "export shipping container port",
+      "image": "business-finance/exportar.webp",
+      "level": "C"
+    },
+    {
+      "id": "bf-invertir",
+      "es": "invertir",
+      "en": "to invest",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To invest — 'invertir en bolsa' = to invest in the stock market.",
+      "scenarios": [
+        "finance"
+      ],
+      "imageQuery": "investing stock market",
+      "image": "business-finance/invertir.webp",
+      "level": "C"
+    }
+  ]
+}

@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Money — 'ganar dinero' = to earn money.",
-      "scenarios": ["shopping", "work & office"],
+      "scenarios": [
+        "shopping",
+        "work & office"
+      ],
       "imageQuery": "money cash bills",
-      "image": "shopping-money/dinero.webp"
+      "image": "shopping-money/dinero.webp",
+      "level": "A"
     },
     {
       "id": "sm-precio",
@@ -22,9 +26,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Price — '¿cuál es el precio?' = what's the price?",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "price tag",
-      "image": "shopping-money/precio.webp"
+      "image": "shopping-money/precio.webp",
+      "level": "A"
     },
     {
       "id": "sm-tarjeta",
@@ -33,9 +40,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Card — 'tarjeta de crédito/débito' = credit/debit card.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "credit card",
-      "image": "shopping-money/tarjeta.webp"
+      "image": "shopping-money/tarjeta.webp",
+      "level": "A"
     },
     {
       "id": "sm-efectivo",
@@ -44,9 +54,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Cash — '¿pagas en efectivo o con tarjeta?' = cash or card?",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "cash money bills",
-      "image": "shopping-money/efectivo.webp"
+      "image": "shopping-money/efectivo.webp",
+      "level": "A"
     },
     {
       "id": "sm-caja",
@@ -55,9 +68,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Cash register/checkout — 'pagar en la caja' = to pay at the register.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "store checkout register",
-      "image": "shopping-money/caja.webp"
+      "image": "shopping-money/caja.webp",
+      "level": "A"
     },
     {
       "id": "sm-recibo",
@@ -66,9 +82,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Receipt — '¿quiere el recibo?' = do you want the receipt?",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "receipt paper",
-      "image": "shopping-money/recibo.webp"
+      "image": "shopping-money/recibo.webp",
+      "level": "A"
     },
     {
       "id": "sm-oferta",
@@ -77,9 +96,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Sale/special offer — look for signs that say '¡oferta!'",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "sale sign store",
-      "image": "shopping-money/oferta.webp"
+      "image": "shopping-money/oferta.webp",
+      "level": "A"
     },
     {
       "id": "sm-descuento",
@@ -88,9 +110,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Discount — '20% de descuento' = 20% off.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "discount tag percent",
-      "image": "shopping-money/descuento.webp"
+      "image": "shopping-money/descuento.webp",
+      "level": "A"
     },
     {
       "id": "sm-caro",
@@ -99,9 +124,12 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Expensive — '¡qué caro!' = how expensive!",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "expensive price tag luxury",
-      "image": "shopping-money/caro.webp"
+      "image": "shopping-money/caro.webp",
+      "level": "A"
     },
     {
       "id": "sm-barato",
@@ -110,9 +138,12 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Cheap/inexpensive — 'muy barato' = very cheap.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "cheap price tag",
-      "image": "shopping-money/barato.webp"
+      "image": "shopping-money/barato.webp",
+      "level": "A"
     },
     {
       "id": "sm-comprar",
@@ -121,9 +152,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To buy — 'voy a comprar pan' = I'm going to buy bread.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "person shopping buying",
-      "image": "shopping-money/comprar.webp"
+      "image": "shopping-money/comprar.webp",
+      "level": "A"
     },
     {
       "id": "sm-vender",
@@ -132,9 +166,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To sell — 'se vende' = for sale (a sign you'll see often).",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "for sale sign store",
-      "image": "shopping-money/vender.webp"
+      "image": "shopping-money/vender.webp",
+      "level": "A"
     },
     {
       "id": "sm-pagar",
@@ -143,9 +180,12 @@
       "pos": "verb",
       "gender": null,
       "hint": "To pay — '¿cómo desea pagar?' = how would you like to pay?",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "person paying cashier",
-      "image": "shopping-money/pagar.webp"
+      "image": "shopping-money/pagar.webp",
+      "level": "A"
     },
     {
       "id": "sm-moneda",
@@ -154,9 +194,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Coin — also means 'currency' in general.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "coins money",
-      "image": "shopping-money/moneda.webp"
+      "image": "shopping-money/moneda.webp",
+      "level": "A"
     },
     {
       "id": "sm-cambio",
@@ -165,9 +208,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Change (money) — 'aquí tiene su cambio' = here's your change.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "change coins money",
-      "image": "shopping-money/cambio.webp"
+      "image": "shopping-money/cambio.webp",
+      "level": "B"
     },
     {
       "id": "sm-talla",
@@ -176,9 +222,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Size (clothing) — '¿qué talla usa?' = what size do you wear?",
-      "scenarios": ["shopping", "clothing"],
+      "scenarios": [
+        "shopping",
+        "clothing"
+      ],
       "imageQuery": "clothing size tag",
-      "image": "shopping-money/talla.webp"
+      "image": "shopping-money/talla.webp",
+      "level": "B"
     },
     {
       "id": "sm-centrocomercial",
@@ -187,9 +237,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Shopping mall — 'ir al centro comercial' = to go to the mall.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "shopping mall interior",
-      "image": "shopping-money/centrocomercial.webp"
+      "image": "shopping-money/centrocomercial.webp",
+      "level": "B"
     },
     {
       "id": "sm-mercado",
@@ -198,9 +251,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Market — 'el mercado al aire libre' = the outdoor market.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "outdoor market stalls",
-      "image": "shopping-money/mercado.webp"
+      "image": "shopping-money/mercado.webp",
+      "level": "B"
     },
     {
       "id": "sm-gratis",
@@ -209,9 +265,12 @@
       "pos": "adjective",
       "gender": null,
       "hint": "Free (no cost) — 'entrada gratis' = free admission.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "free sign",
-      "image": "shopping-money/gratis.webp"
+      "image": "shopping-money/gratis.webp",
+      "level": "B"
     },
     {
       "id": "sm-probar",
@@ -220,9 +279,13 @@
       "pos": "verb",
       "gender": null,
       "hint": "To try on — 'probarse la ropa' = to try on clothes.",
-      "scenarios": ["shopping", "clothing"],
+      "scenarios": [
+        "shopping",
+        "clothing"
+      ],
       "imageQuery": "trying on clothes fitting room",
-      "image": "shopping-money/probar.webp"
+      "image": "shopping-money/probar.webp",
+      "level": "B"
     },
     {
       "id": "sm-carrito",
@@ -231,9 +294,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Shopping cart — used at the supermarket.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "shopping cart supermarket",
-      "image": "shopping-money/carrito.webp"
+      "image": "shopping-money/carrito.webp",
+      "level": "B"
     },
     {
       "id": "sm-bolsa",
@@ -242,9 +308,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Bag — 'una bolsa de plástico' = a plastic bag.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "shopping bag",
-      "image": "shopping-money/bolsa.webp"
+      "image": "shopping-money/bolsa.webp",
+      "level": "B"
     },
     {
       "id": "sm-marca",
@@ -253,9 +322,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Brand — 'mi marca favorita' = my favorite brand.",
-      "scenarios": ["shopping"],
+      "scenarios": [
+        "shopping"
+      ],
       "imageQuery": "clothing brand label",
-      "image": "shopping-money/marca.webp"
+      "image": "shopping-money/marca.webp",
+      "level": "B"
     },
     {
       "id": "sm-probador",
@@ -264,9 +336,556 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Fitting room — where you try on clothes before buying.",
-      "scenarios": ["shopping", "clothing"],
+      "scenarios": [
+        "shopping",
+        "clothing"
+      ],
       "imageQuery": "fitting room store",
-      "image": "shopping-money/probador.webp"
+      "image": "shopping-money/probador.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-billete",
+      "es": "el billete",
+      "en": "banknote",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Banknote/bill — 'un billete de veinte euros' = a twenty-euro note.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "banknote money bill",
+      "image": "shopping-money/billete.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-cajero",
+      "es": "el cajero automático",
+      "en": "ATM",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "ATM — 'sacar dinero del cajero' = to withdraw money from the ATM.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "ATM cash machine",
+      "image": "shopping-money/cajero.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-cuenta",
+      "es": "la cuenta",
+      "en": "bill",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bill/check (at a restaurant) — 'la cuenta, por favor' = the bill, please.",
+      "scenarios": [
+        "shopping",
+        "at a restaurant"
+      ],
+      "imageQuery": "restaurant bill check",
+      "image": "shopping-money/cuenta.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-factura",
+      "es": "la factura",
+      "en": "invoice",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Invoice/bill — formal billing document.",
+      "scenarios": [
+        "shopping",
+        "work & office"
+      ],
+      "imageQuery": "invoice bill paper",
+      "image": "shopping-money/factura.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-ahorrar",
+      "es": "ahorrar",
+      "en": "to save",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To save money — 'ahorrar dinero' = to save money.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "saving money piggy bank",
+      "image": "shopping-money/ahorrar.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-gastar",
+      "es": "gastar",
+      "en": "to spend",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To spend money — 'gastar demasiado' = to spend too much.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "spending money shopping",
+      "image": "shopping-money/gastar.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-devolver",
+      "es": "devolver",
+      "en": "to return",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To return/give back — 'devolver un producto' = to return a product.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "returning item store",
+      "image": "shopping-money/devolver.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-reembolso",
+      "es": "el reembolso",
+      "en": "refund",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Refund — 'pedir un reembolso' = to ask for a refund.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "refund money back",
+      "image": "shopping-money/reembolso.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-garantia",
+      "es": "la garantía",
+      "en": "warranty",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Warranty/guarantee — 'dos años de garantía' = two-year warranty.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "warranty guarantee certificate",
+      "image": "shopping-money/garantia.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-vendedor",
+      "es": "el vendedor",
+      "en": "salesperson",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Salesperson (male) — 'la vendedora' = female salesperson.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "salesperson store clerk",
+      "image": "shopping-money/vendedor.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-cliente",
+      "es": "el cliente",
+      "en": "customer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Customer — 'la clienta' for a woman; 'el cliente siempre tiene razón' = the customer is always right.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "customer store shopping",
+      "image": "shopping-money/cliente.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-cesta",
+      "es": "la cesta",
+      "en": "basket",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Shopping basket — smaller than a cart; 'la cesta de la compra' = shopping basket.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "shopping basket",
+      "image": "shopping-money/cesta.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-escaparate",
+      "es": "el escaparate",
+      "en": "shop window",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shop window — 'mirar los escaparates' = to window-shop.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "shop window display",
+      "image": "shopping-money/escaparate.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-etiqueta",
+      "es": "la etiqueta",
+      "en": "label",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Label/price tag — 'ver la etiqueta del precio' = to check the price tag.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "price label tag",
+      "image": "shopping-money/etiqueta.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-euro",
+      "es": "el euro",
+      "en": "euro",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Euro — the currency of Spain and most of the EU.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "euro coins bills",
+      "image": "shopping-money/euro.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-dolar",
+      "es": "el dólar",
+      "en": "dollar",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dollar — currency of the USA and several Latin American countries.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "dollar bills money",
+      "image": "shopping-money/dolar.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-impuesto",
+      "es": "el impuesto",
+      "en": "tax",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tax — 'el impuesto sobre el valor añadido' = VAT (value added tax).",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "tax payment",
+      "image": "shopping-money/impuesto.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-propina",
+      "es": "la propina",
+      "en": "tip",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Tip/gratuity — 'dejar propina' = to leave a tip.",
+      "scenarios": [
+        "shopping",
+        "at a restaurant"
+      ],
+      "imageQuery": "tip money restaurant",
+      "image": "shopping-money/propina.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-salario",
+      "es": "el salario",
+      "en": "salary",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Salary — 'el salario mínimo' = the minimum wage.",
+      "scenarios": [
+        "work & office"
+      ],
+      "imageQuery": "salary paycheck",
+      "image": "shopping-money/salario.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-cobrar",
+      "es": "cobrar",
+      "en": "to charge",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To charge/collect payment — '¿cuánto me cobras?' = how much will you charge me?",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "charging payment cashier",
+      "image": "shopping-money/cobrar.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-ganga",
+      "es": "la ganga",
+      "en": "bargain",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bargain/great deal — '¡qué ganga!' = what a bargain!",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "bargain deal great price",
+      "image": "shopping-money/ganga.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-liquidacion",
+      "es": "la liquidación",
+      "en": "clearance sale",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Clearance sale — 'estar en liquidación' = to be on clearance.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "clearance sale store",
+      "image": "shopping-money/liquidacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-estante",
+      "es": "el estante",
+      "en": "shelf",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shelf — 'en el estante' = on the shelf.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "store shelf products",
+      "image": "shopping-money/estante.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-nuevo",
+      "es": "nuevo",
+      "en": "new",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "New — 'un producto nuevo' = a new product.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "new product packaging",
+      "image": "shopping-money/nuevo.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-usado",
+      "es": "usado",
+      "en": "used",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Used/second-hand — 'ropa de segunda mano' = second-hand clothing.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "used second hand items",
+      "image": "shopping-money/usado.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-dependiente",
+      "es": "el dependiente",
+      "en": "shop assistant",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shop assistant/store clerk — 'la dependienta' = female shop assistant.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "shop assistant store clerk",
+      "image": "shopping-money/dependiente.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-abierto",
+      "es": "abierto",
+      "en": "open",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Open — 'la tienda está abierta' = the store is open.",
+      "scenarios": [
+        "shopping",
+        "city & directions"
+      ],
+      "imageQuery": "open sign store",
+      "image": "shopping-money/abierto.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-cerrado",
+      "es": "cerrado",
+      "en": "closed",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Closed — 'la tienda está cerrada' = the store is closed.",
+      "scenarios": [
+        "shopping",
+        "city & directions"
+      ],
+      "imageQuery": "closed sign store",
+      "image": "shopping-money/cerrado.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-horario",
+      "es": "el horario",
+      "en": "hours",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Opening hours — 'el horario de apertura' = the opening hours.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "opening hours sign",
+      "image": "shopping-money/horario.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-kilo",
+      "es": "el kilo",
+      "en": "kilogram",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Kilogram — 'un kilo de tomates' = a kilo of tomatoes.",
+      "scenarios": [
+        "shopping",
+        "at the market"
+      ],
+      "imageQuery": "kilogram scale weight",
+      "image": "shopping-money/kilo.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-gramo",
+      "es": "el gramo",
+      "en": "gram",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Gram — '200 gramos de jamón' = 200 grams of ham.",
+      "scenarios": [
+        "shopping",
+        "cooking"
+      ],
+      "imageQuery": "grams scale measurement",
+      "image": "shopping-money/gramo.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-docena",
+      "es": "la docena",
+      "en": "dozen",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Dozen — 'una docena de huevos' = a dozen eggs.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "dozen eggs",
+      "image": "shopping-money/docena.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-envio",
+      "es": "el envío",
+      "en": "shipping",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shipping/delivery — 'envío gratuito' = free shipping.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "shipping delivery package",
+      "image": "shopping-money/envio.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-quiosco",
+      "es": "el quiosco",
+      "en": "kiosk",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Kiosk/newsstand — small stall selling newspapers, snacks, etc.",
+      "scenarios": [
+        "shopping",
+        "city & directions"
+      ],
+      "imageQuery": "kiosk newsstand street",
+      "image": "shopping-money/quiosco.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-panaderia",
+      "es": "la panadería",
+      "en": "bakery",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bakery — 'comprar pan en la panadería' = to buy bread at the bakery.",
+      "scenarios": [
+        "shopping",
+        "city & directions"
+      ],
+      "imageQuery": "bakery bread shop",
+      "image": "shopping-money/panaderia.webp",
+      "level": "A"
+    },
+    {
+      "id": "sm-carniceria",
+      "es": "la carnicería",
+      "en": "butcher shop",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Butcher shop — 'comprar carne en la carnicería' = to buy meat at the butcher's.",
+      "scenarios": [
+        "shopping",
+        "city & directions"
+      ],
+      "imageQuery": "butcher shop meat",
+      "image": "shopping-money/carniceria.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-libreria",
+      "es": "la librería",
+      "en": "bookstore",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bookstore — note: 'librería' ≠ library (that's 'la biblioteca').",
+      "scenarios": [
+        "shopping",
+        "city & directions"
+      ],
+      "imageQuery": "bookstore books shelf",
+      "image": "shopping-money/libreria.webp",
+      "level": "B"
+    },
+    {
+      "id": "sm-negociar",
+      "es": "negociar",
+      "en": "to negotiate",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To negotiate/bargain — 'negociar el precio' = to negotiate the price.",
+      "scenarios": [
+        "shopping"
+      ],
+      "imageQuery": "negotiation business deal",
+      "image": "shopping-money/negociar.webp",
+      "level": "B"
     }
   ]
 }

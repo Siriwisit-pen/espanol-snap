@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "House/home — 'en casa' = at home.",
-      "scenarios": ["at home", "describing your home"],
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
       "imageQuery": "house exterior",
-      "image": "house-home/casa.webp"
+      "image": "house-home/casa.webp",
+      "level": "A"
     },
     {
       "id": "hh-apartamento",
@@ -22,9 +26,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Apartment — also 'el piso' in Spain.",
-      "scenarios": ["at home", "renting an apartment"],
+      "scenarios": [
+        "at home",
+        "renting an apartment"
+      ],
       "imageQuery": "apartment building exterior",
-      "image": "house-home/apartamento.webp"
+      "image": "house-home/apartamento.webp",
+      "level": "A"
     },
     {
       "id": "hh-habitacion",
@@ -33,9 +41,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Room — also means 'hotel room' (una habitación doble = a double room).",
-      "scenarios": ["at home", "at a hotel"],
+      "scenarios": [
+        "at home",
+        "at a hotel"
+      ],
       "imageQuery": "bedroom interior",
-      "image": "house-home/habitacion.webp"
+      "image": "house-home/habitacion.webp",
+      "level": "A"
     },
     {
       "id": "hh-dormitorio",
@@ -44,9 +56,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Bedroom — where the bed is ('dormir' = to sleep).",
-      "scenarios": ["at home", "describing your home"],
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
       "imageQuery": "bedroom with bed",
-      "image": "house-home/dormitorio.webp"
+      "image": "house-home/dormitorio.webp",
+      "level": "A"
     },
     {
       "id": "hh-sala",
@@ -55,9 +71,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Living room — also 'el salón'; where you relax or watch TV.",
-      "scenarios": ["at home", "describing your home"],
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
       "imageQuery": "living room interior",
-      "image": "house-home/sala.webp"
+      "image": "house-home/sala.webp",
+      "level": "A"
     },
     {
       "id": "hh-bano",
@@ -66,9 +86,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Bathroom — '¿Dónde está el baño?' is one of the most useful phrases to know.",
-      "scenarios": ["at home", "at a restaurant"],
+      "scenarios": [
+        "at home",
+        "at a restaurant"
+      ],
       "imageQuery": "bathroom interior",
-      "image": "house-home/bano.webp"
+      "image": "house-home/bano.webp",
+      "level": "A"
     },
     {
       "id": "hh-puerta",
@@ -77,9 +101,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Door — 'abrir/cerrar la puerta' = to open/close the door.",
-      "scenarios": ["at home", "city & directions"],
+      "scenarios": [
+        "at home",
+        "city & directions"
+      ],
       "imageQuery": "front door house",
-      "image": "house-home/puerta.webp"
+      "image": "house-home/puerta.webp",
+      "level": "A"
     },
     {
       "id": "hh-ventana",
@@ -88,9 +116,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Window — 'mirar por la ventana' = to look out the window.",
-      "scenarios": ["at home"],
+      "scenarios": [
+        "at home"
+      ],
       "imageQuery": "window interior",
-      "image": "house-home/ventana.webp"
+      "image": "house-home/ventana.webp",
+      "level": "A"
     },
     {
       "id": "hh-cama",
@@ -99,9 +130,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Bed — 'hacer la cama' = to make the bed.",
-      "scenarios": ["at home", "greetings & daily routine"],
+      "scenarios": [
+        "at home",
+        "greetings & daily routine"
+      ],
       "imageQuery": "made bed bedroom",
-      "image": "house-home/cama.webp"
+      "image": "house-home/cama.webp",
+      "level": "A"
     },
     {
       "id": "hh-sofa",
@@ -110,9 +145,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Sofa/couch — 'sentarse en el sofá' = to sit on the couch.",
-      "scenarios": ["at home"],
+      "scenarios": [
+        "at home"
+      ],
       "imageQuery": "living room sofa",
-      "image": "house-home/sofa.webp"
+      "image": "house-home/sofa.webp",
+      "level": "A"
     },
     {
       "id": "hh-armario",
@@ -121,9 +159,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Closet/wardrobe — where you keep your 'ropa' (clothes).",
-      "scenarios": ["at home", "getting dressed"],
+      "scenarios": [
+        "at home",
+        "getting dressed"
+      ],
       "imageQuery": "closet wardrobe",
-      "image": "house-home/armario.webp"
+      "image": "house-home/armario.webp",
+      "level": "A"
     },
     {
       "id": "hh-lampara",
@@ -132,9 +174,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Lamp — 'encender/apagar la lámpara' = to turn the lamp on/off.",
-      "scenarios": ["at home"],
+      "scenarios": [
+        "at home"
+      ],
       "imageQuery": "table lamp",
-      "image": "house-home/lampara.webp"
+      "image": "house-home/lampara.webp",
+      "level": "A"
     },
     {
       "id": "hh-espejo",
@@ -143,9 +188,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Mirror — 'mirarse en el espejo' = to look at yourself in the mirror.",
-      "scenarios": ["at home", "getting dressed"],
+      "scenarios": [
+        "at home",
+        "getting dressed"
+      ],
       "imageQuery": "wall mirror",
-      "image": "house-home/espejo.webp"
+      "image": "house-home/espejo.webp",
+      "level": "A"
     },
     {
       "id": "hh-llave",
@@ -154,9 +203,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Key — 'las llaves de la casa' = the house keys.",
-      "scenarios": ["at home", "travel & transport"],
+      "scenarios": [
+        "at home",
+        "travel & transport"
+      ],
       "imageQuery": "house keys",
-      "image": "house-home/llave.webp"
+      "image": "house-home/llave.webp",
+      "level": "A"
     },
     {
       "id": "hh-pared",
@@ -165,9 +218,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Wall (interior) — 'colgar un cuadro en la pared' = to hang a picture on the wall.",
-      "scenarios": ["at home", "describing your home"],
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
       "imageQuery": "interior wall room",
-      "image": "house-home/pared.webp"
+      "image": "house-home/pared.webp",
+      "level": "B"
     },
     {
       "id": "hh-techo",
@@ -176,9 +233,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Ceiling — or 'roof' depending on context.",
-      "scenarios": ["at home", "describing your home"],
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
       "imageQuery": "ceiling room",
-      "image": "house-home/techo.webp"
+      "image": "house-home/techo.webp",
+      "level": "B"
     },
     {
       "id": "hh-suelo",
@@ -187,9 +248,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Floor — 'en el suelo' = on the floor.",
-      "scenarios": ["at home", "describing your home"],
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
       "imageQuery": "wood floor room",
-      "image": "house-home/suelo.webp"
+      "image": "house-home/suelo.webp",
+      "level": "B"
     },
     {
       "id": "hh-jardin",
@@ -198,9 +263,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Garden/yard — 'el jardín de la casa' = the house's garden.",
-      "scenarios": ["at home", "describing your home"],
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
       "imageQuery": "house garden backyard",
-      "image": "house-home/jardin.webp"
+      "image": "house-home/jardin.webp",
+      "level": "B"
     },
     {
       "id": "hh-escalera",
@@ -209,9 +278,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Stairs/staircase — 'subir/bajar la escalera' = to go up/down the stairs.",
-      "scenarios": ["at home", "city & directions"],
+      "scenarios": [
+        "at home",
+        "city & directions"
+      ],
       "imageQuery": "staircase interior",
-      "image": "house-home/escalera.webp"
+      "image": "house-home/escalera.webp",
+      "level": "B"
     },
     {
       "id": "hh-garaje",
@@ -220,9 +293,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Garage — where you park 'el coche' (the car).",
-      "scenarios": ["at home", "travel & transport"],
+      "scenarios": [
+        "at home",
+        "travel & transport"
+      ],
       "imageQuery": "house garage door",
-      "image": "house-home/garaje.webp"
+      "image": "house-home/garaje.webp",
+      "level": "B"
     },
     {
       "id": "hh-luz",
@@ -231,9 +308,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Light — 'encender/apagar la luz' = to turn the light on/off.",
-      "scenarios": ["at home"],
+      "scenarios": [
+        "at home"
+      ],
       "imageQuery": "light bulb",
-      "image": "house-home/luz.webp"
+      "image": "house-home/luz.webp",
+      "level": "B"
     },
     {
       "id": "hh-toalla",
@@ -242,9 +322,590 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Towel — used after a shower ('una toalla limpia' = a clean towel).",
-      "scenarios": ["at home", "greetings & daily routine"],
+      "scenarios": [
+        "at home",
+        "greetings & daily routine"
+      ],
       "imageQuery": "folded towels",
-      "image": "house-home/toalla.webp"
+      "image": "house-home/toalla.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-cocina",
+      "es": "la cocina",
+      "en": "kitchen",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Kitchen — 'cocinar en la cocina' = to cook in the kitchen.",
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
+      "imageQuery": "kitchen interior modern",
+      "image": "house-home/cocina.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-comedor",
+      "es": "el comedor",
+      "en": "dining room",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dining room — where you eat meals.",
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
+      "imageQuery": "dining room table chairs",
+      "image": "house-home/comedor.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-despacho",
+      "es": "el despacho",
+      "en": "home office",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Home office/study — 'trabajar en el despacho' = to work in the study.",
+      "scenarios": [
+        "at home",
+        "work & office"
+      ],
+      "imageQuery": "home office study room",
+      "image": "house-home/despacho.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-balcon",
+      "es": "el balcón",
+      "en": "balcony",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Balcony — 'salir al balcón' = to go out onto the balcony.",
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
+      "imageQuery": "apartment balcony",
+      "image": "house-home/balcon.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-terraza",
+      "es": "la terraza",
+      "en": "terrace",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Terrace/patio — 'sentarse en la terraza' = to sit on the terrace.",
+      "scenarios": [
+        "at home",
+        "at a restaurant"
+      ],
+      "imageQuery": "terrace patio outdoor",
+      "image": "house-home/terraza.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-pasillo",
+      "es": "el pasillo",
+      "en": "hallway",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hallway/corridor — connects rooms in a home.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "hallway corridor home",
+      "image": "house-home/pasillo.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-sotano",
+      "es": "el sótano",
+      "en": "basement",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Basement — 'en el sótano' = in the basement.",
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
+      "imageQuery": "basement underground room",
+      "image": "house-home/sotano.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-ascensor",
+      "es": "el ascensor",
+      "en": "elevator",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Elevator/lift — 'coger el ascensor' = to take the elevator.",
+      "scenarios": [
+        "at home",
+        "city & directions"
+      ],
+      "imageQuery": "elevator lift button",
+      "image": "house-home/ascensor.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-mesa",
+      "es": "la mesa",
+      "en": "table",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Table — 'poner la mesa' = to set the table.",
+      "scenarios": [
+        "at home",
+        "at a restaurant"
+      ],
+      "imageQuery": "dining table",
+      "image": "house-home/mesa.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-silla",
+      "es": "la silla",
+      "en": "chair",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Chair — 'sentarse en la silla' = to sit in the chair.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "chair furniture",
+      "image": "house-home/silla.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-sillon",
+      "es": "el sillón",
+      "en": "armchair",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Armchair — a comfortable upholstered chair with armrests.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "armchair living room",
+      "image": "house-home/sillon.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-estanteria",
+      "es": "la estantería",
+      "en": "bookshelf",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bookshelf/shelves — 'los libros en la estantería' = the books on the shelf.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "bookshelf books",
+      "image": "house-home/estanteria.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-television",
+      "es": "la televisión",
+      "en": "TV",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Television/TV — 'ver la televisión' = to watch TV.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "television living room",
+      "image": "house-home/television.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-alfombra",
+      "es": "la alfombra",
+      "en": "rug",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Rug/carpet — on the floor.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "rug carpet floor",
+      "image": "house-home/alfombra.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-cortinas",
+      "es": "las cortinas",
+      "en": "curtains",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Curtains — 'abrir/cerrar las cortinas' = to open/close the curtains.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "curtains window",
+      "image": "house-home/cortinas.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-almohada",
+      "es": "la almohada",
+      "en": "pillow",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pillow — 'una almohada suave' = a soft pillow.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "pillow bed white",
+      "image": "house-home/almohada.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-sabana",
+      "es": "la sábana",
+      "en": "sheet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bed sheet — 'cambiar las sábanas' = to change the sheets.",
+      "scenarios": [
+        "at home",
+        "greetings & daily routine"
+      ],
+      "imageQuery": "bed sheet white",
+      "image": "house-home/sabana.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-manta",
+      "es": "la manta",
+      "en": "blanket",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Blanket — 'taparse con la manta' = to cover up with the blanket.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "blanket cozy bed",
+      "image": "house-home/manta.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-lavabo",
+      "es": "el lavabo",
+      "en": "sink",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bathroom sink — 'lavarse las manos en el lavabo' = to wash hands at the sink.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "bathroom sink",
+      "image": "house-home/lavabo.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-ducha",
+      "es": "la ducha",
+      "en": "shower",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Shower — 'darse una ducha' = to take a shower.",
+      "scenarios": [
+        "at home",
+        "greetings & daily routine"
+      ],
+      "imageQuery": "shower bathroom",
+      "image": "house-home/ducha.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-banera",
+      "es": "la bañera",
+      "en": "bathtub",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bathtub — 'llenar la bañera' = to fill the bathtub.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "bathtub bathroom",
+      "image": "house-home/banera.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-inodoro",
+      "es": "el inodoro",
+      "en": "toilet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Toilet — also called 'el váter' or 'el retrete'.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "toilet bathroom",
+      "image": "house-home/inodoro.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-jabon",
+      "es": "el jabón",
+      "en": "soap",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Soap — 'lavarse con jabón' = to wash with soap.",
+      "scenarios": [
+        "at home",
+        "greetings & daily routine"
+      ],
+      "imageQuery": "soap bar bathroom",
+      "image": "house-home/jabon.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-champu",
+      "es": "el champú",
+      "en": "shampoo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Shampoo — 'lavarse el pelo con champú' = to wash hair with shampoo.",
+      "scenarios": [
+        "at home",
+        "greetings & daily routine"
+      ],
+      "imageQuery": "shampoo bottle",
+      "image": "house-home/champu.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-nevera",
+      "es": "la nevera",
+      "en": "fridge",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fridge/refrigerator — 'poner en la nevera' = to put in the fridge.",
+      "scenarios": [
+        "at home",
+        "cooking"
+      ],
+      "imageQuery": "refrigerator fridge",
+      "image": "house-home/nevera.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-lavadora",
+      "es": "la lavadora",
+      "en": "washing machine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Washing machine — 'poner la lavadora' = to run the washing machine.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "washing machine laundry",
+      "image": "house-home/lavadora.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-colchon",
+      "es": "el colchón",
+      "en": "mattress",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mattress — 'un colchón cómodo' = a comfortable mattress.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "mattress bed",
+      "image": "house-home/colchon.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-cuadro",
+      "es": "el cuadro",
+      "en": "picture",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Picture/painting on a wall — 'colgar un cuadro' = to hang a picture.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "wall painting artwork",
+      "image": "house-home/cuadro.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-despertador",
+      "es": "el despertador",
+      "en": "alarm clock",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Alarm clock — 'poner el despertador' = to set the alarm clock.",
+      "scenarios": [
+        "at home",
+        "greetings & daily routine"
+      ],
+      "imageQuery": "alarm clock bedside",
+      "image": "house-home/despertador.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-enchufe",
+      "es": "el enchufe",
+      "en": "outlet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Electrical outlet/plug — 'enchufar' = to plug in.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "electrical outlet plug",
+      "image": "house-home/enchufe.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-interruptor",
+      "es": "el interruptor",
+      "en": "light switch",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Light switch — 'dar al interruptor' = to flip the switch.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "light switch wall",
+      "image": "house-home/interruptor.webp",
+      "level": "C"
+    },
+    {
+      "id": "hh-cerradura",
+      "es": "la cerradura",
+      "en": "lock",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Door lock — 'abrir/cerrar la cerradura' = to open/close the lock.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "door lock",
+      "image": "house-home/cerradura.webp",
+      "level": "C"
+    },
+    {
+      "id": "hh-timbre",
+      "es": "el timbre",
+      "en": "doorbell",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Doorbell — 'tocar el timbre' = to ring the doorbell.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "doorbell button",
+      "image": "house-home/timbre.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-alquiler",
+      "es": "el alquiler",
+      "en": "rent",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rent — 'pagar el alquiler' = to pay the rent.",
+      "scenarios": [
+        "at home",
+        "renting an apartment"
+      ],
+      "imageQuery": "rent apartment building",
+      "image": "house-home/alquiler.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-propietario",
+      "es": "el propietario",
+      "en": "landlord",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Landlord/owner — 'la propietaria' = female landlord.",
+      "scenarios": [
+        "renting an apartment"
+      ],
+      "imageQuery": "landlord property owner",
+      "image": "house-home/propietario.webp",
+      "level": "C"
+    },
+    {
+      "id": "hh-piso",
+      "es": "el piso",
+      "en": "floor / apartment",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Floor (level) in Spain, or apartment — 'el tercer piso' = the third floor.",
+      "scenarios": [
+        "at home",
+        "describing your home"
+      ],
+      "imageQuery": "apartment floor level",
+      "image": "house-home/piso.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-edificio",
+      "es": "el edificio",
+      "en": "building",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Building — 'el edificio de apartamentos' = the apartment building.",
+      "scenarios": [
+        "at home",
+        "city & directions"
+      ],
+      "imageQuery": "apartment building exterior",
+      "image": "house-home/edificio.webp",
+      "level": "A"
+    },
+    {
+      "id": "hh-florero",
+      "es": "el florero",
+      "en": "vase",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Vase — 'un florero con flores' = a vase with flowers.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "vase flowers",
+      "image": "house-home/florero.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-mantel",
+      "es": "el mantel",
+      "en": "tablecloth",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tablecloth — 'poner el mantel' = to put on the tablecloth.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "tablecloth dining table",
+      "image": "house-home/mantel.webp",
+      "level": "B"
+    },
+    {
+      "id": "hh-papelera",
+      "es": "la papelera",
+      "en": "wastebin",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wastebin/trash can — 'tirar a la papelera' = to throw in the bin.",
+      "scenarios": [
+        "at home"
+      ],
+      "imageQuery": "trash can bin",
+      "image": "house-home/papelera.webp",
+      "level": "B"
     }
   ]
 }

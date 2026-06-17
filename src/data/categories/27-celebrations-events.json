@@ -1,0 +1,933 @@
+{
+  "id": "celebrations-events",
+  "order": 27,
+  "name": "Celebrations & Events",
+  "nameEs": "Celebraciones y eventos",
+  "words": [
+    {
+      "id": "ce-cumpleanos",
+      "es": "el cumpleaños",
+      "en": "birthday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Birthday — '¡Feliz cumpleaños!' = Happy birthday! Ask 'What day is your birthday?' with '¿Cuándo es tu cumpleaños?'",
+      "scenarios": [
+        "birthday party",
+        "family gathering"
+      ],
+      "imageQuery": "birthday cake candles celebration",
+      "image": "celebrations-events/cumpleanos.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-fiesta",
+      "es": "la fiesta",
+      "en": "party",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Party — '¡Hay una fiesta esta noche!' = There's a party tonight! Also means 'holiday' in some contexts.",
+      "scenarios": [
+        "social events",
+        "birthday party"
+      ],
+      "imageQuery": "party celebration people",
+      "image": "celebrations-events/fiesta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-boda",
+      "es": "la boda",
+      "en": "wedding",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wedding — '¿Vas a la boda?' = Are you going to the wedding? The wedding ceremony is 'la ceremonia de boda'.",
+      "scenarios": [
+        "wedding",
+        "family event"
+      ],
+      "imageQuery": "wedding ceremony bride groom",
+      "image": "celebrations-events/boda.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-graduacion",
+      "es": "la graduación",
+      "en": "graduation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Graduation — 'la ceremonia de graduación' = the graduation ceremony. Celebrate with family after finishing school.",
+      "scenarios": [
+        "school",
+        "family celebration"
+      ],
+      "imageQuery": "graduation ceremony diploma cap gown",
+      "image": "celebrations-events/graduacion.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-aniversario",
+      "es": "el aniversario",
+      "en": "anniversary",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Anniversary — 'nuestro aniversario de bodas' = our wedding anniversary. Also used for company or historical anniversaries.",
+      "scenarios": [
+        "couple celebration",
+        "special occasion"
+      ],
+      "imageQuery": "anniversary couple celebration dinner",
+      "image": "celebrations-events/aniversario.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-navidad",
+      "es": "la Navidad",
+      "en": "Christmas",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Christmas — '¡Feliz Navidad!' = Merry Christmas! Celebrated on December 25th throughout the Spanish-speaking world.",
+      "scenarios": [
+        "holiday",
+        "family gathering"
+      ],
+      "imageQuery": "Christmas tree decorations family",
+      "image": "celebrations-events/navidad.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-anonuevo",
+      "es": "el Año Nuevo",
+      "en": "New Year",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "New Year — '¡Feliz Año Nuevo!' = Happy New Year! In Spain, people eat 12 grapes at midnight for good luck.",
+      "scenarios": [
+        "holiday",
+        "celebration"
+      ],
+      "imageQuery": "new year fireworks celebration midnight",
+      "image": "celebrations-events/anonuevo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-pascua",
+      "es": "la Pascua",
+      "en": "Easter",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Easter — celebrated with religious processions (procesiones) in many Spanish-speaking countries. Also called 'Semana Santa' (Holy Week).",
+      "scenarios": [
+        "religious holiday",
+        "family gathering"
+      ],
+      "imageQuery": "Easter celebration religious procession",
+      "image": "celebrations-events/pascua.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-carnaval",
+      "es": "el carnaval",
+      "en": "carnival",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Carnival — a festive season before Lent with costumes, parades, and music. Famous in Brazil, Tenerife, and Barranquilla.",
+      "scenarios": [
+        "festival",
+        "cultural event"
+      ],
+      "imageQuery": "carnival parade colorful costumes",
+      "image": "celebrations-events/carnaval.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-halloween",
+      "es": "el Halloween",
+      "en": "Halloween",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Halloween — becoming popular in Latin America and Spain. Celebrated on October 31st with costumes and candy.",
+      "scenarios": [
+        "holiday",
+        "children's event"
+      ],
+      "imageQuery": "Halloween costumes pumpkins trick or treat",
+      "image": "celebrations-events/halloween.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-regalo",
+      "es": "el regalo",
+      "en": "gift / present",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Gift — '¿Qué regalo le traigo?' = What gift should I bring them? 'hacer un regalo' = to give a gift.",
+      "scenarios": [
+        "birthday party",
+        "Christmas",
+        "wedding"
+      ],
+      "imageQuery": "wrapped gift present bow",
+      "image": "celebrations-events/regalo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-pastel",
+      "es": "el pastel",
+      "en": "cake",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cake — 'pastel de cumpleaños' = birthday cake. Also called 'torta' in South America and 'bizcocho' in some regions.",
+      "scenarios": [
+        "birthday party",
+        "celebration dessert"
+      ],
+      "imageQuery": "birthday cake frosting candles",
+      "image": "celebrations-events/pastel.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-vela",
+      "es": "la vela",
+      "en": "candle",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Candle — 'soplar las velas' = to blow out the candles (on a birthday cake). Also used in religious ceremonies.",
+      "scenarios": [
+        "birthday party",
+        "religious ceremony"
+      ],
+      "imageQuery": "birthday candles lit cake",
+      "image": "celebrations-events/vela.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-globo",
+      "es": "el globo",
+      "en": "balloon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Balloon — 'globos de colores' = colorful balloons. Essential decoration for birthdays and parties.",
+      "scenarios": [
+        "birthday party",
+        "decoration"
+      ],
+      "imageQuery": "colorful balloons party decoration",
+      "image": "celebrations-events/globo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-decoracion",
+      "es": "la decoración",
+      "en": "decoration",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Decoration — 'poner la decoración' = to put up the decorations. Common at parties, weddings, and holidays.",
+      "scenarios": [
+        "party planning",
+        "celebration"
+      ],
+      "imageQuery": "party decorations colorful streamers",
+      "image": "celebrations-events/decoracion.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-invitado",
+      "es": "el invitado",
+      "en": "guest",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Guest — 'la lista de invitados' = the guest list. Feminine form: 'la invitada'.",
+      "scenarios": [
+        "party",
+        "wedding"
+      ],
+      "imageQuery": "guests arriving party event",
+      "image": "celebrations-events/invitado.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-brindis",
+      "es": "el brindis",
+      "en": "toast (drink)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Toast — 'hacer un brindis' = to make a toast. Say '¡Salud!' when clinking glasses.",
+      "scenarios": [
+        "wedding",
+        "celebration dinner"
+      ],
+      "imageQuery": "people clinking glasses toast celebration",
+      "image": "celebrations-events/brindis.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-champan",
+      "es": "el champán",
+      "en": "champagne",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Champagne — 'abrir el champán' = to open the champagne. Also called 'cava' in Spain for the local sparkling wine.",
+      "scenarios": [
+        "wedding",
+        "New Year celebration"
+      ],
+      "imageQuery": "champagne glasses celebration sparkling wine",
+      "image": "celebrations-events/champan.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-fotografia",
+      "es": "la fotografía",
+      "en": "photograph / photo",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Photograph — 'sacar una fotografía' = to take a photograph. More informal: 'foto'. Don't confuse with 'fotografía' (the art of photography).",
+      "scenarios": [
+        "celebration",
+        "family event"
+      ],
+      "imageQuery": "family photo taking picture celebration",
+      "image": "celebrations-events/fotografia.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-musica",
+      "es": "la música",
+      "en": "music",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Music — 'poner música' = to put on music. An essential part of any Spanish-speaking celebration.",
+      "scenarios": [
+        "party",
+        "cultural event"
+      ],
+      "imageQuery": "live music band playing celebration",
+      "image": "celebrations-events/musica.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-discurso",
+      "es": "el discurso",
+      "en": "speech",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Speech — 'dar un discurso' = to give a speech. Common at weddings, graduations, and formal events.",
+      "scenarios": [
+        "wedding",
+        "graduation"
+      ],
+      "imageQuery": "person giving speech microphone event",
+      "image": "celebrations-events/discurso.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-corona",
+      "es": "la corona",
+      "en": "crown",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Crown — worn by birthday children and quinceañeras. 'la corona de cumpleaños' = birthday crown.",
+      "scenarios": [
+        "birthday party",
+        "quinceañera"
+      ],
+      "imageQuery": "crown tiara birthday celebration",
+      "image": "celebrations-events/corona.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-disfraz",
+      "es": "el disfraz",
+      "en": "costume / disguise",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Costume — 'ponerse un disfraz' = to put on a costume. Essential for Halloween, carnaval, and fancy-dress parties.",
+      "scenarios": [
+        "Halloween",
+        "carnival",
+        "costume party"
+      ],
+      "imageQuery": "colorful carnival costume disguise",
+      "image": "celebrations-events/disfraz.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-fuegosartificiales",
+      "es": "los fuegos artificiales",
+      "en": "fireworks",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fireworks — 'ver los fuegos artificiales' = to watch the fireworks. Common on New Year's Eve and national holidays.",
+      "scenarios": [
+        "New Year",
+        "national holiday"
+      ],
+      "imageQuery": "fireworks night sky celebration",
+      "image": "celebrations-events/fuegosartificiales.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-desfile",
+      "es": "el desfile",
+      "en": "parade",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Parade — 'el desfile de carnaval' = the carnival parade. Also used for fashion shows ('desfile de moda').",
+      "scenarios": [
+        "carnival",
+        "national holiday",
+        "festival"
+      ],
+      "imageQuery": "street parade floats celebration",
+      "image": "celebrations-events/desfile.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-misa",
+      "es": "la misa",
+      "en": "Mass (church service)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mass — 'ir a misa' = to go to Mass. Important in Catholic celebrations like Christmas, Easter, and quinceañeras.",
+      "scenarios": [
+        "religious event",
+        "Christmas",
+        "Easter"
+      ],
+      "imageQuery": "Catholic church mass ceremony",
+      "image": "celebrations-events/misa.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-bautizo",
+      "es": "el bautizo",
+      "en": "baptism / christening",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Baptism — a major Catholic celebration marking a baby's entry into the Church. Followed by a family meal and gifts.",
+      "scenarios": [
+        "religious event",
+        "family celebration"
+      ],
+      "imageQuery": "baby baptism christening church",
+      "image": "celebrations-events/bautizo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-confirmacion",
+      "es": "la confirmación",
+      "en": "confirmation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Confirmation — a Catholic sacrament for teenagers affirming their faith. Celebrated with family and gifts like baptism.",
+      "scenarios": [
+        "religious event",
+        "family celebration"
+      ],
+      "imageQuery": "confirmation ceremony church teenager",
+      "image": "celebrations-events/confirmacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-quinceanera",
+      "es": "la quinceañera",
+      "en": "quinceañera (15th birthday party)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Quinceañera — a major Latin American celebration for a girl's 15th birthday marking her transition to womanhood. Involves a church ceremony, big party, and the waltz.",
+      "scenarios": [
+        "family celebration",
+        "cultural tradition"
+      ],
+      "imageQuery": "quinceañera party ballgown tiara",
+      "image": "celebrations-events/quinceanera.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-babyshower",
+      "es": "el baby shower",
+      "en": "baby shower",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Baby shower — a pre-birth celebration to give gifts to the expecting mother. Adopted from English in many Spanish-speaking countries.",
+      "scenarios": [
+        "family event",
+        "pregnancy celebration"
+      ],
+      "imageQuery": "baby shower celebration gifts decorations",
+      "image": "celebrations-events/babyshower.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-despedida",
+      "es": "la despedida",
+      "en": "farewell / send-off",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Farewell — 'despedida de soltero/a' = bachelor/bachelorette party. 'Hacer una despedida' = to throw a farewell party.",
+      "scenarios": [
+        "farewell party",
+        "pre-wedding event"
+      ],
+      "imageQuery": "farewell party friends gathering",
+      "image": "celebrations-events/despedida.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-reunionfamiliar",
+      "es": "la reunión familiar",
+      "en": "family reunion / gathering",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Family gathering — 'nos reunimos en familia' = we get together as a family. Common during holidays and birthdays.",
+      "scenarios": [
+        "family event",
+        "holiday"
+      ],
+      "imageQuery": "family reunion gathering outdoors",
+      "image": "celebrations-events/reunionfamiliar.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-cenaespecial",
+      "es": "la cena especial",
+      "en": "special dinner",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Special dinner — 'reservar una cena especial' = to book a special dinner. Common for anniversaries and birthdays.",
+      "scenarios": [
+        "anniversary",
+        "celebration"
+      ],
+      "imageQuery": "elegant special dinner table restaurant",
+      "image": "celebrations-events/cenaespecial.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-baile",
+      "es": "el baile",
+      "en": "dance",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dance — 'el baile de graduación' = the graduation dance/prom. 'Bailar' = to dance. Central to Latin celebrations.",
+      "scenarios": [
+        "party",
+        "wedding",
+        "quinceañera"
+      ],
+      "imageQuery": "people dancing celebration party",
+      "image": "celebrations-events/baile.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-tarta",
+      "es": "la tarta",
+      "en": "cake (Spain)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cake — the Spanish (Spain) word for cake. In Latin America, 'pastel' or 'torta' is more common. 'tarta de cumpleaños' = birthday cake.",
+      "scenarios": [
+        "birthday party",
+        "Spain"
+      ],
+      "imageQuery": "decorated birthday cake Spain",
+      "image": "celebrations-events/tarta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-abrazo",
+      "es": "el abrazo",
+      "en": "hug",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hug — 'dar un abrazo' = to give a hug. Very common greeting in Spanish-speaking cultures, especially at celebrations.",
+      "scenarios": [
+        "greeting",
+        "celebration"
+      ],
+      "imageQuery": "friends hugging celebration happy",
+      "image": "celebrations-events/abrazo.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-felicitacion",
+      "es": "la felicitación",
+      "en": "congratulations / greeting",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Congratulations — '¡Mis felicitaciones!' = My congratulations! Also means a greeting card. 'tarjeta de felicitación' = greeting card.",
+      "scenarios": [
+        "celebration",
+        "graduation"
+      ],
+      "imageQuery": "congratulations card celebration",
+      "image": "celebrations-events/felicitacion.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-tarjeta",
+      "es": "la tarjeta",
+      "en": "card",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Card — 'tarjeta de cumpleaños' = birthday card. Don't confuse with 'tarjeta de crédito' (credit card) or 'tarjeta de visita' (business card).",
+      "scenarios": [
+        "birthday",
+        "celebration"
+      ],
+      "imageQuery": "birthday greeting card envelope",
+      "image": "celebrations-events/tarjeta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-confeti",
+      "es": "el confeti",
+      "en": "confetti",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Confetti — 'lanzar confeti' = to throw confetti. Used at celebrations, weddings, and New Year's parties.",
+      "scenarios": [
+        "party",
+        "wedding",
+        "New Year"
+      ],
+      "imageQuery": "confetti falling celebration party",
+      "image": "celebrations-events/confeti.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-serpentinas",
+      "es": "las serpentinas",
+      "en": "streamers",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Streamers — colorful paper rolls thrown at celebrations. 'lanzar serpentinas' = to throw streamers.",
+      "scenarios": [
+        "party",
+        "New Year",
+        "carnival"
+      ],
+      "imageQuery": "colorful paper streamers party celebration",
+      "image": "celebrations-events/serpentinas.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-pinata",
+      "es": "la piñata",
+      "en": "piñata",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Piñata — a decorated container filled with candy and broken with a stick while blindfolded. Central to Mexican birthdays and posadas.",
+      "scenarios": [
+        "birthday party",
+        "Mexican tradition"
+      ],
+      "imageQuery": "colorful piñata birthday party Mexico",
+      "image": "celebrations-events/pinata.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-mariachi",
+      "es": "el mariachi",
+      "en": "mariachi (band)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mariachi — a traditional Mexican musical ensemble with guitars, trumpets, and violins. Hired for birthdays, anniversaries, and serenades.",
+      "scenarios": [
+        "Mexican celebration",
+        "birthday serenade"
+      ],
+      "imageQuery": "mariachi band Mexican musicians",
+      "image": "celebrations-events/mariachi.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-orquesta",
+      "es": "la orquesta",
+      "en": "orchestra / band",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Orchestra — 'contratar una orquesta' = to hire an orchestra. Used at weddings and formal events for live music.",
+      "scenarios": [
+        "wedding",
+        "formal event"
+      ],
+      "imageQuery": "orchestra band playing live music event",
+      "image": "celebrations-events/orquesta.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-dj",
+      "es": "el DJ",
+      "en": "DJ",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "DJ — 'contratar un DJ' = to hire a DJ. Common at parties, weddings, and youth events for music.",
+      "scenarios": [
+        "party",
+        "wedding"
+      ],
+      "imageQuery": "DJ mixing music party event",
+      "image": "celebrations-events/dj.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-payaso",
+      "es": "el payaso",
+      "en": "clown",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Clown — 'contratar un payaso' = to hire a clown. Popular entertainment at children's birthday parties.",
+      "scenarios": [
+        "children's party",
+        "entertainment"
+      ],
+      "imageQuery": "clown entertainer children birthday party",
+      "image": "celebrations-events/payaso.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-mago",
+      "es": "el mago",
+      "en": "magician",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Magician — 'el mago de la fiesta' = the party magician. Performs magic tricks at celebrations.",
+      "scenarios": [
+        "children's party",
+        "entertainment"
+      ],
+      "imageQuery": "magician performing magic trick party",
+      "image": "celebrations-events/mago.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-fotografo",
+      "es": "el fotógrafo",
+      "en": "photographer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Photographer — 'contratar un fotógrafo' = to hire a photographer. Essential at weddings and quinceañeras for professional photos.",
+      "scenarios": [
+        "wedding",
+        "quinceañera"
+      ],
+      "imageQuery": "photographer taking photos wedding event",
+      "image": "celebrations-events/fotografo.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-animador",
+      "es": "el animador",
+      "en": "entertainer / host",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Entertainer/host — 'el animador de la fiesta' = the party entertainer/MC. Keeps the crowd engaged and the energy up.",
+      "scenarios": [
+        "party",
+        "event"
+      ],
+      "imageQuery": "event host entertainer microphone crowd",
+      "image": "celebrations-events/animador.webp",
+      "level": "C"
+    },
+    {
+      "id": "ce-maestrodeceremonias",
+      "es": "el maestro de ceremonias",
+      "en": "master of ceremonies / MC",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Master of ceremonies — 'el MC' or 'el presentador'. Introduces speakers and manages the program at formal events and weddings.",
+      "scenarios": [
+        "wedding",
+        "formal event"
+      ],
+      "imageQuery": "master of ceremonies formal event wedding",
+      "image": "celebrations-events/maestrodeceremonias.webp",
+      "level": "C"
+    },
+    {
+      "id": "ce-velita",
+      "es": "la velita",
+      "en": "little candle",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Little candle — diminutive of 'vela'. In Colombia, 'Noche de Velitas' (Dec. 7) is a beloved tradition where families light candles outside their homes.",
+      "scenarios": [
+        "Colombian tradition",
+        "birthday"
+      ],
+      "imageQuery": "small candles night celebration Colombia",
+      "image": "celebrations-events/velita.webp",
+      "level": "C"
+    },
+    {
+      "id": "ce-funeral",
+      "es": "el funeral",
+      "en": "funeral",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Funeral — 'asistir a un funeral' = to attend a funeral.",
+      "scenarios": [
+        "events"
+      ],
+      "imageQuery": "funeral ceremony",
+      "image": "celebrations-events/funeral.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-nochebuena",
+      "es": "la Nochebuena",
+      "en": "Christmas Eve",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Christmas Eve — celebrated on 24 December.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "Christmas Eve family dinner",
+      "image": "celebrations-events/nochebuena.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-nochevieja",
+      "es": "la Nochevieja",
+      "en": "New Year's Eve",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "New Year's Eve — celebrated on 31 December.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "New Year's Eve midnight fireworks",
+      "image": "celebrations-events/nochevieja.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-primera-comunion",
+      "es": "la primera comunión",
+      "en": "first communion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "First Communion — important Catholic milestone celebration.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "first communion celebration",
+      "image": "celebrations-events/primera-comunion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-fiesta-patria",
+      "es": "la fiesta patria",
+      "en": "national holiday",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "National holiday — 'las fiestas patrias' = national independence celebrations.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "national day flag parade",
+      "image": "celebrations-events/fiesta-patria.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-celebrar",
+      "es": "celebrar",
+      "en": "to celebrate",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To celebrate — '¡vamos a celebrar!' = let's celebrate!",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "celebrating party happy",
+      "image": "celebrations-events/celebrar.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-sorpresa",
+      "es": "la sorpresa",
+      "en": "surprise",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Surprise — '¡qué sorpresa!' = what a surprise!",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "surprise party",
+      "image": "celebrations-events/sorpresa.webp",
+      "level": "A"
+    },
+    {
+      "id": "ce-tradicion",
+      "es": "la tradición",
+      "en": "tradition",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Tradition — 'una tradición familiar' = a family tradition.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "tradition family custom",
+      "image": "celebrations-events/tradicion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-costumbre",
+      "es": "la costumbre",
+      "en": "custom",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Custom — 'es una costumbre española' = it's a Spanish custom.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "custom culture tradition",
+      "image": "celebrations-events/costumbre.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-viaje-novios",
+      "es": "el viaje de novios",
+      "en": "honeymoon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Honeymoon — 'el viaje de novios a París' = honeymoon trip to Paris.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "honeymoon couple tropical",
+      "image": "celebrations-events/viaje-novios.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-luna-de-miel",
+      "es": "la luna de miel",
+      "en": "honeymoon (alt)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Honeymoon — alternative term alongside 'viaje de novios'.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "honeymoon romance tropical",
+      "image": "celebrations-events/luna-de-miel.webp",
+      "level": "B"
+    },
+    {
+      "id": "ce-banquete",
+      "es": "el banquete",
+      "en": "banquet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Banquet — 'el banquete de boda' = the wedding banquet.",
+      "scenarios": [
+        "celebrations"
+      ],
+      "imageQuery": "banquet wedding dinner",
+      "image": "celebrations-events/banquete.webp",
+      "level": "B"
+    }
+  ]
+}

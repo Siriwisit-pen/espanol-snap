@@ -1,0 +1,942 @@
+{
+  "id": "plants-garden",
+  "order": 25,
+  "name": "Plants & Garden",
+  "nameEs": "Plantas y jardín",
+  "words": [
+    {
+      "id": "pg-arbol",
+      "es": "el árbol",
+      "en": "tree",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tree — 'un árbol de mango' = a mango tree. 'Plantar un árbol' = to plant a tree.",
+      "scenarios": [
+        "garden",
+        "park",
+        "nature"
+      ],
+      "imageQuery": "large tree green park",
+      "image": "plants-garden/arbol.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-flor",
+      "es": "la flor",
+      "en": "flower",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flower — 'Las flores están muy bonitas' = The flowers are very beautiful. Key vocabulary for gardens.",
+      "scenarios": [
+        "garden",
+        "flower shop",
+        "nature"
+      ],
+      "imageQuery": "colorful flowers garden bloom",
+      "image": "plants-garden/flor.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-planta",
+      "es": "la planta",
+      "en": "plant",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Plant — 'Regar las plantas' = to water the plants. Also means floor/storey of a building.",
+      "scenarios": [
+        "garden",
+        "home",
+        "nursery"
+      ],
+      "imageQuery": "potted houseplant green indoor",
+      "image": "plants-garden/planta.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-jardin",
+      "es": "el jardín",
+      "en": "garden",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Garden — 'Trabajo en el jardín los fines de semana' = I work in the garden on weekends.",
+      "scenarios": [
+        "home",
+        "garden centre",
+        "leisure"
+      ],
+      "imageQuery": "beautiful home garden flowers path",
+      "image": "plants-garden/jardin.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-rosa",
+      "es": "la rosa",
+      "en": "rose",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Rose — the classic symbol of love. 'Una docena de rosas rojas' = a dozen red roses.",
+      "scenarios": [
+        "flower shop",
+        "Valentine's Day",
+        "garden"
+      ],
+      "imageQuery": "red rose flower bloom",
+      "image": "plants-garden/rosa.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-tulipan",
+      "es": "el tulipán",
+      "en": "tulip",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tulip — cup-shaped spring flower. 'Los tulipanes amarillos' = yellow tulips. Very popular in gardens.",
+      "scenarios": [
+        "garden",
+        "flower shop",
+        "spring"
+      ],
+      "imageQuery": "tulip flowers colorful garden spring",
+      "image": "plants-garden/tulipan.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-girasol",
+      "es": "el girasol",
+      "en": "sunflower",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sunflower — tall flower that turns to face the sun. 'Un campo de girasoles' = a sunflower field.",
+      "scenarios": [
+        "garden",
+        "countryside",
+        "flower shop"
+      ],
+      "imageQuery": "sunflower yellow field sky",
+      "image": "plants-garden/girasol.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-orquidea",
+      "es": "la orquídea",
+      "en": "orchid",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Orchid — exotic tropical flower. Colombia is one of the world's top orchid producers.",
+      "scenarios": [
+        "flower shop",
+        "tropical garden",
+        "home decoration"
+      ],
+      "imageQuery": "orchid exotic purple flower",
+      "image": "plants-garden/orquidea.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-margarita",
+      "es": "la margarita",
+      "en": "daisy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Daisy — simple white flower with a yellow centre. 'Me quiere, no me quiere' = he loves me, loves me not.",
+      "scenarios": [
+        "garden",
+        "meadow",
+        "flower shop"
+      ],
+      "imageQuery": "daisy white flower yellow centre meadow",
+      "image": "plants-garden/margarita.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-clavel",
+      "es": "el clavel",
+      "en": "carnation",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Carnation — ruffled fragrant flower. Colombia is the world's largest carnation exporter.",
+      "scenarios": [
+        "flower shop",
+        "floral arrangement",
+        "garden"
+      ],
+      "imageQuery": "carnation pink red flower",
+      "image": "plants-garden/clavel.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-jazmin",
+      "es": "el jazmín",
+      "en": "jasmine",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Jasmine — small white fragrant flower. 'El jazmín huele muy bien' = Jasmine smells very nice.",
+      "scenarios": [
+        "garden",
+        "flower shop",
+        "perfume"
+      ],
+      "imageQuery": "jasmine white flower fragrant vine",
+      "image": "plants-garden/jazmin.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-lavanda",
+      "es": "la lavanda",
+      "en": "lavender",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lavender — purple aromatic herb. 'El aroma de la lavanda' = the scent of lavender. Used in cosmetics.",
+      "scenarios": [
+        "garden",
+        "herb shop",
+        "aromatherapy"
+      ],
+      "imageQuery": "lavender purple field flowers Provence",
+      "image": "plants-garden/lavanda.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-cactus",
+      "es": "el cactus",
+      "en": "cactus",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cactus — desert plant with spines. 'El cactus no necesita mucha agua' = Cactus doesn't need much water.",
+      "scenarios": [
+        "desert",
+        "home plant",
+        "garden centre"
+      ],
+      "imageQuery": "cactus desert plant spines",
+      "image": "plants-garden/cactus.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-bambu",
+      "es": "el bambú",
+      "en": "bamboo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bamboo — fast-growing woody grass. Used in Latin American construction and crafts.",
+      "scenarios": [
+        "garden",
+        "tropical landscape",
+        "crafts"
+      ],
+      "imageQuery": "bamboo stalks green tropical",
+      "image": "plants-garden/bambu.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-palmera",
+      "es": "la palmera",
+      "en": "palm tree",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Palm tree — tropical tree with feathery fronds at the top. 'Una playa con palmeras' = a beach with palms.",
+      "scenarios": [
+        "beach",
+        "tropical garden",
+        "park"
+      ],
+      "imageQuery": "palm tree tropical beach sky",
+      "image": "plants-garden/palmera.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-pino",
+      "es": "el pino",
+      "en": "pine tree",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pine tree — evergreen conifer. 'El bosque de pinos' = the pine forest. Used for Christmas trees.",
+      "scenarios": [
+        "forest",
+        "mountain",
+        "garden"
+      ],
+      "imageQuery": "pine tree forest green conifer",
+      "image": "plants-garden/pino.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-roble",
+      "es": "el roble",
+      "en": "oak tree",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Oak tree — strong hardwood tree. 'Fuerte como un roble' = strong as an oak. Lives for centuries.",
+      "scenarios": [
+        "forest",
+        "countryside",
+        "park"
+      ],
+      "imageQuery": "oak tree large spreading forest",
+      "image": "plants-garden/roble.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-cedro",
+      "es": "el cedro",
+      "en": "cedar tree",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cedar tree — aromatic wood used in furniture and closets. Very common in Latin American forests.",
+      "scenarios": [
+        "forest",
+        "carpentry",
+        "garden"
+      ],
+      "imageQuery": "cedar tree aromatic tall",
+      "image": "plants-garden/cedro.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-eucalipto",
+      "es": "el eucalipto",
+      "en": "eucalyptus",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Eucalyptus — aromatic tree native to Australia, now common in Latin America. Used in herbal medicine.",
+      "scenarios": [
+        "park",
+        "herbal medicine",
+        "countryside"
+      ],
+      "imageQuery": "eucalyptus tree leaves blue-green",
+      "image": "plants-garden/eucalipto.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-manzano",
+      "es": "el manzano",
+      "en": "apple tree",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Apple tree — 'el manzano' is the tree; 'la manzana' is the fruit. Common in temperate regions.",
+      "scenarios": [
+        "orchard",
+        "countryside",
+        "garden"
+      ],
+      "imageQuery": "apple tree orchard fruit red",
+      "image": "plants-garden/manzano.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-hoja",
+      "es": "la hoja",
+      "en": "leaf",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Leaf — 'las hojas caen en otoño' = leaves fall in autumn. Also means page of a book.",
+      "scenarios": [
+        "garden",
+        "nature",
+        "autumn"
+      ],
+      "imageQuery": "autumn leaf green red fall",
+      "image": "plants-garden/hoja.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-raiz",
+      "es": "la raíz",
+      "en": "root",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Root — 'las raíces del árbol' = the roots of the tree. Also means linguistic root of a word.",
+      "scenarios": [
+        "gardening",
+        "nature",
+        "biology class"
+      ],
+      "imageQuery": "tree roots underground soil",
+      "image": "plants-garden/raiz.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-rama",
+      "es": "la rama",
+      "en": "branch",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Branch — 'las ramas del árbol' = the branches of the tree. Also used figuratively ('una rama de la ciencia').",
+      "scenarios": [
+        "garden",
+        "park",
+        "nature"
+      ],
+      "imageQuery": "tree branch green leaves",
+      "image": "plants-garden/rama.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-tronco",
+      "es": "el tronco",
+      "en": "trunk",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Trunk — 'el tronco del árbol' = the tree trunk. The main woody stem of a tree.",
+      "scenarios": [
+        "forest",
+        "nature",
+        "woodcutting"
+      ],
+      "imageQuery": "tree trunk bark close up forest",
+      "image": "plants-garden/tronco.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-semilla",
+      "es": "la semilla",
+      "en": "seed",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Seed — 'plantar una semilla' = to plant a seed. 'De pequeña semilla nace un gran árbol.'",
+      "scenarios": [
+        "gardening",
+        "garden centre",
+        "nature"
+      ],
+      "imageQuery": "seeds planting soil gardening",
+      "image": "plants-garden/semilla.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-tierra",
+      "es": "la tierra",
+      "en": "soil / earth",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Soil/earth — 'la tierra fértil' = fertile soil. Also means the planet Earth and land/country.",
+      "scenarios": [
+        "gardening",
+        "farming",
+        "nature"
+      ],
+      "imageQuery": "garden soil earth dark fertile",
+      "image": "plants-garden/tierra.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-maceta",
+      "es": "la maceta",
+      "en": "plant pot / flowerpot",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flowerpot — 'una maceta de barro' = a clay pot. 'Poner una planta en la maceta' = to pot a plant.",
+      "scenarios": [
+        "home gardening",
+        "balcony",
+        "garden centre"
+      ],
+      "imageQuery": "terracotta flower pot plant indoor",
+      "image": "plants-garden/maceta.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-abono",
+      "es": "el abono",
+      "en": "fertilizer / compost",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fertilizer — 'el abono natural' = natural fertilizer/compost. Feeds plants to help them grow.",
+      "scenarios": [
+        "gardening",
+        "farming",
+        "garden centre"
+      ],
+      "imageQuery": "fertilizer compost garden soil bag",
+      "image": "plants-garden/abono.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-riego",
+      "es": "el riego",
+      "en": "irrigation / watering",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Watering/irrigation — 'el riego por goteo' = drip irrigation. 'El sistema de riego' = irrigation system.",
+      "scenarios": [
+        "gardening",
+        "farming",
+        "garden care"
+      ],
+      "imageQuery": "garden watering irrigation hose spray",
+      "image": "plants-garden/riego.webp",
+      "level": "A"
+    },
+    {
+      "id": "pg-tijeras-de-podar",
+      "es": "las tijeras de podar",
+      "en": "pruning shears / secateurs",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pruning shears — 'Usa las tijeras de podar para cortar las ramas' = Use the pruning shears to cut branches.",
+      "scenarios": [
+        "gardening",
+        "garden maintenance",
+        "pruning"
+      ],
+      "imageQuery": "pruning shears secateurs garden tool",
+      "image": "plants-garden/tijeras-de-podar.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-cortacesped",
+      "es": "el cortacésped",
+      "en": "lawn mower",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lawn mower — 'cortar el césped con el cortacésped' = to mow the lawn with the lawnmower.",
+      "scenarios": [
+        "garden maintenance",
+        "home",
+        "lawn care"
+      ],
+      "imageQuery": "lawn mower grass cutting garden",
+      "image": "plants-garden/cortacesped.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-invernadero",
+      "es": "el invernadero",
+      "en": "greenhouse",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Greenhouse — glass structure for growing plants. 'Un invernadero de tomates' = a tomato greenhouse.",
+      "scenarios": [
+        "farming",
+        "garden centre",
+        "horticulture"
+      ],
+      "imageQuery": "greenhouse glass plants growing indoor",
+      "image": "plants-garden/invernadero.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-hierba",
+      "es": "la hierba",
+      "en": "grass / herb",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Grass/herb — 'la hierba del jardín' = the garden grass. 'las hierbas aromáticas' = aromatic herbs.",
+      "scenarios": [
+        "garden",
+        "lawn",
+        "herbal medicine"
+      ],
+      "imageQuery": "fresh green grass lawn herb",
+      "image": "plants-garden/hierba.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-musgo",
+      "es": "el musgo",
+      "en": "moss",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Moss — soft green plant that grows on rocks and soil in moist areas. 'El musgo crece en lugares húmedos.'",
+      "scenarios": [
+        "forest",
+        "garden",
+        "terrarium"
+      ],
+      "imageQuery": "green moss rocks forest damp",
+      "image": "plants-garden/musgo.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-helecho",
+      "es": "el helecho",
+      "en": "fern",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fern — ancient non-flowering plant with feathery fronds. Thrives in shady, moist environments.",
+      "scenarios": [
+        "garden",
+        "forest",
+        "indoor plant"
+      ],
+      "imageQuery": "fern plant green fronds shade",
+      "image": "plants-garden/helecho.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-lirio",
+      "es": "el lirio",
+      "en": "lily / iris",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lily/iris — elegant flower. 'El lirio blanco' = white lily. Common in gardens and floral arrangements.",
+      "scenarios": [
+        "garden",
+        "flower shop",
+        "wedding flowers"
+      ],
+      "imageQuery": "lily white flower elegant garden",
+      "image": "plants-garden/lirio.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-violeta",
+      "es": "la violeta",
+      "en": "violet",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Violet — small purple flower. 'Una violeta africana' = an African violet (popular houseplant).",
+      "scenarios": [
+        "garden",
+        "home plant",
+        "flower shop"
+      ],
+      "imageQuery": "violet purple small flower garden",
+      "image": "plants-garden/violeta.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-begonia",
+      "es": "la begonia",
+      "en": "begonia",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Begonia — popular flowering houseplant with colourful blooms. 'Las begonias de mi balcón' = my balcony begonias.",
+      "scenarios": [
+        "balcony",
+        "home plant",
+        "garden centre"
+      ],
+      "imageQuery": "begonia pink red flower pot",
+      "image": "plants-garden/begonia.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-geranio",
+      "es": "el geranio",
+      "en": "geranium",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Geranium — classic balcony and window box flower. Very popular in Spanish-speaking countries.",
+      "scenarios": [
+        "balcony",
+        "window box",
+        "garden"
+      ],
+      "imageQuery": "geranium red flower balcony pot",
+      "image": "plants-garden/geranio.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-petunia",
+      "es": "la petunia",
+      "en": "petunia",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Petunia — trumpet-shaped flower in many colours. Easy to grow in pots and hanging baskets.",
+      "scenarios": [
+        "garden",
+        "hanging basket",
+        "garden centre"
+      ],
+      "imageQuery": "petunia colorful flower hanging basket",
+      "image": "plants-garden/petunia.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-enredadera",
+      "es": "la enredadera",
+      "en": "climbing plant / vine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Climbing plant — 'La enredadera cubre el muro' = The climbing plant covers the wall.",
+      "scenarios": [
+        "garden wall",
+        "pergola",
+        "garden design"
+      ],
+      "imageQuery": "climbing plant vine wall garden green",
+      "image": "plants-garden/enredadera.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-bonsai",
+      "es": "el bonsái",
+      "en": "bonsai",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bonsai — miniature tree trained to grow in a shallow pot. A Japanese art form popular worldwide.",
+      "scenarios": [
+        "home plant",
+        "garden shop",
+        "zen garden"
+      ],
+      "imageQuery": "bonsai tree miniature pot japanese",
+      "image": "plants-garden/bonsai.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-suculenta",
+      "es": "la suculenta",
+      "en": "succulent",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Succulent — fleshy water-storing plant. Very low maintenance and popular as indoor plants.",
+      "scenarios": [
+        "home plant",
+        "garden centre",
+        "desk decoration"
+      ],
+      "imageQuery": "succulent plant green fleshy pot",
+      "image": "plants-garden/suculenta.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-nopal",
+      "es": "el nopal",
+      "en": "prickly pear cactus",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Prickly pear cactus — flat-padded cactus. Symbol of Mexico, featured on the national flag. Edible pads and fruit.",
+      "scenarios": [
+        "Mexican market",
+        "desert garden",
+        "cooking"
+      ],
+      "imageQuery": "nopal prickly pear cactus mexico",
+      "image": "plants-garden/nopal.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-aloe-vera",
+      "es": "el áloe vera",
+      "en": "aloe vera",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Aloe vera — succulent plant with gel-filled leaves. Used for sunburn and skincare. Very easy to grow.",
+      "scenarios": [
+        "home plant",
+        "pharmacy",
+        "natural cosmetics"
+      ],
+      "imageQuery": "aloe vera plant green spiky gel",
+      "image": "plants-garden/aloe-vera.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-espina",
+      "es": "la espina",
+      "en": "thorn / spine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Thorn — 'las espinas de la rosa' = the rose thorns. 'Me pinché con una espina' = I pricked myself on a thorn.",
+      "scenarios": [
+        "garden",
+        "cactus handling",
+        "rose pruning"
+      ],
+      "imageQuery": "rose thorn stem sharp spine",
+      "image": "plants-garden/espina.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-petalo",
+      "es": "el pétalo",
+      "en": "petal",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Petal — 'los pétalos de la rosa' = the rose petals. 'Los pétalos caen al suelo' = petals fall to the ground.",
+      "scenarios": [
+        "flower shop",
+        "garden",
+        "wedding decoration"
+      ],
+      "imageQuery": "flower petals rose pink falling",
+      "image": "plants-garden/petalo.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-polen",
+      "es": "el polen",
+      "en": "pollen",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pollen — fine yellow powder produced by flowers. Bees collect it. Can cause hay fever ('alergia al polen').",
+      "scenarios": [
+        "garden",
+        "bee keeping",
+        "allergy season"
+      ],
+      "imageQuery": "flower pollen yellow bee collecting",
+      "image": "plants-garden/polen.webp",
+      "level": "C"
+    },
+    {
+      "id": "pg-nectar",
+      "es": "el néctar",
+      "en": "nectar",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Nectar — sweet liquid produced by flowers to attract pollinators. Bees turn it into honey.",
+      "scenarios": [
+        "garden",
+        "bee keeping",
+        "biology class"
+      ],
+      "imageQuery": "bee flower nectar collecting pollen",
+      "image": "plants-garden/nectar.webp",
+      "level": "C"
+    },
+    {
+      "id": "pg-compost",
+      "es": "el compost",
+      "en": "compost",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Compost — decomposed organic matter used as fertilizer. 'El compost mejora la calidad del suelo.'",
+      "scenarios": [
+        "organic gardening",
+        "composting",
+        "sustainable living"
+      ],
+      "imageQuery": "compost bin organic matter garden soil",
+      "image": "plants-garden/compost.webp",
+      "level": "C"
+    },
+    {
+      "id": "pg-fotosintesis",
+      "es": "la fotosíntesis",
+      "en": "photosynthesis",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Photosynthesis — process by which plants convert sunlight into food. 'Las plantas realizan la fotosíntesis.'",
+      "scenarios": [
+        "biology class",
+        "school",
+        "science"
+      ],
+      "imageQuery": "photosynthesis plant sunlight green leaf",
+      "image": "plants-garden/fotosintesis.webp",
+      "level": "C"
+    },
+    {
+      "id": "pg-polinizacion",
+      "es": "la polinización",
+      "en": "pollination",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pollination — transfer of pollen between flowers to enable reproduction. Bees are key pollinators.",
+      "scenarios": [
+        "biology class",
+        "garden",
+        "beekeeping"
+      ],
+      "imageQuery": "bee pollination flower garden close up",
+      "image": "plants-garden/polinizacion.webp",
+      "level": "C"
+    },
+    {
+      "id": "pg-menta",
+      "es": "la menta",
+      "en": "mint",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mint — aromatic herb used in drinks and cooking.",
+      "scenarios": [
+        "plants",
+        "garden"
+      ],
+      "imageQuery": "mint leaves herb",
+      "image": "plants-garden/menta.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-romero",
+      "es": "el romero",
+      "en": "rosemary",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rosemary — fragrant herb used in Spanish cooking.",
+      "scenarios": [
+        "plants",
+        "kitchen"
+      ],
+      "imageQuery": "rosemary herb",
+      "image": "plants-garden/romero.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-tomillo",
+      "es": "el tomillo",
+      "en": "thyme",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Thyme — small leafy herb for cooking.",
+      "scenarios": [
+        "plants",
+        "kitchen"
+      ],
+      "imageQuery": "thyme herb cooking",
+      "image": "plants-garden/tomillo.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-jardinero",
+      "es": "el jardinero",
+      "en": "gardener",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Gardener — 'el jardinero cuida el jardín' = the gardener tends the garden.",
+      "scenarios": [
+        "garden"
+      ],
+      "imageQuery": "gardener tending plants",
+      "image": "plants-garden/jardinero.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-sembrar",
+      "es": "sembrar",
+      "en": "to sow",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To sow — 'sembrar semillas' = to sow seeds.",
+      "scenarios": [
+        "garden"
+      ],
+      "imageQuery": "sowing seeds garden",
+      "image": "plants-garden/sembrar.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-cosecha",
+      "es": "la cosecha",
+      "en": "harvest",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Harvest — 'la cosecha de otoño' = the autumn harvest.",
+      "scenarios": [
+        "garden",
+        "nature"
+      ],
+      "imageQuery": "harvest crops field",
+      "image": "plants-garden/cosecha.webp",
+      "level": "B"
+    },
+    {
+      "id": "pg-regar",
+      "es": "regar",
+      "en": "to water",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To water (plants) — 'regar las plantas' = to water the plants.",
+      "scenarios": [
+        "garden"
+      ],
+      "imageQuery": "watering plants garden",
+      "image": "plants-garden/regar.webp",
+      "level": "B"
+    }
+  ]
+}

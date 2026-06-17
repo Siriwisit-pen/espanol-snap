@@ -1,0 +1,792 @@
+{
+  "id": "personality-character",
+  "order": 28,
+  "name": "Personality & Character",
+  "nameEs": "Personalidad y carácter",
+  "words": [
+    {
+      "id": "pc-amable",
+      "es": "amable",
+      "en": "kind / friendly",
+      "pos": "adjective",
+      "hint": "Kind — 'es muy amable' = he/she is very kind. One of the most common compliments in Spanish.",
+      "scenarios": [
+        "describing people",
+        "compliments"
+      ],
+      "imageQuery": "person being kind friendly helping",
+      "image": "personality-character/amable.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-simpatico",
+      "es": "simpático",
+      "en": "nice / likeable",
+      "pos": "adjective",
+      "hint": "Nice/likeable — 'es muy simpático' = he's very nice. Feminine: 'simpática'. A false friend — 'simpático' ≠ 'sympathetic' in English.",
+      "scenarios": [
+        "describing people",
+        "first impressions"
+      ],
+      "imageQuery": "friendly likeable person smiling",
+      "image": "personality-character/simpatico.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-generoso",
+      "es": "generoso",
+      "en": "generous",
+      "pos": "adjective",
+      "hint": "Generous — 'es muy generoso con su tiempo' = he's very generous with his time. Feminine: 'generosa'.",
+      "scenarios": [
+        "describing people",
+        "positive traits"
+      ],
+      "imageQuery": "generous person giving sharing",
+      "image": "personality-character/generoso.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-honesto",
+      "es": "honesto",
+      "en": "honest",
+      "pos": "adjective",
+      "hint": "Honest — 'es una persona honesta' = she's an honest person. Also 'honrado'. Antonym: 'deshonesto'.",
+      "scenarios": [
+        "describing people",
+        "values"
+      ],
+      "imageQuery": "honest trustworthy person handshake",
+      "image": "personality-character/honesto.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-trabajador",
+      "es": "trabajador",
+      "en": "hardworking",
+      "pos": "adjective",
+      "hint": "Hardworking — 'es muy trabajadora' = she's very hardworking. The opposite is 'perezoso' (lazy).",
+      "scenarios": [
+        "describing people",
+        "work context"
+      ],
+      "imageQuery": "hardworking person busy working",
+      "image": "personality-character/trabajador.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-inteligente",
+      "es": "inteligente",
+      "en": "intelligent / smart",
+      "pos": "adjective",
+      "hint": "Intelligent — 'es muy inteligente' = he/she is very smart. Same form for masculine and feminine.",
+      "scenarios": [
+        "describing people",
+        "school context"
+      ],
+      "imageQuery": "intelligent smart person thinking studying",
+      "image": "personality-character/inteligente.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-creativo",
+      "es": "creativo",
+      "en": "creative",
+      "pos": "adjective",
+      "hint": "Creative — 'es muy creativa' = she's very creative. Common in art, design, and problem-solving contexts.",
+      "scenarios": [
+        "describing people",
+        "art and design"
+      ],
+      "imageQuery": "creative person painting artistic",
+      "image": "personality-character/creativo.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-paciente",
+      "es": "paciente",
+      "en": "patient",
+      "pos": "adjective",
+      "hint": "Patient — 'hay que ser paciente' = you have to be patient. Same form for masculine and feminine. Also means 'patient' (medical).",
+      "scenarios": [
+        "describing people",
+        "positive traits"
+      ],
+      "imageQuery": "patient calm person waiting",
+      "image": "personality-character/paciente.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-curioso",
+      "es": "curioso",
+      "en": "curious",
+      "pos": "adjective",
+      "hint": "Curious — 'los niños son muy curiosos' = children are very curious. Can also mean 'strange/odd' in some contexts.",
+      "scenarios": [
+        "describing children",
+        "learning context"
+      ],
+      "imageQuery": "curious child exploring learning",
+      "image": "personality-character/curioso.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-valiente",
+      "es": "valiente",
+      "en": "brave / courageous",
+      "pos": "adjective",
+      "hint": "Brave — 'es muy valiente' = he/she is very brave. Same form for masculine and feminine. Noun: 'valentía' (bravery).",
+      "scenarios": [
+        "describing people",
+        "heroic context"
+      ],
+      "imageQuery": "brave courageous person confident",
+      "image": "personality-character/valiente.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-timido",
+      "es": "tímido",
+      "en": "shy / timid",
+      "pos": "adjective",
+      "hint": "Shy — 'es un poco tímido' = he's a little shy. Feminine: 'tímida'. Opposite of 'extrovertido'.",
+      "scenarios": [
+        "describing people",
+        "social situations"
+      ],
+      "imageQuery": "shy timid person looking away",
+      "image": "personality-character/timido.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-serio",
+      "es": "serio",
+      "en": "serious",
+      "pos": "adjective",
+      "hint": "Serious — 'es una persona muy seria' = she's a very serious person. Can also mean 'reliable/responsible'.",
+      "scenarios": [
+        "describing people",
+        "work context"
+      ],
+      "imageQuery": "serious person focused professional",
+      "image": "personality-character/serio.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-alegre",
+      "es": "alegre",
+      "en": "cheerful / joyful",
+      "pos": "adjective",
+      "hint": "Cheerful — 'siempre está alegre' = she's always cheerful. Same form for masculine and feminine.",
+      "scenarios": [
+        "describing people",
+        "positive traits"
+      ],
+      "imageQuery": "cheerful joyful happy person laughing",
+      "image": "personality-character/alegre.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-tranquilo",
+      "es": "tranquilo",
+      "en": "calm / easygoing",
+      "pos": "adjective",
+      "hint": "Calm — 'es una persona tranquila' = she's a calm person. Also used as 'tranquilo' = relax! (as an expression).",
+      "scenarios": [
+        "describing people",
+        "situations"
+      ],
+      "imageQuery": "calm relaxed easygoing person",
+      "image": "personality-character/tranquilo.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-activo",
+      "es": "activo",
+      "en": "active / energetic",
+      "pos": "adjective",
+      "hint": "Active — 'es una persona muy activa' = she's a very active person. Implies energy and engagement in activities.",
+      "scenarios": [
+        "describing people",
+        "sports context"
+      ],
+      "imageQuery": "active energetic person exercising",
+      "image": "personality-character/activo.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-responsable",
+      "es": "responsable",
+      "en": "responsible",
+      "pos": "adjective",
+      "hint": "Responsible — 'es muy responsable con su trabajo' = he's very responsible with his work. Same form for masculine and feminine.",
+      "scenarios": [
+        "describing people",
+        "work context"
+      ],
+      "imageQuery": "responsible reliable person at work",
+      "image": "personality-character/responsable.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-gracioso",
+      "es": "gracioso",
+      "en": "funny / amusing",
+      "pos": "adjective",
+      "hint": "Funny — 'es muy gracioso' = he's very funny. Feminine: 'graciosa'. Different from 'chistoso', which is more about telling jokes.",
+      "scenarios": [
+        "describing people",
+        "social situations"
+      ],
+      "imageQuery": "funny amusing person laughing friends",
+      "image": "personality-character/gracioso.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-carinoso",
+      "es": "cariñoso",
+      "en": "affectionate / loving",
+      "pos": "adjective",
+      "hint": "Affectionate — 'es muy cariñosa con los niños' = she's very affectionate with children. Feminine: 'cariñosa'.",
+      "scenarios": [
+        "describing people",
+        "relationships"
+      ],
+      "imageQuery": "affectionate loving person hugging family",
+      "image": "personality-character/carinoso.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-leal",
+      "es": "leal",
+      "en": "loyal",
+      "pos": "adjective",
+      "hint": "Loyal — 'es un amigo muy leal' = he's a very loyal friend. Same form for masculine and feminine. Noun: 'lealtad' (loyalty).",
+      "scenarios": [
+        "describing people",
+        "friendship"
+      ],
+      "imageQuery": "loyal friends together trust",
+      "image": "personality-character/leal.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-confiable",
+      "es": "confiable",
+      "en": "trustworthy / reliable",
+      "pos": "adjective",
+      "hint": "Trustworthy — 'es una persona muy confiable' = she's a very reliable person. Also 'de confianza'. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "work context"
+      ],
+      "imageQuery": "trustworthy reliable person confident",
+      "image": "personality-character/confiable.webp",
+      "level": "A"
+    },
+    {
+      "id": "pc-ambicioso",
+      "es": "ambicioso",
+      "en": "ambitious",
+      "pos": "adjective",
+      "hint": "Ambitious — 'es muy ambiciosa en su carrera' = she's very ambitious in her career. Can be positive or negative depending on context.",
+      "scenarios": [
+        "describing people",
+        "career context"
+      ],
+      "imageQuery": "ambitious determined person goal setting",
+      "image": "personality-character/ambicioso.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-independiente",
+      "es": "independiente",
+      "en": "independent",
+      "pos": "adjective",
+      "hint": "Independent — 'es una persona muy independiente' = she's a very independent person. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "lifestyle"
+      ],
+      "imageQuery": "independent person alone confident",
+      "image": "personality-character/independiente.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-perseverante",
+      "es": "perseverante",
+      "en": "persevering / persistent",
+      "pos": "adjective",
+      "hint": "Persevering — 'hay que ser perseverante para tener éxito' = you have to be persistent to succeed. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "motivation"
+      ],
+      "imageQuery": "persevering person pushing through challenge",
+      "image": "personality-character/perseverante.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-empatico",
+      "es": "empático",
+      "en": "empathetic",
+      "pos": "adjective",
+      "hint": "Empathetic — 'es muy empática con los demás' = she's very empathetic towards others. Noun: 'empatía' (empathy).",
+      "scenarios": [
+        "describing people",
+        "social skills"
+      ],
+      "imageQuery": "empathetic person listening comforting",
+      "image": "personality-character/empatico.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-tolerante",
+      "es": "tolerante",
+      "en": "tolerant",
+      "pos": "adjective",
+      "hint": "Tolerant — 'ser tolerante con las diferencias' = to be tolerant of differences. Same form for both genders. Noun: 'tolerancia'.",
+      "scenarios": [
+        "describing people",
+        "social values"
+      ],
+      "imageQuery": "tolerant diverse group people together",
+      "image": "personality-character/tolerante.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-humilde",
+      "es": "humilde",
+      "en": "humble",
+      "pos": "adjective",
+      "hint": "Humble — 'a pesar de su éxito, es muy humilde' = despite his success, he's very humble. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "values"
+      ],
+      "imageQuery": "humble modest person simple lifestyle",
+      "image": "personality-character/humilde.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-solidario",
+      "es": "solidario",
+      "en": "supportive / caring about others",
+      "pos": "adjective",
+      "hint": "Solidary/supportive — 'ser solidario con los más necesitados' = to support those in need. Common in social and humanitarian contexts.",
+      "scenarios": [
+        "describing people",
+        "community values"
+      ],
+      "imageQuery": "supportive person helping community",
+      "image": "personality-character/solidario.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-optimista",
+      "es": "optimista",
+      "en": "optimistic",
+      "pos": "adjective",
+      "hint": "Optimistic — 'siempre ve el lado positivo, es muy optimista' = she always sees the positive side, she's very optimistic. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "attitude"
+      ],
+      "imageQuery": "optimistic positive person looking up bright",
+      "image": "personality-character/optimista.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-pesimista",
+      "es": "pesimista",
+      "en": "pessimistic",
+      "pos": "adjective",
+      "hint": "Pessimistic — 'siempre espera lo peor, es muy pesimista' = he always expects the worst, he's very pessimistic. Opposite of 'optimista'.",
+      "scenarios": [
+        "describing people",
+        "attitude"
+      ],
+      "imageQuery": "pessimistic worried person negative",
+      "image": "personality-character/pesimista.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-impulsivo",
+      "es": "impulsivo",
+      "en": "impulsive",
+      "pos": "adjective",
+      "hint": "Impulsive — 'toma decisiones sin pensar, es muy impulsivo' = he makes decisions without thinking, he's very impulsive.",
+      "scenarios": [
+        "describing people",
+        "behavior"
+      ],
+      "imageQuery": "impulsive spontaneous person reaction",
+      "image": "personality-character/impulsivo.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-terco",
+      "es": "terco",
+      "en": "stubborn",
+      "pos": "adjective",
+      "hint": "Stubborn — 'es muy terco, nunca cambia de opinión' = he's very stubborn, he never changes his mind. Also 'testarudo' or 'cabezota'.",
+      "scenarios": [
+        "describing people",
+        "negative traits"
+      ],
+      "imageQuery": "stubborn person arms crossed refusing",
+      "image": "personality-character/terco.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-perezoso",
+      "es": "perezoso",
+      "en": "lazy",
+      "pos": "adjective",
+      "hint": "Lazy — 'es demasiado perezoso para ir al gimnasio' = he's too lazy to go to the gym. Feminine: 'perezosa'. Opposite of 'trabajador'.",
+      "scenarios": [
+        "describing people",
+        "negative traits"
+      ],
+      "imageQuery": "lazy person lying down not working",
+      "image": "personality-character/perezoso.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-envidioso",
+      "es": "envidioso",
+      "en": "envious / jealous",
+      "pos": "adjective",
+      "hint": "Envious — 'es muy envidioso del éxito ajeno' = he's very envious of others' success. From 'envidia' (envy). Feminine: 'envidiosa'.",
+      "scenarios": [
+        "describing people",
+        "negative traits"
+      ],
+      "imageQuery": "envious jealous person watching others",
+      "image": "personality-character/envidioso.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-vanidoso",
+      "es": "vanidoso",
+      "en": "vain / conceited",
+      "pos": "adjective",
+      "hint": "Vain — 'pasa horas frente al espejo, es muy vanidoso' = he spends hours in front of the mirror, he's very vain. From 'vanidad' (vanity).",
+      "scenarios": [
+        "describing people",
+        "negative traits"
+      ],
+      "imageQuery": "vain person admiring themselves mirror",
+      "image": "personality-character/vanidoso.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-reservado",
+      "es": "reservado",
+      "en": "reserved / private",
+      "pos": "adjective",
+      "hint": "Reserved — 'es muy reservada, no habla mucho' = she's very reserved, she doesn't talk much. Similar to 'introvertido' but more about keeping things private.",
+      "scenarios": [
+        "describing people",
+        "social behavior"
+      ],
+      "imageQuery": "reserved quiet private person alone",
+      "image": "personality-character/reservado.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-extrovertido",
+      "es": "extrovertido",
+      "en": "extroverted",
+      "pos": "adjective",
+      "hint": "Extroverted — 'le encanta conocer gente, es muy extrovertido' = he loves meeting people, he's very extroverted. Opposite of 'introvertido'.",
+      "scenarios": [
+        "describing people",
+        "social behavior"
+      ],
+      "imageQuery": "extroverted social person talking group",
+      "image": "personality-character/extrovertido.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-introvertido",
+      "es": "introvertido",
+      "en": "introverted",
+      "pos": "adjective",
+      "hint": "Introverted — 'prefiere estar solo, es introvertido' = he prefers to be alone, he's introverted. Opposite of 'extrovertido'.",
+      "scenarios": [
+        "describing people",
+        "social behavior"
+      ],
+      "imageQuery": "introverted person alone reading quiet",
+      "image": "personality-character/introvertido.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-sensible",
+      "es": "sensible",
+      "en": "sensitive",
+      "pos": "adjective",
+      "hint": "Sensitive — 'es muy sensible, llora fácilmente' = she's very sensitive, she cries easily. False friend: English 'sensible' = 'sensato' in Spanish.",
+      "scenarios": [
+        "describing people",
+        "emotional traits"
+      ],
+      "imageQuery": "sensitive emotional person thoughtful",
+      "image": "personality-character/sensible.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-adaptable",
+      "es": "adaptable",
+      "en": "adaptable / flexible",
+      "pos": "adjective",
+      "hint": "Adaptable — 'se adapta fácilmente a los cambios' = he adapts easily to changes. Highly valued in modern work environments.",
+      "scenarios": [
+        "describing people",
+        "work context"
+      ],
+      "imageQuery": "adaptable flexible person new situations",
+      "image": "personality-character/adaptable.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-desorganizado",
+      "es": "desorganizado",
+      "en": "disorganized",
+      "pos": "adjective",
+      "hint": "Disorganized — 'su escritorio está siempre hecho un desastre, es muy desorganizado' = his desk is always a mess, he's very disorganized.",
+      "scenarios": [
+        "describing people",
+        "work context"
+      ],
+      "imageQuery": "disorganized messy desk chaotic",
+      "image": "personality-character/desorganizado.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-perfeccionista",
+      "es": "perfeccionista",
+      "en": "perfectionist",
+      "pos": "adjective",
+      "hint": "Perfectionist — 'revisa su trabajo cien veces, es perfeccionista' = she checks her work a hundred times, she's a perfectionist. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "work context"
+      ],
+      "imageQuery": "perfectionist person detail oriented work",
+      "image": "personality-character/perfeccionista.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-manipulador",
+      "es": "manipulador",
+      "en": "manipulative",
+      "pos": "adjective",
+      "hint": "Manipulative — 'consigue lo que quiere manipulando a los demás' = he gets what he wants by manipulating others. Feminine: 'manipuladora'.",
+      "scenarios": [
+        "describing people",
+        "negative traits"
+      ],
+      "imageQuery": "manipulative person scheming controlling",
+      "image": "personality-character/manipulador.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-arrogante",
+      "es": "arrogante",
+      "en": "arrogant",
+      "pos": "adjective",
+      "hint": "Arrogant — 'cree que sabe todo, es muy arrogante' = he thinks he knows everything, he's very arrogant. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "negative traits"
+      ],
+      "imageQuery": "arrogant person looking down on others",
+      "image": "personality-character/arrogante.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-inseguro",
+      "es": "inseguro",
+      "en": "insecure",
+      "pos": "adjective",
+      "hint": "Insecure — 'siempre duda de sí misma, es muy insegura' = she always doubts herself, she's very insecure. Feminine: 'insegura'.",
+      "scenarios": [
+        "describing people",
+        "emotional traits"
+      ],
+      "imageQuery": "insecure uncertain person self-doubt",
+      "image": "personality-character/inseguro.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-maduro",
+      "es": "maduro",
+      "en": "mature",
+      "pos": "adjective",
+      "hint": "Mature — 'es muy maduro para su edad' = he's very mature for his age. Feminine: 'madura'. Also means 'ripe' for fruit.",
+      "scenarios": [
+        "describing people",
+        "age and development"
+      ],
+      "imageQuery": "mature responsible young adult thoughtful",
+      "image": "personality-character/maduro.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-espontaneo",
+      "es": "espontáneo",
+      "en": "spontaneous",
+      "pos": "adjective",
+      "hint": "Spontaneous — 'le gusta hacer cosas espontáneas' = she likes doing spontaneous things. Feminine: 'espontánea'.",
+      "scenarios": [
+        "describing people",
+        "lifestyle"
+      ],
+      "imageQuery": "spontaneous person adventure surprise",
+      "image": "personality-character/espontaneo.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-carismatico",
+      "es": "carismático",
+      "en": "charismatic",
+      "pos": "adjective",
+      "hint": "Charismatic — 'es un líder carismático que inspira a todos' = he's a charismatic leader who inspires everyone. Feminine: 'carismática'.",
+      "scenarios": [
+        "describing people",
+        "leadership"
+      ],
+      "imageQuery": "charismatic leader speaking crowd",
+      "image": "personality-character/carismatico.webp",
+      "level": "B"
+    },
+    {
+      "id": "pc-narcisista",
+      "es": "narcisista",
+      "en": "narcissistic",
+      "pos": "adjective",
+      "hint": "Narcissistic — from the myth of Narcissus. 'tiene un ego enorme, es narcisista' = he has an enormous ego, he's narcissistic. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "psychology"
+      ],
+      "imageQuery": "narcissistic self-absorbed person selfie",
+      "image": "personality-character/narcisista.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-compasivo",
+      "es": "compasivo",
+      "en": "compassionate",
+      "pos": "adjective",
+      "hint": "Compassionate — 'siente compasión por los demás, es muy compasivo' = he feels compassion for others, he's very compassionate. Feminine: 'compasiva'.",
+      "scenarios": [
+        "describing people",
+        "values"
+      ],
+      "imageQuery": "compassionate person comforting someone",
+      "image": "personality-character/compasivo.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-perspicaz",
+      "es": "perspicaz",
+      "en": "perceptive / shrewd",
+      "pos": "adjective",
+      "hint": "Perceptive — 'notó algo que nadie más vio, es muy perspicaz' = she noticed something no one else saw, she's very perceptive. Same form for both genders.",
+      "scenarios": [
+        "describing people",
+        "intelligence"
+      ],
+      "imageQuery": "perceptive observant person analyzing",
+      "image": "personality-character/perspicaz.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-astuto",
+      "es": "astuto",
+      "en": "cunning / astute",
+      "pos": "adjective",
+      "hint": "Cunning/astute — 'es astuto en los negocios' = he's astute in business. Can be positive (clever) or negative (sly). Feminine: 'astuta'.",
+      "scenarios": [
+        "describing people",
+        "business context"
+      ],
+      "imageQuery": "shrewd cunning clever person thinking",
+      "image": "personality-character/astuto.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-prudente",
+      "es": "prudente",
+      "en": "prudent / cautious",
+      "pos": "adjective",
+      "hint": "Prudent — 'piensa antes de actuar, es muy prudente' = she thinks before acting, she's very prudent. Same form for both genders. Noun: 'prudencia'.",
+      "scenarios": [
+        "describing people",
+        "decision making"
+      ],
+      "imageQuery": "cautious prudent person careful decision",
+      "image": "personality-character/prudente.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-metodico",
+      "es": "metódico",
+      "en": "methodical",
+      "pos": "adjective",
+      "hint": "Methodical — 'trabaja de manera ordenada y metódica' = he works in an orderly and methodical way. Feminine: 'metódica'.",
+      "scenarios": [
+        "describing people",
+        "work style"
+      ],
+      "imageQuery": "methodical organized systematic person working",
+      "image": "personality-character/metodico.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-meticuloso",
+      "es": "meticuloso",
+      "en": "meticulous",
+      "pos": "adjective",
+      "hint": "Meticulous — 'presta atención a cada detalle, es meticulosa' = she pays attention to every detail, she's meticulous. Feminine: 'meticulosa'.",
+      "scenarios": [
+        "describing people",
+        "work style"
+      ],
+      "imageQuery": "meticulous careful person checking details",
+      "image": "personality-character/meticuloso.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-inmaduro",
+      "es": "inmaduro",
+      "en": "immature",
+      "pos": "adjective",
+      "hint": "Immature — 'se comporta como un niño, es muy inmaduro' = he behaves like a child, he's very immature. Feminine: 'inmadura'. Opposite of 'maduro'.",
+      "scenarios": [
+        "describing people",
+        "age and development"
+      ],
+      "imageQuery": "immature childish adult behavior",
+      "image": "personality-character/inmaduro.webp",
+      "level": "C"
+    },
+    {
+      "id": "pc-ingenuo",
+      "es": "ingenuo",
+      "en": "naive / gullible",
+      "pos": "adjective",
+      "hint": "Naive — 'se cree todo lo que le dicen, es muy ingenuo' = he believes everything he's told, he's very naive. Feminine: 'ingenua'. Not a strong insult, just innocence.",
+      "scenarios": [
+        "describing people",
+        "social awareness"
+      ],
+      "imageQuery": "naive innocent trusting young person",
+      "image": "personality-character/ingenuo.webp",
+      "level": "C"
+    }
+  ]
+}

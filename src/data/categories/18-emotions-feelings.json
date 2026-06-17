@@ -11,9 +11,13 @@
       "pos": "adjective",
       "gender": null,
       "hint": "Happy — 'estoy feliz' = I'm happy.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "happy person smiling",
-      "image": "emotions-feelings/feliz.webp"
+      "image": "emotions-feelings/feliz.webp",
+      "level": "A"
     },
     {
       "id": "ef-triste",
@@ -22,9 +26,13 @@
       "pos": "adjective",
       "gender": null,
       "hint": "Sad — 'estoy triste' = I'm sad.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "sad person",
-      "image": "emotions-feelings/triste.webp"
+      "image": "emotions-feelings/triste.webp",
+      "level": "A"
     },
     {
       "id": "ef-enojado",
@@ -33,9 +41,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Angry — 'está enojado' = he's angry (also 'enfadado' in Spain).",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "angry person",
-      "image": "emotions-feelings/enojado.webp"
+      "image": "emotions-feelings/enojado.webp",
+      "level": "A"
     },
     {
       "id": "ef-cansado",
@@ -44,9 +56,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Tired — 'estoy cansado' = I'm tired (feminine: cansada).",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "tired person yawning",
-      "image": "emotions-feelings/cansado.webp"
+      "image": "emotions-feelings/cansado.webp",
+      "level": "A"
     },
     {
       "id": "ef-emocionado",
@@ -55,9 +71,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Excited — 'estoy muy emocionado' = I'm so excited.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "excited person celebrating",
-      "image": "emotions-feelings/emocionado.webp"
+      "image": "emotions-feelings/emocionado.webp",
+      "level": "A"
     },
     {
       "id": "ef-nervioso",
@@ -66,9 +86,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Nervous — 'me siento nervioso' = I feel nervous.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "nervous person biting nails",
-      "image": "emotions-feelings/nervioso.webp"
+      "image": "emotions-feelings/nervioso.webp",
+      "level": "A"
     },
     {
       "id": "ef-asustado",
@@ -77,9 +101,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Scared/frightened — 'estoy asustado' = I'm scared.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "scared person",
-      "image": "emotions-feelings/asustado.webp"
+      "image": "emotions-feelings/asustado.webp",
+      "level": "A"
     },
     {
       "id": "ef-aburrido",
@@ -88,9 +116,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Bored — 'estoy aburrido' = I'm bored (this app exists for that!).",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "bored person",
-      "image": "emotions-feelings/aburrido.webp"
+      "image": "emotions-feelings/aburrido.webp",
+      "level": "A"
     },
     {
       "id": "ef-sorprendido",
@@ -99,9 +131,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Surprised — '¡qué sorpresa!' = what a surprise!",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "surprised person",
-      "image": "emotions-feelings/sorprendido.webp"
+      "image": "emotions-feelings/sorprendido.webp",
+      "level": "A"
     },
     {
       "id": "ef-confundido",
@@ -110,9 +146,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Confused — 'estoy confundido' = I'm confused.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "confused person",
-      "image": "emotions-feelings/confundido.webp"
+      "image": "emotions-feelings/confundido.webp",
+      "level": "A"
     },
     {
       "id": "ef-preocupado",
@@ -121,9 +161,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Worried — 'no te preocupes' = don't worry.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "worried person",
-      "image": "emotions-feelings/preocupado.webp"
+      "image": "emotions-feelings/preocupado.webp",
+      "level": "A"
     },
     {
       "id": "ef-tranquilo",
@@ -132,9 +176,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Calm — '¡tranquilo!' = calm down! / relax!",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "calm relaxed person",
-      "image": "emotions-feelings/tranquilo.webp"
+      "image": "emotions-feelings/tranquilo.webp",
+      "level": "B"
     },
     {
       "id": "ef-enamorado",
@@ -143,9 +191,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "In love — 'estar enamorado de alguien' = to be in love with someone.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "couple in love",
-      "image": "emotions-feelings/enamorado.webp"
+      "image": "emotions-feelings/enamorado.webp",
+      "level": "B"
     },
     {
       "id": "ef-orgulloso",
@@ -154,9 +206,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Proud — 'estoy orgulloso de ti' = I'm proud of you.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "proud person",
-      "image": "emotions-feelings/orgulloso.webp"
+      "image": "emotions-feelings/orgulloso.webp",
+      "level": "B"
     },
     {
       "id": "ef-avergonzado",
@@ -165,9 +221,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Embarrassed — 'me siento avergonzado' = I feel embarrassed.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "embarrassed person blushing",
-      "image": "emotions-feelings/avergonzado.webp"
+      "image": "emotions-feelings/avergonzado.webp",
+      "level": "B"
     },
     {
       "id": "ef-celoso",
@@ -176,9 +236,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Jealous — 'está celoso' = he's jealous.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "jealous person",
-      "image": "emotions-feelings/celoso.webp"
+      "image": "emotions-feelings/celoso.webp",
+      "level": "B"
     },
     {
       "id": "ef-contento",
@@ -187,9 +251,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Content/glad — 'estoy contento con el resultado' = I'm happy with the result.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "content happy person",
-      "image": "emotions-feelings/contento.webp"
+      "image": "emotions-feelings/contento.webp",
+      "level": "B"
     },
     {
       "id": "ef-estresado",
@@ -198,9 +266,14 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Stressed — 'estoy estresado por el trabajo' = I'm stressed about work.",
-      "scenarios": ["emotions & feelings", "describing how you feel", "at work"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel",
+        "at work"
+      ],
       "imageQuery": "stressed person",
-      "image": "emotions-feelings/estresado.webp"
+      "image": "emotions-feelings/estresado.webp",
+      "level": "B"
     },
     {
       "id": "ef-agradecido",
@@ -209,9 +282,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Grateful — 'estoy muy agradecido' = I'm very grateful.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "grateful person",
-      "image": "emotions-feelings/agradecido.webp"
+      "image": "emotions-feelings/agradecido.webp",
+      "level": "B"
     },
     {
       "id": "ef-solo",
@@ -220,9 +297,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Lonely, or 'alone' — 'me siento solo' = I feel lonely.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "lonely person alone",
-      "image": "emotions-feelings/solo.webp"
+      "image": "emotions-feelings/solo.webp",
+      "level": "B"
     },
     {
       "id": "ef-seguro",
@@ -231,9 +312,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Confident, or 'sure/safe' — 'estoy seguro' = I'm sure.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "confident person",
-      "image": "emotions-feelings/seguro.webp"
+      "image": "emotions-feelings/seguro.webp",
+      "level": "B"
     },
     {
       "id": "ef-curioso",
@@ -242,9 +327,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Curious — 'tengo curiosidad' = I'm curious.",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "curious person",
-      "image": "emotions-feelings/curioso.webp"
+      "image": "emotions-feelings/curioso.webp",
+      "level": "B"
     },
     {
       "id": "ef-sentimiento",
@@ -253,9 +342,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Feeling — 'mis sentimientos' = my feelings.",
-      "scenarios": ["emotions & feelings"],
+      "scenarios": [
+        "emotions & feelings"
+      ],
       "imageQuery": "person thinking reflecting",
-      "image": "emotions-feelings/sentimiento.webp"
+      "image": "emotions-feelings/sentimiento.webp",
+      "level": "B"
     },
     {
       "id": "ef-sentirse",
@@ -264,9 +356,523 @@
       "pos": "verb",
       "gender": null,
       "hint": "To feel — '¿cómo te sientes?' = how do you feel?",
-      "scenarios": ["emotions & feelings", "describing how you feel"],
+      "scenarios": [
+        "emotions & feelings",
+        "describing how you feel"
+      ],
       "imageQuery": "person reflecting emotion",
-      "image": "emotions-feelings/sentirse.webp"
+      "image": "emotions-feelings/sentirse.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-alegre",
+      "es": "alegre",
+      "en": "cheerful",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Cheerful/joyful — 'estoy muy alegre' = I'm very cheerful.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "cheerful happy person",
+      "image": "emotions-feelings/alegre.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-animado",
+      "es": "animado",
+      "en": "upbeat",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Upbeat/spirited — 'me siento muy animado' = I feel very upbeat.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "energetic upbeat person",
+      "image": "emotions-feelings/animado.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-satisfecho",
+      "es": "satisfecho",
+      "en": "satisfied",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Satisfied — 'estoy satisfecho con mi trabajo' = I'm satisfied with my work.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "satisfied person",
+      "image": "emotions-feelings/satisfecho.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-apenado",
+      "es": "apenado",
+      "en": "sorry",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Sorry/distressed — 'me siento muy apenado' = I feel very sorry.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "sorry upset person",
+      "image": "emotions-feelings/apenado.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-decepcionado",
+      "es": "decepcionado",
+      "en": "disappointed",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Disappointed — 'estoy muy decepcionado' = I'm very disappointed.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "disappointed sad person",
+      "image": "emotions-feelings/decepcionado.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-frustrado",
+      "es": "frustrado",
+      "en": "frustrated",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Frustrated — 'me siento frustrado' = I feel frustrated.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "frustrated person head hands",
+      "image": "emotions-feelings/frustrado.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-abrumado",
+      "es": "abrumado",
+      "en": "overwhelmed",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Overwhelmed — 'me siento abrumado' = I feel overwhelmed.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "overwhelmed too much pressure",
+      "image": "emotions-feelings/abrumado.webp",
+      "level": "C"
+    },
+    {
+      "id": "ef-agotado",
+      "es": "agotado",
+      "en": "exhausted",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Exhausted/worn out — more extreme than 'cansado' (tired).",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "exhausted person tired",
+      "image": "emotions-feelings/agotado.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-relajado",
+      "es": "relajado",
+      "en": "relaxed",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Relaxed — 'estoy muy relajado' = I'm very relaxed.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "relaxed person calm",
+      "image": "emotions-feelings/relajado.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-ansioso",
+      "es": "ansioso",
+      "en": "anxious",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Anxious/eager — 'estoy ansioso por empezar' = I'm eager to start.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "anxious worried person",
+      "image": "emotions-feelings/ansioso.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-optimista",
+      "es": "optimista",
+      "en": "optimistic",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Optimistic — 'soy muy optimista' = I'm very optimistic.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "optimistic happy positive",
+      "image": "emotions-feelings/optimista.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-pesimista",
+      "es": "pesimista",
+      "en": "pessimistic",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Pessimistic — opposite of 'optimista'.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "pessimistic sad negative",
+      "image": "emotions-feelings/pesimista.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-timido",
+      "es": "tímido",
+      "en": "shy",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Shy — 'es muy tímido' = he's very shy.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "shy person hiding",
+      "image": "emotions-feelings/timido.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-valiente",
+      "es": "valiente",
+      "en": "brave",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Brave/courageous — 'ser valiente' = to be brave.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "brave courageous person",
+      "image": "emotions-feelings/valiente.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-amable",
+      "es": "amable",
+      "en": "kind",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Kind/nice — 'es muy amable' = he/she is very kind.",
+      "scenarios": [
+        "emotions & feelings",
+        "personality"
+      ],
+      "imageQuery": "kind friendly person",
+      "image": "emotions-feelings/amable.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-generoso",
+      "es": "generoso",
+      "en": "generous",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Generous — 'es una persona muy generosa' = he/she is a very generous person.",
+      "scenarios": [
+        "emotions & feelings",
+        "personality"
+      ],
+      "imageQuery": "generous sharing",
+      "image": "emotions-feelings/generoso.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-egoista",
+      "es": "egoísta",
+      "en": "selfish",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Selfish — 'no seas egoísta' = don't be selfish.",
+      "scenarios": [
+        "emotions & feelings",
+        "personality"
+      ],
+      "imageQuery": "selfish person",
+      "image": "emotions-feelings/egoista.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-honesto",
+      "es": "honesto",
+      "en": "honest",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Honest — 'sé honesto' = be honest.",
+      "scenarios": [
+        "emotions & feelings",
+        "personality"
+      ],
+      "imageQuery": "honest truthful person",
+      "image": "emotions-feelings/honesto.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-inseguro",
+      "es": "inseguro",
+      "en": "insecure",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Insecure/unsure of oneself — 'me siento inseguro' = I feel insecure.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "insecure uncertain person",
+      "image": "emotions-feelings/inseguro.webp",
+      "level": "C"
+    },
+    {
+      "id": "ef-asombrado",
+      "es": "asombrado",
+      "en": "amazed",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Amazed/astonished — 'estoy asombrado' = I'm amazed.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "amazed astonished person",
+      "image": "emotions-feelings/asombrado.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-herido",
+      "es": "herido",
+      "en": "hurt",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Hurt (emotionally) — 'me siento herido' = I feel hurt.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "hurt sad person",
+      "image": "emotions-feelings/herido.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-alegria",
+      "es": "la alegría",
+      "en": "joy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Joy/happiness — 'una expresión de alegría' = an expression of joy.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "joy celebration happiness",
+      "image": "emotions-feelings/alegria.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-tristeza",
+      "es": "la tristeza",
+      "en": "sadness",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sadness — 'lleno de tristeza' = full of sadness.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "sadness melancholy",
+      "image": "emotions-feelings/tristeza.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-miedo",
+      "es": "el miedo",
+      "en": "fear",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fear — 'tener miedo' = to be afraid.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "fear scared dark",
+      "image": "emotions-feelings/miedo.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-esperanza",
+      "es": "la esperanza",
+      "en": "hope",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hope — 'no pierdas la esperanza' = don't lose hope.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "hope light hopeful",
+      "image": "emotions-feelings/esperanza.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-verguenza",
+      "es": "la vergüenza",
+      "en": "shame",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Shame/embarrassment — 'qué vergüenza!' = how embarrassing!",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "embarrassed person face red",
+      "image": "emotions-feelings/verguenza.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-soledad",
+      "es": "la soledad",
+      "en": "loneliness",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Loneliness — 'sentir la soledad' = to feel loneliness.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "lonely person alone",
+      "image": "emotions-feelings/soledad.webp",
+      "level": "C"
+    },
+    {
+      "id": "ef-confianza",
+      "es": "la confianza",
+      "en": "confidence",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Confidence/trust — 'tener confianza' = to have confidence.",
+      "scenarios": [
+        "emotions & feelings",
+        "personality"
+      ],
+      "imageQuery": "confident person",
+      "image": "emotions-feelings/confianza.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-estres",
+      "es": "el estrés",
+      "en": "stress",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Stress — 'sufrir estrés' = to suffer from stress.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "stress work overwhelmed",
+      "image": "emotions-feelings/estres.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-paciencia",
+      "es": "la paciencia",
+      "en": "patience",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Patience — 'ten paciencia' = have patience.",
+      "scenarios": [
+        "emotions & feelings",
+        "personality"
+      ],
+      "imageQuery": "patient waiting calm",
+      "image": "emotions-feelings/paciencia.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-querer",
+      "es": "querer",
+      "en": "to love",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To love/want — 'te quiero' = I love you (to family/friends).",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "love heart",
+      "image": "emotions-feelings/querer.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-odiar",
+      "es": "odiar",
+      "en": "to hate",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To hate — 'odio el lunes por la mañana' = I hate Monday mornings.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "hate dislike angry",
+      "image": "emotions-feelings/odiar.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-echar-de-menos",
+      "es": "echar de menos",
+      "en": "to miss (someone)",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To miss someone — 'te echo de menos' = I miss you.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "missing someone longing",
+      "image": "emotions-feelings/echar-de-menos.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-preocuparse",
+      "es": "preocuparse",
+      "en": "to worry",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To worry — 'no te preocupes' = don't worry.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "worried person anxious",
+      "image": "emotions-feelings/preocuparse.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-la-emocion",
+      "es": "la emoción",
+      "en": "emotion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Emotion — 'sentir una emoción' = to feel an emotion.",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "emotions feeling heart",
+      "image": "emotions-feelings/la-emocion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ef-estado-de-animo",
+      "es": "el estado de ánimo",
+      "en": "mood",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mood — '¿cuál es tu estado de ánimo hoy?' = what's your mood today?",
+      "scenarios": [
+        "emotions & feelings"
+      ],
+      "imageQuery": "mood emoji faces",
+      "image": "emotions-feelings/estado-de-animo.webp",
+      "level": "C"
     }
   ]
 }

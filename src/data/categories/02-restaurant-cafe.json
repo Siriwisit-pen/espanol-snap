@@ -11,9 +11,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Table — ask for one: 'una mesa para dos' (a table for two).",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "restaurant table",
-      "image": "restaurant-cafe/mesa.webp"
+      "image": "restaurant-cafe/mesa.webp",
+      "level": "A"
     },
     {
       "id": "rc-silla",
@@ -22,9 +26,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Chair — pull one up before you sit down to eat.",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "dining chair",
-      "image": "restaurant-cafe/silla.webp"
+      "image": "restaurant-cafe/silla.webp",
+      "level": "A"
     },
     {
       "id": "rc-menu",
@@ -33,9 +41,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Menu — ask 'la carta, por favor' or 'el menú, por favor' to see the options.",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "restaurant menu",
-      "image": "restaurant-cafe/menu.webp"
+      "image": "restaurant-cafe/menu.webp",
+      "level": "A"
     },
     {
       "id": "rc-cuenta",
@@ -44,9 +56,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "The bill/check — at the end of a meal, say 'la cuenta, por favor'.",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "restaurant bill receipt",
-      "image": "restaurant-cafe/cuenta.webp"
+      "image": "restaurant-cafe/cuenta.webp",
+      "level": "A"
     },
     {
       "id": "rc-propina",
@@ -55,9 +71,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Tip — leaving a small propina is appreciated for good service.",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "tip jar coins",
-      "image": "restaurant-cafe/propina.webp"
+      "image": "restaurant-cafe/propina.webp",
+      "level": "A"
     },
     {
       "id": "rc-camarero",
@@ -66,9 +86,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Waiter (la camarera for a woman; 'el mesero/la mesera' in Latin America) — call them with 'disculpe'.",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "waiter serving food",
-      "image": "restaurant-cafe/camarero.webp"
+      "image": "restaurant-cafe/camarero.webp",
+      "level": "A"
     },
     {
       "id": "rc-plato",
@@ -77,9 +101,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Plate — also means 'a dish' on the menu (el plato del día = the dish of the day).",
-      "scenarios": ["at a restaurant", "cooking"],
+      "scenarios": [
+        "at a restaurant",
+        "cooking"
+      ],
       "imageQuery": "empty dinner plate",
-      "image": "restaurant-cafe/plato.webp"
+      "image": "restaurant-cafe/plato.webp",
+      "level": "A"
     },
     {
       "id": "rc-taza",
@@ -88,9 +116,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Cup — for coffee or tea (una taza de café = a cup of coffee).",
-      "scenarios": ["at a café", "breakfast"],
+      "scenarios": [
+        "at a café",
+        "breakfast"
+      ],
       "imageQuery": "coffee cup",
-      "image": "restaurant-cafe/taza.webp"
+      "image": "restaurant-cafe/taza.webp",
+      "level": "A"
     },
     {
       "id": "rc-vaso",
@@ -99,9 +131,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Drinking glass — ask for 'un vaso de agua' (a glass of water).",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "drinking glass water",
-      "image": "restaurant-cafe/vaso.webp"
+      "image": "restaurant-cafe/vaso.webp",
+      "level": "A"
     },
     {
       "id": "rc-copa",
@@ -110,9 +146,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "A stemmed glass — used for wine (una copa de vino = a glass of wine).",
-      "scenarios": ["at a restaurant"],
+      "scenarios": [
+        "at a restaurant"
+      ],
       "imageQuery": "wine glass",
-      "image": "restaurant-cafe/copa.webp"
+      "image": "restaurant-cafe/copa.webp",
+      "level": "A"
     },
     {
       "id": "rc-cuchara",
@@ -121,9 +160,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Spoon — used for soup or dessert.",
-      "scenarios": ["at a restaurant", "cooking"],
+      "scenarios": [
+        "at a restaurant",
+        "cooking"
+      ],
       "imageQuery": "spoon",
-      "image": "restaurant-cafe/cuchara.webp"
+      "image": "restaurant-cafe/cuchara.webp",
+      "level": "A"
     },
     {
       "id": "rc-tenedor",
@@ -132,9 +175,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Fork — set on the left of the plate at the table.",
-      "scenarios": ["at a restaurant", "cooking"],
+      "scenarios": [
+        "at a restaurant",
+        "cooking"
+      ],
       "imageQuery": "fork",
-      "image": "restaurant-cafe/tenedor.webp"
+      "image": "restaurant-cafe/tenedor.webp",
+      "level": "A"
     },
     {
       "id": "rc-cuchillo",
@@ -143,9 +190,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Knife — set on the right of the plate at the table.",
-      "scenarios": ["at a restaurant", "cooking"],
+      "scenarios": [
+        "at a restaurant",
+        "cooking"
+      ],
       "imageQuery": "table knife",
-      "image": "restaurant-cafe/cuchillo.webp"
+      "image": "restaurant-cafe/cuchillo.webp",
+      "level": "A"
     },
     {
       "id": "rc-servilleta",
@@ -154,9 +205,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Napkin — wipe your hands or place it on your lap.",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "napkin table setting",
-      "image": "restaurant-cafe/servilleta.webp"
+      "image": "restaurant-cafe/servilleta.webp",
+      "level": "A"
     },
     {
       "id": "rc-desayuno",
@@ -165,9 +220,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Breakfast — the morning meal (desayunar = to have breakfast).",
-      "scenarios": ["breakfast", "at a café"],
+      "scenarios": [
+        "breakfast",
+        "at a café"
+      ],
       "imageQuery": "breakfast spread table",
-      "image": "restaurant-cafe/desayuno.webp"
+      "image": "restaurant-cafe/desayuno.webp",
+      "level": "A"
     },
     {
       "id": "rc-almuerzo",
@@ -176,9 +235,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Lunch — the midday meal (almorzar = to have lunch).",
-      "scenarios": ["at a restaurant"],
+      "scenarios": [
+        "at a restaurant"
+      ],
       "imageQuery": "lunch plate meal",
-      "image": "restaurant-cafe/almuerzo.webp"
+      "image": "restaurant-cafe/almuerzo.webp",
+      "level": "A"
     },
     {
       "id": "rc-cena",
@@ -187,9 +249,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Dinner — the evening meal (cenar = to have dinner).",
-      "scenarios": ["at a restaurant"],
+      "scenarios": [
+        "at a restaurant"
+      ],
       "imageQuery": "dinner table food",
-      "image": "restaurant-cafe/cena.webp"
+      "image": "restaurant-cafe/cena.webp",
+      "level": "A"
     },
     {
       "id": "rc-entrada",
@@ -198,9 +263,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Appetizer/starter course — order it 'de entrada' before the main dish.",
-      "scenarios": ["at a restaurant"],
+      "scenarios": [
+        "at a restaurant"
+      ],
       "imageQuery": "appetizer starter dish",
-      "image": "restaurant-cafe/entrada.webp"
+      "image": "restaurant-cafe/entrada.webp",
+      "level": "A"
     },
     {
       "id": "rc-postre",
@@ -209,9 +277,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Dessert — ask '¿Qué hay de postre?' (What's for dessert?).",
-      "scenarios": ["at a restaurant", "dessert"],
+      "scenarios": [
+        "at a restaurant",
+        "dessert"
+      ],
       "imageQuery": "dessert cake plate",
-      "image": "restaurant-cafe/postre.webp"
+      "image": "restaurant-cafe/postre.webp",
+      "level": "A"
     },
     {
       "id": "rc-bebida",
@@ -220,9 +292,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Drink/beverage — a waiter may ask '¿Algo de beber?' (Something to drink?).",
-      "scenarios": ["at a restaurant", "at a café"],
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
       "imageQuery": "soft drink glass",
-      "image": "restaurant-cafe/bebida.webp"
+      "image": "restaurant-cafe/bebida.webp",
+      "level": "A"
     },
     {
       "id": "rc-reserva",
@@ -231,9 +307,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Reservation — 'tengo una reserva para las ocho' (I have a reservation for eight).",
-      "scenarios": ["at a restaurant"],
+      "scenarios": [
+        "at a restaurant"
+      ],
       "imageQuery": "reserved sign restaurant table",
-      "image": "restaurant-cafe/reserva.webp"
+      "image": "restaurant-cafe/reserva.webp",
+      "level": "A"
     },
     {
       "id": "rc-cocina",
@@ -242,9 +321,548 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Kitchen — or 'cuisine' (cocina mexicana = Mexican cuisine).",
-      "scenarios": ["at a restaurant", "cooking"],
+      "scenarios": [
+        "at a restaurant",
+        "cooking"
+      ],
       "imageQuery": "restaurant kitchen",
-      "image": "restaurant-cafe/cocina.webp"
+      "image": "restaurant-cafe/cocina.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-carta",
+      "es": "la carta",
+      "en": "menu (à la carte)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "À la carte menu — ask 'la carta, por favor'. Different from 'el menú del día' (set menu).",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "restaurant menu card",
+      "image": "restaurant-cafe/carta.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-pedido",
+      "es": "el pedido",
+      "en": "order",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Order — 'tomar el pedido' = to take the order. 'hacer un pedido' = to place an order.",
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
+      "imageQuery": "waiter taking order",
+      "image": "restaurant-cafe/pedido.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-platodedia",
+      "es": "el plato del día",
+      "en": "dish of the day",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dish of the day — the daily special, usually good value. Ask '¿cuál es el plato del día?'",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "daily special plate",
+      "image": "restaurant-cafe/platodedia.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-sobremesa",
+      "es": "la sobremesa",
+      "en": "after-dinner conversation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Time spent chatting at the table after eating — a beloved Spanish cultural tradition.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "friends talking after dinner",
+      "image": "restaurant-cafe/sobremesa.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-cocinero",
+      "es": "el cocinero",
+      "en": "cook",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cook (la cocinera for a woman) — the person who prepares food in the kitchen.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "cook in kitchen",
+      "image": "restaurant-cafe/cocinero.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-chef",
+      "es": "el chef",
+      "en": "chef",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Chef — head cook of a restaurant. 'el chef recomienda...' = the chef recommends...",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "chef restaurant kitchen",
+      "image": "restaurant-cafe/chef.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-bandeja",
+      "es": "la bandeja",
+      "en": "tray",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Tray — used by waiters to carry dishes and glasses.",
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
+      "imageQuery": "waiter tray",
+      "image": "restaurant-cafe/bandeja.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-mantel",
+      "es": "el mantel",
+      "en": "tablecloth",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tablecloth — the fabric covering the table at a restaurant.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "tablecloth restaurant",
+      "image": "restaurant-cafe/mantel.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-platillo",
+      "es": "el platillo",
+      "en": "saucer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Saucer — small plate that goes under a cup. 'una taza con su platillo'.",
+      "scenarios": [
+        "at a café"
+      ],
+      "imageQuery": "cup and saucer",
+      "image": "restaurant-cafe/platillo.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-pajita",
+      "es": "la pajita",
+      "en": "straw",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Straw — used for drinking. 'con pajita' = with a straw. Also called 'el popote' in Mexico.",
+      "scenarios": [
+        "at a café",
+        "at a restaurant"
+      ],
+      "imageQuery": "drinking straw cup",
+      "image": "restaurant-cafe/pajita.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-palillo",
+      "es": "el palillo",
+      "en": "toothpick",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Toothpick — often found on the table at restaurants after eating.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "toothpick",
+      "image": "restaurant-cafe/palillo.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-servicio",
+      "es": "el servicio",
+      "en": "service",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Service — 'el servicio está incluido' = service is included. Also means 'restroom' in some contexts.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "restaurant service",
+      "image": "restaurant-cafe/servicio.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-mesaparados",
+      "es": "una mesa para dos",
+      "en": "a table for two",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Table for two — one of the most useful phrases when entering a restaurant.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "table for two restaurant",
+      "image": "restaurant-cafe/mesaparados.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-reservarmesa",
+      "es": "reservar una mesa",
+      "en": "to reserve a table",
+      "pos": "verb",
+      "hint": "To reserve/book a table — 'quisiera reservar una mesa para esta noche' = I'd like to book a table for tonight.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "phone call reservation",
+      "image": "restaurant-cafe/reservarmesa.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-pedircuenta",
+      "es": "pedir la cuenta",
+      "en": "to ask for the bill",
+      "pos": "verb",
+      "hint": "To ask for the bill — say 'la cuenta, por favor' when you're ready to leave.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "bill check restaurant",
+      "image": "restaurant-cafe/pedircuenta.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-menudegustacion",
+      "es": "el menú degustación",
+      "en": "tasting menu",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tasting menu — multi-course menu showcasing the chef's best dishes.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "tasting menu fine dining",
+      "image": "restaurant-cafe/menudegustacion.webp",
+      "level": "C"
+    },
+    {
+      "id": "rc-vinodecasa",
+      "es": "el vino de la casa",
+      "en": "house wine",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "House wine — the restaurant's own wine, usually the most affordable option.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "house wine carafe",
+      "image": "restaurant-cafe/vinodecasa.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-platoprincipal",
+      "es": "el plato principal",
+      "en": "main course",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Main course — the biggest dish of the meal, served after the starter.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "main course plate",
+      "image": "restaurant-cafe/platoprincipal.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-ensaladadedia",
+      "es": "la ensalada del día",
+      "en": "salad of the day",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Salad of the day — changes daily based on fresh ingredients available.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "fresh salad plate",
+      "image": "restaurant-cafe/ensaladadedia.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-aguacongas",
+      "es": "el agua con gas",
+      "en": "sparkling water",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sparkling water — carbonated water. The opposite is 'agua sin gas' (still water).",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "sparkling water bottle glass",
+      "image": "restaurant-cafe/aguacongas.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-aguasingas",
+      "es": "el agua sin gas",
+      "en": "still water",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Still water — non-carbonated water. '¿con gas o sin gas?' = sparkling or still?",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "still water glass",
+      "image": "restaurant-cafe/aguasingas.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-especialidad",
+      "es": "la especialidad",
+      "en": "specialty",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Specialty — '¿cuál es la especialidad de la casa?' = what is the house specialty?",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "chef specialty dish",
+      "image": "restaurant-cafe/especialidad.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-buffetlibre",
+      "es": "el bufé libre",
+      "en": "all-you-can-eat buffet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "All-you-can-eat buffet — pay one price and eat as much as you like.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "buffet food table",
+      "image": "restaurant-cafe/buffetlibre.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-terraza",
+      "es": "la terraza",
+      "en": "terrace",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Terrace — outdoor seating area. 'sentarse en la terraza' = to sit on the terrace.",
+      "scenarios": [
+        "at a restaurant",
+        "at a café"
+      ],
+      "imageQuery": "restaurant terrace outdoor",
+      "image": "restaurant-cafe/terraza.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-entrante",
+      "es": "el entrante",
+      "en": "starter",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Starter (Spain) — first course before the main dish. Similar to 'la entrada'.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "starter dish appetizer",
+      "image": "restaurant-cafe/entrante.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-cubiertos",
+      "es": "los cubiertos",
+      "en": "cutlery",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cutlery — all the eating utensils together (knife, fork, spoon). '¿me trae cubiertos?' = can I have cutlery?",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "cutlery set fork knife spoon",
+      "image": "restaurant-cafe/cubiertos.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-vegetariano",
+      "es": "vegetariano",
+      "en": "vegetarian",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Vegetarian — 'menú vegetariano' = vegetarian menu.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "vegetarian food dish",
+      "image": "restaurant-cafe/vegetariano.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-vegano",
+      "es": "vegano",
+      "en": "vegan",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Vegan — 'opción vegana' = vegan option.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "vegan food plant",
+      "image": "restaurant-cafe/vegano.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-sin-gluten",
+      "es": "sin gluten",
+      "en": "gluten-free",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "Gluten-free — 'plato sin gluten' = gluten-free dish.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "gluten free food",
+      "image": "restaurant-cafe/sin-gluten.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-picante",
+      "es": "picante",
+      "en": "spicy",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Spicy — '¿es picante?' = is it spicy?",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "spicy food chili pepper",
+      "image": "restaurant-cafe/picante.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-delicioso",
+      "es": "delicioso",
+      "en": "delicious",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Delicious — 'está delicioso' = it's delicious.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "delicious food meal",
+      "image": "restaurant-cafe/delicioso.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-para-llevar",
+      "es": "para llevar",
+      "en": "to go",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "To go/take away — '¿es para comer aquí o para llevar?' = here or to go?",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "takeaway food bag",
+      "image": "restaurant-cafe/para-llevar.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-merienda",
+      "es": "la merienda",
+      "en": "afternoon snack",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Afternoon snack — eaten around 5 pm in Spain.",
+      "scenarios": [
+        "at a restaurant",
+        "daily routine"
+      ],
+      "imageQuery": "afternoon tea snack",
+      "image": "restaurant-cafe/merienda.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-tapa",
+      "es": "la tapa",
+      "en": "tapa",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Tapa — small dish; in Spain, often served free with drinks.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "tapas small dishes Spanish",
+      "image": "restaurant-cafe/tapa.webp",
+      "level": "A"
+    },
+    {
+      "id": "rc-racion",
+      "es": "la ración",
+      "en": "portion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Portion — 'una ración de patatas bravas' = a portion of patatas bravas.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "food portion serving",
+      "image": "restaurant-cafe/racion.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-carta-vinos",
+      "es": "la carta de vinos",
+      "en": "wine list",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wine list — 'la carta de vinos, por favor' = the wine list, please.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "wine list restaurant",
+      "image": "restaurant-cafe/carta-vinos.webp",
+      "level": "C"
+    },
+    {
+      "id": "rc-sabroso",
+      "es": "sabroso",
+      "en": "tasty",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Tasty/flavorful — 'está muy sabroso' = it's very tasty.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "tasty food flavorful",
+      "image": "restaurant-cafe/sabroso.webp",
+      "level": "B"
+    },
+    {
+      "id": "rc-a-domicilio",
+      "es": "a domicilio",
+      "en": "home delivery",
+      "pos": "phrase",
+      "gender": null,
+      "hint": "Home delivery — 'pedir comida a domicilio' = to order food for delivery.",
+      "scenarios": [
+        "at a restaurant"
+      ],
+      "imageQuery": "food delivery home",
+      "image": "restaurant-cafe/a-domicilio.webp",
+      "level": "B"
     }
   ]
 }

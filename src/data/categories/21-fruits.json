@@ -1,0 +1,939 @@
+{
+  "id": "fruits",
+  "order": 21,
+  "name": "Fruits",
+  "nameEs": "Las frutas",
+  "words": [
+    {
+      "id": "fr-pera",
+      "es": "la pera",
+      "en": "pear",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pear — a sweet green or yellow fruit. 'Quiero una pera' = I want a pear.",
+      "scenarios": [
+        "at the market",
+        "fruit stand",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh pear fruit",
+      "image": "fruits/pera.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-uva",
+      "es": "la uva",
+      "en": "grape",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Grape — grows in clusters. 'Las uvas' (plural) are eaten fresh or made into wine.",
+      "scenarios": [
+        "at the market",
+        "winery",
+        "fruit bowl"
+      ],
+      "imageQuery": "bunch of grapes",
+      "image": "fruits/uva.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-fresa",
+      "es": "la fresa",
+      "en": "strawberry",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Strawberry — also called 'la frutilla' in South America. 'Fresas con crema' = strawberries with cream.",
+      "scenarios": [
+        "at the market",
+        "dessert",
+        "smoothie bar"
+      ],
+      "imageQuery": "fresh strawberries",
+      "image": "fruits/fresa.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-limon",
+      "es": "el limón",
+      "en": "lemon / lime",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lemon/lime — in Latin America 'limón' usually means lime. 'Agua de limón' = limeade.",
+      "scenarios": [
+        "cooking",
+        "drinks",
+        "at the market"
+      ],
+      "imageQuery": "lemon lime citrus fruit",
+      "image": "fruits/limon.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-pina",
+      "es": "la piña",
+      "en": "pineapple",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pineapple — tropical fruit. 'Jugo de piña' = pineapple juice. Very popular in Latin America.",
+      "scenarios": [
+        "tropical fruit stand",
+        "juice bar",
+        "at the market"
+      ],
+      "imageQuery": "fresh pineapple",
+      "image": "fruits/pina.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-mango",
+      "es": "el mango",
+      "en": "mango",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mango — tropical favourite. Eaten fresh, in juices, or with chili salt in Mexico.",
+      "scenarios": [
+        "tropical fruit stand",
+        "juice bar",
+        "at the market"
+      ],
+      "imageQuery": "fresh mango fruit",
+      "image": "fruits/mango.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-melon",
+      "es": "el melón",
+      "en": "melon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Melon — sweet and refreshing. 'Un trozo de melón' = a slice of melon.",
+      "scenarios": [
+        "summer fruit",
+        "at the market",
+        "breakfast"
+      ],
+      "imageQuery": "cantaloupe melon sliced",
+      "image": "fruits/melon.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-sandia",
+      "es": "la sandía",
+      "en": "watermelon",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Watermelon — a giant green fruit with red flesh inside. Perfect for hot summer days.",
+      "scenarios": [
+        "summer picnic",
+        "at the market",
+        "beach snack"
+      ],
+      "imageQuery": "watermelon sliced red",
+      "image": "fruits/sandia.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-papaya",
+      "es": "la papaya",
+      "en": "papaya",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Papaya — tropical orange-fleshed fruit. Great for digestion. 'Jugo de papaya' = papaya juice.",
+      "scenarios": [
+        "tropical fruit stand",
+        "breakfast",
+        "juice bar"
+      ],
+      "imageQuery": "papaya fruit sliced",
+      "image": "fruits/papaya.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-coco",
+      "es": "el coco",
+      "en": "coconut",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Coconut — hard brown shell with white flesh and coconut water inside. 'Agua de coco' = coconut water.",
+      "scenarios": [
+        "tropical beach",
+        "juice bar",
+        "at the market"
+      ],
+      "imageQuery": "fresh coconut cracked open",
+      "image": "fruits/coco.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-cereza",
+      "es": "la cereza",
+      "en": "cherry",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cherry — small red stone fruit. 'Las cerezas' are seasonal in summer.",
+      "scenarios": [
+        "fruit stand",
+        "dessert",
+        "baking"
+      ],
+      "imageQuery": "fresh red cherries",
+      "image": "fruits/cereza.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-durazno",
+      "es": "el durazno",
+      "en": "peach",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Peach — called 'melocotón' in Spain, 'durazno' in Latin America. Juicy summer fruit.",
+      "scenarios": [
+        "fruit stand",
+        "summer market",
+        "dessert"
+      ],
+      "imageQuery": "fresh peach fruit",
+      "image": "fruits/durazno.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-kiwi",
+      "es": "el kiwi",
+      "en": "kiwi",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Kiwi — small brown fruit with bright green flesh inside. Rich in vitamin C.",
+      "scenarios": [
+        "fruit salad",
+        "grocery shopping",
+        "breakfast"
+      ],
+      "imageQuery": "kiwi fruit sliced green",
+      "image": "fruits/kiwi.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-frambuesa",
+      "es": "la frambuesa",
+      "en": "raspberry",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Raspberry — small red berry with a tart flavour. Used in jams and desserts.",
+      "scenarios": [
+        "berry picking",
+        "baking",
+        "fruit stand"
+      ],
+      "imageQuery": "fresh raspberries bowl",
+      "image": "fruits/frambuesa.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-arandano",
+      "es": "el arándano",
+      "en": "blueberry",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Blueberry — small blue berry packed with antioxidants. Also can mean cranberry in some regions.",
+      "scenarios": [
+        "berry picking",
+        "smoothie bar",
+        "grocery shopping"
+      ],
+      "imageQuery": "fresh blueberries bowl",
+      "image": "fruits/arandano.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-higo",
+      "es": "el higo",
+      "en": "fig",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fig — soft sweet fruit with many tiny seeds inside. Common in Mediterranean cooking.",
+      "scenarios": [
+        "Mediterranean market",
+        "cheese board",
+        "baking"
+      ],
+      "imageQuery": "fresh figs cut open",
+      "image": "fruits/higo.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-ciruela",
+      "es": "la ciruela",
+      "en": "plum",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Plum — purple or red stone fruit. 'Ciruela pasa' = prune (dried plum).",
+      "scenarios": [
+        "fruit stand",
+        "baking",
+        "at the market"
+      ],
+      "imageQuery": "fresh plums purple",
+      "image": "fruits/ciruela.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-mandarina",
+      "es": "la mandarina",
+      "en": "mandarin / tangerine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mandarin — small easy-to-peel citrus fruit. Sweet and perfect for snacking.",
+      "scenarios": [
+        "lunchbox snack",
+        "fruit stand",
+        "grocery shopping"
+      ],
+      "imageQuery": "mandarin tangerine citrus peeled",
+      "image": "fruits/mandarina.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-pomelo",
+      "es": "el pomelo",
+      "en": "grapefruit",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Grapefruit — large bitter-sweet citrus. 'Jugo de pomelo' = grapefruit juice.",
+      "scenarios": [
+        "breakfast",
+        "juice bar",
+        "grocery shopping"
+      ],
+      "imageQuery": "grapefruit halved",
+      "image": "fruits/pomelo.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-guayaba",
+      "es": "la guayaba",
+      "en": "guava",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Guava — tropical pink-fleshed fruit. Used in juices, jams, and 'pasta de guayaba'.",
+      "scenarios": [
+        "tropical market",
+        "juice bar",
+        "Latin American bakery"
+      ],
+      "imageQuery": "guava fruit pink flesh",
+      "image": "fruits/guayaba.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-maracuya",
+      "es": "la maracuyá",
+      "en": "passion fruit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Passion fruit — small wrinkled purple fruit with tart yellow pulp inside. Very aromatic.",
+      "scenarios": [
+        "tropical juice bar",
+        "dessert",
+        "at the market"
+      ],
+      "imageQuery": "passion fruit maracuya cut open",
+      "image": "fruits/maracuya.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-lichi",
+      "es": "el lichi",
+      "en": "lychee",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lychee — small tropical fruit with rough red skin and sweet white flesh. Asian origin.",
+      "scenarios": [
+        "Asian market",
+        "exotic fruit stand",
+        "tropical drinks"
+      ],
+      "imageQuery": "lychee fruit peeled",
+      "image": "fruits/lichi.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-carambola",
+      "es": "la carambola",
+      "en": "starfruit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Starfruit — when sliced crosswise it forms a star shape. Crisp and mildly sweet.",
+      "scenarios": [
+        "exotic fruit stand",
+        "fruit salad",
+        "tropical market"
+      ],
+      "imageQuery": "starfruit carambola sliced",
+      "image": "fruits/carambola.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-guanabana",
+      "es": "la guanábana",
+      "en": "soursop",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Soursop — large spiky green tropical fruit with creamy white flesh. Very refreshing as a juice.",
+      "scenarios": [
+        "Caribbean market",
+        "juice bar",
+        "tropical fruit stand"
+      ],
+      "imageQuery": "soursop guanabana fruit",
+      "image": "fruits/guanabana.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-tamarindo",
+      "es": "el tamarindo",
+      "en": "tamarind",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tamarind — brown pod with sticky tart pulp. Used in sauces and 'agua de tamarindo'.",
+      "scenarios": [
+        "Latin American market",
+        "traditional drink",
+        "Mexican candy"
+      ],
+      "imageQuery": "tamarind pods and pulp",
+      "image": "fruits/tamarindo.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-caqui",
+      "es": "el caqui",
+      "en": "persimmon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Persimmon — orange fruit, similar in shape to a tomato. Very sweet when fully ripe.",
+      "scenarios": [
+        "autumn market",
+        "fruit stand",
+        "grocery shopping"
+      ],
+      "imageQuery": "persimmon kaki orange fruit",
+      "image": "fruits/caqui.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-membrillo",
+      "es": "el membrillo",
+      "en": "quince",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Quince — yellow fruit related to the pear. Usually cooked into jam or paste ('dulce de membrillo').",
+      "scenarios": [
+        "traditional market",
+        "baking",
+        "cheese board"
+      ],
+      "imageQuery": "quince yellow fruit",
+      "image": "fruits/membrillo.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-mora",
+      "es": "la mora",
+      "en": "blackberry / mulberry",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Blackberry — dark purple berry. In Colombia 'mora' is blackberry; in Spain it can mean mulberry too.",
+      "scenarios": [
+        "berry picking",
+        "fruit stand",
+        "juice bar"
+      ],
+      "imageQuery": "fresh blackberries bowl",
+      "image": "fruits/mora.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-nectarina",
+      "es": "la nectarina",
+      "en": "nectarine",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nectarine — like a smooth-skinned peach. Juicy and sweet in summer.",
+      "scenarios": [
+        "fruit stand",
+        "summer market",
+        "fruit salad"
+      ],
+      "imageQuery": "nectarine fruit yellow red",
+      "image": "fruits/nectarina.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-granada",
+      "es": "la granada",
+      "en": "pomegranate",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pomegranate — round red fruit full of juicy seeds called 'arilos'. Rich in antioxidants.",
+      "scenarios": [
+        "health food store",
+        "fruit stand",
+        "festive table"
+      ],
+      "imageQuery": "pomegranate cut open seeds",
+      "image": "fruits/granada.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-datil",
+      "es": "el dátil",
+      "en": "date (fruit)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Date — small brown fruit from the date palm. Very sweet and sticky. Common in Middle Eastern cooking.",
+      "scenarios": [
+        "Middle Eastern market",
+        "natural food store",
+        "snack"
+      ],
+      "imageQuery": "dried dates palm fruit",
+      "image": "fruits/datil.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-albaricoque",
+      "es": "el albaricoque",
+      "en": "apricot",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Apricot — small orange stone fruit. Called 'chabacano' in Mexico. Great fresh or dried.",
+      "scenarios": [
+        "fruit stand",
+        "baking",
+        "summer market"
+      ],
+      "imageQuery": "fresh apricots orange",
+      "image": "fruits/albaricoque.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-pitahaya",
+      "es": "la pitahaya",
+      "en": "dragon fruit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Dragon fruit — bright pink skin with white or red speckled flesh. Mild and refreshing.",
+      "scenarios": [
+        "exotic fruit stand",
+        "tropical market",
+        "smoothie bowl"
+      ],
+      "imageQuery": "dragon fruit pitahaya pink",
+      "image": "fruits/pitahaya.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-acai",
+      "es": "el açaí",
+      "en": "acai berry",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Acai — small dark purple Amazonian berry. Usually consumed as a frozen pulp in smoothie bowls.",
+      "scenarios": [
+        "smoothie bar",
+        "health food store",
+        "Brazilian restaurant"
+      ],
+      "imageQuery": "acai bowl purple berries",
+      "image": "fruits/acai.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-rambutan",
+      "es": "el rambután",
+      "en": "rambutan",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rambutan — hairy red tropical fruit with sweet white flesh inside. Related to lychee.",
+      "scenarios": [
+        "Asian market",
+        "exotic fruit stand",
+        "tropical market"
+      ],
+      "imageQuery": "rambutan hairy red tropical fruit",
+      "image": "fruits/rambutan.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-lucuma",
+      "es": "la lúcuma",
+      "en": "lucuma",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lucuma — Peruvian fruit with dry orange flesh and a caramel-maple flavour. Used in ice cream.",
+      "scenarios": [
+        "Peruvian market",
+        "ice cream shop",
+        "natural food store"
+      ],
+      "imageQuery": "lucuma peruvian fruit",
+      "image": "fruits/lucuma.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-chirimoya",
+      "es": "la chirimoya",
+      "en": "cherimoya",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Cherimoya — green scaly fruit with creamy white flesh. Mark Twain called it 'the most delicious fruit known to men.'",
+      "scenarios": [
+        "Andean market",
+        "tropical fruit stand",
+        "dessert"
+      ],
+      "imageQuery": "cherimoya fruit green",
+      "image": "fruits/chirimoya.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-babaco",
+      "es": "el babaco",
+      "en": "babaco",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Babaco — elongated yellow fruit from Ecuador, similar to papaya. Mildly sweet and sour.",
+      "scenarios": [
+        "Ecuadorian market",
+        "exotic fruit stand",
+        "juice bar"
+      ],
+      "imageQuery": "babaco yellow fruit Ecuador",
+      "image": "fruits/babaco.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-tomate-de-arbol",
+      "es": "el tomate de árbol",
+      "en": "tree tomato / tamarillo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tamarillo — grows on a tree. Red-orange with tart flesh. Popular in Ecuador as 'jugo de tomate de árbol'.",
+      "scenarios": [
+        "Andean market",
+        "juice bar",
+        "Ecuadorian breakfast"
+      ],
+      "imageQuery": "tamarillo tree tomato red",
+      "image": "fruits/tomate-de-arbol.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-borojo",
+      "es": "el borojó",
+      "en": "borojo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Borojó — dark brown Colombian fruit with very thick pulp. Known for its energy-boosting properties.",
+      "scenarios": [
+        "Colombian market",
+        "juice bar",
+        "tropical fruit stand"
+      ],
+      "imageQuery": "borojo colombian tropical fruit",
+      "image": "fruits/borojo.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-mamey",
+      "es": "el mamey",
+      "en": "mamey sapote",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mamey sapote — large brown fruit with salmon-pink flesh. Sweet like sweet potato and pumpkin combined.",
+      "scenarios": [
+        "Caribbean market",
+        "juice bar",
+        "tropical fruit stand"
+      ],
+      "imageQuery": "mamey sapote fruit orange flesh",
+      "image": "fruits/mamey.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-nance",
+      "es": "el nance",
+      "en": "nance",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Nance — tiny yellow-orange Central American berry with a distinctive tart oily flavour.",
+      "scenarios": [
+        "Central American market",
+        "traditional dessert",
+        "local fruit stand"
+      ],
+      "imageQuery": "nance yellow berries tropical",
+      "image": "fruits/nance.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-maranon",
+      "es": "el marañón",
+      "en": "cashew apple",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cashew apple — the fleshy fruit attached to the cashew nut. Very juicy and slightly astringent.",
+      "scenarios": [
+        "Central American market",
+        "juice bar",
+        "tropical fruit stand"
+      ],
+      "imageQuery": "cashew apple marañon red yellow fruit",
+      "image": "fruits/maranon.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-jobo",
+      "es": "el jobo",
+      "en": "hog plum / jobo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hog plum — small yellow tropical fruit with a large seed. Eaten fresh or used in drinks.",
+      "scenarios": [
+        "Caribbean market",
+        "local fruit stand",
+        "tropical garden"
+      ],
+      "imageQuery": "hog plum yellow tropical fruit",
+      "image": "fruits/jobo.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-icaco",
+      "es": "el ícaco",
+      "en": "coco plum",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Coco plum — small white to purple fruit found along Caribbean coastlines. Mildly sweet.",
+      "scenarios": [
+        "Caribbean beach",
+        "local fruit stand",
+        "tropical garden"
+      ],
+      "imageQuery": "coco plum icaco white fruit",
+      "image": "fruits/icaco.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-zapote",
+      "es": "el zapote",
+      "en": "zapote / black sapote",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Zapote — tropical fruit with chocolate-pudding-like black flesh when ripe. 'Parece chocolate.'",
+      "scenarios": [
+        "Mexican market",
+        "tropical fruit stand",
+        "dessert"
+      ],
+      "imageQuery": "zapote black sapote fruit",
+      "image": "fruits/zapote.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-nispero",
+      "es": "el níspero",
+      "en": "loquat / medlar",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Loquat — small orange-yellow fruit with sweet-tart flavour. Common in Spain and Latin America.",
+      "scenarios": [
+        "Spanish market",
+        "fruit stand",
+        "traditional garden"
+      ],
+      "imageQuery": "loquat nispero orange fruit cluster",
+      "image": "fruits/nispero.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-pepino-dulce",
+      "es": "el pepino dulce",
+      "en": "pepino melon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pepino melon — Andean fruit with striped purple-and-cream skin and melon-like flesh.",
+      "scenarios": [
+        "Andean market",
+        "exotic fruit stand",
+        "Peruvian market"
+      ],
+      "imageQuery": "pepino dulce melon andean fruit",
+      "image": "fruits/pepino-dulce.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-granadilla",
+      "es": "la granadilla",
+      "en": "sweet granadilla",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Granadilla — orange shell passion fruit with sweet, gel-like seeds inside. Eaten directly from the shell.",
+      "scenarios": [
+        "Colombian market",
+        "tropical fruit stand",
+        "snack"
+      ],
+      "imageQuery": "granadilla orange passion fruit",
+      "image": "fruits/granadilla.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-toronja",
+      "es": "la toronja",
+      "en": "grapefruit (Latin America)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Toronja — the common Latin American word for grapefruit (called 'pomelo' in Spain). Juicy and bitter-sweet.",
+      "scenarios": [
+        "Latin American market",
+        "breakfast juice",
+        "grocery shopping"
+      ],
+      "imageQuery": "grapefruit toronja halved citrus",
+      "image": "fruits/toronja.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-lima",
+      "es": "la lima",
+      "en": "sweet lime",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lima — a mild, sweet lime variety. Less acidic than the regular limón. Used in salads and drinks.",
+      "scenarios": [
+        "Mexican market",
+        "fruit stand",
+        "cooking"
+      ],
+      "imageQuery": "sweet lime green citrus fruit",
+      "image": "fruits/lima.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-caimito",
+      "es": "el caimito",
+      "en": "star apple",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Star apple — tropical fruit with purple or green skin and milky sweet flesh. When cut open shows a star pattern.",
+      "scenarios": [
+        "Caribbean market",
+        "tropical fruit stand",
+        "local garden"
+      ],
+      "imageQuery": "star apple caimito tropical fruit",
+      "image": "fruits/caimito.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-manzana",
+      "es": "la manzana",
+      "en": "apple",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Apple — 'una manzana al día' = an apple a day.",
+      "scenarios": [
+        "fruits"
+      ],
+      "imageQuery": "red apple fruit",
+      "image": "fruits/manzana.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-naranja",
+      "es": "la naranja",
+      "en": "orange",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Orange (fruit) — 'el jugo de naranja' = orange juice.",
+      "scenarios": [
+        "fruits"
+      ],
+      "imageQuery": "orange citrus fruit",
+      "image": "fruits/naranja.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-platano",
+      "es": "el plátano",
+      "en": "banana",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Banana — 'un plátano maduro' = a ripe banana.",
+      "scenarios": [
+        "fruits"
+      ],
+      "imageQuery": "banana yellow fruit",
+      "image": "fruits/platano.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-fruta",
+      "es": "la fruta",
+      "en": "fruit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fruit (generic) — 'comer más fruta' = to eat more fruit.",
+      "scenarios": [
+        "fruits",
+        "food"
+      ],
+      "imageQuery": "fruit basket variety",
+      "image": "fruits/fruta.webp",
+      "level": "A"
+    },
+    {
+      "id": "fr-melocoton",
+      "es": "el melocotón",
+      "en": "peach",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Peach (Spain) — 'el durazno' is the term in Latin America.",
+      "scenarios": [
+        "fruits"
+      ],
+      "imageQuery": "peach fruit orange",
+      "image": "fruits/melocoton.webp",
+      "level": "B"
+    },
+    {
+      "id": "fr-baya",
+      "es": "la baya",
+      "en": "berry",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Berry — 'las bayas del bosque' = wild berries.",
+      "scenarios": [
+        "fruits"
+      ],
+      "imageQuery": "berries wild forest",
+      "image": "fruits/baya.webp",
+      "level": "C"
+    },
+    {
+      "id": "fr-pulpa",
+      "es": "la pulpa",
+      "en": "pulp",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pulp — 'la pulpa de la fruta' = the fruit pulp.",
+      "scenarios": [
+        "fruits"
+      ],
+      "imageQuery": "fruit pulp inside",
+      "image": "fruits/pulpa.webp",
+      "level": "C"
+    }
+  ]
+}

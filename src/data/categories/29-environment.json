@@ -1,0 +1,927 @@
+{
+  "id": "environment",
+  "order": 29,
+  "name": "Environment",
+  "nameEs": "El medio ambiente",
+  "words": [
+    {
+      "id": "ev-naturaleza",
+      "es": "la naturaleza",
+      "en": "nature",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nature — 'salir a la naturaleza' = to go out into nature. The broad word for the natural world.",
+      "scenarios": [
+        "outdoors",
+        "ecology"
+      ],
+      "imageQuery": "nature landscape trees mountains green",
+      "image": "environment/naturaleza.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-bosque",
+      "es": "el bosque",
+      "en": "forest / woods",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Forest — 'pasear por el bosque' = to walk through the forest. Smaller/temperate than 'selva'. A key ecosystem.",
+      "scenarios": [
+        "nature",
+        "ecology"
+      ],
+      "imageQuery": "forest trees woodland path",
+      "image": "environment/bosque.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-selva",
+      "es": "la selva",
+      "en": "jungle / tropical forest",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Jungle — 'la selva amazónica' = the Amazon jungle. Denser and tropical. Different from 'bosque' (temperate forest).",
+      "scenarios": [
+        "tropical environment",
+        "ecology"
+      ],
+      "imageQuery": "tropical jungle rainforest dense vegetation",
+      "image": "environment/selva.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-oceano",
+      "es": "el océano",
+      "en": "ocean",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ocean — 'el Océano Pacífico' = the Pacific Ocean. Larger than a 'mar' (sea). Covers 71% of Earth's surface.",
+      "scenarios": [
+        "geography",
+        "ecology"
+      ],
+      "imageQuery": "ocean waves sea horizon blue",
+      "image": "environment/oceano.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-rio",
+      "es": "el río",
+      "en": "river",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "River — 'el Río Amazonas' = the Amazon River. 'ir al río' = to go to the river. Essential freshwater source.",
+      "scenarios": [
+        "geography",
+        "nature"
+      ],
+      "imageQuery": "river flowing water landscape",
+      "image": "environment/rio.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-lago",
+      "es": "el lago",
+      "en": "lake",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Lake — 'el lago Titicaca' is the world's highest navigable lake. 'nadar en el lago' = to swim in the lake.",
+      "scenarios": [
+        "geography",
+        "nature"
+      ],
+      "imageQuery": "lake calm water reflection mountains",
+      "image": "environment/lago.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-montana",
+      "es": "la montaña",
+      "en": "mountain",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mountain — 'escalar una montaña' = to climb a mountain. The Andes are 'las montañas más largas del mundo' = the longest mountain range in the world.",
+      "scenarios": [
+        "geography",
+        "outdoor activities"
+      ],
+      "imageQuery": "mountain peak snow landscape",
+      "image": "environment/montana.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-desierto",
+      "es": "el desierto",
+      "en": "desert",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Desert — 'el desierto de Atacama' in Chile is the driest place on Earth. 'cruzar el desierto' = to cross the desert.",
+      "scenarios": [
+        "geography",
+        "climate"
+      ],
+      "imageQuery": "desert sand dunes hot arid",
+      "image": "environment/desierto.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-glaciar",
+      "es": "el glaciar",
+      "en": "glacier",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Glacier — 'los glaciares se están derritiendo' = the glaciers are melting. Found in the Andes and Patagonia. Key water source.",
+      "scenarios": [
+        "climate change",
+        "geography"
+      ],
+      "imageQuery": "glacier ice blue mountain Patagonia",
+      "image": "environment/glaciar.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-volcan",
+      "es": "el volcán",
+      "en": "volcano",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Volcano — 'el volcán entró en erupción' = the volcano erupted. Latin America has many active volcanoes. 'volcán activo' = active volcano.",
+      "scenarios": [
+        "geography",
+        "natural disasters"
+      ],
+      "imageQuery": "volcano eruption lava smoke",
+      "image": "environment/volcan.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-planeta",
+      "es": "el planeta",
+      "en": "planet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Planet — 'salvar el planeta' = to save the planet. A key phrase in environmental activism. 'nuestro planeta' = our planet.",
+      "scenarios": [
+        "ecology",
+        "environmental activism"
+      ],
+      "imageQuery": "planet Earth from space",
+      "image": "environment/planeta.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-tierra",
+      "es": "la Tierra",
+      "en": "Earth / soil",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Earth — capitalized: the planet. Lowercase 'tierra' = soil/earth/land. 'proteger la Tierra' = to protect the Earth.",
+      "scenarios": [
+        "ecology",
+        "farming"
+      ],
+      "imageQuery": "planet Earth globe green blue",
+      "image": "environment/tierra.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-atmosfera",
+      "es": "la atmósfera",
+      "en": "atmosphere",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Atmosphere — 'la atmósfera de la Tierra' = the Earth's atmosphere. Protects us from solar radiation. Key in climate discussions.",
+      "scenarios": [
+        "climate science",
+        "ecology"
+      ],
+      "imageQuery": "Earth atmosphere layer from space",
+      "image": "environment/atmosfera.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-clima",
+      "es": "el clima",
+      "en": "climate",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Climate — different from 'tiempo' (weather). 'el clima está cambiando' = the climate is changing. 'clima tropical' = tropical climate.",
+      "scenarios": [
+        "climate",
+        "weather"
+      ],
+      "imageQuery": "climate zones world map",
+      "image": "environment/clima.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-contaminacion",
+      "es": "la contaminación",
+      "en": "pollution / contamination",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pollution — 'la contaminación del aire' = air pollution. 'la contaminación del agua' = water pollution. A major environmental issue.",
+      "scenarios": [
+        "environmental issues",
+        "cities"
+      ],
+      "imageQuery": "air pollution smog city factory smoke",
+      "image": "environment/contaminacion.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-reciclaje",
+      "es": "el reciclaje",
+      "en": "recycling",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Recycling — 'promover el reciclaje' = to promote recycling. 'reciclar' = to recycle. Separate bins for 'papel', 'vidrio', 'plástico'.",
+      "scenarios": [
+        "environmental action",
+        "daily life"
+      ],
+      "imageQuery": "recycling bins colored waste sorting",
+      "image": "environment/reciclaje.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-basura",
+      "es": "la basura",
+      "en": "trash / rubbish / waste",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Trash — 'no tires basura' = don't litter. 'basura orgánica' = organic waste. 'sacar la basura' = to take out the trash.",
+      "scenarios": [
+        "household",
+        "environmental issues"
+      ],
+      "imageQuery": "trash garbage waste bins street",
+      "image": "environment/basura.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-energiasolar",
+      "es": "la energía solar",
+      "en": "solar energy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Solar energy — 'instalar paneles de energía solar' = to install solar panels. Renewable and increasingly affordable.",
+      "scenarios": [
+        "renewable energy",
+        "technology"
+      ],
+      "imageQuery": "solar panels rooftop energy sun",
+      "image": "environment/energiasolar.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-energiaeolica",
+      "es": "la energía eólica",
+      "en": "wind energy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wind energy — from 'eólico' (relating to wind, from Aeolus, god of wind). 'los parques eólicos' = wind farms.",
+      "scenarios": [
+        "renewable energy",
+        "technology"
+      ],
+      "imageQuery": "wind turbines farm renewable energy",
+      "image": "environment/energiaeolica.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-energiarenov",
+      "es": "la energía renovable",
+      "en": "renewable energy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Renewable energy — 'la transición a energías renovables' = the transition to renewable energy. Includes solar, wind, and hydroelectric.",
+      "scenarios": [
+        "environmental policy",
+        "technology"
+      ],
+      "imageQuery": "renewable energy solar wind green",
+      "image": "environment/energiarenov.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-combustiblefosil",
+      "es": "el combustible fósil",
+      "en": "fossil fuel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fossil fuel — 'depender de los combustibles fósiles' = to depend on fossil fuels. Coal, oil, and gas. Main driver of climate change.",
+      "scenarios": [
+        "climate change",
+        "energy"
+      ],
+      "imageQuery": "fossil fuel oil coal petroleum industry",
+      "image": "environment/combustiblefosil.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-calentglobal",
+      "es": "el calentamiento global",
+      "en": "global warming",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Global warming — 'el calentamiento global amenaza los ecosistemas' = global warming threatens ecosystems. Rising average temperatures worldwide.",
+      "scenarios": [
+        "climate change",
+        "environmental issues"
+      ],
+      "imageQuery": "global warming thermometer Earth temperature",
+      "image": "environment/calentglobal.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-cambioclimatico",
+      "es": "el cambio climático",
+      "en": "climate change",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Climate change — 'luchar contra el cambio climático' = to fight climate change. The defining environmental challenge of our era.",
+      "scenarios": [
+        "environmental policy",
+        "global issues"
+      ],
+      "imageQuery": "climate change drought flood extreme weather",
+      "image": "environment/cambioclimatico.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-efectoinvern",
+      "es": "el efecto invernadero",
+      "en": "greenhouse effect",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Greenhouse effect — 'los gases de efecto invernadero' = greenhouse gases. Traps heat in the atmosphere. Natural process amplified by human activity.",
+      "scenarios": [
+        "climate science",
+        "environmental education"
+      ],
+      "imageQuery": "greenhouse effect atmosphere diagram Earth",
+      "image": "environment/efectoinvern.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-huellacarb",
+      "es": "la huella de carbono",
+      "en": "carbon footprint",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Carbon footprint — 'reducir tu huella de carbono' = to reduce your carbon footprint. The total CO₂ emissions of an individual or organization.",
+      "scenarios": [
+        "environmental awareness",
+        "sustainability"
+      ],
+      "imageQuery": "carbon footprint CO2 emissions environment",
+      "image": "environment/huellacarb.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-deforestacion",
+      "es": "la deforestación",
+      "en": "deforestation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Deforestation — 'la deforestación del Amazonas' = the deforestation of the Amazon. Loss of forests at massive scale due to logging and farming.",
+      "scenarios": [
+        "environmental issues",
+        "biodiversity"
+      ],
+      "imageQuery": "deforestation cut trees Amazon forest clearing",
+      "image": "environment/deforestacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-erosion",
+      "es": "la erosión",
+      "en": "erosion",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Erosion — 'la erosión del suelo' = soil erosion. The wearing away of land by wind and water. Made worse by deforestation.",
+      "scenarios": [
+        "environmental science",
+        "agriculture"
+      ],
+      "imageQuery": "soil erosion land degradation river bank",
+      "image": "environment/erosion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-sequia",
+      "es": "la sequía",
+      "en": "drought",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Drought — 'la sequía devastó los cultivos' = the drought devastated the crops. Extended period of abnormally low rainfall.",
+      "scenarios": [
+        "natural disasters",
+        "climate change"
+      ],
+      "imageQuery": "drought dry cracked earth water scarcity",
+      "image": "environment/sequia.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-inundacion",
+      "es": "la inundación",
+      "en": "flood",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flood — 'las inundaciones causaron grandes daños' = the floods caused great damage. Becoming more frequent with climate change.",
+      "scenarios": [
+        "natural disasters",
+        "climate change"
+      ],
+      "imageQuery": "flood flooded street water disaster",
+      "image": "environment/inundacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-terremoto",
+      "es": "el terremoto",
+      "en": "earthquake",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Earthquake — 'el terremoto destruyó varios edificios' = the earthquake destroyed several buildings. Latin America lies on the Pacific Ring of Fire.",
+      "scenarios": [
+        "natural disasters",
+        "geology"
+      ],
+      "imageQuery": "earthquake damaged buildings rubble disaster",
+      "image": "environment/terremoto.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-tsunami",
+      "es": "el tsunami",
+      "en": "tsunami",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tsunami — 'el tsunami arrasó con la costa' = the tsunami swept through the coast. Giant ocean wave triggered by earthquakes. Japanese loanword used in Spanish.",
+      "scenarios": [
+        "natural disasters",
+        "ocean"
+      ],
+      "imageQuery": "tsunami massive wave ocean shore",
+      "image": "environment/tsunami.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-biodiversidad",
+      "es": "la biodiversidad",
+      "en": "biodiversity",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Biodiversity — 'proteger la biodiversidad' = to protect biodiversity. The variety of life forms in an ecosystem. Latin America is a global biodiversity hotspot.",
+      "scenarios": [
+        "ecology",
+        "conservation"
+      ],
+      "imageQuery": "biodiversity diverse animals plants ecosystem",
+      "image": "environment/biodiversidad.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-ecosistema",
+      "es": "el ecosistema",
+      "en": "ecosystem",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ecosystem — 'los arrecifes de coral son ecosistemas frágiles' = coral reefs are fragile ecosystems. A community of living things and their environment.",
+      "scenarios": [
+        "ecology",
+        "biology"
+      ],
+      "imageQuery": "ecosystem coral reef tropical forest diverse life",
+      "image": "environment/ecosistema.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-habitat",
+      "es": "el hábitat",
+      "en": "habitat",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Habitat — 'la destrucción del hábitat es la mayor amenaza para la fauna' = habitat destruction is the greatest threat to wildlife.",
+      "scenarios": [
+        "ecology",
+        "conservation"
+      ],
+      "imageQuery": "wildlife habitat natural environment animals",
+      "image": "environment/habitat.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-especiepeligro",
+      "es": "la especie en peligro",
+      "en": "endangered species",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Endangered species — 'el jaguar es una especie en peligro de extinción' = the jaguar is an endangered species. Also 'especie amenazada'.",
+      "scenarios": [
+        "conservation",
+        "ecology"
+      ],
+      "imageQuery": "endangered species jaguar wild animal",
+      "image": "environment/especiepeligro.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-extincion",
+      "es": "la extinción",
+      "en": "extinction",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Extinction — 'muchas especies están al borde de la extinción' = many species are on the brink of extinction. Permanent loss of a species.",
+      "scenarios": [
+        "ecology",
+        "conservation"
+      ],
+      "imageQuery": "extinction endangered animals species loss",
+      "image": "environment/extincion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-conservacion",
+      "es": "la conservación",
+      "en": "conservation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Conservation — 'la conservación del medio ambiente' = environmental conservation. Protecting natural resources and wildlife for the future.",
+      "scenarios": [
+        "environmental action",
+        "ecology"
+      ],
+      "imageQuery": "conservation wildlife park ranger nature",
+      "image": "environment/conservacion.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-reservanatural",
+      "es": "la reserva natural",
+      "en": "nature reserve",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nature reserve — 'la reserva natural protege a los animales' = the nature reserve protects animals. A protected area of land or water.",
+      "scenarios": [
+        "conservation",
+        "tourism"
+      ],
+      "imageQuery": "nature reserve protected wildlife park",
+      "image": "environment/reservanatural.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-parquenacional",
+      "es": "el parque nacional",
+      "en": "national park",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "National park — 'el Parque Nacional Torres del Paine' in Chile. Protected areas open to visitors. 'visitar un parque nacional' = to visit a national park.",
+      "scenarios": [
+        "tourism",
+        "conservation"
+      ],
+      "imageQuery": "national park landscape mountains wildlife",
+      "image": "environment/parquenacional.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-sostenibilidad",
+      "es": "la sostenibilidad",
+      "en": "sustainability",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sustainability — 'la sostenibilidad es clave para el futuro' = sustainability is key for the future. Meeting present needs without compromising future generations.",
+      "scenarios": [
+        "environmental policy",
+        "business"
+      ],
+      "imageQuery": "sustainability green development eco friendly",
+      "image": "environment/sostenibilidad.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-compostaje",
+      "es": "el compostaje",
+      "en": "composting",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Composting — 'hacer compostaje en casa' = to compost at home. Turning organic waste into natural fertilizer. Related: 'compost'.",
+      "scenarios": [
+        "environmental action",
+        "gardening"
+      ],
+      "imageQuery": "composting organic waste compost bin garden",
+      "image": "environment/compostaje.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-aguapotable",
+      "es": "el agua potable",
+      "en": "drinking water / potable water",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Drinking water — 'el acceso al agua potable es un derecho humano' = access to drinking water is a human right. 'potable' comes from Latin 'potare' (to drink).",
+      "scenarios": [
+        "water issues",
+        "human rights"
+      ],
+      "imageQuery": "clean drinking water tap glass",
+      "image": "environment/aguapotable.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-residuos",
+      "es": "los residuos",
+      "en": "waste / residues",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Waste — 'la gestión de residuos' = waste management. More formal/technical than 'basura'. Includes 'residuos tóxicos' (toxic waste).",
+      "scenarios": [
+        "environmental issues",
+        "industry"
+      ],
+      "imageQuery": "industrial waste management toxic residues",
+      "image": "environment/residuos.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-vertedero",
+      "es": "el vertedero",
+      "en": "landfill / dump",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Landfill — 'los vertederos producen gases contaminantes' = landfills produce polluting gases. The site where waste is disposed of.",
+      "scenarios": [
+        "waste management",
+        "environmental issues"
+      ],
+      "imageQuery": "landfill dump garbage waste site",
+      "image": "environment/vertedero.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-mareanegra",
+      "es": "la marea negra",
+      "en": "oil spill",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Oil spill — literally 'black tide'. 'la marea negra contaminó las costas' = the oil spill contaminated the coasts. Devastating marine disaster.",
+      "scenarios": [
+        "environmental disaster",
+        "ocean pollution"
+      ],
+      "imageQuery": "oil spill black tide ocean pollution bird",
+      "image": "environment/mareanegra.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-plastico",
+      "es": "el plástico",
+      "en": "plastic",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Plastic — 'reducir el uso de plástico' = to reduce plastic use. 'plástico de un solo uso' = single-use plastic. A major ocean pollutant.",
+      "scenarios": [
+        "pollution",
+        "recycling"
+      ],
+      "imageQuery": "plastic bottles pollution ocean waste",
+      "image": "environment/plastico.webp",
+      "level": "A"
+    },
+    {
+      "id": "ev-ongambiental",
+      "es": "la ONG ambiental",
+      "en": "environmental NGO",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Environmental NGO — 'ONG' = Organización No Gubernamental. 'Greenpeace es una ONG ambiental' = Greenpeace is an environmental NGO.",
+      "scenarios": [
+        "environmental activism",
+        "organizations"
+      ],
+      "imageQuery": "environmental NGO volunteers activism nature",
+      "image": "environment/ongambiental.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-reforestacion",
+      "es": "la reforestación",
+      "en": "reforestation",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Reforestation — 'la reforestación ayuda a combatir el cambio climático' = reforestation helps combat climate change. Planting trees to restore forests.",
+      "scenarios": [
+        "environmental action",
+        "conservation"
+      ],
+      "imageQuery": "reforestation tree planting volunteers",
+      "image": "environment/reforestacion.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-energianuclear",
+      "es": "la energía nuclear",
+      "en": "nuclear energy",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nuclear energy — 'el debate sobre la energía nuclear' = the debate about nuclear energy. Low carbon but controversial due to waste and safety risks.",
+      "scenarios": [
+        "energy debate",
+        "environmental policy"
+      ],
+      "imageQuery": "nuclear power plant cooling towers energy",
+      "image": "environment/energianuclear.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-emisiones",
+      "es": "las emisiones",
+      "en": "emissions",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Emissions — 'reducir las emisiones de CO₂' = to reduce CO₂ emissions. 'emisiones de gases de efecto invernadero' = greenhouse gas emissions.",
+      "scenarios": [
+        "climate change",
+        "environmental policy"
+      ],
+      "imageQuery": "CO2 emissions factory smoke pollution air",
+      "image": "environment/emisiones.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-sostenible",
+      "es": "sostenible",
+      "en": "sustainable",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Sustainable — 'desarrollo sostenible' = sustainable development.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "sustainable green energy",
+      "image": "environment/sostenible.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-fauna",
+      "es": "la fauna",
+      "en": "fauna",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fauna — the animals of a particular region.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "wildlife animals fauna",
+      "image": "environment/fauna.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-flora",
+      "es": "la flora",
+      "en": "flora",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Flora — the plants of a particular region.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "plants flowers flora",
+      "image": "environment/flora.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-renovable",
+      "es": "renovable",
+      "en": "renewable",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Renewable — 'energía renovable' = renewable energy.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "renewable energy wind",
+      "image": "environment/renovable.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-proteger",
+      "es": "proteger",
+      "en": "to protect",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To protect — 'proteger el medio ambiente' = to protect the environment.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "protecting nature conservation",
+      "image": "environment/proteger.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-reciclar",
+      "es": "reciclar",
+      "en": "to recycle",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To recycle — 'reciclar papel y cartón' = to recycle paper and cardboard.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "recycling sorting bins",
+      "image": "environment/reciclar.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-huerto",
+      "es": "el huerto",
+      "en": "vegetable garden",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Vegetable garden/orchard — 'el huerto ecológico' = the organic garden.",
+      "scenarios": [
+        "environment",
+        "garden"
+      ],
+      "imageQuery": "vegetable garden organic",
+      "image": "environment/huerto.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-reducir",
+      "es": "reducir",
+      "en": "to reduce",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To reduce — 'reducir el consumo de energía' = to reduce energy consumption.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "reduce energy consumption",
+      "image": "environment/reducir.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-reutilizar",
+      "es": "reutilizar",
+      "en": "to reuse",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To reuse — part of the 3Rs: reduce, reuse, recycle.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "reuse reusable bag",
+      "image": "environment/reutilizar.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-ecologia",
+      "es": "la ecología",
+      "en": "ecology",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Ecology — the study of how organisms interact with their environment.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "ecology nature science",
+      "image": "environment/ecologia.webp",
+      "level": "C"
+    },
+    {
+      "id": "ev-verde",
+      "es": "verde",
+      "en": "green (eco)",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Green (eco) — 'una empresa verde' = an eco-friendly company.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "eco green sustainable",
+      "image": "environment/verde.webp",
+      "level": "B"
+    },
+    {
+      "id": "ev-conciencia",
+      "es": "la conciencia ambiental",
+      "en": "environmental awareness",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Environmental awareness — knowing and caring about environmental issues.",
+      "scenarios": [
+        "environment"
+      ],
+      "imageQuery": "environmental awareness",
+      "image": "environment/conciencia.webp",
+      "level": "C"
+    }
+  ]
+}

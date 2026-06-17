@@ -1,0 +1,922 @@
+{
+  "id": "tools-materials",
+  "order": 30,
+  "name": "Tools & Materials",
+  "nameEs": "Herramientas y materiales",
+  "words": [
+    {
+      "id": "tm-martillo",
+      "es": "el martillo",
+      "en": "hammer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hammer — 'usar el martillo para clavar un clavo' = to use the hammer to drive in a nail. One of the most basic hand tools.",
+      "scenarios": [
+        "construction",
+        "home repair"
+      ],
+      "imageQuery": "hammer tool carpentry wood",
+      "image": "tools-materials/martillo.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-clavo",
+      "es": "el clavo",
+      "en": "nail",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Nail — 'clavar un clavo en la pared' = to drive a nail into the wall. 'clavo' also means a clove (the spice). Used with a hammer.",
+      "scenarios": [
+        "construction",
+        "home repair"
+      ],
+      "imageQuery": "metal nails carpentry wood construction",
+      "image": "tools-materials/clavo.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-tornillo",
+      "es": "el tornillo",
+      "en": "screw",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Screw — 'apretar el tornillo' = to tighten the screw. Used with a 'destornillador' (screwdriver). More secure than a nail.",
+      "scenarios": [
+        "construction",
+        "furniture assembly"
+      ],
+      "imageQuery": "screws metal fasteners construction",
+      "image": "tools-materials/tornillo.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-destornillador",
+      "es": "el destornillador",
+      "en": "screwdriver",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Screwdriver — 'necesito un destornillador de estrella' = I need a Phillips screwdriver. Flat-head: 'de pala/plano'. Essential for furniture assembly.",
+      "scenarios": [
+        "home repair",
+        "furniture assembly"
+      ],
+      "imageQuery": "screwdriver tool hand Phillips flat head",
+      "image": "tools-materials/destornillador.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-llaveinglesa",
+      "es": "la llave inglesa",
+      "en": "wrench / spanner",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wrench — literally 'English key'. 'la llave inglesa ajustable' = the adjustable wrench. Used to tighten or loosen nuts and bolts.",
+      "scenarios": [
+        "plumbing",
+        "mechanical work"
+      ],
+      "imageQuery": "wrench spanner adjustable tool metal",
+      "image": "tools-materials/llaveinglesa.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-alicates",
+      "es": "los alicates",
+      "en": "pliers",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pliers — 'necesito los alicates para doblar el cable' = I need the pliers to bend the cable. Used for gripping, bending, and cutting wire.",
+      "scenarios": [
+        "electrical work",
+        "home repair"
+      ],
+      "imageQuery": "pliers hand tool gripping metal",
+      "image": "tools-materials/alicates.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-sierra",
+      "es": "la sierra",
+      "en": "saw",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Saw — 'cortar madera con la sierra' = to cut wood with the saw. 'sierra de mano' = hand saw; 'sierra eléctrica' = electric saw. Also means 'mountain range'.",
+      "scenarios": [
+        "carpentry",
+        "construction"
+      ],
+      "imageQuery": "hand saw cutting wood carpentry",
+      "image": "tools-materials/sierra.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-taladro",
+      "es": "el taladro",
+      "en": "drill",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Drill — 'hacer un agujero con el taladro' = to make a hole with the drill. 'taladro inalámbrico' = cordless drill. Essential for mounting things on walls.",
+      "scenarios": [
+        "construction",
+        "home repair"
+      ],
+      "imageQuery": "electric drill power tool construction",
+      "image": "tools-materials/taladro.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-brocha",
+      "es": "la brocha",
+      "en": "paintbrush (wide)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wide paintbrush — used for painting walls and large surfaces. Different from 'pincel' (fine artist's brush). 'pasar la brocha' = to apply paint with a brush.",
+      "scenarios": [
+        "painting",
+        "home improvement"
+      ],
+      "imageQuery": "wide paintbrush painting wall decoration",
+      "image": "tools-materials/brocha.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-pintura",
+      "es": "la pintura",
+      "en": "paint",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Paint — 'pintura de pared' = wall paint. 'dar una mano de pintura' = to apply a coat of paint. Also means 'painting' (the artwork).",
+      "scenarios": [
+        "home improvement",
+        "art"
+      ],
+      "imageQuery": "paint cans color wall painting home",
+      "image": "tools-materials/pintura.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-lija",
+      "es": "la lija",
+      "en": "sandpaper",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sandpaper — 'lijar la madera antes de pintar' = to sand the wood before painting. 'lija de grano fino' = fine-grit sandpaper.",
+      "scenarios": [
+        "carpentry",
+        "painting prep"
+      ],
+      "imageQuery": "sandpaper sanding wood surface smooth",
+      "image": "tools-materials/lija.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-cintaadhesiva",
+      "es": "la cinta adhesiva",
+      "en": "adhesive tape",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Adhesive tape — 'la cinta adhesiva' covers everything from duct tape to masking tape. 'cinta de carrocero' = masking tape (for painting).",
+      "scenarios": [
+        "home repair",
+        "crafts"
+      ],
+      "imageQuery": "adhesive tape roll sticky packaging",
+      "image": "tools-materials/cintaadhesiva.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-enchufe",
+      "es": "el enchufe",
+      "en": "plug / socket / outlet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Plug/outlet — 'enchufar' = to plug in. 'enchufe de pared' = wall outlet. Also slang for 'connections/contacts' in Spanish ('tener enchufe' = to have connections).",
+      "scenarios": [
+        "electrical",
+        "home"
+      ],
+      "imageQuery": "electrical plug socket outlet wall",
+      "image": "tools-materials/enchufe.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-cable",
+      "es": "el cable",
+      "en": "cable / wire",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cable/wire — 'el cable de la luz' = the electricity cable. 'cable USB' = USB cable. Used in electrical and technology contexts.",
+      "scenarios": [
+        "electrical",
+        "technology"
+      ],
+      "imageQuery": "electrical cable wire bundle",
+      "image": "tools-materials/cable.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-madera",
+      "es": "la madera",
+      "en": "wood / timber",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Wood — 'construido de madera' = built from wood. 'madera dura' = hardwood; 'madera blanda' = softwood. Essential construction and furniture material.",
+      "scenarios": [
+        "construction",
+        "furniture"
+      ],
+      "imageQuery": "wood timber planks lumber construction",
+      "image": "tools-materials/madera.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-metal",
+      "es": "el metal",
+      "en": "metal",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Metal — 'una estructura de metal' = a metal structure. Broad term covering iron, steel, copper, aluminum, etc.",
+      "scenarios": [
+        "construction",
+        "manufacturing"
+      ],
+      "imageQuery": "metal sheet steel material industrial",
+      "image": "tools-materials/metal.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-hierro",
+      "es": "el hierro",
+      "en": "iron",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Iron — 'una reja de hierro' = an iron gate. 'hierro fundido' = cast iron. Symbol: Fe. Distinguished from 'acero' (steel = iron + carbon).",
+      "scenarios": [
+        "construction",
+        "metalwork"
+      ],
+      "imageQuery": "iron metal gate fence construction",
+      "image": "tools-materials/hierro.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-acero",
+      "es": "el acero",
+      "en": "steel",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Steel — 'acero inoxidable' = stainless steel. Stronger than iron. Used in construction, bridges, cutlery, and appliances.",
+      "scenarios": [
+        "construction",
+        "manufacturing"
+      ],
+      "imageQuery": "steel beams construction building structure",
+      "image": "tools-materials/acero.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-cemento",
+      "es": "el cemento",
+      "en": "cement",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cement — 'mezclar el cemento' = to mix the cement. Mixed with water and sand to make concrete ('hormigón'). Foundation of modern construction.",
+      "scenarios": [
+        "construction",
+        "masonry"
+      ],
+      "imageQuery": "cement concrete mixing construction worker",
+      "image": "tools-materials/cemento.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-ladrillo",
+      "es": "el ladrillo",
+      "en": "brick",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Brick — 'colocar ladrillos' = to lay bricks. 'casa de ladrillo' = brick house. Also slang for a large, heavy phone ('este móvil es un ladrillo').",
+      "scenarios": [
+        "construction",
+        "masonry"
+      ],
+      "imageQuery": "red bricks construction building masonry",
+      "image": "tools-materials/ladrillo.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-marmol",
+      "es": "el mármol",
+      "en": "marble",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Marble — 'una encimera de mármol' = a marble countertop. Luxury stone used in flooring, bathrooms, and sculptures.",
+      "scenarios": [
+        "interior design",
+        "construction"
+      ],
+      "imageQuery": "marble stone surface countertop luxury",
+      "image": "tools-materials/marmol.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-vidrio",
+      "es": "el vidrio",
+      "en": "glass (material)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Glass — 'una ventana de vidrio' = a glass window. 'cristal' is also used. Different from 'un vaso' (a glass to drink from).",
+      "scenarios": [
+        "construction",
+        "materials"
+      ],
+      "imageQuery": "glass pane window material transparent",
+      "image": "tools-materials/vidrio.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-tela",
+      "es": "la tela",
+      "en": "fabric / cloth",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fabric — 'comprar tela para coser' = to buy fabric for sewing. 'tela de algodón' = cotton fabric. The raw material for clothing and upholstery.",
+      "scenarios": [
+        "sewing",
+        "textiles"
+      ],
+      "imageQuery": "fabric cloth textile rolls material",
+      "image": "tools-materials/tela.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-cuero",
+      "es": "el cuero",
+      "en": "leather",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Leather — 'una chaqueta de cuero' = a leather jacket. 'cuero genuino' = genuine leather. Also 'piel' in Spain. Used in shoes, bags, and clothing.",
+      "scenarios": [
+        "fashion",
+        "materials"
+      ],
+      "imageQuery": "leather material brown texture craft",
+      "image": "tools-materials/cuero.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-goma",
+      "es": "la goma",
+      "en": "rubber / eraser / glue",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Rubber/eraser — 'goma de borrar' = eraser; 'goma elástica' = elastic band; 'bota de goma' = rubber boot. Context determines meaning.",
+      "scenarios": [
+        "school",
+        "materials",
+        "crafts"
+      ],
+      "imageQuery": "rubber eraser pencil school stationery",
+      "image": "tools-materials/goma.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-arcilla",
+      "es": "la arcilla",
+      "en": "clay",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Clay — 'modelar con arcilla' = to shape with clay. Used in pottery ('alfarería') and ceramics ('cerámica'). Natural material from the earth.",
+      "scenarios": [
+        "art",
+        "pottery"
+      ],
+      "imageQuery": "clay pottery sculpting ceramic hands",
+      "image": "tools-materials/arcilla.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-carton",
+      "es": "el cartón",
+      "en": "cardboard",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cardboard — 'una caja de cartón' = a cardboard box. Recyclable packaging material. 'cartón piedra' = papier-mâché.",
+      "scenarios": [
+        "packaging",
+        "crafts"
+      ],
+      "imageQuery": "cardboard boxes packaging material",
+      "image": "tools-materials/carton.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-tijeras",
+      "es": "las tijeras",
+      "en": "scissors",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Scissors — always plural in Spanish, like in English. 'pasar las tijeras' = to cut with scissors. 'tijeras de costura' = sewing scissors.",
+      "scenarios": [
+        "sewing",
+        "crafts",
+        "school"
+      ],
+      "imageQuery": "scissors cutting craft tool stationery",
+      "image": "tools-materials/tijeras.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-aguja",
+      "es": "la aguja",
+      "en": "needle",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Needle — 'enhebrar una aguja' = to thread a needle. 'aguja de coser' = sewing needle; 'aguja hipodérmica' = hypodermic needle.",
+      "scenarios": [
+        "sewing",
+        "medical"
+      ],
+      "imageQuery": "sewing needle thread close up",
+      "image": "tools-materials/aguja.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-hilo",
+      "es": "el hilo",
+      "en": "thread / yarn",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Thread — 'hilo de coser' = sewing thread. 'hilo dental' = dental floss. 'perder el hilo' = to lose the thread (of a conversation).",
+      "scenarios": [
+        "sewing",
+        "crafts"
+      ],
+      "imageQuery": "sewing thread colorful spools",
+      "image": "tools-materials/hilo.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-cremallera",
+      "es": "la cremallera",
+      "en": "zipper",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Zipper — 'la cremallera está rota' = the zipper is broken. Also called 'cierre' in Latin America. Used on bags, jackets, and trousers.",
+      "scenarios": [
+        "sewing",
+        "clothing"
+      ],
+      "imageQuery": "zipper clothing metal teeth close up",
+      "image": "tools-materials/cremallera.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-pegamento",
+      "es": "el pegamento",
+      "en": "glue",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Glue — 'pegar con pegamento' = to glue together. 'pegamento de contacto' = contact cement; 'pegamento blanco' = white glue (school glue).",
+      "scenarios": [
+        "crafts",
+        "school",
+        "repairs"
+      ],
+      "imageQuery": "glue bottle adhesive crafts",
+      "image": "tools-materials/pegamento.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-barniz",
+      "es": "el barniz",
+      "en": "varnish",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Varnish — 'dar una capa de barniz a la madera' = to apply a coat of varnish to the wood. Protects and gives a glossy finish. Also used for nail varnish ('barniz de uñas').",
+      "scenarios": [
+        "carpentry",
+        "finishing"
+      ],
+      "imageQuery": "varnish wood finishing glossy surface",
+      "image": "tools-materials/barniz.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-sellador",
+      "es": "el sellador",
+      "en": "sealant / sealer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sealant — 'aplicar sellador en las juntas del baño' = to apply sealant to the bathroom joints. Prevents water and air infiltration.",
+      "scenarios": [
+        "construction",
+        "home repair"
+      ],
+      "imageQuery": "sealant silicone caulk bathroom construction",
+      "image": "tools-materials/sellador.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-bisagra",
+      "es": "la bisagra",
+      "en": "hinge",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Hinge — 'la puerta no abre bien porque le falta aceite a la bisagra' = the door doesn't open well because the hinge needs oil. Connects a door to its frame.",
+      "scenarios": [
+        "carpentry",
+        "home repair"
+      ],
+      "imageQuery": "door hinge metal hardware",
+      "image": "tools-materials/bisagra.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-cerradura",
+      "es": "la cerradura",
+      "en": "lock",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lock — 'cambiar la cerradura de la puerta' = to change the door lock. Works with 'la llave' (key). 'cerradura de seguridad' = security lock.",
+      "scenarios": [
+        "home security",
+        "door hardware"
+      ],
+      "imageQuery": "door lock security hardware metal",
+      "image": "tools-materials/cerradura.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-caneria",
+      "es": "la cañería",
+      "en": "pipe / piping",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pipe — 'la cañería está tapada' = the pipe is blocked. 'cañería de agua' = water pipe. Also 'tubo'. Related verb: 'fontanería' = plumbing.",
+      "scenarios": [
+        "plumbing",
+        "construction"
+      ],
+      "imageQuery": "pipe plumbing water system construction",
+      "image": "tools-materials/caneria.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-grifo",
+      "es": "el grifo",
+      "en": "tap / faucet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tap/faucet — 'cerrar el grifo' = to turn off the tap. In Latin America often called 'llave del agua' or 'caño'. 'grifo que gotea' = dripping tap.",
+      "scenarios": [
+        "plumbing",
+        "kitchen",
+        "bathroom"
+      ],
+      "imageQuery": "water faucet tap kitchen bathroom",
+      "image": "tools-materials/grifo.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-interruptor",
+      "es": "el interruptor",
+      "en": "light switch",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Light switch — 'dar al interruptor' = to flip the switch. 'interruptor de la luz' = light switch. General electrical switch.",
+      "scenarios": [
+        "electrical",
+        "home"
+      ],
+      "imageQuery": "light switch wall electrical toggle",
+      "image": "tools-materials/interruptor.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-fusible",
+      "es": "el fusible",
+      "en": "fuse",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Fuse — 'se ha fundido el fusible' = the fuse has blown. Protects electrical circuits. Found in 'la caja de fusibles' (the fuse box).",
+      "scenarios": [
+        "electrical",
+        "home repair"
+      ],
+      "imageQuery": "electrical fuse box circuit breaker",
+      "image": "tools-materials/fusible.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-andamio",
+      "es": "el andamio",
+      "en": "scaffolding",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Scaffolding — 'montar el andamio' = to put up scaffolding. The temporary structure supporting workers on the exterior of buildings.",
+      "scenarios": [
+        "construction",
+        "building work"
+      ],
+      "imageQuery": "scaffolding construction building exterior workers",
+      "image": "tools-materials/andamio.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-paleta",
+      "es": "la paleta",
+      "en": "trowel / palette",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Trowel — 'extender el cemento con la paleta' = to spread cement with the trowel. In painting it's a palette ('paleta de colores'). Context matters.",
+      "scenarios": [
+        "masonry",
+        "art"
+      ],
+      "imageQuery": "trowel masonry cement spreading construction",
+      "image": "tools-materials/paleta.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-niveldebubb",
+      "es": "el nivel de burbuja",
+      "en": "spirit level / bubble level",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Spirit level — 'usar el nivel de burbuja para asegurarse de que esté recto' = to use the spirit level to make sure it's straight.",
+      "scenarios": [
+        "construction",
+        "home improvement"
+      ],
+      "imageQuery": "spirit level bubble tool construction horizontal",
+      "image": "tools-materials/niveldebubb.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-metro",
+      "es": "el metro",
+      "en": "tape measure",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tape measure — 'medir con el metro' = to measure with the tape measure. Also means 'metre' (unit) and 'underground train'. Context clarifies.",
+      "scenarios": [
+        "construction",
+        "sewing"
+      ],
+      "imageQuery": "tape measure measuring tool construction",
+      "image": "tools-materials/metro.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-compas",
+      "es": "el compás",
+      "en": "compass (drawing)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Compass (drawing tool) — 'trazar un círculo con el compás' = to draw a circle with a compass. Also means musical rhythm and directional compass.",
+      "scenarios": [
+        "school",
+        "technical drawing"
+      ],
+      "imageQuery": "compass drawing tool circle geometry school",
+      "image": "tools-materials/compas.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-escuadra",
+      "es": "la escuadra",
+      "en": "set square / triangle ruler",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Set square — 'la escuadra se usa para trazar ángulos rectos' = the set square is used to draw right angles. Essential in technical drawing and construction.",
+      "scenarios": [
+        "school",
+        "technical drawing",
+        "construction"
+      ],
+      "imageQuery": "set square triangle ruler drawing technical",
+      "image": "tools-materials/escuadra.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-boton",
+      "es": "el botón",
+      "en": "button",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Button — 'se cayó un botón del abrigo' = a button fell off the coat. Also means button on a device. 'botón de presión' = snap button.",
+      "scenarios": [
+        "sewing",
+        "clothing"
+      ],
+      "imageQuery": "sewing buttons colorful fabric garment",
+      "image": "tools-materials/boton.webp",
+      "level": "A"
+    },
+    {
+      "id": "tm-clavija",
+      "es": "la clavija",
+      "en": "pin / peg / plug (small)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pin/peg — 'clavija eléctrica' = electrical pin; 'clavija de madera' = wooden dowel; 'clavija de guitarra' = guitar tuning peg. A small fastener or connector.",
+      "scenarios": [
+        "electrical",
+        "music",
+        "woodworking"
+      ],
+      "imageQuery": "electrical pin connector small fastener",
+      "image": "tools-materials/clavija.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-revestimiento",
+      "es": "el revestimiento",
+      "en": "cladding / coating / lining",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cladding/coating — 'el revestimiento de la fachada' = the building's cladding. The outer layer protecting or decorating a surface.",
+      "scenarios": [
+        "construction",
+        "interior design"
+      ],
+      "imageQuery": "wall cladding exterior coating building material",
+      "image": "tools-materials/revestimiento.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-aislante",
+      "es": "el aislante",
+      "en": "insulator / insulation",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Insulation — 'instalar aislante térmico' = to install thermal insulation. Prevents heat loss. 'aislante acústico' = soundproofing.",
+      "scenarios": [
+        "construction",
+        "energy efficiency"
+      ],
+      "imageQuery": "insulation material building thermal acoustic",
+      "image": "tools-materials/aislante.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-moldura",
+      "es": "la moldura",
+      "en": "moulding / trim",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Moulding/trim — 'colocar molduras en el techo' = to fit ceiling mouldings. Decorative strip along edges of walls, ceilings, or furniture.",
+      "scenarios": [
+        "interior design",
+        "carpentry"
+      ],
+      "imageQuery": "ceiling moulding trim decorative wood",
+      "image": "tools-materials/moldura.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-cuerda",
+      "es": "la cuerda",
+      "en": "rope",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Rope — 'atar con una cuerda' = to tie with a rope.",
+      "scenarios": [
+        "tools",
+        "materials"
+      ],
+      "imageQuery": "rope cord knot",
+      "image": "tools-materials/cuerda.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-escalera-mano",
+      "es": "la escalera de mano",
+      "en": "ladder",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Ladder — 'subir por la escalera de mano' = to climb the ladder.",
+      "scenarios": [
+        "tools"
+      ],
+      "imageQuery": "ladder construction",
+      "image": "tools-materials/escalera-mano.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-reparar",
+      "es": "reparar",
+      "en": "to repair",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To repair — 'reparar el coche' = to repair the car.",
+      "scenarios": [
+        "tools"
+      ],
+      "imageQuery": "repair fixing tools",
+      "image": "tools-materials/reparar.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-gafas-prot",
+      "es": "las gafas protectoras",
+      "en": "safety glasses",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Safety glasses — wear them when using power tools.",
+      "scenarios": [
+        "tools"
+      ],
+      "imageQuery": "safety glasses protective",
+      "image": "tools-materials/gafas-prot.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-guantes-trab",
+      "es": "los guantes de trabajo",
+      "en": "work gloves",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Work gloves — protective gloves for manual work.",
+      "scenarios": [
+        "tools"
+      ],
+      "imageQuery": "work gloves protection",
+      "image": "tools-materials/guantes-trab.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-broca",
+      "es": "la broca",
+      "en": "drill bit",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Drill bit — the part of a drill that does the cutting.",
+      "scenarios": [
+        "tools"
+      ],
+      "imageQuery": "drill bit set",
+      "image": "tools-materials/broca.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-mazo",
+      "es": "el mazo",
+      "en": "mallet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Mallet — large hammer with a wooden or rubber head.",
+      "scenarios": [
+        "tools"
+      ],
+      "imageQuery": "mallet rubber hammer",
+      "image": "tools-materials/mazo.webp",
+      "level": "B"
+    },
+    {
+      "id": "tm-tuerca",
+      "es": "la tuerca",
+      "en": "nut (fastener)",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Nut (fastener) — hexagonal piece that screws onto a bolt.",
+      "scenarios": [
+        "tools",
+        "materials"
+      ],
+      "imageQuery": "nut bolt fastener metal",
+      "image": "tools-materials/tuerca.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-perno",
+      "es": "el perno",
+      "en": "bolt",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Bolt — threaded rod fastener used with a nut.",
+      "scenarios": [
+        "tools",
+        "materials"
+      ],
+      "imageQuery": "bolt screw fastener",
+      "image": "tools-materials/perno.webp",
+      "level": "C"
+    },
+    {
+      "id": "tm-construir",
+      "es": "construir",
+      "en": "to build",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To build/construct — 'construir una casa' = to build a house.",
+      "scenarios": [
+        "tools"
+      ],
+      "imageQuery": "building construction",
+      "image": "tools-materials/construir.webp",
+      "level": "B"
+    }
+  ]
+}

@@ -11,9 +11,12 @@
       "pos": "number",
       "gender": null,
       "hint": "One — the number 1.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "number one",
-      "image": "numbers-time-dates/uno.webp"
+      "image": "numbers-time-dates/uno.webp",
+      "level": "A"
     },
     {
       "id": "nt-dos",
@@ -22,9 +25,12 @@
       "pos": "number",
       "gender": null,
       "hint": "Two — the number 2.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "number two",
-      "image": "numbers-time-dates/dos.webp"
+      "image": "numbers-time-dates/dos.webp",
+      "level": "A"
     },
     {
       "id": "nt-tres",
@@ -33,9 +39,12 @@
       "pos": "number",
       "gender": null,
       "hint": "Three — the number 3.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "number three",
-      "image": "numbers-time-dates/tres.webp"
+      "image": "numbers-time-dates/tres.webp",
+      "level": "A"
     },
     {
       "id": "nt-diez",
@@ -44,9 +53,12 @@
       "pos": "number",
       "gender": null,
       "hint": "Ten — the number 10.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "number ten",
-      "image": "numbers-time-dates/diez.webp"
+      "image": "numbers-time-dates/diez.webp",
+      "level": "A"
     },
     {
       "id": "nt-veinte",
@@ -55,9 +67,12 @@
       "pos": "number",
       "gender": null,
       "hint": "Twenty — the number 20.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "number twenty",
-      "image": "numbers-time-dates/veinte.webp"
+      "image": "numbers-time-dates/veinte.webp",
+      "level": "A"
     },
     {
       "id": "nt-cien",
@@ -66,9 +81,12 @@
       "pos": "number",
       "gender": null,
       "hint": "One hundred — the number 100.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "number one hundred",
-      "image": "numbers-time-dates/cien.webp"
+      "image": "numbers-time-dates/cien.webp",
+      "level": "A"
     },
     {
       "id": "nt-numero",
@@ -77,9 +95,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Number — '¿qué número?' = what number?",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "numbers digits",
-      "image": "numbers-time-dates/numero.webp"
+      "image": "numbers-time-dates/numero.webp",
+      "level": "A"
     },
     {
       "id": "nt-hora",
@@ -88,9 +109,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Hour, or 'time' — '¿qué hora es?' = what time is it?",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "clock face time",
-      "image": "numbers-time-dates/hora.webp"
+      "image": "numbers-time-dates/hora.webp",
+      "level": "A"
     },
     {
       "id": "nt-minuto",
@@ -99,9 +124,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Minute — 'espera un minuto' = wait a minute.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "stopwatch minute",
-      "image": "numbers-time-dates/minuto.webp"
+      "image": "numbers-time-dates/minuto.webp",
+      "level": "A"
     },
     {
       "id": "nt-reloj",
@@ -110,9 +138,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Clock or watch — 'mirar el reloj' = to look at the clock.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "wrist watch",
-      "image": "numbers-time-dates/reloj.webp"
+      "image": "numbers-time-dates/reloj.webp",
+      "level": "A"
     },
     {
       "id": "nt-hoy",
@@ -121,9 +153,13 @@
       "pos": "adverb",
       "gender": null,
       "hint": "Today — 'hoy es lunes' = today is Monday.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "calendar today highlighted",
-      "image": "numbers-time-dates/hoy.webp"
+      "image": "numbers-time-dates/hoy.webp",
+      "level": "A"
     },
     {
       "id": "nt-manana",
@@ -132,9 +168,13 @@
       "pos": "adverb",
       "gender": null,
       "hint": "Tomorrow, or 'morning' — context tells you which meaning is used.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "sunrise morning",
-      "image": "numbers-time-dates/manana.webp"
+      "image": "numbers-time-dates/manana.webp",
+      "level": "A"
     },
     {
       "id": "nt-ayer",
@@ -143,9 +183,13 @@
       "pos": "adverb",
       "gender": null,
       "hint": "Yesterday — 'ayer fue domingo' = yesterday was Sunday.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "calendar page",
-      "image": "numbers-time-dates/ayer.webp"
+      "image": "numbers-time-dates/ayer.webp",
+      "level": "A"
     },
     {
       "id": "nt-semana",
@@ -154,9 +198,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Week — 'la próxima semana' = next week.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "weekly calendar",
-      "image": "numbers-time-dates/semana.webp"
+      "image": "numbers-time-dates/semana.webp",
+      "level": "A"
     },
     {
       "id": "nt-mes",
@@ -165,9 +212,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Month — 'este mes' = this month.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "monthly calendar page",
-      "image": "numbers-time-dates/mes.webp"
+      "image": "numbers-time-dates/mes.webp",
+      "level": "A"
     },
     {
       "id": "nt-ano",
@@ -176,9 +226,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Year — '¿cuántos años tienes?' = how old are you? (literally, how many years).",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "calendar year",
-      "image": "numbers-time-dates/ano.webp"
+      "image": "numbers-time-dates/ano.webp",
+      "level": "A"
     },
     {
       "id": "nt-dia",
@@ -187,9 +240,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Day — 'todo el día' = all day.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "sunny day sky",
-      "image": "numbers-time-dates/dia.webp"
+      "image": "numbers-time-dates/dia.webp",
+      "level": "A"
     },
     {
       "id": "nt-lunes",
@@ -198,9 +255,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Monday — the first day of the work week.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "monday calendar",
-      "image": "numbers-time-dates/lunes.webp"
+      "image": "numbers-time-dates/lunes.webp",
+      "level": "A"
     },
     {
       "id": "nt-calendario",
@@ -209,9 +269,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Calendar — 'marcar en el calendario' = to mark on the calendar.",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "wall calendar",
-      "image": "numbers-time-dates/calendario.webp"
+      "image": "numbers-time-dates/calendario.webp",
+      "level": "A"
     },
     {
       "id": "nt-temprano",
@@ -220,9 +283,13 @@
       "pos": "adverb",
       "gender": null,
       "hint": "Early — 'llegar temprano' = to arrive early.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "sunrise early morning",
-      "image": "numbers-time-dates/temprano.webp"
+      "image": "numbers-time-dates/temprano.webp",
+      "level": "A"
     },
     {
       "id": "nt-tarde",
@@ -231,9 +298,13 @@
       "pos": "adverb",
       "gender": null,
       "hint": "Late, or 'afternoon/evening' (as a noun, 'la tarde') — context tells you which.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "afternoon sunset",
-      "image": "numbers-time-dates/tarde.webp"
+      "image": "numbers-time-dates/tarde.webp",
+      "level": "A"
     },
     {
       "id": "nt-cumpleanos",
@@ -242,9 +313,12 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Birthday — '¡feliz cumpleaños!' = happy birthday!",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "birthday cake candles",
-      "image": "numbers-time-dates/cumpleanos.webp"
+      "image": "numbers-time-dates/cumpleanos.webp",
+      "level": "A"
     },
     {
       "id": "nt-fecha",
@@ -253,9 +327,12 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Date (calendar) — '¿qué fecha es hoy?' = what's today's date?",
-      "scenarios": ["numbers, time & dates"],
+      "scenarios": [
+        "numbers, time & dates"
+      ],
       "imageQuery": "calendar date circled",
-      "image": "numbers-time-dates/fecha.webp"
+      "image": "numbers-time-dates/fecha.webp",
+      "level": "A"
     },
     {
       "id": "nt-ahora",
@@ -264,9 +341,714 @@
       "pos": "adverb",
       "gender": null,
       "hint": "Now — 'ahora mismo' = right now.",
-      "scenarios": ["numbers, time & dates", "daily routine"],
+      "scenarios": [
+        "numbers, time & dates",
+        "daily routine"
+      ],
       "imageQuery": "person checking watch",
-      "image": "numbers-time-dates/ahora.webp"
+      "image": "numbers-time-dates/ahora.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-cuatro",
+      "es": "cuatro",
+      "en": "four",
+      "pos": "number",
+      "gender": null,
+      "hint": "Four — the number 4.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number four",
+      "image": "numbers-time-dates/cuatro.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-cinco",
+      "es": "cinco",
+      "en": "five",
+      "pos": "number",
+      "gender": null,
+      "hint": "Five — the number 5.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number five",
+      "image": "numbers-time-dates/cinco.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-seis",
+      "es": "seis",
+      "en": "six",
+      "pos": "number",
+      "gender": null,
+      "hint": "Six — the number 6.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number six",
+      "image": "numbers-time-dates/seis.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-siete",
+      "es": "siete",
+      "en": "seven",
+      "pos": "number",
+      "gender": null,
+      "hint": "Seven — the number 7.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number seven",
+      "image": "numbers-time-dates/siete.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-ocho",
+      "es": "ocho",
+      "en": "eight",
+      "pos": "number",
+      "gender": null,
+      "hint": "Eight — the number 8.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number eight",
+      "image": "numbers-time-dates/ocho.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-nueve",
+      "es": "nueve",
+      "en": "nine",
+      "pos": "number",
+      "gender": null,
+      "hint": "Nine — the number 9.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number nine",
+      "image": "numbers-time-dates/nueve.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-once",
+      "es": "once",
+      "en": "eleven",
+      "pos": "number",
+      "gender": null,
+      "hint": "Eleven — the number 11.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number eleven",
+      "image": "numbers-time-dates/once.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-doce",
+      "es": "doce",
+      "en": "twelve",
+      "pos": "number",
+      "gender": null,
+      "hint": "Twelve — the number 12.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number twelve",
+      "image": "numbers-time-dates/doce.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-quince",
+      "es": "quince",
+      "en": "fifteen",
+      "pos": "number",
+      "gender": null,
+      "hint": "Fifteen — the number 15.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number fifteen",
+      "image": "numbers-time-dates/quince.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-treinta",
+      "es": "treinta",
+      "en": "thirty",
+      "pos": "number",
+      "gender": null,
+      "hint": "Thirty — the number 30.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number thirty",
+      "image": "numbers-time-dates/treinta.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-cincuenta",
+      "es": "cincuenta",
+      "en": "fifty",
+      "pos": "number",
+      "gender": null,
+      "hint": "Fifty — the number 50.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number fifty",
+      "image": "numbers-time-dates/cincuenta.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-mil",
+      "es": "mil",
+      "en": "one thousand",
+      "pos": "number",
+      "gender": null,
+      "hint": "One thousand — the number 1,000.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number thousand",
+      "image": "numbers-time-dates/mil.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-primero",
+      "es": "primero",
+      "en": "first",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "First (ordinal) — 'primer' before masculine nouns: 'el primer día' = the first day.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "number one first",
+      "image": "numbers-time-dates/primero.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-segundo-ord",
+      "es": "segundo",
+      "en": "second",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Second (ordinal) — 'el segundo piso' = the second floor.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "second place medal",
+      "image": "numbers-time-dates/segundo-ord.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-tercero",
+      "es": "tercero",
+      "en": "third",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Third (ordinal) — 'tercer' before masculine nouns.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "third place bronze",
+      "image": "numbers-time-dates/tercero.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-noche",
+      "es": "la noche",
+      "en": "night",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Night — 'buenas noches' = good night.",
+      "scenarios": [
+        "numbers, time & dates",
+        "greetings"
+      ],
+      "imageQuery": "night sky stars",
+      "image": "numbers-time-dates/noche.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-mediodia",
+      "es": "el mediodía",
+      "en": "noon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Noon — 'al mediodía' = at noon.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "noon sun midday",
+      "image": "numbers-time-dates/mediodia.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-medianoche",
+      "es": "la medianoche",
+      "en": "midnight",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Midnight — 'a medianoche' = at midnight.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "midnight clock",
+      "image": "numbers-time-dates/medianoche.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-amanecer",
+      "es": "el amanecer",
+      "en": "dawn",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Dawn/sunrise — 'al amanecer' = at dawn.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "dawn sunrise sky",
+      "image": "numbers-time-dates/amanecer.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-martes",
+      "es": "el martes",
+      "en": "Tuesday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tuesday — 'los martes' = every Tuesday.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "tuesday calendar",
+      "image": "numbers-time-dates/martes.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-miercoles",
+      "es": "el miércoles",
+      "en": "Wednesday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Wednesday — middle of the work week.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "wednesday calendar",
+      "image": "numbers-time-dates/miercoles.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-jueves",
+      "es": "el jueves",
+      "en": "Thursday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Thursday — named after the planet Jupiter (Jove).",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "thursday calendar",
+      "image": "numbers-time-dates/jueves.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-viernes",
+      "es": "el viernes",
+      "en": "Friday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Friday — '¡por fin es viernes!' = TGIF!",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "friday calendar weekend",
+      "image": "numbers-time-dates/viernes.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-sabado",
+      "es": "el sábado",
+      "en": "Saturday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Saturday — start of the weekend.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "saturday weekend fun",
+      "image": "numbers-time-dates/sabado.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-domingo",
+      "es": "el domingo",
+      "en": "Sunday",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sunday — 'los domingos' = every Sunday.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "sunday rest day",
+      "image": "numbers-time-dates/domingo.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-enero",
+      "es": "enero",
+      "en": "January",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "January — the first month of the year.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "january calendar winter",
+      "image": "numbers-time-dates/enero.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-febrero",
+      "es": "febrero",
+      "en": "February",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "February — the shortest month.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "february calendar",
+      "image": "numbers-time-dates/febrero.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-marzo",
+      "es": "marzo",
+      "en": "March",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "March — spring begins.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "march spring flowers",
+      "image": "numbers-time-dates/marzo.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-abril",
+      "es": "abril",
+      "en": "April",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "April — 'en abril, aguas mil' = April showers.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "april spring rain",
+      "image": "numbers-time-dates/abril.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-mayo",
+      "es": "mayo",
+      "en": "May",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "May — the fifth month.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "may flowers",
+      "image": "numbers-time-dates/mayo.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-junio",
+      "es": "junio",
+      "en": "June",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "June — start of summer in the northern hemisphere.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "june summer",
+      "image": "numbers-time-dates/junio.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-julio",
+      "es": "julio",
+      "en": "July",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "July — a popular holiday month.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "july summer beach",
+      "image": "numbers-time-dates/julio.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-agosto",
+      "es": "agosto",
+      "en": "August",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "August — the eighth month.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "august hot summer",
+      "image": "numbers-time-dates/agosto.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-septiembre",
+      "es": "septiembre",
+      "en": "September",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "September — 'vuelta al cole' = back to school.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "september autumn leaves",
+      "image": "numbers-time-dates/septiembre.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-octubre",
+      "es": "octubre",
+      "en": "October",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "October — autumn/fall is in full swing.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "october autumn",
+      "image": "numbers-time-dates/octubre.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-noviembre",
+      "es": "noviembre",
+      "en": "November",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "November — the eleventh month.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "november foggy autumn",
+      "image": "numbers-time-dates/noviembre.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-diciembre",
+      "es": "diciembre",
+      "en": "December",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "December — the last month; 'la Navidad' is in December.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "december christmas winter",
+      "image": "numbers-time-dates/diciembre.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-siempre",
+      "es": "siempre",
+      "en": "always",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Always — 'siempre llego tarde' = I always arrive late.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "always forever symbol",
+      "image": "numbers-time-dates/siempre.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-nunca",
+      "es": "nunca",
+      "en": "never",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Never — 'nunca llegues tarde' = never arrive late.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "never no symbol",
+      "image": "numbers-time-dates/nunca.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-aveces",
+      "es": "a veces",
+      "en": "sometimes",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Sometimes — 'a veces me olvido' = sometimes I forget.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "sometimes occasionally",
+      "image": "numbers-time-dates/aveces.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-pronto",
+      "es": "pronto",
+      "en": "soon",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Soon — 'hasta pronto' = see you soon.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "soon coming clock",
+      "image": "numbers-time-dates/pronto.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-antes",
+      "es": "antes",
+      "en": "before",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Before — 'antes de comer' = before eating.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "before arrow timeline",
+      "image": "numbers-time-dates/antes.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-despues",
+      "es": "después",
+      "en": "after",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "After — 'después de comer' = after eating.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "after arrow timeline",
+      "image": "numbers-time-dates/despues.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-durante",
+      "es": "durante",
+      "en": "during",
+      "pos": "preposition",
+      "gender": null,
+      "hint": "During — 'durante la clase' = during class.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "during timeline",
+      "image": "numbers-time-dates/durante.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-ya",
+      "es": "ya",
+      "en": "already",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Already — 'ya terminé' = I already finished.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "done finished checkmark",
+      "image": "numbers-time-dates/ya.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-todavia",
+      "es": "todavía",
+      "en": "still",
+      "pos": "adverb",
+      "gender": null,
+      "hint": "Still/yet — 'todavía no' = not yet.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "still waiting",
+      "image": "numbers-time-dates/todavia.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-siglo",
+      "es": "el siglo",
+      "en": "century",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Century — 'el siglo XXI' = the 21st century.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "century timeline history",
+      "image": "numbers-time-dates/siglo.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-decada",
+      "es": "la década",
+      "en": "decade",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Decade — 'la década de los ochenta' = the 1980s.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "decade timeline",
+      "image": "numbers-time-dates/decada.webp",
+      "level": "B"
+    },
+    {
+      "id": "nt-fin-de-semana",
+      "es": "el fin de semana",
+      "en": "weekend",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Weekend — '¿qué haces el fin de semana?' = what are you doing this weekend?",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "weekend relax",
+      "image": "numbers-time-dates/fin-de-semana.webp",
+      "level": "A"
+    },
+    {
+      "id": "nt-cita",
+      "es": "la cita",
+      "en": "appointment",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Appointment/date — 'tengo una cita con el médico' = I have a doctor's appointment.",
+      "scenarios": [
+        "numbers, time & dates"
+      ],
+      "imageQuery": "appointment calendar date",
+      "image": "numbers-time-dates/cita.webp",
+      "level": "B"
     }
   ]
 }

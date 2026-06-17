@@ -11,9 +11,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Red — 'la manzana es roja' = the apple is red (feminine form: roja).",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "red color swatch",
-      "image": "colors-shapes/rojo.webp"
+      "image": "colors-shapes/rojo.webp",
+      "level": "A"
     },
     {
       "id": "cs-azul",
@@ -22,9 +26,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Blue — 'el cielo es azul' = the sky is blue.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "blue color swatch",
-      "image": "colors-shapes/azul.webp"
+      "image": "colors-shapes/azul.webp",
+      "level": "A"
     },
     {
       "id": "cs-verde",
@@ -33,9 +41,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Green — 'la hierba es verde' = the grass is green.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "green color swatch",
-      "image": "colors-shapes/verde.webp"
+      "image": "colors-shapes/verde.webp",
+      "level": "A"
     },
     {
       "id": "cs-amarillo",
@@ -44,9 +56,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Yellow — 'el sol es amarillo' = the sun is yellow (feminine: amarilla).",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "yellow color swatch",
-      "image": "colors-shapes/amarillo.webp"
+      "image": "colors-shapes/amarillo.webp",
+      "level": "A"
     },
     {
       "id": "cs-negro",
@@ -55,9 +71,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Black — feminine form: 'negra'.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "black color swatch",
-      "image": "colors-shapes/negro.webp"
+      "image": "colors-shapes/negro.webp",
+      "level": "A"
     },
     {
       "id": "cs-blanco",
@@ -66,9 +86,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "White — feminine form: 'blanca'.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "white color swatch",
-      "image": "colors-shapes/blanco.webp"
+      "image": "colors-shapes/blanco.webp",
+      "level": "A"
     },
     {
       "id": "cs-gris",
@@ -77,9 +101,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Gray — same form for masculine and feminine.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "gray color swatch",
-      "image": "colors-shapes/gris.webp"
+      "image": "colors-shapes/gris.webp",
+      "level": "A"
     },
     {
       "id": "cs-naranja",
@@ -88,9 +116,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Orange (color) — the same word as the fruit 'la naranja'!",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "orange color swatch",
-      "image": "colors-shapes/naranja.webp"
+      "image": "colors-shapes/naranja.webp",
+      "level": "A"
     },
     {
       "id": "cs-morado",
@@ -99,9 +131,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Purple — also 'púrpura' or 'violeta'.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "purple color swatch",
-      "image": "colors-shapes/morado.webp"
+      "image": "colors-shapes/morado.webp",
+      "level": "A"
     },
     {
       "id": "cs-rosa",
@@ -110,9 +146,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Pink — the same word as the flower 'rose'.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "pink color swatch",
-      "image": "colors-shapes/rosa.webp"
+      "image": "colors-shapes/rosa.webp",
+      "level": "A"
     },
     {
       "id": "cs-marron",
@@ -121,9 +161,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Brown — also 'café' or 'castaño' in some regions/contexts.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "brown color swatch",
-      "image": "colors-shapes/marron.webp"
+      "image": "colors-shapes/marron.webp",
+      "level": "A"
     },
     {
       "id": "cs-dorado",
@@ -132,9 +176,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Gold/golden — describes a shiny gold color.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "gold color metallic",
-      "image": "colors-shapes/dorado.webp"
+      "image": "colors-shapes/dorado.webp",
+      "level": "A"
     },
     {
       "id": "cs-circulo",
@@ -143,9 +191,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Circle — a perfectly round shape.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "circle shape",
-      "image": "colors-shapes/circulo.webp"
+      "image": "colors-shapes/circulo.webp",
+      "level": "A"
     },
     {
       "id": "cs-cuadrado",
@@ -154,9 +206,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Square — a shape with four equal sides.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "square shape",
-      "image": "colors-shapes/cuadrado.webp"
+      "image": "colors-shapes/cuadrado.webp",
+      "level": "A"
     },
     {
       "id": "cs-triangulo",
@@ -165,9 +221,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Triangle — a shape with three sides.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "triangle shape",
-      "image": "colors-shapes/triangulo.webp"
+      "image": "colors-shapes/triangulo.webp",
+      "level": "A"
     },
     {
       "id": "cs-rectangulo",
@@ -176,9 +236,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Rectangle — like a door or a phone screen.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "rectangle shape",
-      "image": "colors-shapes/rectangulo.webp"
+      "image": "colors-shapes/rectangulo.webp",
+      "level": "A"
     },
     {
       "id": "cs-ovalo",
@@ -187,9 +251,13 @@
       "pos": "noun",
       "gender": "m",
       "hint": "Oval — a stretched circle, like an egg shape.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "oval shape",
-      "image": "colors-shapes/ovalo.webp"
+      "image": "colors-shapes/ovalo.webp",
+      "level": "A"
     },
     {
       "id": "cs-linea",
@@ -198,9 +266,13 @@
       "pos": "noun",
       "gender": "f",
       "hint": "Line — 'una línea recta' = a straight line.",
-      "scenarios": ["colors & shapes", "describing things"],
+      "scenarios": [
+        "colors & shapes",
+        "describing things"
+      ],
       "imageQuery": "straight line",
-      "image": "colors-shapes/linea.webp"
+      "image": "colors-shapes/linea.webp",
+      "level": "A"
     },
     {
       "id": "cs-grande",
@@ -209,9 +281,13 @@
       "pos": "adjective",
       "gender": null,
       "hint": "Big/large — same form for masculine and feminine: 'grande'.",
-      "scenarios": ["describing things", "shopping"],
+      "scenarios": [
+        "describing things",
+        "shopping"
+      ],
       "imageQuery": "large big object",
-      "image": "colors-shapes/grande.webp"
+      "image": "colors-shapes/grande.webp",
+      "level": "A"
     },
     {
       "id": "cs-pequeno",
@@ -220,9 +296,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Small/little — feminine form: 'pequeña'.",
-      "scenarios": ["describing things", "shopping"],
+      "scenarios": [
+        "describing things",
+        "shopping"
+      ],
       "imageQuery": "small tiny object",
-      "image": "colors-shapes/pequeno.webp"
+      "image": "colors-shapes/pequeno.webp",
+      "level": "A"
     },
     {
       "id": "cs-redondo",
@@ -231,9 +311,12 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Round — feminine form: 'redonda'.",
-      "scenarios": ["describing things"],
+      "scenarios": [
+        "describing things"
+      ],
       "imageQuery": "round object",
-      "image": "colors-shapes/redondo.webp"
+      "image": "colors-shapes/redondo.webp",
+      "level": "A"
     },
     {
       "id": "cs-claro",
@@ -242,9 +325,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Light (color) — 'azul claro' = light blue.",
-      "scenarios": ["describing things", "colors & shapes"],
+      "scenarios": [
+        "describing things",
+        "colors & shapes"
+      ],
       "imageQuery": "light pastel colors",
-      "image": "colors-shapes/claro.webp"
+      "image": "colors-shapes/claro.webp",
+      "level": "A"
     },
     {
       "id": "cs-oscuro",
@@ -253,9 +340,13 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Dark (color) — 'azul oscuro' = dark blue.",
-      "scenarios": ["describing things", "colors & shapes"],
+      "scenarios": [
+        "describing things",
+        "colors & shapes"
+      ],
       "imageQuery": "dark colors",
-      "image": "colors-shapes/oscuro.webp"
+      "image": "colors-shapes/oscuro.webp",
+      "level": "A"
     },
     {
       "id": "cs-largo",
@@ -264,9 +355,532 @@
       "pos": "adjective",
       "gender": "m",
       "hint": "Long — feminine form: 'larga'. (Note: not 'large'!)",
-      "scenarios": ["describing things"],
+      "scenarios": [
+        "describing things"
+      ],
       "imageQuery": "long object rope",
-      "image": "colors-shapes/largo.webp"
+      "image": "colors-shapes/largo.webp",
+      "level": "A"
+    },
+    {
+      "id": "cs-turquesa",
+      "es": "turquesa",
+      "en": "turquoise",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Turquoise — a blue-green color.",
+      "scenarios": [
+        "colors"
+      ],
+      "imageQuery": "turquoise color ocean",
+      "image": "colors-shapes/turquesa.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-celeste",
+      "es": "celeste",
+      "en": "light blue",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Light blue/sky blue — 'el cielo celeste' = the sky-blue sky.",
+      "scenarios": [
+        "colors"
+      ],
+      "imageQuery": "light blue sky",
+      "image": "colors-shapes/celeste.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-beige",
+      "es": "beige",
+      "en": "beige",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Beige — a light sandy-brown color.",
+      "scenarios": [
+        "colors"
+      ],
+      "imageQuery": "beige sand color",
+      "image": "colors-shapes/beige.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-carmesi",
+      "es": "carmesí",
+      "en": "crimson",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Crimson — a deep, vivid red.",
+      "scenarios": [
+        "colors"
+      ],
+      "imageQuery": "crimson deep red",
+      "image": "colors-shapes/carmesi.webp",
+      "level": "C"
+    },
+    {
+      "id": "cs-lavanda",
+      "es": "lavanda",
+      "en": "lavender",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Lavender — a light purple color.",
+      "scenarios": [
+        "colors"
+      ],
+      "imageQuery": "lavender purple flower",
+      "image": "colors-shapes/lavanda.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-multicolor",
+      "es": "multicolor",
+      "en": "multicolored",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Multicolored — 'un diseño multicolor' = a multicolored design.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "multicolored pattern rainbow",
+      "image": "colors-shapes/multicolor.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-tono",
+      "es": "el tono",
+      "en": "tone",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tone/shade — 'un tono de azul' = a shade of blue.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "color tones shades",
+      "image": "colors-shapes/tono.webp",
+      "level": "C"
+    },
+    {
+      "id": "cs-matiz",
+      "es": "el matiz",
+      "en": "hue",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hue/tint — 'los matices del color' = the color hues.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "color hue spectrum",
+      "image": "colors-shapes/matiz.webp",
+      "level": "C"
+    },
+    {
+      "id": "cs-cubo",
+      "es": "el cubo",
+      "en": "cube",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cube — 3D shape with six equal square faces.",
+      "scenarios": [
+        "shapes"
+      ],
+      "imageQuery": "cube 3d shape",
+      "image": "colors-shapes/cubo.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-esfera",
+      "es": "la esfera",
+      "en": "sphere",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Sphere — a perfect round 3D shape, like a ball.",
+      "scenarios": [
+        "shapes"
+      ],
+      "imageQuery": "sphere ball shape",
+      "image": "colors-shapes/esfera.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-cilindro",
+      "es": "el cilindro",
+      "en": "cylinder",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cylinder — like a tin can.",
+      "scenarios": [
+        "shapes"
+      ],
+      "imageQuery": "cylinder shape",
+      "image": "colors-shapes/cilindro.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-piramide",
+      "es": "la pirámide",
+      "en": "pyramid",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Pyramid — triangular sides meeting at an apex.",
+      "scenarios": [
+        "shapes"
+      ],
+      "imageQuery": "pyramid shape",
+      "image": "colors-shapes/piramide.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-espiral",
+      "es": "la espiral",
+      "en": "spiral",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Spiral — a curve that winds around a center.",
+      "scenarios": [
+        "shapes"
+      ],
+      "imageQuery": "spiral curve",
+      "image": "colors-shapes/espiral.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-flecha",
+      "es": "la flecha",
+      "en": "arrow",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Arrow — used to show direction.",
+      "scenarios": [
+        "shapes"
+      ],
+      "imageQuery": "arrow sign direction",
+      "image": "colors-shapes/flecha.webp",
+      "level": "A"
+    },
+    {
+      "id": "cs-corto",
+      "es": "corto",
+      "en": "short",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Short (length) — 'un lápiz corto' = a short pencil.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "short length pencil",
+      "image": "colors-shapes/corto.webp",
+      "level": "A"
+    },
+    {
+      "id": "cs-alto",
+      "es": "alto",
+      "en": "tall",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Tall/high — 'un edificio alto' = a tall building.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "tall building",
+      "image": "colors-shapes/alto.webp",
+      "level": "A"
+    },
+    {
+      "id": "cs-bajo",
+      "es": "bajo",
+      "en": "low",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Low/short (height) — 'una mesa baja' = a low table.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "low height small",
+      "image": "colors-shapes/bajo.webp",
+      "level": "A"
+    },
+    {
+      "id": "cs-ancho",
+      "es": "ancho",
+      "en": "wide",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Wide — 'una calle ancha' = a wide street.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "wide road",
+      "image": "colors-shapes/ancho.webp",
+      "level": "A"
+    },
+    {
+      "id": "cs-estrecho",
+      "es": "estrecho",
+      "en": "narrow",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Narrow — 'un callejón estrecho' = a narrow alley.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "narrow alley",
+      "image": "colors-shapes/estrecho.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-pesado",
+      "es": "pesado",
+      "en": "heavy",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Heavy — 'una maleta pesada' = a heavy suitcase.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "heavy weight",
+      "image": "colors-shapes/pesado.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-ligero",
+      "es": "ligero",
+      "en": "light",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Light (weight) — 'una bolsa ligera' = a light bag.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "light feather weight",
+      "image": "colors-shapes/ligero.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-puntiagudo",
+      "es": "puntiagudo",
+      "en": "pointed",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Pointed/sharp — 'una forma puntiaguda' = a pointed shape.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "pointed sharp shape",
+      "image": "colors-shapes/puntiagudo.webp",
+      "level": "C"
+    },
+    {
+      "id": "cs-suave",
+      "es": "suave",
+      "en": "smooth",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Smooth/soft to the touch — 'una tela suave' = a smooth fabric.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "smooth soft texture",
+      "image": "colors-shapes/suave.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-aspero",
+      "es": "áspero",
+      "en": "rough",
+      "pos": "adjective",
+      "gender": "m",
+      "hint": "Rough — 'una superficie áspera' = a rough surface.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "rough texture surface",
+      "image": "colors-shapes/aspero.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-brillante",
+      "es": "brillante",
+      "en": "shiny",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Shiny/brilliant — 'una superficie brillante' = a shiny surface.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "shiny bright surface",
+      "image": "colors-shapes/brillante.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-transparente",
+      "es": "transparente",
+      "en": "transparent",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Transparent — you can see through it.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "transparent glass clear",
+      "image": "colors-shapes/transparente.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-tamano",
+      "es": "el tamaño",
+      "en": "size",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Size — '¿qué tamaño tiene?' = what size is it?",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "size comparison",
+      "image": "colors-shapes/tamano.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-forma",
+      "es": "la forma",
+      "en": "shape",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Shape — '¿qué forma tiene?' = what shape is it?",
+      "scenarios": [
+        "shapes"
+      ],
+      "imageQuery": "geometric shapes",
+      "image": "colors-shapes/forma.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-patron",
+      "es": "el patrón",
+      "en": "pattern",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pattern — 'un patrón de rayas' = a striped pattern.",
+      "scenarios": [
+        "describing things"
+      ],
+      "imageQuery": "pattern design fabric",
+      "image": "colors-shapes/patron.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-colorear",
+      "es": "colorear",
+      "en": "to color",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To color in — 'colorear un dibujo' = to color in a picture.",
+      "scenarios": [
+        "art",
+        "school & study"
+      ],
+      "imageQuery": "coloring pencils drawing",
+      "image": "colors-shapes/colorear.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-dibujar",
+      "es": "dibujar",
+      "en": "to draw",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To draw — 'dibujar un paisaje' = to draw a landscape.",
+      "scenarios": [
+        "art",
+        "school & study"
+      ],
+      "imageQuery": "drawing sketch pencil",
+      "image": "colors-shapes/dibujar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-pintar",
+      "es": "pintar",
+      "en": "to paint",
+      "pos": "verb",
+      "gender": null,
+      "hint": "To paint — 'pintar un cuadro' = to paint a picture.",
+      "scenarios": [
+        "art"
+      ],
+      "imageQuery": "painting art canvas",
+      "image": "colors-shapes/pintar.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-pentagono",
+      "es": "el pentágono",
+      "en": "pentagon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pentagon — a shape with five sides.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "pentagon five sides shape",
+      "image": "colors-shapes/pentagono.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-hexagono",
+      "es": "el hexágono",
+      "en": "hexagon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hexagon — a shape with six sides; like a honeycomb cell.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "hexagon six sides honeycomb",
+      "image": "colors-shapes/hexagono.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-horizontal",
+      "es": "horizontal",
+      "en": "horizontal",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Horizontal — flat side to side, like the horizon.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "horizontal line flat",
+      "image": "colors-shapes/horizontal.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-vertical",
+      "es": "vertical",
+      "en": "vertical",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Vertical — straight up and down.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "vertical line tall",
+      "image": "colors-shapes/vertical.webp",
+      "level": "B"
+    },
+    {
+      "id": "cs-diagonal",
+      "es": "diagonal",
+      "en": "diagonal",
+      "pos": "adjective",
+      "gender": null,
+      "hint": "Diagonal — at an angle, neither horizontal nor vertical.",
+      "scenarios": [
+        "colors & shapes"
+      ],
+      "imageQuery": "diagonal line angle",
+      "image": "colors-shapes/diagonal.webp",
+      "level": "B"
     }
   ]
 }

@@ -1,0 +1,1049 @@
+{
+  "id": "sports-exercise",
+  "order": 23,
+  "name": "Sports & Exercise",
+  "nameEs": "Deportes y ejercicio",
+  "words": [
+    {
+      "id": "sp-futbol",
+      "es": "el fútbol",
+      "en": "football / soccer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Football/soccer — the world's most popular sport. 'Jugar al fútbol' = to play football.",
+      "scenarios": [
+        "sports field",
+        "watching a match",
+        "school"
+      ],
+      "imageQuery": "soccer football game players field",
+      "image": "sports-exercise/futbol.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-baloncesto",
+      "es": "el baloncesto",
+      "en": "basketball",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Basketball — also called 'básquetbol' in Latin America. Played on a 'cancha de baloncesto'.",
+      "scenarios": [
+        "sports court",
+        "school",
+        "gym"
+      ],
+      "imageQuery": "basketball game court players",
+      "image": "sports-exercise/baloncesto.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-natacion",
+      "es": "la natación",
+      "en": "swimming",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Swimming — 'Me gusta la natación' = I like swimming. Great full-body exercise.",
+      "scenarios": [
+        "swimming pool",
+        "sports club",
+        "beach"
+      ],
+      "imageQuery": "swimming pool lane swimmer",
+      "image": "sports-exercise/natacion.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-correr",
+      "es": "correr",
+      "en": "to run",
+      "pos": "verb",
+      "hint": "To run — 'Corro todos los días' = I run every day. Essential fitness verb.",
+      "scenarios": [
+        "park",
+        "gym",
+        "marathon"
+      ],
+      "imageQuery": "person running outdoors park",
+      "image": "sports-exercise/correr.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-nadar",
+      "es": "nadar",
+      "en": "to swim",
+      "pos": "verb",
+      "hint": "To swim — '¿Sabes nadar?' = Do you know how to swim? A very useful skill.",
+      "scenarios": [
+        "swimming pool",
+        "beach",
+        "lake"
+      ],
+      "imageQuery": "person swimming pool freestyle",
+      "image": "sports-exercise/nadar.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-ciclismo",
+      "es": "el ciclismo",
+      "en": "cycling",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Cycling — 'Practico ciclismo los fines de semana' = I cycle on weekends. Road or mountain biking.",
+      "scenarios": [
+        "cycling path",
+        "mountain trail",
+        "sports club"
+      ],
+      "imageQuery": "cyclist riding bicycle road",
+      "image": "sports-exercise/ciclismo.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-tenis",
+      "es": "el tenis",
+      "en": "tennis",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tennis — played on a 'cancha de tenis'. 'Jugar al tenis' = to play tennis.",
+      "scenarios": [
+        "tennis court",
+        "sports club",
+        "school"
+      ],
+      "imageQuery": "tennis player racket court",
+      "image": "sports-exercise/tenis.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-beisbol",
+      "es": "el béisbol",
+      "en": "baseball",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Baseball — very popular in Cuba, Venezuela, Dominican Republic and Puerto Rico.",
+      "scenarios": [
+        "baseball field",
+        "watching a match",
+        "sports store"
+      ],
+      "imageQuery": "baseball game pitcher batter",
+      "image": "sports-exercise/beisbol.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-voleibol",
+      "es": "el voleibol",
+      "en": "volleyball",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Volleyball — played on a court or beach. 'Voléibol playa' = beach volleyball.",
+      "scenarios": [
+        "beach",
+        "sports court",
+        "school"
+      ],
+      "imageQuery": "volleyball game players net beach",
+      "image": "sports-exercise/voleibol.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-atletismo",
+      "es": "el atletismo",
+      "en": "athletics / track and field",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Athletics — includes running, jumping, and throwing events. 'El atletismo olímpico' = Olympic track and field.",
+      "scenarios": [
+        "athletics track",
+        "Olympic games",
+        "school sports"
+      ],
+      "imageQuery": "athletics track and field runners",
+      "image": "sports-exercise/atletismo.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-gimnasio",
+      "es": "el gimnasio",
+      "en": "gym",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Gym — 'Voy al gimnasio tres veces a la semana' = I go to the gym three times a week.",
+      "scenarios": [
+        "fitness centre",
+        "daily routine",
+        "health"
+      ],
+      "imageQuery": "gym fitness equipment weights",
+      "image": "sports-exercise/gimnasio.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-entrenamiento",
+      "es": "el entrenamiento",
+      "en": "training / workout",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Training — 'Hoy tengo entrenamiento' = I have training today. Refers to a practice session.",
+      "scenarios": [
+        "gym",
+        "sports club",
+        "daily routine"
+      ],
+      "imageQuery": "sports training workout session",
+      "image": "sports-exercise/entrenamiento.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-ejercicio",
+      "es": "el ejercicio",
+      "en": "exercise",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Exercise — 'El ejercicio es bueno para la salud' = Exercise is good for your health.",
+      "scenarios": [
+        "gym",
+        "health",
+        "daily routine"
+      ],
+      "imageQuery": "person exercising fitness routine",
+      "image": "sports-exercise/ejercicio.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-partido",
+      "es": "el partido",
+      "en": "match / game",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Match/game — 'El partido empieza a las 7' = The match starts at 7. Used for sports games.",
+      "scenarios": [
+        "watching a match",
+        "sports field",
+        "stadium"
+      ],
+      "imageQuery": "sports match game stadium crowd",
+      "image": "sports-exercise/partido.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-equipo",
+      "es": "el equipo",
+      "en": "team",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Team — 'Mi equipo favorito' = my favourite team. Also means equipment in other contexts.",
+      "scenarios": [
+        "sports field",
+        "watching a match",
+        "school"
+      ],
+      "imageQuery": "sports team huddle jerseys",
+      "image": "sports-exercise/equipo.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-jugador",
+      "es": "el jugador",
+      "en": "player",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Player — 'El mejor jugador del equipo' = the best player on the team. Feminine: la jugadora.",
+      "scenarios": [
+        "sports field",
+        "watching a match",
+        "sports news"
+      ],
+      "imageQuery": "football soccer player running",
+      "image": "sports-exercise/jugador.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-pelota",
+      "es": "la pelota",
+      "en": "ball",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Ball — 'la pelota' is the general word for a ball. 'Pasa la pelota' = pass the ball.",
+      "scenarios": [
+        "sports field",
+        "playground",
+        "sports store"
+      ],
+      "imageQuery": "sports ball soccer football",
+      "image": "sports-exercise/pelota.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-cancha",
+      "es": "la cancha",
+      "en": "court / field",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Court/field — used in Latin America for sports courts. 'Cancha de tenis' = tennis court.",
+      "scenarios": [
+        "sports venue",
+        "school",
+        "sports club"
+      ],
+      "imageQuery": "sports court basketball court outdoor",
+      "image": "sports-exercise/cancha.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-estadio",
+      "es": "el estadio",
+      "en": "stadium",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Stadium — 'Vamos al estadio a ver el partido' = Let's go to the stadium to watch the match.",
+      "scenarios": [
+        "football match",
+        "sports event",
+        "city"
+      ],
+      "imageQuery": "soccer stadium full crowd aerial",
+      "image": "sports-exercise/estadio.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-medalla",
+      "es": "la medalla",
+      "en": "medal",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Medal — 'Ganó una medalla de oro' = She won a gold medal. Awarded at competitions.",
+      "scenarios": [
+        "Olympic games",
+        "competition",
+        "awards ceremony"
+      ],
+      "imageQuery": "gold medal sports award",
+      "image": "sports-exercise/medalla.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-campeon",
+      "es": "el campeón",
+      "en": "champion",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Champion — '¡Somos campeones!' = We are champions! Feminine: la campeona.",
+      "scenarios": [
+        "sports competition",
+        "award ceremony",
+        "sports news"
+      ],
+      "imageQuery": "sports champion trophy celebration",
+      "image": "sports-exercise/campeon.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-arbitro",
+      "es": "el árbitro",
+      "en": "referee",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Referee — 'El árbitro pitó un penalti' = The referee called a penalty. Controls the game.",
+      "scenarios": [
+        "sports match",
+        "football game",
+        "court"
+      ],
+      "imageQuery": "football referee whistle yellow card",
+      "image": "sports-exercise/arbitro.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-marca",
+      "es": "la marca",
+      "en": "score / record / mark",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Mark/score — 'Estableció una nueva marca personal' = He set a new personal best.",
+      "scenarios": [
+        "athletics",
+        "competition",
+        "sports tracking"
+      ],
+      "imageQuery": "athletic performance stopwatch record",
+      "image": "sports-exercise/marca.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-record",
+      "es": "el récord",
+      "en": "record",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Record — 'Rompió el récord mundial' = He broke the world record. Often used without translation.",
+      "scenarios": [
+        "athletics",
+        "competition",
+        "sports news"
+      ],
+      "imageQuery": "world record breaking sports achievement",
+      "image": "sports-exercise/record.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-portero",
+      "es": "el portero",
+      "en": "goalkeeper",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Goalkeeper — defends the goal in football/hockey. 'El portero atrapó el balón' = The goalkeeper caught the ball.",
+      "scenarios": [
+        "football match",
+        "sports field",
+        "team"
+      ],
+      "imageQuery": "goalkeeper soccer goal keeper diving",
+      "image": "sports-exercise/portero.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-delantero",
+      "es": "el delantero",
+      "en": "forward / striker",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Forward — the attacking player in football. 'El delantero marcó un gol' = The striker scored a goal.",
+      "scenarios": [
+        "football match",
+        "team position",
+        "sports commentary"
+      ],
+      "imageQuery": "soccer forward striker shooting goal",
+      "image": "sports-exercise/delantero.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-defensor",
+      "es": "el defensor",
+      "en": "defender",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Defender — the defensive player in football. Protects the goal area from the opposing team.",
+      "scenarios": [
+        "football match",
+        "team position",
+        "sports commentary"
+      ],
+      "imageQuery": "soccer defender marking player",
+      "image": "sports-exercise/defensor.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-salto",
+      "es": "el salto",
+      "en": "jump",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Jump — 'El salto de altura' = high jump. 'El salto de longitud' = long jump.",
+      "scenarios": [
+        "athletics",
+        "gymnastics",
+        "exercise"
+      ],
+      "imageQuery": "athlete high jump track and field",
+      "image": "sports-exercise/salto.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-lanzamiento",
+      "es": "el lanzamiento",
+      "en": "throw / launch",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Throw — 'El lanzamiento de jabalina' = javelin throw. Used in athletics events.",
+      "scenarios": [
+        "athletics",
+        "sports field",
+        "competition"
+      ],
+      "imageQuery": "javelin throw athletics athlete",
+      "image": "sports-exercise/lanzamiento.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-carrera",
+      "es": "la carrera",
+      "en": "race / run",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Race — 'La carrera de 100 metros' = the 100-metre race. Also means career in another context.",
+      "scenarios": [
+        "athletics",
+        "marathon",
+        "competition"
+      ],
+      "imageQuery": "running race track athletes sprint",
+      "image": "sports-exercise/carrera.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-bicicleta",
+      "es": "la bicicleta",
+      "en": "bicycle",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Bicycle — 'Voy al trabajo en bicicleta' = I go to work by bicycle. Also called 'bici' informally.",
+      "scenarios": [
+        "cycling",
+        "park",
+        "transport"
+      ],
+      "imageQuery": "bicycle road bike cycling",
+      "image": "sports-exercise/bicicleta.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-casco",
+      "es": "el casco",
+      "en": "helmet",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Helmet — 'Siempre usa el casco' = Always wear your helmet. Safety gear for cycling and motorsports.",
+      "scenarios": [
+        "cycling",
+        "motorcycle",
+        "construction"
+      ],
+      "imageQuery": "bicycle helmet safety sports",
+      "image": "sports-exercise/casco.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-raqueta",
+      "es": "la raqueta",
+      "en": "racket",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Racket — used in tennis, badminton, and squash. 'Una raqueta de tenis' = a tennis racket.",
+      "scenarios": [
+        "tennis court",
+        "sports store",
+        "badminton"
+      ],
+      "imageQuery": "tennis racket and ball",
+      "image": "sports-exercise/raqueta.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-balon",
+      "es": "el balón",
+      "en": "ball (large)",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Ball — 'balón' refers to larger inflated balls like footballs and basketballs. 'Patea el balón' = kick the ball.",
+      "scenarios": [
+        "football match",
+        "basketball",
+        "sports store"
+      ],
+      "imageQuery": "football soccer ball white black",
+      "image": "sports-exercise/balon.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-piscina",
+      "es": "la piscina",
+      "en": "swimming pool",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Swimming pool — 'Voy a nadar a la piscina' = I'm going to swim at the pool. Called 'alberca' in Mexico.",
+      "scenarios": [
+        "swimming",
+        "sports club",
+        "hotel"
+      ],
+      "imageQuery": "outdoor swimming pool clear water",
+      "image": "sports-exercise/piscina.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-cronometro",
+      "es": "el cronómetro",
+      "en": "stopwatch / chronometer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Stopwatch — used to time races and training sessions. 'Mide el tiempo con un cronómetro'.",
+      "scenarios": [
+        "athletics",
+        "training",
+        "competition"
+      ],
+      "imageQuery": "stopwatch timer sports training",
+      "image": "sports-exercise/cronometro.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-maraton",
+      "es": "el maratón",
+      "en": "marathon",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Marathon — a 42.195 km race. 'Correr un maratón' requires months of training.",
+      "scenarios": [
+        "road race",
+        "athletics",
+        "endurance sports"
+      ],
+      "imageQuery": "marathon runners city road race",
+      "image": "sports-exercise/maraton.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-sprint",
+      "es": "el sprint",
+      "en": "sprint",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sprint — a short maximum-speed burst. 'Un sprint final' = a final sprint to the finish line.",
+      "scenarios": [
+        "athletics",
+        "cycling",
+        "training"
+      ],
+      "imageQuery": "sprinting athlete fastest run track",
+      "image": "sports-exercise/sprint.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-flexiones",
+      "es": "las flexiones",
+      "en": "push-ups",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Push-ups — 'Hago 20 flexiones cada mañana' = I do 20 push-ups every morning.",
+      "scenarios": [
+        "gym",
+        "home workout",
+        "military training"
+      ],
+      "imageQuery": "push-ups exercise fitness man",
+      "image": "sports-exercise/flexiones.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-sentadillas",
+      "es": "las sentadillas",
+      "en": "squats",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Squats — 'Las sentadillas fortalecen las piernas' = Squats strengthen your legs.",
+      "scenarios": [
+        "gym",
+        "home workout",
+        "leg training"
+      ],
+      "imageQuery": "squat exercise gym weights",
+      "image": "sports-exercise/sentadillas.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-abdominales",
+      "es": "los abdominales",
+      "en": "sit-ups / abs",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sit-ups/abs — 'Hago abdominales para fortalecer el core' = I do sit-ups to strengthen my core.",
+      "scenarios": [
+        "gym",
+        "home workout",
+        "core training"
+      ],
+      "imageQuery": "abdominal sit-ups exercise core",
+      "image": "sports-exercise/abdominales.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-yoga",
+      "es": "el yoga",
+      "en": "yoga",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Yoga — 'Practico yoga para relajarme' = I practise yoga to relax. Great for flexibility and mindfulness.",
+      "scenarios": [
+        "yoga studio",
+        "home exercise",
+        "wellness"
+      ],
+      "imageQuery": "yoga class pose mat indoor",
+      "image": "sports-exercise/yoga.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-pilates",
+      "es": "el pilates",
+      "en": "pilates",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Pilates — 'El pilates mejora la postura' = Pilates improves posture. Focus on core strength.",
+      "scenarios": [
+        "pilates studio",
+        "gym",
+        "rehabilitation"
+      ],
+      "imageQuery": "pilates class exercise studio mat",
+      "image": "sports-exercise/pilates.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-boxeo",
+      "es": "el boxeo",
+      "en": "boxing",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Boxing — 'El boxeo requiere fuerza y agilidad' = Boxing requires strength and agility.",
+      "scenarios": [
+        "boxing gym",
+        "combat sports",
+        "fitness"
+      ],
+      "imageQuery": "boxing gloves ring fight",
+      "image": "sports-exercise/boxeo.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-lucha-libre",
+      "es": "la lucha libre",
+      "en": "freestyle wrestling / lucha libre",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Lucha libre — Mexican-style wrestling with colourful masks and acrobatic moves. A cultural icon.",
+      "scenarios": [
+        "Mexican wrestling arena",
+        "combat sports",
+        "entertainment"
+      ],
+      "imageQuery": "lucha libre Mexican wrestling mask",
+      "image": "sports-exercise/lucha-libre.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-karate",
+      "es": "el karate",
+      "en": "karate",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Karate — Japanese martial art practiced widely in Latin America. 'Un cinturón negro' = a black belt.",
+      "scenarios": [
+        "martial arts school",
+        "sports club",
+        "competition"
+      ],
+      "imageQuery": "karate martial arts training dojo",
+      "image": "sports-exercise/karate.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-judo",
+      "es": "el judo",
+      "en": "judo",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Judo — Japanese martial art using throws and holds. 'Un judoca' = a judo practitioner.",
+      "scenarios": [
+        "martial arts school",
+        "Olympic sports",
+        "competition"
+      ],
+      "imageQuery": "judo throw martial arts match",
+      "image": "sports-exercise/judo.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-esgrima",
+      "es": "la esgrima",
+      "en": "fencing",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Fencing — sword fighting sport. 'La esgrima olímpica' uses épée, foil, or sabre.",
+      "scenarios": [
+        "Olympic sports",
+        "fencing club",
+        "competition"
+      ],
+      "imageQuery": "fencing sword sport athlete epee",
+      "image": "sports-exercise/esgrima.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-escalada",
+      "es": "la escalada",
+      "en": "rock climbing",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Rock climbing — 'La escalada en roca' = outdoor rock climbing. 'La escalada deportiva' = sport climbing.",
+      "scenarios": [
+        "climbing wall",
+        "outdoor adventure",
+        "extreme sports"
+      ],
+      "imageQuery": "rock climbing wall indoor outdoor",
+      "image": "sports-exercise/escalada.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-surf",
+      "es": "el surf",
+      "en": "surfing",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Surfing — 'Hacer surf' = to surf. Popular in Costa Rica, Peru, and all along the Pacific coast.",
+      "scenarios": [
+        "beach",
+        "ocean",
+        "water sports"
+      ],
+      "imageQuery": "surfer surfboard ocean wave",
+      "image": "sports-exercise/surf.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-esqui",
+      "es": "el esquí",
+      "en": "skiing",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Skiing — 'Esquiar en la nieve' = to ski in the snow. Chile and Argentina have major ski resorts.",
+      "scenarios": [
+        "ski resort",
+        "winter sports",
+        "mountain"
+      ],
+      "imageQuery": "skiing snow mountain skier slope",
+      "image": "sports-exercise/esqui.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-patinaje",
+      "es": "el patinaje",
+      "en": "skating",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Skating — 'El patinaje sobre hielo' = ice skating. 'El patinaje en línea' = inline skating.",
+      "scenarios": [
+        "ice rink",
+        "skate park",
+        "winter sports"
+      ],
+      "imageQuery": "ice skating rink skater",
+      "image": "sports-exercise/patinaje.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-golf",
+      "es": "el golf",
+      "en": "golf",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Golf — 'Jugar al golf' = to play golf. Played on a 'campo de golf' with 18 holes.",
+      "scenarios": [
+        "golf course",
+        "sports club",
+        "leisure"
+      ],
+      "imageQuery": "golf course player swing green",
+      "image": "sports-exercise/golf.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-rugby",
+      "es": "el rugby",
+      "en": "rugby",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Rugby — contact sport with an oval ball. Argentina ('Los Pumas') is the top Latin American rugby team.",
+      "scenarios": [
+        "rugby field",
+        "sports club",
+        "international sports"
+      ],
+      "imageQuery": "rugby players tackle field sport",
+      "image": "sports-exercise/rugby.webp",
+      "level": "C"
+    },
+    {
+      "id": "sp-hockey",
+      "es": "el hockey",
+      "en": "hockey",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Hockey — 'El hockey sobre hierba' = field hockey. 'El hockey sobre hielo' = ice hockey.",
+      "scenarios": [
+        "hockey field",
+        "ice rink",
+        "sports club"
+      ],
+      "imageQuery": "field hockey players stick ball",
+      "image": "sports-exercise/hockey.webp",
+      "level": "C"
+    },
+    {
+      "id": "sp-entrenador",
+      "es": "el entrenador",
+      "en": "coach / trainer",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Coach — 'El entrenador diseña el plan de entrenamiento' = The coach designs the training plan.",
+      "scenarios": [
+        "sports team",
+        "gym",
+        "professional sports"
+      ],
+      "imageQuery": "sports coach trainer team sideline",
+      "image": "sports-exercise/entrenador.webp",
+      "level": "C"
+    },
+    {
+      "id": "sp-lesion",
+      "es": "la lesión",
+      "en": "injury",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Injury — 'Se retiró del partido por una lesión' = He withdrew from the match due to an injury.",
+      "scenarios": [
+        "sports medicine",
+        "match",
+        "training"
+      ],
+      "imageQuery": "sports injury athlete knee wrapped",
+      "image": "sports-exercise/lesion.webp",
+      "level": "C"
+    },
+    {
+      "id": "sp-dopaje",
+      "es": "el dopaje",
+      "en": "doping",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Doping — the use of banned performance-enhancing substances. 'El control antidopaje' = anti-doping test.",
+      "scenarios": [
+        "professional sports",
+        "Olympics",
+        "sports controversy"
+      ],
+      "imageQuery": "anti-doping drug test sports athlete",
+      "image": "sports-exercise/dopaje.webp",
+      "level": "C"
+    },
+    {
+      "id": "sp-deporte",
+      "es": "el deporte",
+      "en": "sport",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Sport — 'practicar un deporte' = to practice a sport.",
+      "scenarios": [
+        "sports"
+      ],
+      "imageQuery": "sports variety activities",
+      "image": "sports-exercise/deporte.webp",
+      "level": "A"
+    },
+    {
+      "id": "sp-pesas",
+      "es": "las pesas",
+      "en": "weights",
+      "pos": "noun",
+      "gender": "f",
+      "hint": "Weights — 'levantar pesas' = to lift weights.",
+      "scenarios": [
+        "sports",
+        "exercise"
+      ],
+      "imageQuery": "weights dumbbells gym",
+      "image": "sports-exercise/pesas.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-calentamiento",
+      "es": "el calentamiento",
+      "en": "warm-up",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Warm-up — 'hacer el calentamiento' = to do a warm-up.",
+      "scenarios": [
+        "sports",
+        "exercise"
+      ],
+      "imageQuery": "warm up stretching exercise",
+      "image": "sports-exercise/calentamiento.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-estiramiento",
+      "es": "el estiramiento",
+      "en": "stretching",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Stretching — 'hacer estiramientos' = to do stretches.",
+      "scenarios": [
+        "sports",
+        "exercise"
+      ],
+      "imageQuery": "stretching exercise flexibility",
+      "image": "sports-exercise/estiramiento.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-torneo",
+      "es": "el torneo",
+      "en": "tournament",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Tournament — 'participar en un torneo' = to participate in a tournament.",
+      "scenarios": [
+        "sports"
+      ],
+      "imageQuery": "tournament competition sports",
+      "image": "sports-exercise/torneo.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-campeonato",
+      "es": "el campeonato",
+      "en": "championship",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Championship — 'ganar el campeonato' = to win the championship.",
+      "scenarios": [
+        "sports"
+      ],
+      "imageQuery": "championship trophy celebration",
+      "image": "sports-exercise/campeonato.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-empate",
+      "es": "el empate",
+      "en": "draw",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Draw/tie — 'el partido terminó en empate' = the match ended in a draw.",
+      "scenarios": [
+        "sports"
+      ],
+      "imageQuery": "draw tie score",
+      "image": "sports-exercise/empate.webp",
+      "level": "B"
+    },
+    {
+      "id": "sp-gol",
+      "es": "el gol",
+      "en": "goal",
+      "pos": "noun",
+      "gender": "m",
+      "hint": "Goal (soccer) — '¡gol!' = goal!",
+      "scenarios": [
+        "sports"
+      ],
+      "imageQuery": "soccer goal score football",
+      "image": "sports-exercise/gol.webp",
+      "level": "A"
+    }
+  ]
+}
