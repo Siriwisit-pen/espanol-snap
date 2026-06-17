@@ -5,7 +5,7 @@ import { loadGrammarProgress } from '../lib/grammarProgress.js'
 import conversations from '../data/conversations/index.js'
 import grammarTopics from '../data/grammar/index.js'
 
-export default function Home({ categories, onStartMixed, onStartCategory, onConversations, onGrammar, onMyWords }) {
+export default function Home({ categories, onStartMixed, onStartCategory, onConversations, onGrammar, onMyWords, quickLevels, onToggleQuickLevel }) {
   const progress = useMemo(() => loadProgress(), [])
   const s = useMemo(() => stats(progress), [progress])
   const streak = useMemo(() => loadStreak(), [])
@@ -48,14 +48,31 @@ export default function Home({ categories, onStartMixed, onStartCategory, onConv
 
       <div className="home-body">
         <div className="mode-cards">
-          <button className="mode-card mode-card-primary" onClick={onStartMixed}>
-            <div className="mode-icon-circle mic-blue">⚡</div>
-            <div className="mode-card-body">
-              <span className="mode-card-title">Quick play</span>
-              <span className="mode-card-desc">{s.studied > 0 ? `${s.learned} learned · ` : ''}{categories.reduce((n, c) => n + c.words.length, 0)} words</span>
+          <div className="mode-card mode-card-primary mode-card-qp">
+            <button className="mode-card-qp-main" onClick={onStartMixed}>
+              <div className="mode-icon-circle mic-blue">⚡</div>
+              <div className="mode-card-body">
+                <span className="mode-card-title">Quick play</span>
+                <span className="mode-card-desc">
+                  {s.studied > 0 ? `${s.learned} learned · ` : ''}
+                  {categories.reduce((n, c) => n + c.words.filter(w => quickLevels.has(w.level || 'A')).length, 0)} words
+                </span>
+              </div>
+              <span className="mode-card-arr">›</span>
+            </button>
+            <div className="qp-level-row">
+              {['A', 'B', 'C'].map((lvl) => (
+                <button
+                  key={lvl}
+                  className={`qp-lvl-btn level-${lvl}${quickLevels.has(lvl) ? ' qp-lvl-on' : ' qp-lvl-off'}`}
+                  onClick={(e) => { e.stopPropagation(); onToggleQuickLevel(lvl) }}
+                >
+                  {lvl}
+                </button>
+              ))}
+              <span className="qp-lvl-hint">level filter</span>
             </div>
-            <span className="mode-card-arr">›</span>
-          </button>
+          </div>
 
           <button className="mode-card" onClick={onConversations}>
             <div className="mode-icon-circle mic-red">💬</div>
@@ -91,14 +108,16 @@ export default function Home({ categories, onStartMixed, onStartCategory, onConv
             const total = cat.words.length
             const learned = cat.words.filter((w) => isLearned(progress[w.id])).length
             const pct = Math.round((learned / total) * 100)
+            const done = learned === total && total > 0
             return (
-              <button key={cat.id} className="cat-card" onClick={() => onStartCategory(cat)}>
+              <button key={cat.id} className={`cat-card${done ? ' cat-card-done' : ''}`} onClick={() => onStartCategory(cat)}>
+                {cat.emoji && <span className="cat-emoji">{cat.emoji}</span>}
                 <span className="cat-name">{cat.name}</span>
                 <span className="cat-name-es">{cat.nameEs}</span>
                 <div className="cat-prog-bar">
                   <div className="cat-prog-fill" style={{ width: `${pct}%` }} />
                 </div>
-                <span className="cat-prog">{learned}/{total}</span>
+                <span className="cat-prog">{done ? '✓ Complete' : `${learned}/${total}`}</span>
               </button>
             )
           })}

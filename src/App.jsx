@@ -14,9 +14,20 @@ export default function App() {
   const [title, setTitle] = useState('')
   const [activeConv, setActiveConv] = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
+  const [quickLevels, setQuickLevels] = useState(new Set(['A', 'B', 'C']))
+
+  function toggleQuickLevel(lvl) {
+    setQuickLevels((prev) => {
+      const next = new Set(prev)
+      if (next.has(lvl) && next.size > 1) next.delete(lvl)
+      else next.add(lvl)
+      return next
+    })
+  }
 
   function startMixed() {
-    setPool(allWords)
+    const filtered = allWords.filter((w) => quickLevels.has(w.level || 'A'))
+    setPool(filtered)
     setTitle('Quick play')
     setView('quiz')
   }
@@ -53,6 +64,8 @@ export default function App() {
           onConversations={() => setView('conversations')}
           onGrammar={() => setView('grammar')}
           onMyWords={() => setView('myWords')}
+          quickLevels={quickLevels}
+          onToggleQuickLevel={toggleQuickLevel}
         />
       )}
       {view === 'quiz' && <Quiz pool={pool} title={title} onExit={() => setView('home')} />}

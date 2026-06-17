@@ -192,6 +192,46 @@ body {
   background: var(--teal-light);
   border: 2px solid var(--teal);
 }
+/* Quick play card with level filter */
+.mode-card-qp {
+  flex-direction: column;
+  align-items: stretch;
+  padding: 0;
+  gap: 0;
+}
+.mode-card-qp-main {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 14px 16px 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+.qp-level-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 16px 12px;
+}
+.qp-lvl-btn {
+  font-size: 11px;
+  font-weight: 700;
+  padding: 2px 8px;
+  border-radius: 20px;
+  border: 1.5px solid currentColor;
+  cursor: pointer;
+  line-height: 1.6;
+  transition: opacity 0.1s;
+}
+.qp-lvl-off { opacity: 0.35; }
+.qp-lvl-hint {
+  font-size: 11px;
+  color: var(--muted);
+  margin-left: 2px;
+}
 .mode-card-primary .mode-card-title {
   color: var(--teal);
 }
@@ -267,6 +307,11 @@ body {
   transform: scale(0.97);
   border-color: var(--teal);
 }
+.cat-emoji {
+  font-size: 22px;
+  line-height: 1;
+  margin-bottom: 2px;
+}
 .cat-name {
   font-weight: 600;
   font-size: 14px;
@@ -295,6 +340,13 @@ body {
   font-size: 12px;
   color: var(--teal);
   font-weight: 600;
+}
+.cat-card-done {
+  border-color: var(--green);
+  background: var(--green-bg);
+}
+.cat-card-done .cat-prog {
+  color: var(--green);
 }
 .footnote {
   margin-top: 28px;
