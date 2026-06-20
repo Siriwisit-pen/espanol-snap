@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import conversations, { levels } from '../data/conversations/index.js'
 import { loadConvProgress } from '../lib/convProgress.js'
 
-export default function Conversations({ onStart, onBack }) {
+export default function Conversations({ onStart, onBack, onMyConversations }) {
   const progress = useMemo(() => loadConvProgress(), [])
 
   const byLevel = useMemo(() => {
@@ -21,7 +21,7 @@ export default function Conversations({ onStart, onBack }) {
       <div className="conv-list-bar">
         <button className="link" onClick={onBack}>← Back</button>
         <h2 className="conv-list-title">Conversations</h2>
-        <span />
+        <button className="link review-link" onClick={onMyConversations}>📖 Mine</button>
       </div>
 
       <p className="conv-list-sub">

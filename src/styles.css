@@ -1518,3 +1518,184 @@ body {
   line-height: 1.5;
   margin: 0 0 8px;
 }
+
+/* ---------- Review screens (My Conversations / My Grammar) ---------- */
+.review-link {
+  font-size: 13px;
+  font-weight: 700;
+}
+.review-screen {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  padding-top: max(16px, env(safe-area-inset-top));
+  padding-bottom: 32px;
+}
+.review-sub {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0 20px 20px;
+}
+.review-group {
+  margin-bottom: 8px;
+}
+.review-group-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px 8px;
+}
+.review-group-desc {
+  font-size: 13px;
+  color: var(--muted);
+}
+.review-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 14px 20px;
+  background: #fff;
+  border: none;
+  border-top: 1px solid #f1f5f9;
+  text-align: left;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.review-item:last-child { border-bottom: 1px solid #f1f5f9; }
+.review-item:active { background: #f8fafc; }
+.review-item-locked {
+  opacity: 0.4;
+  cursor: default;
+}
+.review-item-icon { font-size: 22px; flex-shrink: 0; }
+.review-item-body {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.review-item-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--ink);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.review-item-sub {
+  font-size: 12px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.review-item-right {
+  font-size: 18px;
+  flex-shrink: 0;
+}
+
+/* Conversation detail */
+.review-scene {
+  font-size: 13px;
+  color: var(--muted);
+  font-style: italic;
+  padding: 2px 20px 16px;
+}
+.review-dialogue {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 16px 32px;
+}
+.review-line {
+  background: #f8fafc;
+  border-radius: 12px;
+  padding: 12px 14px;
+}
+.review-speaker {
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  display: block;
+  margin-bottom: 4px;
+}
+.review-es {
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--ink);
+  margin: 0 0 3px;
+}
+.review-en {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+}
+
+/* Grammar review detail */
+.review-grammar-header {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 20px;
+  background: #e0f7f4;
+  margin-bottom: 12px;
+}
+.review-grammar-icon { font-size: 32px; }
+.review-grammar-title {
+  font-size: 20px;
+  font-weight: 800;
+  color: var(--teal-dark);
+  margin: 0 0 2px;
+}
+.review-grammar-titlees {
+  font-size: 13px;
+  color: var(--muted);
+  margin: 0;
+}
+.review-grammar-intro {
+  font-size: 14px;
+  color: var(--ink);
+  line-height: 1.6;
+  padding: 0 20px 16px;
+}
+.review-grammar-recap {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 16px 32px;
+}
+
+/* ---------- Update banner ---------- */
+.update-banner {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: var(--teal-dark);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 14px 20px;
+  padding-bottom: max(14px, env(safe-area-inset-bottom));
+  z-index: 9999;
+  box-shadow: 0 -2px 16px rgba(0,0,0,0.18);
+}
+.update-banner-text {
+  font-size: 14px;
+  font-weight: 600;
+}
+.update-banner-btn {
+  background: #fff;
+  color: var(--teal-dark);
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}

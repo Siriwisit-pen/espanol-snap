@@ -2,7 +2,7 @@ import { useMemo } from 'react'
 import grammarTopics, { groups } from '../data/grammar/index.js'
 import { loadGrammarProgress } from '../lib/grammarProgress.js'
 
-export default function Grammar({ onStart, onBack }) {
+export default function Grammar({ onStart, onBack, onMyGrammar }) {
   const progress = useMemo(() => loadGrammarProgress(), [])
 
   const byGroup = useMemo(() => {
@@ -21,7 +21,7 @@ export default function Grammar({ onStart, onBack }) {
       <div className="screen-bar">
         <button className="link" onClick={onBack}>← Back</button>
         <h2 className="screen-bar-title">Grammar</h2>
-        <span />
+        <button className="link review-link" onClick={onMyGrammar}>📖 Mine</button>
       </div>
 
       <p className="screen-sub">Learn the rules, then practise with questions.</p>

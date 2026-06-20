@@ -7,6 +7,9 @@ import ConversationQuiz from './components/ConversationQuiz.jsx'
 import Grammar from './components/Grammar.jsx'
 import GrammarLesson from './components/GrammarLesson.jsx'
 import MyWords from './components/MyWords.jsx'
+import MyConversations from './components/MyConversations.jsx'
+import MyGrammarReview from './components/MyGrammarReview.jsx'
+import UpdateBanner from './components/UpdateBanner.jsx'
 
 export default function App() {
   const [view, setView] = useState('home')
@@ -70,20 +73,35 @@ export default function App() {
       )}
       {view === 'quiz' && <Quiz pool={pool} title={title} onExit={() => setView('home')} />}
       {view === 'conversations' && (
-        <Conversations onStart={startConv} onBack={() => setView('home')} />
+        <Conversations
+          onStart={startConv}
+          onBack={() => setView('home')}
+          onMyConversations={() => setView('myConversations')}
+        />
       )}
       {view === 'conversationQuiz' && activeConv && (
         <ConversationQuiz conv={activeConv} onBack={() => setView('conversations')} />
       )}
+      {view === 'myConversations' && (
+        <MyConversations onBack={() => setView('conversations')} />
+      )}
       {view === 'grammar' && (
-        <Grammar onStart={startGrammarTopic} onBack={() => setView('home')} />
+        <Grammar
+          onStart={startGrammarTopic}
+          onBack={() => setView('home')}
+          onMyGrammar={() => setView('myGrammar')}
+        />
       )}
       {view === 'grammarLesson' && activeTopic && (
         <GrammarLesson topic={activeTopic} onBack={() => setView('grammar')} />
       )}
+      {view === 'myGrammar' && (
+        <MyGrammarReview onBack={() => setView('grammar')} />
+      )}
       {view === 'myWords' && (
         <MyWords onBack={() => setView('home')} onQuiz={startMyWordsQuiz} />
       )}
+      <UpdateBanner />
     </div>
   )
 }
