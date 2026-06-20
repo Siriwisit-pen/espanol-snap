@@ -227,6 +227,8 @@ export default function GrammarLesson({ topic, onBack }) {
     score >= total * 0.5 ? '¡Buen intento! Keep going!' :
     'Keep practising — you\'ll get there!'
 
+  const recapSections = topic.sections.filter(s => s.type === 'rule' || s.type === 'note')
+
   return (
     <div className="grammar-done">
       <div className="screen-bar">
@@ -249,6 +251,28 @@ export default function GrammarLesson({ topic, onBack }) {
           </button>
         </div>
       </div>
+
+      {recapSections.length > 0 && (
+        <div className="gd-recap">
+          <h3 className="gd-recap-title">📋 Lesson recap</h3>
+          {recapSections.map((section, i) => (
+            <div key={i} className={`gd-recap-item${section.type === 'note' ? ' gd-recap-item-note' : ''}`}>
+              {section.type === 'rule' && (
+                <>
+                  {section.title && <p className="gd-recap-label">{section.title}</p>}
+                  <p className="gd-recap-text">{section.content}</p>
+                </>
+              )}
+              {section.type === 'note' && (
+                <>
+                  <p className="gd-recap-label">💡 {section.label}</p>
+                  <p className="gd-recap-text">{section.content}</p>
+                </>
+              )}
+            </div>
+          ))}
+        </div>
+      )}
     </div>
   )
 }
