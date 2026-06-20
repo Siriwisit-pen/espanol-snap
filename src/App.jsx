@@ -1,5 +1,6 @@
 import { useState } from 'react'
-import { categories, allWords } from './data/index.js'
+import { categories, allWords, wordsByCategory } from './data/index.js'
+import { isDue, loadProgress } from './lib/progress.js'
 import Home from './components/Home.jsx'
 import Quiz from './components/Quiz.jsx'
 import Conversations from './components/Conversations.jsx'
@@ -18,6 +19,7 @@ export default function App() {
   const [activeConv, setActiveConv] = useState(null)
   const [activeTopic, setActiveTopic] = useState(null)
   const [quickLevels, setQuickLevels] = useState(new Set(['A', 'B', 'C']))
+  const [recallMode, setRecallMode] = useState(false)
 
   function toggleQuickLevel(lvl) {
     setQuickLevels((prev) => {
@@ -38,6 +40,20 @@ export default function App() {
   function startCategory(cat) {
     setPool(cat.words.map((w) => ({ ...w, categoryId: cat.id, categoryName: cat.name })))
     setTitle(cat.name)
+    setView('quiz')
+  }
+
+  function startReview() {
+    const prog = loadProgress()
+    const due = allWords.filter((w) => isDue(prog[w.id]))
+    setPool(due)
+    setTitle('Review due')
+    setView('quiz')
+  }
+
+  function startSearch(words) {
+    setPool(words)
+    setTitle('Search results')
     setView('quiz')
   }
 
@@ -64,14 +80,20 @@ export default function App() {
           categories={categories}
           onStartMixed={startMixed}
           onStartCategory={startCategory}
+          onStartReview={startReview}
+          onStartSearch={startSearch}
           onConversations={() => setView('conversations')}
           onGrammar={() => setView('grammar')}
           onMyWords={() => setView('myWords')}
           quickLevels={quickLevels}
           onToggleQuickLevel={toggleQuickLevel}
+          recallMode={recallMode}
+          onToggleRecall={() => setRecallMode((v) => !v)}
         />
       )}
-      {view === 'quiz' && <Quiz pool={pool} title={title} onExit={() => setView('home')} />}
+      {view === 'quiz' && (
+        <Quiz pool={pool} title={title} onExit={() => setView('home')} mode={recallMode ? 'recall' : 'normal'} />
+      )}
       {view === 'conversations' && (
         <Conversations
           onStart={startConv}

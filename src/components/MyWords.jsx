@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { allWords } from '../data/index.js'
 import { loadProgress, isLearned } from '../lib/progress.js'
+import { speak } from '../lib/speech.js'
 
 const LEVELS = ['A', 'B', 'C']
 const FILTERS = [
@@ -120,6 +121,7 @@ export default function MyWords({ onBack, onQuiz }) {
                   </div>
                   <div className="mw-card-foot">
                     <span className={`level-badge level-${w.level || 'A'}`}>{w.level || 'A'}</span>
+                    <button className="mw-speak" onClick={(e) => { e.stopPropagation(); speak(w.es) }}>🔊</button>
                     {learned && <span className="mw-check">✓</span>}
                   </div>
                 </div>

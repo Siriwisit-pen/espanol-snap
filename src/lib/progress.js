@@ -78,3 +78,24 @@ export function touchStreak() {
   }
   return s
 }
+
+// ---- spaced repetition intervals ----
+const REVIEW_MS = [
+  4 * 3_600_000,   // box 0 → 4 hours
+  86_400_000,      // box 1 → 1 day
+  3 * 86_400_000,  // box 2 → 3 days
+  7 * 86_400_000,  // box 3 → 7 days
+  14 * 86_400_000, // box 4 → 14 days
+  30 * 86_400_000, // box 5 → 30 days
+]
+
+export function nextReviewAt(entry) {
+  if (!entry?.lastSeen) return 0
+  const box = Math.min(5, entry.box || 0)
+  return entry.lastSeen + REVIEW_MS[box]
+}
+
+export function isDue(entry) {
+  if (!entry) return true
+  return Date.now() >= nextReviewAt(entry)
+}
