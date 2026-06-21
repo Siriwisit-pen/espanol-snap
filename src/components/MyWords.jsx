@@ -2,6 +2,7 @@ import { useMemo, useState } from 'react'
 import { allWords } from '../data/index.js'
 import { loadProgress, isLearned } from '../lib/progress.js'
 import { speak } from '../lib/speech.js'
+import { exportCSV, exportPDF } from '../lib/exportWords.js'
 
 const LEVELS = ['A', 'B', 'C']
 const FILTERS = [
@@ -14,6 +15,7 @@ export default function MyWords({ onBack, onQuiz }) {
   const progress = useMemo(() => loadProgress(), [])
   const [filter, setFilter] = useState('all')
   const [activeLevels, setActiveLevels] = useState(new Set(['A', 'B', 'C']))
+  const [exportSort, setExportSort] = useState('category')
 
   const touchedWords = useMemo(() => {
     const ids = new Set(Object.keys(progress))
@@ -40,7 +42,8 @@ export default function MyWords({ onBack, onQuiz }) {
     })
   }
 
-  const mastered = touchedWords.filter((w) => isLearned(progress[w.id])).length
+  const allMastered = useMemo(() => touchedWords.filter((w) => isLearned(progress[w.id])), [touchedWords, progress])
+  const mastered = allMastered.length
   const inProgress = touchedWords.length - mastered
 
   return (
@@ -76,6 +79,34 @@ export default function MyWords({ onBack, onQuiz }) {
               <span className="mw-stat-lbl">in progress</span>
             </div>
           </div>
+
+          {mastered > 0 && (
+            <div className="export-section">
+              <div className="export-header">
+                <span className="export-title">Export mastered words</span>
+                <span className="export-count">{mastered} words</span>
+              </div>
+              <div className="export-sort-row">
+                <span className="export-sort-label">Sort:</span>
+                <button
+                  className={`export-sort-btn${exportSort === 'category' ? ' export-sort-on' : ''}`}
+                  onClick={() => setExportSort('category')}
+                >By category</button>
+                <button
+                  className={`export-sort-btn${exportSort === 'az' ? ' export-sort-on' : ''}`}
+                  onClick={() => setExportSort('az')}
+                >A–Z</button>
+              </div>
+              <div className="export-btn-row">
+                <button className="export-btn" onClick={() => exportCSV(allMastered, exportSort)}>
+                  ⬇ Excel (CSV)
+                </button>
+                <button className="export-btn" onClick={() => exportPDF(allMastered, exportSort)}>
+                  🖨 PDF
+                </button>
+              </div>
+            </div>
+          )}
 
           <div className="mw-filters">
             <div className="mw-filter-row">

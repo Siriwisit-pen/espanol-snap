@@ -39,7 +39,7 @@ export function recordAnswer(wordId, correct) {
 }
 
 export function isLearned(entry) {
-  return (entry?.box ?? 0) >= 3
+  return (entry?.box ?? 0) >= 2
 }
 
 export function stats(p = loadProgress()) {

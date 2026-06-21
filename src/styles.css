@@ -1941,3 +1941,75 @@ body {
   padding: 2px;
   line-height: 1;
 }
+
+/* ---------- Export section ---------- */
+.export-section {
+  margin: 0 20px 20px;
+  background: #f8fafc;
+  border: 1.5px solid #e2e8f0;
+  border-radius: 14px;
+  padding: 14px 16px;
+}
+.export-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+.export-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--ink);
+}
+.export-count {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--teal-dark);
+  background: #e0f7f4;
+  padding: 3px 10px;
+  border-radius: 20px;
+}
+.export-sort-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+.export-sort-label {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.export-sort-btn {
+  border: 1.5px solid #cbd5e1;
+  background: #fff;
+  color: var(--muted);
+  border-radius: 20px;
+  padding: 4px 14px;
+  font-size: 12px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.export-sort-on {
+  background: var(--teal-dark);
+  border-color: var(--teal-dark);
+  color: #fff;
+}
+.export-btn-row {
+  display: flex;
+  gap: 10px;
+}
+.export-btn {
+  flex: 1;
+  border: 1.5px solid #cbd5e1;
+  background: #fff;
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 10px 0;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.export-btn:active { background: #f1f5f9; }
