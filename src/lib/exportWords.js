@@ -36,12 +36,12 @@ function sexLabel(gender) {
 
 export function exportCSV(words, sortBy) {
   const groups = sortedGroups(words, sortBy)
-  const lines = ['"Spanish","Type","English","Sex"']
+  const lines = ['"Spanish","Type","Sex","English"']
 
   for (const { category, words: ws } of groups) {
     if (category) lines.push(`"${category}","","",""`)
     for (const w of ws) {
-      const row = [w.es, w.pos || '', w.en, sexLabel(w.gender)]
+      const row = [w.es, w.pos || '', sexLabel(w.gender), w.en]
         .map((c) => `"${String(c).replace(/"/g, '""')}"`)
       lines.push(row.join(','))
     }
@@ -65,8 +65,8 @@ export function exportPDF(words, sortBy) {
       rows += `<tr>
         <td class="col-es">${w.es}</td>
         <td class="col-type">${w.pos || ''}</td>
-        <td class="col-en">${w.en}</td>
         <td class="col-sex">${sexLabel(w.gender)}</td>
+        <td class="col-en">${w.en}</td>
       </tr>`
     }
   }
@@ -99,7 +99,7 @@ td{padding:9px 12px 9px 0;border-bottom:.5px solid #e8e8e8;vertical-align:top}
 <h1>My mastered words</h1>
 <p class="meta">Español Snap &nbsp;·&nbsp; ${dateStr} &nbsp;·&nbsp; ${words.length} words</p>
 <table>
-  <thead><tr><th>Spanish</th><th>Type</th><th>English</th><th>Sex</th></tr></thead>
+  <thead><tr><th>Spanish</th><th>Type</th><th>Sex</th><th>English</th></tr></thead>
   <tbody>${rows}</tbody>
 </table>
 <script>window.onload=()=>window.print()</script>
